@@ -1,0 +1,65 @@
+[
+  {
+    "source": "https://www.taifex.com.tw/cht/7/vixDaily3MNew",
+    "attempt": 1,
+    "bytes": 147003,
+    "status": "ok"
+  },
+  {
+    "source": "https://www.taifex.com.tw/indes/index.aspx",
+    "attempt": 1,
+    "bytes": 35584,
+    "status": "ok"
+  },
+  {
+    "source": "https://www.taifex.com.tw/file/taifex/CHINESE/10/Dailydownload/Daily_2022_10_31.pdf",
+    "attempt": 1,
+    "bytes": 1507319,
+    "status": "ok"
+  },
+  {
+    "source": "https://www.taifex.com.tw/file/taifex/CHINESE/10/Dailydownload/Daily_2022_10_31.pdf",
+    "attempt": 1,
+    "status": "ModuleNotFoundError"
+  },
+  {
+    "source": "https://www.taifex.com.tw/file/taifex/Dailydownload/vix/log2data/201610new.txt",
+    "attempt": 1,
+    "bytes": 763,
+    "status": "soft404_not_data"
+  },
+  {
+    "source": "https://www.taifex.com.tw/file/taifex/Dailydownload/vix/log2data/202002new.txt",
+    "attempt": 1,
+    "bytes": 763,
+    "status": "soft404_not_data"
+  },
+  {
+    "source": "https://www.taifex.com.tw/file/taifex/Dailydownload/vix/log2data/202510new.txt",
+    "attempt": 1,
+    "bytes": 763,
+    "status": "soft404_not_data"
+  },
+  {
+    "source": "https://www.taifex.com.tw/indes/index.aspx/GetStockDayPrices",
+    "attempt": 1,
+    "status": "JSONDecodeError"
+  },
+  {
+    "source": "https://www.taifex.com.tw/indes/index.aspx/GetStockDayPrices",
+    "attempt": 2,
+    "status": "JSONDecodeError"
+  },
+  {
+    "source": "https://www.taifex.com.tw/indes/index.aspx/GetStockDayPrices",
+    "attempt": 3,
+    "request": {
+      "syid": "TAIWANVIX",
+      "flag": "MS",
+      "startDate": "2023-10-17",
+      "endDate": "2025-12-31"
+    },
+    "status": "ok",
+    "bytes": 44433
+  }
+]

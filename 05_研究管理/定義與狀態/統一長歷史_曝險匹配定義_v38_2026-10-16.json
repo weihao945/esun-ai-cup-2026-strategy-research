@@ -1,0 +1,19 @@
+{
+  "dynamic": "original90->95",
+  "fixed_target": 0.9199,
+  "training_n": 359,
+  "dynamic_train_exposure": 0.9200895833275647,
+  "low_fixed_train_exposure": 0.7998245159660972,
+  "high_fixed_train_exposure": 0.9502451642428603,
+  "only_train_exposure_no_returns": true,
+  "source_hashes": {
+    "price_current150_cache": "ea800cb5f3c11893db177adcb406bd134f341eb26e0fdf55b0550edf81094e86",
+    "flow_current150_cache": "f4b2e03d369e809ca06b6b11bdac6fcec83ee505e71fad055825391c06c97338",
+    "price_twse_and_actions": "3459a6316bcd2a1790a987cd5f64736c11f9aec58cbaea70282a7090b12a4f38",
+    "action_repairs": "07ce315501c0dfd7d2a09371f48d3a72d8c7a9af9eb6852f9d4df62fd91fdb60",
+    "listing_stockmaster_snapshot": "81ba1f8c26953ab7e86f2a3cc03bf187ab1f11cdb1310083a730c76a78b4ae70"
+  },
+  "not_per_window_future_matching": true,
+  "primary_contrasts": 1,
+  "statistics": "24/48 blocks5000,ordinary95 foronecontrast;notglobalresearchcorrection"
+}

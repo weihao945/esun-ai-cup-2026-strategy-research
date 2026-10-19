@@ -1,0 +1,813 @@
+[
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "4991",
+    "A_rank": 1,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 9.004085764188856,
+    "financial_weight": 0.0391304347826087,
+    "combined_weight": 0.04085403726708074,
+    "source_ids": [
+      "efd2409c45477123b098b9820cf5e4a32713cb87",
+      "100a909e2cd9024c0e3695843154caa2abab51dc"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "3081",
+    "A_rank": 2,
+    "information_status": "verified_quarter",
+    "quarter": 3,
+    "margin_change_pp": 19.924906933983927,
+    "financial_weight": 0.0391304347826087,
+    "combined_weight": 0.04047903726708075,
+    "source_ids": [
+      "2925f9af5146e65b99472621cf0e983cc8946a0a",
+      "d6d9afc33e8a95a0183a118413a6923c9444c1b2",
+      "970b62b466391b2790adc8e09264f8e36e2f5fa7"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "3529",
+    "A_rank": 3,
+    "information_status": "newer_quarter_or_correction_unresolved",
+    "quarter": 3,
+    "margin_change_pp": null,
+    "financial_weight": 0.03130434782608696,
+    "combined_weight": 0.03814751552795031,
+    "source_ids": [
+      "adf4ab9efeeaaf9dc00c2fc61a275e367dad35df",
+      "7b1a41997c524b024eb2611021bf70b117f7cd48"
+    ],
+    "pending_ids": [
+      "26e55c6e25823a803b3397179bf72a4d2975d6b2"
+    ],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "3293",
+    "A_rank": 4,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 2.916423237714161,
+    "financial_weight": 0.0391304347826087,
+    "combined_weight": 0.03972903726708075,
+    "source_ids": [
+      "eba62d71cac3c39f8fc7e901af7c21c01fa8bdf8",
+      "d3aadbb980ec718f746163c8df2fbd0cb36b0316"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "5536",
+    "A_rank": 5,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 3.6687949520225582,
+    "financial_weight": 0.0391304347826087,
+    "combined_weight": 0.03935403726708075,
+    "source_ids": [
+      "02c90348ea37ca5b53a3ebac6d76107362e3e386",
+      "3d454fa0fd454db0307e52ca4c83303027c2ec2d"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "3533",
+    "A_rank": 6,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 2.8271701711098,
+    "financial_weight": 0.0391304347826087,
+    "combined_weight": 0.03897903726708075,
+    "source_ids": [
+      "945c23e36efb8490050d3920126d41dcab7678a8",
+      "ba065e012df3f360949648046d081355304cb2dc"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "3363",
+    "A_rank": 7,
+    "information_status": "newer_quarter_or_correction_unresolved",
+    "quarter": 2,
+    "margin_change_pp": null,
+    "financial_weight": 0.03130434782608696,
+    "combined_weight": 0.036647515527950314,
+    "source_ids": [
+      "439c6a01238382fe81607ebe06725d37dbd46685",
+      "108b3d830e34166a7e379bcfdd0f71314ed72b03"
+    ],
+    "pending_ids": [
+      "4efbe246f8268e04021f98aff7f94f7e1c6dd3a3"
+    ],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "2360",
+    "A_rank": 8,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 7.06677918453405,
+    "financial_weight": 0.0391304347826087,
+    "combined_weight": 0.03822903726708075,
+    "source_ids": [
+      "51f7cd6f15f057e2a8718cb8343731f5f5185351",
+      "8f9af8c3f14f25eb9c8112ce228feb16d54d8aa3"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "2449",
+    "A_rank": 9,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 5.08231762240865,
+    "financial_weight": 0.0391304347826087,
+    "combined_weight": 0.037854037267080747,
+    "source_ids": [
+      "6db46993412436f6dba8072ca4cd767d1833b73a",
+      "3295dbdd759375ad0f2820477dd937158a2f2591"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "1802",
+    "A_rank": 10,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": -0.43571746458900207,
+    "financial_weight": 0.03130434782608696,
+    "combined_weight": 0.03552251552795031,
+    "source_ids": [
+      "8c4a7f0a9f94dcd22f30dee0e5fec93fc1550dd5",
+      "055e0d342250772c5288960966d1f61b1674ffb3"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "6223",
+    "A_rank": 11,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 6.075165511124772,
+    "financial_weight": 0.0391304347826087,
+    "combined_weight": 0.037104037267080746,
+    "source_ids": [
+      "0ed8b09673b56e895211c4c5609197e411180525",
+      "1394d8127c15bedc4e3fbff86e2b7a0ebe71d454"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "6415",
+    "A_rank": 12,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 9.851251345416326,
+    "financial_weight": 0.0391304347826087,
+    "combined_weight": 0.036729037267080746,
+    "source_ids": [
+      "d31225d6ce9478f05b6efd487ab38504e95e770d",
+      "f254c7f5d40cdc21cf2a7b11c863a355c6b5d215"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "3653",
+    "A_rank": 13,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 5.012696317412371,
+    "financial_weight": 0.0391304347826087,
+    "combined_weight": 0.036354037267080745,
+    "source_ids": [
+      "a9bb7321302e345891f9c8c40eae80dca552e8c2",
+      "84e509eee07e2682b43168618ef22f9f4ed8a5de"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "2382",
+    "A_rank": 14,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 0.38895685052944484,
+    "financial_weight": 0.03130434782608696,
+    "combined_weight": 0.03616537267080745,
+    "source_ids": [
+      "9659bb77f50b9cbd84c8067869f1f1acebf1a84e",
+      "30648e2b46fde1649f945e9246764fb168d07b0c"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "3231",
+    "A_rank": 15,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 0.6523622819408551,
+    "financial_weight": 0.03130434782608696,
+    "combined_weight": 0.03364751552795031,
+    "source_ids": [
+      "d3eccb859319612255676779c9901a236ddd05c4",
+      "288e1b94383299387c6ac3f4d075f2645eec2cab"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "3443",
+    "A_rank": 16,
+    "information_status": "newer_quarter_or_correction_unresolved",
+    "quarter": 2,
+    "margin_change_pp": null,
+    "financial_weight": 0.03130434782608696,
+    "combined_weight": 0.03327251552795031,
+    "source_ids": [
+      "71806f417a5623554c336853e9cd9e58cb469b96",
+      "b2880b4d48d9d011a79f450001acfcb21374f4f4"
+    ],
+    "pending_ids": [
+      "8912d2f191df28f42c1b16e2f50976c3d5eb867b"
+    ],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "2317",
+    "A_rank": 17,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 0.10094741866016749,
+    "financial_weight": 0.03130434782608696,
+    "combined_weight": 0.03289751552795031,
+    "source_ids": [
+      "6e54f777f1e82f40a35938c1e89e6c0e0eacb226",
+      "8f53994452a813f5e7d6efb7a9ba7cdda10bfaa5"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "6510",
+    "A_rank": 18,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 5.465190878544044,
+    "financial_weight": 0.0391304347826087,
+    "combined_weight": 0.034479037267080744,
+    "source_ids": [
+      "e1242e86233ab68f0fbf08c9b834d09a3693faba",
+      "8f88dfd3668dbc879d507351137ddbc21d97c281"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "2324",
+    "A_rank": 19,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 0.29007792735381394,
+    "financial_weight": 0.03130434782608696,
+    "combined_weight": 0.03214751552795031,
+    "source_ids": [
+      "5e02e4cfae896916a7b30e3fca1bd1ecd46f031d",
+      "7125cda7ee63944330d481f50e7ca06c923e6637"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "3036",
+    "A_rank": 20,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 0.3949932426647122,
+    "financial_weight": 0.03130434782608696,
+    "combined_weight": 0.03391537267080745,
+    "source_ids": [
+      "6d6af09accd2ce9e7dfdbfd6cb8250ccf65de679",
+      "2874f60b4efc2c706e00006b379965df063efb66"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "1590",
+    "A_rank": 21,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 1.4082170254582027,
+    "financial_weight": 0.0391304347826087,
+    "combined_weight": 0.03335403726708074,
+    "source_ids": [
+      "1162d4d70976082482778ca6ebe9eeb863d73dbc",
+      "08f39a0d45243226c7a2ca2078d146a4be2c0066"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "2345",
+    "A_rank": 22,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 2.2917654582438356,
+    "financial_weight": 0.0391304347826087,
+    "combined_weight": 0.03512189440993789,
+    "source_ids": [
+      "09bbe69b0ba291348073c099f2a1f00497dc24eb",
+      "5ccbd37114a88fd061451b372eea50fec7f31ceb"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "2330",
+    "A_rank": 23,
+    "information_status": "newer_quarter_or_correction_unresolved",
+    "quarter": 2,
+    "margin_change_pp": null,
+    "financial_weight": 0.03130434782608696,
+    "combined_weight": 0.032790372670807456,
+    "source_ids": [
+      "1a78d2d87e7e12d9807c41a36b275f50214d71b0",
+      "899078f2dd500df52be91f30d7f297a68f2de1a1"
+    ],
+    "pending_ids": [
+      "b1d06432cf941d0d751aea375a3d9ee7d923ed0c"
+    ],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "2357",
+    "A_rank": 24,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 3.951618160166571,
+    "financial_weight": 0.0391304347826087,
+    "combined_weight": 0.03437189440993789,
+    "source_ids": [
+      "bff5b5b9a4e7d5d8afd5ad358366dfe5904144dd",
+      "172e288cbe4c757c17a3bb7b619f924af20bf9c8"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2024-10-29",
+    "stock_id": "3665",
+    "A_rank": 25,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 2.5596679617859706,
+    "financial_weight": 0.0391304347826087,
+    "combined_weight": 0.03185403726708075,
+    "source_ids": [
+      "065c9825fbab81a38f766f29ed28ba165680f1ed",
+      "5b84c9a94ac64b1c585b5c505fd279b1e6cd0210"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "2344",
+    "A_rank": 1,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": -1.3328852727602176,
+    "financial_weight": 0.02621359223300971,
+    "combined_weight": 0.037235216240070604,
+    "source_ids": [
+      "ef60af731100d5767e6707d5323a09bcee44fedc",
+      "8d02c14556fe6ce2d6cb2d3a3e08bd3530ce900c"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "2408",
+    "A_rank": 2,
+    "information_status": "verified_quarter",
+    "quarter": 3,
+    "margin_change_pp": 48.72094224648296,
+    "financial_weight": 0.043689320388349516,
+    "combined_weight": 0.04122914827890556,
+    "source_ids": [
+      "85ce10b8ad544528a287e5310d53e757b87de673",
+      "b5f53f814046a1b6ea8c91671f7d7d5f1531507e",
+      "9d4f234378a373ac94b74ced64d48e4bcaf299f3"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "6770",
+    "A_rank": 3,
+    "information_status": "verified_quarter",
+    "quarter": 3,
+    "margin_change_pp": -7.644342260103529,
+    "financial_weight": 0.02621359223300971,
+    "combined_weight": 0.0364852162400706,
+    "source_ids": [
+      "87ba944d73fca896920a304c6f09e29763bde335",
+      "40c843a534bdbbd073f4cfee82243561685b49a5",
+      "e674523c9664ad96a8bd31342129b65b5ff55451"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "8299",
+    "A_rank": 4,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 4.7195569511230815,
+    "financial_weight": 0.043689320388349516,
+    "combined_weight": 0.0425246028243601,
+    "source_ids": [
+      "6beab27052c09756f5509b6dc4364b61714c04b8",
+      "511431d2c189cf35c1b47b86cfde4d3bd25831c7"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "6515",
+    "A_rank": 5,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": -1.4526450982258021,
+    "financial_weight": 0.02621359223300971,
+    "combined_weight": 0.035735216240070616,
+    "source_ids": [
+      "f699164ccecb3b540b63b1c484dc0e1061a9d3ca",
+      "c97edf510ed4c63cbc7307f936929ca0a121826d"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "5289",
+    "A_rank": 6,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": -2.33098748250974,
+    "financial_weight": 0.02621359223300971,
+    "combined_weight": 0.035360216240070616,
+    "source_ids": [
+      "0ee1019bc291a761a6a6ef6d7619e101ba8270f7",
+      "fea4618615bbca9b1f1464ae3568905c0ddca92a"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "8210",
+    "A_rank": 7,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 1.5525946934834278,
+    "financial_weight": 0.043689320388349516,
+    "combined_weight": 0.0413996028243601,
+    "source_ids": [
+      "4a8dc65ce0803ae7012207bcc1fcd6540940797a",
+      "0eec9d6464cafb4a31b31fd6482896239a9f2e83"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "2308",
+    "A_rank": 8,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 3.248245896038489,
+    "financial_weight": 0.043689320388349516,
+    "combined_weight": 0.041024602824360115,
+    "source_ids": [
+      "c121ccfee8f558cd739ad8abf2989bd1cbd2e50d",
+      "f11371340ae489c016c1be2fede49a202a4b3839"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "2337",
+    "A_rank": 9,
+    "information_status": "unknown_quarter_or_prior_basis",
+    "quarter": null,
+    "margin_change_pp": null,
+    "financial_weight": 0.03495145631067961,
+    "combined_weight": 0.036419682259488086,
+    "source_ids": [],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "2360",
+    "A_rank": 10,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 2.5144465068582864,
+    "financial_weight": 0.043689320388349516,
+    "combined_weight": 0.038229148278905556,
+    "source_ids": [
+      "d66702718b09bc54ad8781d19b30ea02f11d1e6e",
+      "ac03a2e3225b92d2e7dffe0b3b815c5b6baf562c"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "6669",
+    "A_rank": 11,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 0.18219028950523658,
+    "financial_weight": 0.03495145631067961,
+    "combined_weight": 0.03566968225948809,
+    "source_ids": [
+      "2eee3285b94a14d511d7daf5e1ceb0e110bf19e5",
+      "30c8cc44f7eddabbf7525e201866f2299fd782b2"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "6290",
+    "A_rank": 12,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 1.8087252284681137,
+    "financial_weight": 0.043689320388349516,
+    "combined_weight": 0.037479148278905555,
+    "source_ids": [
+      "8301d45100197fea8e057e591bc3bbc7e86d3a2a",
+      "be48b8104acfa85e04ab73ad40df9f770dbd09c0"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "3665",
+    "A_rank": 13,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 2.28894264996598,
+    "financial_weight": 0.043689320388349516,
+    "combined_weight": 0.039149602824360114,
+    "source_ids": [
+      "d3e0e1adf7537b4b79e1f6166546b8eac067187c",
+      "33586cd6178cec2d297e53411873d608ffc0d7dd"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "6223",
+    "A_rank": 14,
+    "information_status": "newer_quarter_or_correction_unresolved",
+    "quarter": 2,
+    "margin_change_pp": null,
+    "financial_weight": 0.03495145631067961,
+    "combined_weight": 0.03454468225948809,
+    "source_ids": [
+      "0c0392f93c56971ea0504a0c253b608307c386e1",
+      "d9b531110133b3c006cdbbabf22e7c30807ea778"
+    ],
+    "pending_ids": [
+      "2f706b47d52f3412fd34573f27af3ba6cae8871c"
+    ],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "8046",
+    "A_rank": 15,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 3.428882361264027,
+    "financial_weight": 0.043689320388349516,
+    "combined_weight": 0.03635414827890557,
+    "source_ids": [
+      "06625ac138805563762049047562044fee00a918",
+      "9d840e4b341c70a1b7a75e3f1fc3b8fd49d96f3a"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "3189",
+    "A_rank": 16,
+    "information_status": "verified_quarter",
+    "quarter": 3,
+    "margin_change_pp": -0.41887717324342255,
+    "financial_weight": 0.03495145631067961,
+    "combined_weight": 0.035840136804942635,
+    "source_ids": [
+      "31083ff8d9ae2eeb2970f4da072b1502381d05ec",
+      "d792331ef864d66c69941543e468117e3e82b771",
+      "0df204ea1450eb46bc066a91baf99f355d77109c"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "1605",
+    "A_rank": 17,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": -1.0471875658975511,
+    "financial_weight": 0.02621359223300971,
+    "combined_weight": 0.03123521624007061,
+    "source_ids": [
+      "6f225710fd2e0098f7e7f1c0c439d57afcec52ea",
+      "cfe0552054597f7f312037569a3ad5e6dbfb06dc"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "2449",
+    "A_rank": 18,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 5.2101435409303285,
+    "financial_weight": 0.043689320388349516,
+    "combined_weight": 0.03727460282436011,
+    "source_ids": [
+      "f3b59f3fe5b96b22e680a674311c146adcd930a1",
+      "a4a37128cccbca3c86f564905cb4029743f857fd"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "2451",
+    "A_rank": 19,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 8.034032053912984,
+    "financial_weight": 0.043689320388349516,
+    "combined_weight": 0.03689960282436011,
+    "source_ids": [
+      "76fb46046d694c59c4662c095d9ca4ac2b793635",
+      "12f124a2c91deed3cd939e966644a4b33a65238e"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "2059",
+    "A_rank": 20,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": 1.2692576081039353,
+    "financial_weight": 0.043689320388349516,
+    "combined_weight": 0.034479148278905566,
+    "source_ids": [
+      "f3613070627f0eafff49c63a3b6804fe30180f12",
+      "a13e9bda7804078641b2486f2845b0d4cd599ae6"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "3324",
+    "A_rank": 21,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": -0.8186351914393986,
+    "financial_weight": 0.03495145631067961,
+    "combined_weight": 0.03191968225948809,
+    "source_ids": [
+      "eef20efb6c32736eb0ec4bd23aff77f9cafab445",
+      "9bbda001f36c66286eaa6199f69bc387d640a036"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "3443",
+    "A_rank": 22,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": -0.1267595696625018,
+    "financial_weight": 0.03495145631067961,
+    "combined_weight": 0.03359013680494263,
+    "source_ids": [
+      "9e7fc51bde853c7d019c665a590b515cd18af99d",
+      "798198da285ff6a30f34520b89371251daafff5c"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "6488",
+    "A_rank": 23,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": -1.3712818072328687,
+    "financial_weight": 0.02621359223300971,
+    "combined_weight": 0.028985216240070614,
+    "source_ids": [
+      "95efa1197dc77f3d2e3639c778d65514a375960c",
+      "4afb349ec01538fa6e3b1139717ff74af2ef7cbf"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "3017",
+    "A_rank": 24,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": -1.4751299981972832,
+    "financial_weight": 0.02621359223300971,
+    "combined_weight": 0.030655670785525158,
+    "source_ids": [
+      "33599dd8186bd1f7186a26bb470a9803c740a740",
+      "608d930d5e334684c5fcae0c74bac8e9ebf99af3"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  },
+  {
+    "trade_date": "2025-10-28",
+    "stock_id": "6139",
+    "A_rank": 25,
+    "information_status": "verified_quarter",
+    "quarter": 2,
+    "margin_change_pp": -2.358988371677953,
+    "financial_weight": 0.02621359223300971,
+    "combined_weight": 0.030280670785525158,
+    "source_ids": [
+      "22115f91e2ff8d7e61e1a16c9efc911c674e0a33",
+      "348d4dc8818a70027c6600f5c676006f181a53de"
+    ],
+    "pending_ids": [],
+    "not_actual_trade": true
+  }
+]

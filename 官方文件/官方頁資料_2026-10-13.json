@@ -1,0 +1,234 @@
+{
+  "title": "2026 Agent 基金經理人：打造你的最佳 ETF 投資組合",
+  "procedure": "初賽為期 **24 個交易日**。每`交易日開盤前一日 19:30 ~ 該交易日上午 08:55` 為繳交收件時間，成交價以當日均價計算。\r\n\r\n每日須繳交文件：**當日Agent決策報告及交易書**(每日每隊伍提交次數以25次為限，如超過次數系統將會阻擋提交)，當日 19:00 可以在「**Agent基金經理人績效排行榜**」查看所屬隊伍當日最新之投資組合淨值表及目前績效排名。\r\n\r\n(詳細進行方式，請見競賽辦法文件)",
+  "scoring_method": "初賽依**累積報酬率**排名取學生組、社會組各前 6 名晉級。複賽由評審團就投資策略、Agent設計、簡報表達能力...等面向表現綜合評分。",
+  "competition_rules": "### 交易限制\r\n\r\n- 持股需在 **20–30 檔**，其中台積電(2330.tw)持股佔投資組合淨值上限25%，其餘個股持股佔投資組合淨值上限10%。\r\n- 現金部位每日須小於投資組合淨值之 **25%**。\r\n- 交易決策僅限台股現股交易，不可進行融資、融券、借券、放空、當沖交易；交易單位僅限整股交易，不進行零股交易。\r\n- 初賽之交易之手續費、證交稅依照現行規定計算，分別為0.1425%、0.3%，將於現金部位中扣除。\r\n- 禁止參賽隊伍之投資組合持股前10大與目前市面上流通之各檔主動型ETF前10大持股個股之「主動投資比率」(Active Share)小於20%。\r\n\r\n(詳細競賽規則，請見競賽辦法文件)",
+  "phases": [
+    {
+      "id": 1,
+      "name": "報名期間",
+      "description": "",
+      "stage": "ACTIVE",
+      "start_date": "2026-09-20",
+      "end_date": "2026-10-19"
+    },
+    {
+      "id": 2,
+      "name": "初賽期間",
+      "description": "",
+      "stage": "ACTIVE",
+      "start_date": "2026-10-26",
+      "end_date": "2026-11-27"
+    },
+    {
+      "id": 3,
+      "name": "決賽日期",
+      "description": "",
+      "stage": "ACTIVE",
+      "start_date": "2026-12-19",
+      "end_date": "2026-12-19"
+    }
+  ],
+  "announcements": [
+    {
+      "id": 1,
+      "title": "9/20開放報名！2026 Agent基金經理人挑戰賽",
+      "content": "「2026 Agent 基金經理人：打造你的最佳 ETF 投資組合」報名期間為 2026/09/20 至 2026/10/19。分學生組（1–4 人）與社會組（1–4 人）。隊長須完成 Email 驗證後建立隊伍，並於初賽前五日至初賽首日(2026/10/21~10/26)繳交ETF投資策略說明文件，說明初始持股與選股邏輯。初賽自 10/26 起為期 24 個交易日，初賽結束時將依累積報酬率排名取學生組、社會組各前 6 名晉級複賽。",
+      "is_pinned": true,
+      "order": 0,
+      "created_at": "2026-09-18 10:05:53",
+      "updated_at": "2026-10-12 14:57:14"
+    },
+    {
+      "id": 4,
+      "title": "本次賽事 QA 平台 已於 Slack 正式上線",
+      "content": "參賽過程中如有任何問題，歡迎至「官方問答區」 頻道提問。提問前，也建議先瀏覽其他參賽者的問題與官方回覆，並參考「公告欄」 頻道的常見 QA 彙整，或許能更快速找到答案。\n歡迎大家善用平台交流與討論，掌握最新資訊。祝各位參賽順利、發揮最佳實力！🚀\n[Slack QA 平台連結，點我加入](https://join.slack.com/t/esunaiopencom-me19126/shared_invite/zt-4aplagp0l-SIqvK_PGe_FYzzOdvh~0Dw)",
+      "is_pinned": true,
+      "order": 1,
+      "created_at": "2026-09-23 17:37:47",
+      "updated_at": "2026-10-12 14:57:14"
+    },
+    {
+      "id": 8,
+      "title": "新增 DataPack 規格書、調整 D-Plan 文件說明",
+      "content": "已於參考文件專區新增 DataPack 規格書，以供參賽隊伍取得前一個交易日的系統結算結果作為下一個交易日的決策依據；並調整 D-Plan 文件說明 (包含撰寫指南、schema 和兩個範例檔案)，請參賽隊伍務必更新規格文件。",
+      "is_pinned": false,
+      "order": 2,
+      "created_at": "2026-10-12 14:56:45",
+      "updated_at": "2026-10-12 14:57:14"
+    },
+    {
+      "id": 6,
+      "title": "提醒：首次繳交「當日Agent決策報告及交易書」時間為 2026/10/26 19:30~10/27 08:55",
+      "content": "2026/10/26 遇光復節補假不開盤，首個交易日為10/27，惟須於 2026/10/26 19:30~10/27 08:55 繳交該日之「當日Agent決策報告及交易書」。敬請所有參賽隊伍留意。",
+      "is_pinned": false,
+      "order": 3,
+      "created_at": "2026-09-29 16:24:24",
+      "updated_at": "2026-10-12 14:57:14"
+    },
+    {
+      "id": 7,
+      "title": "競賽辦法調整：放寬Active Share認定",
+      "content": "主辦方考量現行主動式 ETF 持股多集中於大型權值股或特定產業，僅以前十大持股檢核易產生誤判。為更合理區分獨立策略與或跟單 ETF 行為，調整為比較前15大持股，且 Active Share 低於15%始認定違規。詳細內容請參閱最新版競賽辦法(檔名：AI CUP 2026玉山人工智慧公開挑戰賽_比賽辦法_1005更新)",
+      "is_pinned": false,
+      "order": 4,
+      "created_at": "2026-10-05 16:08:36",
+      "updated_at": "2026-10-12 14:57:14"
+    },
+    {
+      "id": 3,
+      "title": "關於初賽期間每交易日繳交之「當日Agent決策報告及交易書」",
+      "content": "產製範例格式其它相關文件請見下方參考文件專區中四份檔名含「D-Plan」之檔案 (撰寫指南、schema、TEAM_042、TEAM_043)",
+      "is_pinned": false,
+      "order": 5,
+      "created_at": "2026-09-21 17:25:01",
+      "updated_at": "2026-10-12 14:57:14"
+    },
+    {
+      "id": 2,
+      "title": "「參考文件下載專區」、「常見問題FAQ」內容將陸續提供",
+      "content": "再請大家留意最新資訊！",
+      "is_pinned": false,
+      "order": 6,
+      "created_at": "2026-09-18 10:06:11",
+      "updated_at": "2026-10-12 14:57:14"
+    }
+  ],
+  "faq": [
+    {
+      "a": "將記警告一次，將以前一日之投資組合計算淨值；警告次數累積達三次者，主辦方將取消該隊伍參賽資格",
+      "q": "如果某天沒有繳交「Agent決策報告及交易書」會怎樣？"
+    },
+    {
+      "a": "本競賽允許參賽隊伍透過 API 呼叫外部大型語言模型服務（如 GPT、Claude、Gemini 等），也可搭配各類 Agent Framework 或其他合法開發工具進行系統建置。目前競賽未限制特定模型或 API 的使用，亦無須事先申報。\n 惟參賽隊伍須自行設計 Agent 的分析流程與決策邏輯，並確保每日投資決策係由 Agent 自主產生，不得由人工直接介入交易內容。",
+      "q": "本競賽允許哪些方式讓AI Agent產生當日Agent決策報告及交易書?"
+    },
+    {
+      "a": "1. AI Agent 完整程式碼。並一併提供 Skill、Prompt、Rules、Workflow、設定檔及相關工具程式。\n\n2. README.md。內容應說明：Agent 投資策略核心、投資組合建構與調整邏輯、Agent 技術架構與執行流程、使用之模型、工具及外部資料來源、Agent 自主決策機制。\n\n3. 其它足以說明 Agent 實際運作方式之必要檔案。",
+      "q": "通過初賽的參賽隊伍須繳交哪些項目進行複賽資格審查?"
+    }
+  ],
+  "attachments": [
+    {
+      "id": 29,
+      "file_name": "DataPack_規格書_v4.3.md",
+      "file_size": 12197,
+      "file_type": "text/markdown",
+      "category": "DOCUMENT",
+      "description": "",
+      "download_url": "/api/events/fundaiagent/attachments/29/download/",
+      "created_at": "2026-10-12 14:34:52",
+      "updated_at": "2026-10-12 14:34:52"
+    },
+    {
+      "id": 28,
+      "file_name": "D-Plan_撰寫指南_v4.3.md",
+      "file_size": 14308,
+      "file_type": "text/markdown",
+      "category": "DOCUMENT",
+      "description": "",
+      "download_url": "/api/events/fundaiagent/attachments/28/download/",
+      "created_at": "2026-10-12 14:34:47",
+      "updated_at": "2026-10-12 14:34:47"
+    },
+    {
+      "id": 27,
+      "file_name": "D-Plan.schema_v4.3.json",
+      "file_size": 17134,
+      "file_type": "application/json",
+      "category": "DOCUMENT",
+      "description": "",
+      "download_url": "/api/events/fundaiagent/attachments/27/download/",
+      "created_at": "2026-10-12 14:34:40",
+      "updated_at": "2026-10-12 14:34:40"
+    },
+    {
+      "id": 26,
+      "file_name": "D-Plan_TEAM_042_2026-10-28.json",
+      "file_size": 7582,
+      "file_type": "application/json",
+      "category": "DOCUMENT",
+      "description": "",
+      "download_url": "/api/events/fundaiagent/attachments/26/download/",
+      "created_at": "2026-10-12 14:34:36",
+      "updated_at": "2026-10-12 14:34:36"
+    },
+    {
+      "id": 25,
+      "file_name": "D-Plan_TEAM_043_2026-10-28.json",
+      "file_size": 7747,
+      "file_type": "application/json",
+      "category": "DOCUMENT",
+      "description": "",
+      "download_url": "/api/events/fundaiagent/attachments/25/download/",
+      "created_at": "2026-10-12 14:34:30",
+      "updated_at": "2026-10-12 14:34:30"
+    },
+    {
+      "id": 24,
+      "file_name": "AI CUP 2026玉山人工智慧公開挑戰賽_比賽辦法_1005更新.pdf",
+      "file_size": 437672,
+      "file_type": "application/pdf",
+      "category": "REGULATION",
+      "description": "",
+      "download_url": "/api/events/fundaiagent/attachments/24/download/",
+      "created_at": "2026-10-05 16:07:54",
+      "updated_at": "2026-10-05 16:07:54"
+    },
+    {
+      "id": 13,
+      "file_name": "玉山挑戰賽_Google Token Credit領取方式_v1.pdf",
+      "file_size": 332841,
+      "file_type": "application/pdf",
+      "category": "DOCUMENT",
+      "description": "",
+      "download_url": "/api/events/fundaiagent/attachments/13/download/",
+      "created_at": "2026-09-21 09:31:26",
+      "updated_at": "2026-09-21 09:31:26"
+    },
+    {
+      "id": 5,
+      "file_name": "玉山挑戰賽_投資組合及交易標的_150檔清單_v1.pdf",
+      "file_size": 131318,
+      "file_type": "application/pdf",
+      "category": "DOCUMENT",
+      "description": "",
+      "download_url": "/api/events/fundaiagent/attachments/5/download/",
+      "created_at": "2026-09-18 10:02:56",
+      "updated_at": "2026-09-18 10:02:56"
+    },
+    {
+      "id": 4,
+      "file_name": "玉山挑戰賽_主動型ETF列表_v1.pdf",
+      "file_size": 66168,
+      "file_type": "application/pdf",
+      "category": "DOCUMENT",
+      "description": "",
+      "download_url": "/api/events/fundaiagent/attachments/4/download/",
+      "created_at": "2026-09-18 10:02:55",
+      "updated_at": "2026-09-18 10:02:55"
+    },
+    {
+      "id": 3,
+      "file_name": "玉山挑戰賽_ETF投資策略說明文件_範例文件_v1.pdf",
+      "file_size": 96434,
+      "file_type": "application/pdf",
+      "category": "DOCUMENT",
+      "description": "",
+      "download_url": "/api/events/fundaiagent/attachments/3/download/",
+      "created_at": "2026-09-18 10:02:55",
+      "updated_at": "2026-09-18 10:02:55"
+    },
+    {
+      "id": 2,
+      "file_name": "玉山挑戰賽_ETF投資策略說明文件_參賽隊伍繳交格式_v1.docx",
+      "file_size": 18043,
+      "file_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "category": "DOCUMENT",
+      "description": "",
+      "download_url": "/api/events/fundaiagent/attachments/2/download/",
+      "created_at": "2026-09-18 10:02:54",
+      "updated_at": "2026-09-18 10:02:54"
+    }
+  ]
+}

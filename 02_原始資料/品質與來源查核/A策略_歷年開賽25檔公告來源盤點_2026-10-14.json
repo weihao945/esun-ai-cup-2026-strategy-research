@@ -1,0 +1,1901 @@
+[
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "4991",
+    "momentum_rank": 1,
+    "mild_initial_target_weight": 0.045,
+    "financial": {
+      "status": "unknown_originals"
+    },
+    "revenue": {
+      "stock_id": "4991",
+      "year_month": "2024-07",
+      "mom": 4.85,
+      "yoy": 52.33,
+      "published_at": "2024-08-12 08:15:20",
+      "news_id": "cnyes:5678615",
+      "url": "https://news.cnyes.com/news/id/5678615",
+      "source": "cnyes",
+      "status": "stale_or_future_reporting_month",
+      "age_days": 78.0275462962963
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "3081",
+    "momentum_rank": 2,
+    "mild_initial_target_weight": 0.044250000000000005,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 19.924906933983927,
+      "quarter": 3,
+      "source_ids": [
+        "2925f9af5146e65b99472621cf0e983cc8946a0a",
+        "d6d9afc33e8a95a0183a118413a6923c9444c1b2",
+        "970b62b466391b2790adc8e09264f8e36e2f5fa7"
+      ],
+      "source_stamps": [
+        "2024-04-24 13:50:30",
+        "2024-07-31 13:50:18",
+        "2024-10-23 13:40:50"
+      ]
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "3529",
+    "momentum_rank": 3,
+    "mild_initial_target_weight": 0.0435,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 0.6836192735644842,
+      "quarter": 3,
+      "source_ids": [
+        "f3f4ffc1c130de7bdc48694b494870c33203e2a0",
+        "adf4ab9efeeaaf9dc00c2fc61a275e367dad35df",
+        "7b1a41997c524b024eb2611021bf70b117f7cd48"
+      ],
+      "source_stamps": [
+        "2024-05-02 16:55:31",
+        "2024-07-24 14:45:28",
+        "2024-10-25 16:37:59"
+      ]
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "3293",
+    "momentum_rank": 4,
+    "mild_initial_target_weight": 0.04275,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 2.916423237714161,
+      "quarter": 2,
+      "source_ids": [
+        "eba62d71cac3c39f8fc7e901af7c21c01fa8bdf8",
+        "d3aadbb980ec718f746163c8df2fbd0cb36b0316"
+      ],
+      "source_stamps": [
+        "2024-05-09 18:57:00",
+        "2024-08-12 17:29:19"
+      ]
+    },
+    "revenue": {
+      "stock_id": "3293",
+      "year_month": "2024-09",
+      "mom": -1.24,
+      "yoy": 31.02,
+      "published_at": "2024-10-07 17:15:33",
+      "news_id": "cnyes:5734114",
+      "url": "https://news.cnyes.com/news/id/5734114",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 21.652395833333333
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "5536",
+    "momentum_rank": 5,
+    "mild_initial_target_weight": 0.042,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 3.6687949520225582,
+      "quarter": 2,
+      "source_ids": [
+        "02c90348ea37ca5b53a3ebac6d76107362e3e386",
+        "3d454fa0fd454db0307e52ca4c83303027c2ec2d"
+      ],
+      "source_stamps": [
+        "2024-05-09 19:14:06",
+        "2024-08-08 17:48:48"
+      ]
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "3533",
+    "momentum_rank": 6,
+    "mild_initial_target_weight": 0.04125,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 2.8271701711098,
+      "quarter": 2,
+      "source_ids": [
+        "945c23e36efb8490050d3920126d41dcab7678a8",
+        "ba065e012df3f360949648046d081355304cb2dc"
+      ],
+      "source_stamps": [
+        "2024-05-10 15:38:43",
+        "2024-08-09 16:46:38"
+      ]
+    },
+    "revenue": {
+      "stock_id": "3533",
+      "year_month": "2024-05",
+      "mom": 0.51,
+      "yoy": 35.66,
+      "published_at": "2024-06-07 17:15:54",
+      "news_id": "cnyes:5592195",
+      "url": "https://news.cnyes.com/news/id/5592195",
+      "source": "cnyes",
+      "status": "stale_or_future_reporting_month",
+      "age_days": 143.6521527777778
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "3363",
+    "momentum_rank": 7,
+    "mild_initial_target_weight": 0.0405,
+    "financial": {
+      "status": "newer_self_or_correction_unverified"
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "2360",
+    "momentum_rank": 8,
+    "mild_initial_target_weight": 0.03975000000000001,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 7.06677918453405,
+      "quarter": 2,
+      "source_ids": [
+        "51f7cd6f15f057e2a8718cb8343731f5f5185351",
+        "8f9af8c3f14f25eb9c8112ce228feb16d54d8aa3"
+      ],
+      "source_stamps": [
+        "2024-04-30 16:12:45",
+        "2024-07-31 16:51:59"
+      ]
+    },
+    "revenue": {
+      "stock_id": "2360",
+      "year_month": "2024-05",
+      "mom": 33.13,
+      "yoy": 37.66,
+      "published_at": "2024-06-11 14:15:35",
+      "news_id": "cnyes:5594985",
+      "url": "https://news.cnyes.com/news/id/5594985",
+      "source": "cnyes",
+      "status": "stale_or_future_reporting_month",
+      "age_days": 139.77737268518518
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "2449",
+    "momentum_rank": 9,
+    "mild_initial_target_weight": 0.039,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 5.08231762240865,
+      "quarter": 2,
+      "source_ids": [
+        "6db46993412436f6dba8072ca4cd767d1833b73a",
+        "3295dbdd759375ad0f2820477dd937158a2f2591"
+      ],
+      "source_stamps": [
+        "2024-05-03 15:00:09",
+        "2024-08-08 15:01:17"
+      ]
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "1802",
+    "momentum_rank": 10,
+    "mild_initial_target_weight": 0.03825,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": -0.43571746458900207,
+      "quarter": 2,
+      "source_ids": [
+        "8c4a7f0a9f94dcd22f30dee0e5fec93fc1550dd5",
+        "055e0d342250772c5288960966d1f61b1674ffb3"
+      ],
+      "source_stamps": [
+        "2024-05-13 14:36:09",
+        "2024-08-13 16:09:45"
+      ]
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "6223",
+    "momentum_rank": 11,
+    "mild_initial_target_weight": 0.037500000000000006,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 6.075165511124772,
+      "quarter": 2,
+      "source_ids": [
+        "0ed8b09673b56e895211c4c5609197e411180525",
+        "1394d8127c15bedc4e3fbff86e2b7a0ebe71d454"
+      ],
+      "source_stamps": [
+        "2024-05-08 17:13:21",
+        "2024-08-13 17:33:42"
+      ]
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "6415",
+    "momentum_rank": 12,
+    "mild_initial_target_weight": 0.03675,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 9.851251345416326,
+      "quarter": 2,
+      "source_ids": [
+        "d31225d6ce9478f05b6efd487ab38504e95e770d",
+        "f254c7f5d40cdc21cf2a7b11c863a355c6b5d215"
+      ],
+      "source_stamps": [
+        "2024-05-14 16:07:51",
+        "2024-08-29 17:13:38"
+      ]
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "3653",
+    "momentum_rank": 13,
+    "mild_initial_target_weight": 0.036000000000000004,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 5.012696317412371,
+      "quarter": 2,
+      "source_ids": [
+        "a9bb7321302e345891f9c8c40eae80dca552e8c2",
+        "84e509eee07e2682b43168618ef22f9f4ed8a5de"
+      ],
+      "source_stamps": [
+        "2024-05-10 17:17:03",
+        "2024-08-07 19:04:00"
+      ]
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "2382",
+    "momentum_rank": 14,
+    "mild_initial_target_weight": 0.035250000000000004,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 0.38895685052944484,
+      "quarter": 2,
+      "source_ids": [
+        "9659bb77f50b9cbd84c8067869f1f1acebf1a84e",
+        "30648e2b46fde1649f945e9246764fb168d07b0c"
+      ],
+      "source_stamps": [
+        "2024-05-15 14:11:24",
+        "2024-08-09 14:42:47"
+      ]
+    },
+    "revenue": {
+      "stock_id": "2382",
+      "year_month": "2024-09",
+      "mom": 6.84,
+      "yoy": 57.86,
+      "published_at": "2024-10-08 14:30:30",
+      "news_id": "cnyes:5735387",
+      "url": "https://news.cnyes.com/news/id/5735387",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 20.76701388888889
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "3231",
+    "momentum_rank": 15,
+    "mild_initial_target_weight": 0.0345,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 0.6523622819408551,
+      "quarter": 2,
+      "source_ids": [
+        "d3eccb859319612255676779c9901a236ddd05c4",
+        "288e1b94383299387c6ac3f4d075f2645eec2cab"
+      ],
+      "source_stamps": [
+        "2024-05-10 17:01:22",
+        "2024-08-12 17:37:48"
+      ]
+    },
+    "revenue": {
+      "stock_id": "3231",
+      "year_month": "2024-07",
+      "mom": -2.92,
+      "yoy": 27.28,
+      "published_at": "2024-08-08 15:15:55",
+      "news_id": "cnyes:5673024",
+      "url": "https://news.cnyes.com/news/id/5673024",
+      "source": "cnyes",
+      "status": "stale_or_future_reporting_month",
+      "age_days": 81.73547453703704
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "3443",
+    "momentum_rank": 16,
+    "mild_initial_target_weight": 0.03375,
+    "financial": {
+      "status": "unknown_originals"
+    },
+    "revenue": {
+      "stock_id": "3443",
+      "year_month": "2024-07",
+      "mom": 8.6,
+      "yoy": 31.2,
+      "published_at": "2024-08-05 14:15:24",
+      "news_id": "cnyes:5664903",
+      "url": "https://news.cnyes.com/news/id/5664903",
+      "source": "cnyes",
+      "status": "stale_or_future_reporting_month",
+      "age_days": 84.7775
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "2317",
+    "momentum_rank": 17,
+    "mild_initial_target_weight": 0.033,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 0.10094741866016749,
+      "quarter": 2,
+      "source_ids": [
+        "6e54f777f1e82f40a35938c1e89e6c0e0eacb226",
+        "8f53994452a813f5e7d6efb7a9ba7cdda10bfaa5"
+      ],
+      "source_stamps": [
+        "2024-05-14 14:15:04",
+        "2024-08-14 14:15:06"
+      ]
+    },
+    "revenue": {
+      "stock_id": "2317",
+      "year_month": "2024-08",
+      "mom": -4.2,
+      "yoy": 32.81,
+      "published_at": "2024-09-05 16:15:26",
+      "news_id": "cnyes:5708745",
+      "url": "https://news.cnyes.com/news/id/5708745",
+      "source": "cnyes",
+      "status": "stale_or_future_reporting_month",
+      "age_days": 53.694143518518516
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "6510",
+    "momentum_rank": 18,
+    "mild_initial_target_weight": 0.03225,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 5.465190878544044,
+      "quarter": 2,
+      "source_ids": [
+        "e1242e86233ab68f0fbf08c9b834d09a3693faba",
+        "8f88dfd3668dbc879d507351137ddbc21d97c281"
+      ],
+      "source_stamps": [
+        "2024-04-29 17:20:17",
+        "2024-07-30 16:51:46"
+      ]
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "2324",
+    "momentum_rank": 19,
+    "mild_initial_target_weight": 0.0315,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 0.29007792735381394,
+      "quarter": 2,
+      "source_ids": [
+        "5e02e4cfae896916a7b30e3fca1bd1ecd46f031d",
+        "7125cda7ee63944330d481f50e7ca06c923e6637"
+      ],
+      "source_stamps": [
+        "2024-05-13 14:57:12",
+        "2024-08-13 14:03:39"
+      ]
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "3036",
+    "momentum_rank": 20,
+    "mild_initial_target_weight": 0.030750000000000003,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 0.3949932426647122,
+      "quarter": 2,
+      "source_ids": [
+        "6d6af09accd2ce9e7dfdbfd6cb8250ccf65de679",
+        "2874f60b4efc2c706e00006b379965df063efb66"
+      ],
+      "source_stamps": [
+        "2024-05-07 14:59:08",
+        "2024-08-06 14:48:20"
+      ]
+    },
+    "revenue": {
+      "stock_id": "3036",
+      "year_month": "2024-09",
+      "mom": 3.65,
+      "yoy": 34.38,
+      "published_at": "2024-10-09 19:15:29",
+      "news_id": "cnyes:5738632",
+      "url": "https://news.cnyes.com/news/id/5738632",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 19.569108796296295
+    },
+    "original_revenue_announcements_observed_before_start": [
+      {
+        "ann_id": "b58438be5d9a3b1b794d19aff120f65de751c191",
+        "stamp": "2023-10-05 13:50:00",
+        "subject": "本公司112年9月份自結合併營收約新台幣629億元",
+        "source": "mops"
+      },
+      {
+        "ann_id": "07765573fefabf394432c2bb9ad073eb7d1ba619",
+        "stamp": "2023-11-09 17:00:56",
+        "subject": "本公司112年10月份自結合併營收約新台幣676億元",
+        "source": "mops"
+      },
+      {
+        "ann_id": "15c9fecb20e7a1387ef04383255daf4e753007d1",
+        "stamp": "2023-12-08 17:01:28",
+        "subject": "本公司112年11月份自結合併營收約新台幣633億元",
+        "source": "mops"
+      },
+      {
+        "ann_id": "75f1a5cb0409d4ebb47a2aad0c7bb982d3f36fe2",
+        "stamp": "2024-01-09 19:13:29",
+        "subject": "本公司112年12月份自結合併營收約新台幣588億元",
+        "source": "mops"
+      },
+      {
+        "ann_id": "be9a971aa59d85ad55c78f206a8f45a5e7b2bfdd",
+        "stamp": "2024-02-07 15:53:39",
+        "subject": "本公司113年1月份自結合併營收約新台幣737億元",
+        "source": "mops"
+      },
+      {
+        "ann_id": "4644b7bf2f3d484a8f758b71ecc4da94f70d31e7",
+        "stamp": "2024-03-08 17:38:12",
+        "subject": "本公司113年2月份自結合併營收約新台幣519億元",
+        "source": "mops"
+      },
+      {
+        "ann_id": "f06a8762a3831e836e832f4881cdabd75bfc76c2",
+        "stamp": "2024-04-07 20:00:57",
+        "subject": "本公司113年3月份自結合併營收約新台幣671億元",
+        "source": "mops"
+      },
+      {
+        "ann_id": "ff1484988af10a7ac2e1b2685b814d963d849202",
+        "stamp": "2024-05-08 19:23:05",
+        "subject": "本公司113年4月份自結合併營收約新台幣875億元",
+        "source": "mops"
+      },
+      {
+        "ann_id": "8f5891443d0dc4b785b02d173bfed942d39af845",
+        "stamp": "2024-06-07 18:11:42",
+        "subject": "本公司113年5月份自結合併營收約新台幣802億元",
+        "source": "mops"
+      },
+      {
+        "ann_id": "6eefa9741b39bfba12a3f3021abd543fc0daa13c",
+        "stamp": "2024-07-09 17:04:43",
+        "subject": "本公司113年6月份自結合併營收約新台幣759億元",
+        "source": "mops"
+      },
+      {
+        "ann_id": "977dcfae318167e9fd3832b2ed19f204997bad47",
+        "stamp": "2024-08-08 17:00:33",
+        "subject": "本公司113年7月份自結合併營收約新台幣952億元",
+        "source": "mops"
+      },
+      {
+        "ann_id": "429a14f911562a0c19e33c5711018bb51b8b137b",
+        "stamp": "2024-09-09 17:04:53",
+        "subject": "本公司113年8月份自結合併營收約新台幣815億元",
+        "source": "mops"
+      },
+      {
+        "ann_id": "d66b35d209da140669182c1ad84f3ff8cc582752",
+        "stamp": "2024-10-09 18:21:08",
+        "subject": "本公司113年9月份自結合併營收約新台幣845億元",
+        "source": "mops"
+      }
+    ],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "1590",
+    "momentum_rank": 21,
+    "mild_initial_target_weight": 0.03,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 1.4082170254582027,
+      "quarter": 2,
+      "source_ids": [
+        "1162d4d70976082482778ca6ebe9eeb863d73dbc",
+        "08f39a0d45243226c7a2ca2078d146a4be2c0066"
+      ],
+      "source_stamps": [
+        "2024-05-13 15:16:58",
+        "2024-08-30 15:39:12"
+      ]
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [
+      {
+        "ann_id": "60610647f971e089891df78cd988c3a8904d8452",
+        "stamp": "2023-10-11 14:32:13",
+        "subject": "公告本公司2023年9月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "0e3c2cf6a3cca7666eb54ec9163c0d64554ee157",
+        "stamp": "2023-11-07 15:27:46",
+        "subject": "公告本公司2023年10月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "0daa13266bba7be5c6b88c53bf996699cb98a006",
+        "stamp": "2023-12-04 18:29:21",
+        "subject": "公告本公司2023年11月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "32cfce3ab701c7659df9f7b33f4f883eff4dc831",
+        "stamp": "2024-01-05 16:11:12",
+        "subject": "公告本公司2023年12月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "b98155912c91f76b422c43e0a59ba80de8edfd30",
+        "stamp": "2024-02-02 15:19:49",
+        "subject": "公告本公司2024年1月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "da8580d38ad87e3d87c431e55ab7cead3f6b88e5",
+        "stamp": "2024-04-03 14:55:47",
+        "subject": "公告本公司2024年3月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "8c250a23630e77c87142ed987640161ce632e68d",
+        "stamp": "2024-05-06 19:22:56",
+        "subject": "公告本公司2024年4月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "c51c2743a3ef2a1675c82006606baa80af3ca4ec",
+        "stamp": "2024-06-04 15:25:17",
+        "subject": "公告本公司2024年5月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "ea2d8f46830e08f58717d1301b1b10457c4c0ac6",
+        "stamp": "2024-07-02 17:24:35",
+        "subject": "公告本公司2024年6月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "e76bb2ecbc871f39b8fcb652b6985612b3bbf3ea",
+        "stamp": "2024-08-05 18:05:50",
+        "subject": "公告本公司2024年7月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "2de03a268b9845a09a3ce51ec0e219a98269c223",
+        "stamp": "2024-09-06 16:48:05",
+        "subject": "公告本公司2024年8月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "6f6429003b0b57c36ebc109df1daeb0cce76b78f",
+        "stamp": "2024-10-09 17:02:11",
+        "subject": "公告本公司2024年9月份自結合併營收",
+        "source": "mops"
+      }
+    ],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "2345",
+    "momentum_rank": 22,
+    "mild_initial_target_weight": 0.02925,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 2.2917654582438356,
+      "quarter": 2,
+      "source_ids": [
+        "09bbe69b0ba291348073c099f2a1f00497dc24eb",
+        "5ccbd37114a88fd061451b372eea50fec7f31ceb"
+      ],
+      "source_stamps": [
+        "2024-05-09 15:10:05",
+        "2024-08-08 15:00:30"
+      ]
+    },
+    "revenue": {
+      "stock_id": "2345",
+      "year_month": "2024-09",
+      "mom": 6.69,
+      "yoy": 33.69,
+      "published_at": "2024-10-07 15:15:28",
+      "news_id": "cnyes:5733810",
+      "url": "https://news.cnyes.com/news/id/5733810",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 21.73578703703704
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "2357",
+    "momentum_rank": 23,
+    "mild_initial_target_weight": 0.028500000000000004,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 3.951618160166571,
+      "quarter": 2,
+      "source_ids": [
+        "bff5b5b9a4e7d5d8afd5ad358366dfe5904144dd",
+        "172e288cbe4c757c17a3bb7b619f924af20bf9c8"
+      ],
+      "source_stamps": [
+        "2024-05-13 17:35:05",
+        "2024-08-07 17:36:56"
+      ]
+    },
+    "revenue": {
+      "stock_id": "2357",
+      "year_month": "2024-09",
+      "mom": 8.61,
+      "yoy": 26.99,
+      "published_at": "2024-10-09 15:15:50",
+      "news_id": "cnyes:5737402",
+      "url": "https://news.cnyes.com/news/id/5737402",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 19.73553240740741
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "2330",
+    "momentum_rank": 24,
+    "mild_initial_target_weight": 0.027750000000000004,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 0.5283995583239054,
+      "quarter": 2,
+      "source_ids": [
+        "1a78d2d87e7e12d9807c41a36b275f50214d71b0",
+        "899078f2dd500df52be91f30d7f297a68f2de1a1"
+      ],
+      "source_stamps": [
+        "2024-05-10 15:58:35",
+        "2024-08-13 19:07:06"
+      ]
+    },
+    "revenue": {
+      "stock_id": "2330",
+      "year_month": "2024-09",
+      "mom": 0.4,
+      "yoy": 39.6,
+      "published_at": "2024-10-09 15:15:46",
+      "news_id": "cnyes:5737400",
+      "url": "https://news.cnyes.com/news/id/5737400",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 19.735578703703705
+    },
+    "original_revenue_announcements_observed_before_start": [
+      {
+        "ann_id": "9452027f5ad1c4f93d1215076572d306e5accef9",
+        "stamp": "2023-10-06 13:52:38",
+        "subject": "台積公司2023年9月營收報告",
+        "source": "mops"
+      },
+      {
+        "ann_id": "65be92bb9cbc3b2932039b82187db5ef63f24b91",
+        "stamp": "2023-11-10 13:57:04",
+        "subject": "台積公司2023年10月營收報告",
+        "source": "mops"
+      },
+      {
+        "ann_id": "499cac928c38a2057d3695f7aa278ca7c4c90452",
+        "stamp": "2023-12-08 14:04:20",
+        "subject": "台積公司2023年11月營收報告",
+        "source": "mops"
+      },
+      {
+        "ann_id": "1392ed1466017e484cc19b03b2d73f4b7aabb0c6",
+        "stamp": "2024-01-10 14:10:01",
+        "subject": "台積公司2023年12月營收報告",
+        "source": "mops"
+      },
+      {
+        "ann_id": "5456b6187c9baef0a123c7b66c3b2fda094af2bb",
+        "stamp": "2024-02-07 13:49:34",
+        "subject": "台積公司2024年1月營收報告",
+        "source": "mops"
+      },
+      {
+        "ann_id": "bb01882597a74e0cf8391e101a6b065de8e4e5ab",
+        "stamp": "2024-03-08 13:53:03",
+        "subject": "台積公司2024年2月營收報告",
+        "source": "mops"
+      },
+      {
+        "ann_id": "1939d899e63e06604400503966de6b02e749c59e",
+        "stamp": "2024-04-10 13:50:59",
+        "subject": "台積公司2024年3月營收報告",
+        "source": "mops"
+      },
+      {
+        "ann_id": "d20fe0214c123593c4a67602974754a38f00f094",
+        "stamp": "2024-05-10 14:03:48",
+        "subject": "台積公司2024年4月營收報告",
+        "source": "mops"
+      },
+      {
+        "ann_id": "fed7b11552641a182898f93e3e91cb816fad320f",
+        "stamp": "2024-06-07 14:06:27",
+        "subject": "台積公司2024年5月營收報告",
+        "source": "mops"
+      },
+      {
+        "ann_id": "986060246f3243fcc0252f478a63c52cd373b4ce",
+        "stamp": "2024-07-10 13:48:38",
+        "subject": "台積公司2024年6月營收報告",
+        "source": "mops"
+      },
+      {
+        "ann_id": "8f00fe05dc01c78ef6d812248e81f48a663a9565",
+        "stamp": "2024-08-09 14:08:13",
+        "subject": "台積公司2024年7月營收報告",
+        "source": "mops"
+      },
+      {
+        "ann_id": "f7794cb8a97a33bb740440a0e94dff3764217d01",
+        "stamp": "2024-09-10 14:02:17",
+        "subject": "台積公司2024年8月營收報告",
+        "source": "mops"
+      },
+      {
+        "ann_id": "bdb557b6d39e5f6feb369feb14a1039fd4830b29",
+        "stamp": "2024-10-09 13:37:57",
+        "subject": "台積公司2024年9月營收報告",
+        "source": "mops"
+      }
+    ],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2024-10-29",
+    "stock_id": "3665",
+    "momentum_rank": 25,
+    "mild_initial_target_weight": 0.027000000000000003,
+    "financial": {
+      "status": "unknown_originals"
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [
+      {
+        "ann_id": "4ededa3f629476e3957ebf425bb18d21f5fe977a",
+        "stamp": "2023-10-05 16:00:17",
+        "subject": "公告本公司112年09月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "a7fe365a3347743e496a11d9a9b19678210bd16f",
+        "stamp": "2023-11-03 16:00:42",
+        "subject": "公告本公司112年10月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "4b8c87e76a68317f97f21f21150108a278a507fd",
+        "stamp": "2023-12-05 15:59:52",
+        "subject": "公告本公司112年11月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "54b02a26bfa05ed20f03d341f01dceef6722c180",
+        "stamp": "2024-01-05 15:58:36",
+        "subject": "公告本公司112年12月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "ff38183537fdeb6e8f0d0e9644b1d7d43618c48e",
+        "stamp": "2024-02-05 16:00:01",
+        "subject": "公告本公司113年1月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "825a44d933144141f434fa72ff6e79e275be5fac",
+        "stamp": "2024-03-05 16:02:37",
+        "subject": "公告本公司113年2月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "ea15af1e0573c1be1d2dc0ee4e767936afc383fb",
+        "stamp": "2024-04-08 16:10:12",
+        "subject": "公告本公司113年3月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "754ec0478f502da6552295ed7fab4511171a8b3a",
+        "stamp": "2024-05-06 16:21:54",
+        "subject": "公告本公司113年4月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "00aca1fd96786cbbd24d06cceb72259d624087c2",
+        "stamp": "2024-06-05 16:06:38",
+        "subject": "公告本公司113年5月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "50f93bb82e635d825102b3d00a0db9b1d881858a",
+        "stamp": "2024-07-05 16:17:53",
+        "subject": "公告本公司113年6月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "9055ccbb018dc4c67e2d5ce9d27977d6200e3ee3",
+        "stamp": "2024-08-05 17:11:51",
+        "subject": "公告本公司113年7月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "7a438d966179046ba15591cabac0e8615f9ea4aa",
+        "stamp": "2024-09-05 16:01:03",
+        "subject": "公告本公司113年8月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "31b78f397112829589ca670c51680f3a6c275e2a",
+        "stamp": "2024-10-04 16:01:41",
+        "subject": "公告本公司113年9月份自結合併營收",
+        "source": "mops"
+      }
+    ],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "2344",
+    "momentum_rank": 1,
+    "mild_initial_target_weight": 0.045,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": -1.3328852727602176,
+      "quarter": 2,
+      "source_ids": [
+        "ef60af731100d5767e6707d5323a09bcee44fedc",
+        "8d02c14556fe6ce2d6cb2d3a3e08bd3530ce900c"
+      ],
+      "source_stamps": [
+        "2025-05-05 15:46:26",
+        "2025-08-05 17:15:51"
+      ]
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "2408",
+    "momentum_rank": 2,
+    "mild_initial_target_weight": 0.044250000000000005,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 1.1354950710497302,
+      "quarter": 2,
+      "source_ids": [
+        "85ce10b8ad544528a287e5310d53e757b87de673",
+        "b5f53f814046a1b6ea8c91671f7d7d5f1531507e"
+      ],
+      "source_stamps": [
+        "2025-05-02 14:10:08",
+        "2025-08-07 14:00:46"
+      ]
+    },
+    "revenue": {
+      "stock_id": "2408",
+      "year_month": "2025-09",
+      "mom": -1.45,
+      "yoy": 157.81,
+      "published_at": "2025-10-03 16:15:22",
+      "news_id": "cnyes:6177441",
+      "url": "https://news.cnyes.com/news/id/6177441",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 24.694189814814816
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "6770",
+    "momentum_rank": 3,
+    "mild_initial_target_weight": 0.0435,
+    "financial": {
+      "status": "verified_self",
+      "quarter": 3,
+      "delta_pp": -7.644342260103529,
+      "source_ids": [
+        "87ba944d73fca896920a304c6f09e29763bde335",
+        "40c843a534bdbbd073f4cfee82243561685b49a5",
+        "e674523c9664ad96a8bd31342129b65b5ff55451"
+      ],
+      "source_stamps": [
+        "2025-05-13 21:02:41",
+        "2025-08-12 21:41:57",
+        "2025-10-21 16:11:11"
+      ]
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "8299",
+    "momentum_rank": 4,
+    "mild_initial_target_weight": 0.04275,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 4.7195569511230815,
+      "quarter": 2,
+      "source_ids": [
+        "6beab27052c09756f5509b6dc4364b61714c04b8",
+        "511431d2c189cf35c1b47b86cfde4d3bd25831c7"
+      ],
+      "source_stamps": [
+        "2025-05-07 17:00:02",
+        "2025-08-14 16:34:14"
+      ]
+    },
+    "revenue": {
+      "stock_id": "8299",
+      "year_month": "2025-09",
+      "mom": 9.8,
+      "yoy": 47.04,
+      "published_at": "2025-10-09 15:16:40",
+      "news_id": "cnyes:6183976",
+      "url": "https://news.cnyes.com/news/id/6183976",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 18.734953703703702
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "6515",
+    "momentum_rank": 5,
+    "mild_initial_target_weight": 0.042,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": -1.4526450982258021,
+      "quarter": 2,
+      "source_ids": [
+        "f699164ccecb3b540b63b1c484dc0e1061a9d3ca",
+        "c97edf510ed4c63cbc7307f936929ca0a121826d"
+      ],
+      "source_stamps": [
+        "2025-05-07 17:32:40",
+        "2025-08-13 17:59:20"
+      ]
+    },
+    "revenue": {
+      "stock_id": "6515",
+      "year_month": "2025-02",
+      "mom": 35.83,
+      "yoy": 190.51,
+      "published_at": "2025-03-06 15:30:41",
+      "news_id": "cnyes:5885576",
+      "url": "https://news.cnyes.com/news/id/5885576",
+      "source": "cnyes",
+      "status": "stale_or_future_reporting_month",
+      "age_days": 235.72521990740742
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "5289",
+    "momentum_rank": 6,
+    "mild_initial_target_weight": 0.04125,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": -2.33098748250974,
+      "quarter": 2,
+      "source_ids": [
+        "0ee1019bc291a761a6a6ef6d7619e101ba8270f7",
+        "fea4618615bbca9b1f1464ae3568905c0ddca92a"
+      ],
+      "source_stamps": [
+        "2025-05-09 18:46:06",
+        "2025-08-06 19:37:58"
+      ]
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "8210",
+    "momentum_rank": 7,
+    "mild_initial_target_weight": 0.0405,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 1.5525946934834278,
+      "quarter": 2,
+      "source_ids": [
+        "4a8dc65ce0803ae7012207bcc1fcd6540940797a",
+        "0eec9d6464cafb4a31b31fd6482896239a9f2e83"
+      ],
+      "source_stamps": [
+        "2025-05-08 16:45:50",
+        "2025-08-07 13:31:07"
+      ]
+    },
+    "revenue": {
+      "stock_id": "8210",
+      "year_month": "2025-09",
+      "mom": 24.5,
+      "yoy": 48.55,
+      "published_at": "2025-10-07 16:16:48",
+      "news_id": "cnyes:6180300",
+      "url": "https://news.cnyes.com/news/id/6180300",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 20.693194444444444
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "2308",
+    "momentum_rank": 8,
+    "mild_initial_target_weight": 0.03975000000000001,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 3.248245896038489,
+      "quarter": 2,
+      "source_ids": [
+        "c121ccfee8f558cd739ad8abf2989bd1cbd2e50d",
+        "f11371340ae489c016c1be2fede49a202a4b3839"
+      ],
+      "source_stamps": [
+        "2025-04-29 17:16:11",
+        "2025-07-30 16:43:18"
+      ]
+    },
+    "revenue": {
+      "stock_id": "2308",
+      "year_month": "2025-09",
+      "mom": 19.22,
+      "yoy": 53.83,
+      "published_at": "2025-10-09 15:15:45",
+      "news_id": "cnyes:6183956",
+      "url": "https://news.cnyes.com/news/id/6183956",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 18.735590277777778
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "2337",
+    "momentum_rank": 9,
+    "mild_initial_target_weight": 0.039,
+    "financial": {
+      "status": "unknown_originals"
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "2360",
+    "momentum_rank": 10,
+    "mild_initial_target_weight": 0.03825,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 2.5144465068582864,
+      "quarter": 2,
+      "source_ids": [
+        "d66702718b09bc54ad8781d19b30ea02f11d1e6e",
+        "ac03a2e3225b92d2e7dffe0b3b815c5b6baf562c"
+      ],
+      "source_stamps": [
+        "2025-04-30 14:11:22",
+        "2025-07-31 16:17:49"
+      ]
+    },
+    "revenue": {
+      "stock_id": "2360",
+      "year_month": "2025-06",
+      "mom": 21.82,
+      "yoy": 34.69,
+      "published_at": "2025-07-07 17:15:51",
+      "news_id": "cnyes:6053076",
+      "url": "https://news.cnyes.com/news/id/6053076",
+      "source": "cnyes",
+      "status": "stale_or_future_reporting_month",
+      "age_days": 112.6521875
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "6669",
+    "momentum_rank": 11,
+    "mild_initial_target_weight": 0.037500000000000006,
+    "financial": {
+      "status": "unknown_originals"
+    },
+    "revenue": {
+      "stock_id": "6669",
+      "year_month": "2025-09",
+      "mom": -10.07,
+      "yoy": 150.16,
+      "published_at": "2025-10-08 14:15:35",
+      "news_id": "cnyes:6181688",
+      "url": "https://news.cnyes.com/news/id/6181688",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 19.777372685185185
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "6290",
+    "momentum_rank": 12,
+    "mild_initial_target_weight": 0.03675,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 1.8087252284681137,
+      "quarter": 2,
+      "source_ids": [
+        "8301d45100197fea8e057e591bc3bbc7e86d3a2a",
+        "be48b8104acfa85e04ab73ad40df9f770dbd09c0"
+      ],
+      "source_stamps": [
+        "2025-05-09 16:27:10",
+        "2025-08-08 17:10:37"
+      ]
+    },
+    "revenue": {
+      "stock_id": "6290",
+      "year_month": "2025-06",
+      "mom": 0.68,
+      "yoy": 32.65,
+      "published_at": "2025-07-10 15:20:49",
+      "news_id": "cnyes:6058944",
+      "url": "https://news.cnyes.com/news/id/6058944",
+      "source": "cnyes",
+      "status": "stale_or_future_reporting_month",
+      "age_days": 109.73207175925926
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "3665",
+    "momentum_rank": 13,
+    "mild_initial_target_weight": 0.036000000000000004,
+    "financial": {
+      "status": "unknown_originals"
+    },
+    "revenue": {
+      "stock_id": "3665",
+      "year_month": "2025-09",
+      "mom": 16.14,
+      "yoy": 46.12,
+      "published_at": "2025-10-07 16:16:35",
+      "news_id": "cnyes:6180297",
+      "url": "https://news.cnyes.com/news/id/6180297",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 20.693344907407408
+    },
+    "original_revenue_announcements_observed_before_start": [
+      {
+        "ann_id": "4ededa3f629476e3957ebf425bb18d21f5fe977a",
+        "stamp": "2023-10-05 16:00:17",
+        "subject": "公告本公司112年09月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "a7fe365a3347743e496a11d9a9b19678210bd16f",
+        "stamp": "2023-11-03 16:00:42",
+        "subject": "公告本公司112年10月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "4b8c87e76a68317f97f21f21150108a278a507fd",
+        "stamp": "2023-12-05 15:59:52",
+        "subject": "公告本公司112年11月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "54b02a26bfa05ed20f03d341f01dceef6722c180",
+        "stamp": "2024-01-05 15:58:36",
+        "subject": "公告本公司112年12月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "ff38183537fdeb6e8f0d0e9644b1d7d43618c48e",
+        "stamp": "2024-02-05 16:00:01",
+        "subject": "公告本公司113年1月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "825a44d933144141f434fa72ff6e79e275be5fac",
+        "stamp": "2024-03-05 16:02:37",
+        "subject": "公告本公司113年2月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "ea15af1e0573c1be1d2dc0ee4e767936afc383fb",
+        "stamp": "2024-04-08 16:10:12",
+        "subject": "公告本公司113年3月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "754ec0478f502da6552295ed7fab4511171a8b3a",
+        "stamp": "2024-05-06 16:21:54",
+        "subject": "公告本公司113年4月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "00aca1fd96786cbbd24d06cceb72259d624087c2",
+        "stamp": "2024-06-05 16:06:38",
+        "subject": "公告本公司113年5月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "50f93bb82e635d825102b3d00a0db9b1d881858a",
+        "stamp": "2024-07-05 16:17:53",
+        "subject": "公告本公司113年6月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "9055ccbb018dc4c67e2d5ce9d27977d6200e3ee3",
+        "stamp": "2024-08-05 17:11:51",
+        "subject": "公告本公司113年7月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "7a438d966179046ba15591cabac0e8615f9ea4aa",
+        "stamp": "2024-09-05 16:01:03",
+        "subject": "公告本公司113年8月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "31b78f397112829589ca670c51680f3a6c275e2a",
+        "stamp": "2024-10-04 16:01:41",
+        "subject": "公告本公司113年9月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "b1f578e2a36b790b8cf9cd5191669b64dfb591f5",
+        "stamp": "2024-11-05 16:14:49",
+        "subject": "公告本公司113年10月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "e023850ecb8166a34aca943e9d64b8247a36653b",
+        "stamp": "2024-12-05 17:07:20",
+        "subject": "公告本公司113年11月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "bc7aa5da537bbe7b91d11951b9f7844451648cde",
+        "stamp": "2025-01-06 16:00:57",
+        "subject": "公告本公司113年12月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "6d7f0d604e99724cf891de080a8a8478c35bf0db",
+        "stamp": "2025-02-05 16:00:00",
+        "subject": "公告本公司114年1月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "c47a6199c3d9161cbcb4268b2e933015bdde5f65",
+        "stamp": "2025-03-05 16:04:02",
+        "subject": "公告本公司114年2月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "1a080a78ecd69aa58f2dc5024edf0038c6038928",
+        "stamp": "2025-04-07 16:23:45",
+        "subject": "公告本公司114年3月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "3d0f2006719b51ea9845170334d8085133ef4950",
+        "stamp": "2025-05-05 15:59:58",
+        "subject": "公告本公司114年4月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "0d425db8c1f453d99ceb008c08d9e6d553cf215a",
+        "stamp": "2025-06-05 16:06:12",
+        "subject": "公告本公司114年5月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "c0ed83fd8d39495e730790d93519037373e5b50d",
+        "stamp": "2025-07-04 16:09:37",
+        "subject": "公告本公司114年6月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "7f90115da41913fbb8b121ab24d3e5774cf24688",
+        "stamp": "2025-08-05 16:09:35",
+        "subject": "公告本公司114年7月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "bbf9c7930af5a95b8efdb5c7b1ce9ef27787919f",
+        "stamp": "2025-09-05 16:01:44",
+        "subject": "公告本公司114年8月份自結合併營收",
+        "source": "mops"
+      },
+      {
+        "ann_id": "3462e5f16ae9fd29445432db66f667705a2d652e",
+        "stamp": "2025-10-07 16:00:47",
+        "subject": "公告本公司114年9月份自結合併營收",
+        "source": "mops"
+      }
+    ],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "6223",
+    "momentum_rank": 14,
+    "mild_initial_target_weight": 0.035250000000000004,
+    "financial": {
+      "status": "newer_self_or_correction_unverified"
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "8046",
+    "momentum_rank": 15,
+    "mild_initial_target_weight": 0.0345,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 3.428882361264027,
+      "quarter": 2,
+      "source_ids": [
+        "06625ac138805563762049047562044fee00a918",
+        "9d840e4b341c70a1b7a75e3f1fc3b8fd49d96f3a"
+      ],
+      "source_stamps": [
+        "2025-05-07 15:33:03",
+        "2025-08-06 16:11:05"
+      ]
+    },
+    "revenue": {
+      "stock_id": "8046",
+      "year_month": "2025-02",
+      "mom": 9.34,
+      "yoy": 49.83,
+      "published_at": "2025-03-03 15:15:27",
+      "news_id": "cnyes:5879776",
+      "url": "https://news.cnyes.com/news/id/5879776",
+      "source": "cnyes",
+      "status": "stale_or_future_reporting_month",
+      "age_days": 238.7357986111111
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "3189",
+    "momentum_rank": 16,
+    "mild_initial_target_weight": 0.03375,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": -0.41887717324342255,
+      "quarter": 3,
+      "source_ids": [
+        "31083ff8d9ae2eeb2970f4da072b1502381d05ec",
+        "d792331ef864d66c69941543e468117e3e82b771",
+        "0df204ea1450eb46bc066a91baf99f355d77109c"
+      ],
+      "source_stamps": [
+        "2025-04-28 18:27:24",
+        "2025-07-28 18:00:22",
+        "2025-10-27 18:03:42"
+      ]
+    },
+    "revenue": {
+      "stock_id": "3189",
+      "year_month": "2025-09",
+      "mom": 4.82,
+      "yoy": 35.51,
+      "published_at": "2025-10-03 18:30:23",
+      "news_id": "cnyes:6177700",
+      "url": "https://news.cnyes.com/news/id/6177700",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 24.60042824074074
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "1605",
+    "momentum_rank": 17,
+    "mild_initial_target_weight": 0.033,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": -1.0471875658975511,
+      "quarter": 2,
+      "source_ids": [
+        "6f225710fd2e0098f7e7f1c0c439d57afcec52ea",
+        "cfe0552054597f7f312037569a3ad5e6dbfb06dc"
+      ],
+      "source_stamps": [
+        "2025-05-09 13:43:49",
+        "2025-08-08 13:44:52"
+      ]
+    },
+    "revenue": {
+      "stock_id": "1605",
+      "year_month": "2025-02",
+      "mom": 9.39,
+      "yoy": 30.88,
+      "published_at": "2025-03-05 21:15:19",
+      "news_id": "cnyes:5884512",
+      "url": "https://news.cnyes.com/news/id/5884512",
+      "source": "cnyes",
+      "status": "stale_or_future_reporting_month",
+      "age_days": 236.48589120370372
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "2449",
+    "momentum_rank": 18,
+    "mild_initial_target_weight": 0.03225,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 5.2101435409303285,
+      "quarter": 2,
+      "source_ids": [
+        "f3b59f3fe5b96b22e680a674311c146adcd930a1",
+        "a4a37128cccbca3c86f564905cb4029743f857fd"
+      ],
+      "source_stamps": [
+        "2025-05-09 16:00:22",
+        "2025-08-08 15:45:33"
+      ]
+    },
+    "revenue": {
+      "stock_id": "2449",
+      "year_month": "2025-09",
+      "mom": 5.5,
+      "yoy": 39.62,
+      "published_at": "2025-10-07 15:15:34",
+      "news_id": "cnyes:6180188",
+      "url": "https://news.cnyes.com/news/id/6180188",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 20.735717592592593
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "2059",
+    "momentum_rank": 19,
+    "mild_initial_target_weight": 0.0315,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 1.2692576081039353,
+      "quarter": 2,
+      "source_ids": [
+        "f3613070627f0eafff49c63a3b6804fe30180f12",
+        "a13e9bda7804078641b2486f2845b0d4cd599ae6"
+      ],
+      "source_stamps": [
+        "2025-05-07 14:57:57",
+        "2025-08-06 14:55:33"
+      ]
+    },
+    "revenue": {
+      "stock_id": "2059",
+      "year_month": "2025-02",
+      "mom": 8.6,
+      "yoy": 164.7,
+      "published_at": "2025-03-06 15:15:41",
+      "news_id": "cnyes:5885471",
+      "url": "https://news.cnyes.com/news/id/5885471",
+      "source": "cnyes",
+      "status": "stale_or_future_reporting_month",
+      "age_days": 235.73563657407408
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "2451",
+    "momentum_rank": 20,
+    "mild_initial_target_weight": 0.030750000000000003,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": 8.034032053912984,
+      "quarter": 2,
+      "source_ids": [
+        "76fb46046d694c59c4662c095d9ca4ac2b793635",
+        "12f124a2c91deed3cd939e966644a4b33a65238e"
+      ],
+      "source_stamps": [
+        "2025-05-08 19:59:41",
+        "2025-08-07 18:50:22"
+      ]
+    },
+    "revenue": {
+      "stock_id": "2451",
+      "year_month": "2025-09",
+      "mom": 19.99,
+      "yoy": 88.62,
+      "published_at": "2025-10-09 15:15:53",
+      "news_id": "cnyes:6183959",
+      "url": "https://news.cnyes.com/news/id/6183959",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 18.735497685185184
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "3324",
+    "momentum_rank": 21,
+    "mild_initial_target_weight": 0.03,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": -0.8186351914393986,
+      "quarter": 2,
+      "source_ids": [
+        "eef20efb6c32736eb0ec4bd23aff77f9cafab445",
+        "9bbda001f36c66286eaa6199f69bc387d640a036"
+      ],
+      "source_stamps": [
+        "2025-05-09 18:22:33",
+        "2025-08-08 18:21:41"
+      ]
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "3443",
+    "momentum_rank": 22,
+    "mild_initial_target_weight": 0.02925,
+    "financial": {
+      "status": "unknown_originals"
+    },
+    "revenue": {
+      "stock_id": "3443",
+      "year_month": "2025-09",
+      "mom": 30.54,
+      "yoy": 104.86,
+      "published_at": "2025-10-07 14:15:21",
+      "news_id": "cnyes:6180073",
+      "url": "https://news.cnyes.com/news/id/6180073",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 20.77753472222222
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "6488",
+    "momentum_rank": 23,
+    "mild_initial_target_weight": 0.028500000000000004,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": -1.3712818072328687,
+      "quarter": 2,
+      "source_ids": [
+        "95efa1197dc77f3d2e3639c778d65514a375960c",
+        "4afb349ec01538fa6e3b1139717ff74af2ef7cbf"
+      ],
+      "source_stamps": [
+        "2025-05-06 15:13:03",
+        "2025-08-05 15:03:03"
+      ]
+    },
+    "revenue": {
+      "status": "unknown_source"
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "3017",
+    "momentum_rank": 24,
+    "mild_initial_target_weight": 0.027750000000000004,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": -1.4751299981972832,
+      "quarter": 2,
+      "source_ids": [
+        "33599dd8186bd1f7186a26bb470a9803c740a740",
+        "608d930d5e334684c5fcae0c74bac8e9ebf99af3"
+      ],
+      "source_stamps": [
+        "2025-05-13 15:19:06",
+        "2025-08-13 14:37:06"
+      ]
+    },
+    "revenue": {
+      "stock_id": "3017",
+      "year_month": "2025-09",
+      "mom": 14.9,
+      "yoy": 128.35,
+      "published_at": "2025-10-07 17:15:26",
+      "news_id": "cnyes:6180452",
+      "url": "https://news.cnyes.com/news/id/6180452",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 20.65247685185185
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  },
+  {
+    "anchor": "2025-10-28",
+    "stock_id": "6139",
+    "momentum_rank": 25,
+    "mild_initial_target_weight": 0.027000000000000003,
+    "financial": {
+      "status": "verified_formal",
+      "delta_pp": -2.358988371677953,
+      "quarter": 2,
+      "source_ids": [
+        "22115f91e2ff8d7e61e1a16c9efc911c674e0a33",
+        "348d4dc8818a70027c6600f5c676006f181a53de"
+      ],
+      "source_stamps": [
+        "2025-05-09 15:31:28",
+        "2025-08-08 15:18:05"
+      ]
+    },
+    "revenue": {
+      "stock_id": "6139",
+      "year_month": "2025-09",
+      "mom": 29.8,
+      "yoy": 79.91,
+      "published_at": "2025-10-09 15:16:28",
+      "news_id": "cnyes:6183973",
+      "url": "https://news.cnyes.com/news/id/6183973",
+      "source": "cnyes",
+      "status": "verified_original_known_available_time",
+      "age_days": 18.735092592592594
+    },
+    "original_revenue_announcements_observed_before_start": [],
+    "first_publication_verified": false,
+    "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+  }
+]

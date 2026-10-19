@@ -1,0 +1,12 @@
+{
+  "sample": "exactselectiongroupall1209/later965;keepportfolio dates,reportstockoutcomemissingness",
+  "stock_return": "product(1+knowncashadjustedclose_return) fromstart..start+23;priorclose toendingclose;gross,noportfoliofee;notVWAPactualholdingPNL",
+  "initial_selection": "originaltarget25atstart;no survivorship filterbasedonfutureoutcome",
+  "market_universe": "current150listedbeforestart;future24completeprice/action;knownstocks only;require80%ofstartlisted and>=50;missingnotdown/up",
+  "broad_down": "morethan50%ofknownstocksgross24return<0",
+  "severe_breadth_down": "atleast70%down",
+  "confirmed_broad_down": "morethan50%down AND equalweightfixedstockmeanreturn<0",
+  "proxy_warning": "notwholeTaiwanmarket,notofficialindex;current150bias;outcomesposthoc",
+  "overlap": "windowstatsnotindependent;alsoaggregate24nonoverlappingphases",
+  "no_new_strategy": true
+}

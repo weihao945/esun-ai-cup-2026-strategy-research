@@ -1,0 +1,244 @@
+{
+  "actions_applied": [
+    {
+      "stock_id": "3293",
+      "official_ex_date": "2024-07-24",
+      "effective_price_session": "2024-07-26",
+      "cash": 35.0,
+      "stock_ratio": 1.0,
+      "before": 1465.0,
+      "reference": 715.0,
+      "source_url": "https://www.tpex.org.tw/www/zh-tw/bulletin/exDailyQ?startDate=2024%2F07%2F24&endDate=2024%2F07%2F26&response=json",
+      "basis": "TPEx explicit cash and free shares per1000; official closure dates aligned to first actual session, not inferred from price drop",
+      "validation": {
+        "before_price_matches": true,
+        "explicit_amount_reference_check": true,
+        "receivable_cash_and_shares_not_spendable": true
+      }
+    },
+    {
+      "stock_id": "6290",
+      "official_ex_date": "2024-07-24",
+      "effective_price_session": "2024-07-26",
+      "cash": 2.973209,
+      "stock_ratio": 0.0,
+      "before": 87.3,
+      "reference": 84.33,
+      "source_url": "https://www.tpex.org.tw/www/zh-tw/bulletin/exDailyQ?startDate=2024%2F07%2F24&endDate=2024%2F07%2F26&response=json",
+      "basis": "TPEx explicit cash and free shares per1000; official closure dates aligned to first actual session, not inferred from price drop",
+      "validation": {
+        "before_price_matches": true,
+        "explicit_amount_reference_check": true,
+        "receivable_cash_and_shares_not_spendable": true
+      }
+    },
+    {
+      "stock_id": "5483",
+      "official_ex_date": "2024-07-25",
+      "effective_price_session": "2024-07-26",
+      "cash": 5.3,
+      "stock_ratio": 0.0,
+      "before": 215.5,
+      "reference": 210.2,
+      "source_url": "https://www.tpex.org.tw/www/zh-tw/bulletin/exDailyQ?startDate=2024%2F07%2F24&endDate=2024%2F07%2F26&response=json",
+      "basis": "TPEx explicit cash and free shares per1000; official closure dates aligned to first actual session, not inferred from price drop",
+      "validation": {
+        "before_price_matches": true,
+        "explicit_amount_reference_check": true,
+        "receivable_cash_and_shares_not_spendable": true
+      }
+    },
+    {
+      "stock_id": "8069",
+      "official_ex_date": "2024-07-25",
+      "effective_price_session": "2024-07-26",
+      "cash": 4.48964444,
+      "stock_ratio": 0.0,
+      "before": 254.5,
+      "reference": 250.01,
+      "source_url": "https://www.tpex.org.tw/www/zh-tw/bulletin/exDailyQ?startDate=2024%2F07%2F24&endDate=2024%2F07%2F26&response=json",
+      "basis": "TPEx explicit cash and free shares per1000; official closure dates aligned to first actual session, not inferred from price drop",
+      "validation": {
+        "before_price_matches": true,
+        "explicit_amount_reference_check": true,
+        "receivable_cash_and_shares_not_spendable": true
+      }
+    },
+    {
+      "stock_id": "1519",
+      "official_ex_date": "2024-07-25",
+      "effective_price_session": "2024-07-26",
+      "cash": 6.0,
+      "stock_ratio": 0.1,
+      "before": 940.0,
+      "reference": 849.09,
+      "source_url": "https://www.twse.com.tw/rwd/zh/exRight/TWT49UDetail?STK_NO=1519&T1=20240725&response=json",
+      "basis": "TWSE exact explicit per-share cash and shareholder free shares per1000; employee allotment not assigned to portfolio",
+      "validation": {
+        "before_price_matches": true,
+        "explicit_amount_reference_check": true,
+        "receivable_cash_and_shares_not_spendable": true
+      }
+    },
+    {
+      "stock_id": "2002",
+      "official_ex_date": "2024-07-25",
+      "effective_price_session": "2024-07-26",
+      "cash": 0.35,
+      "stock_ratio": 0.0,
+      "before": 23.15,
+      "reference": 22.8,
+      "source_url": "https://www.twse.com.tw/rwd/zh/exRight/TWT49UDetail?STK_NO=2002&T1=20240725&response=json",
+      "basis": "TWSE exact explicit per-share cash and shareholder free shares per1000; employee allotment not assigned to portfolio",
+      "validation": {
+        "before_price_matches": true,
+        "explicit_amount_reference_check": true,
+        "receivable_cash_and_shares_not_spendable": true
+      }
+    },
+    {
+      "stock_id": "2884",
+      "official_ex_date": "2024-07-25",
+      "effective_price_session": "2024-07-26",
+      "cash": 1.2,
+      "stock_ratio": 0.02,
+      "before": 29.8,
+      "reference": 28.03,
+      "source_url": "https://www.twse.com.tw/rwd/zh/exRight/TWT49UDetail?STK_NO=2884&T1=20240725&response=json",
+      "basis": "TWSE exact explicit per-share cash and shareholder free shares per1000; employee allotment not assigned to portfolio",
+      "validation": {
+        "before_price_matches": true,
+        "explicit_amount_reference_check": true,
+        "receivable_cash_and_shares_not_spendable": true
+      }
+    },
+    {
+      "stock_id": "3702",
+      "official_ex_date": "2024-07-25",
+      "effective_price_session": "2024-07-26",
+      "cash": 3.5,
+      "stock_ratio": 0.0,
+      "before": 92.8,
+      "reference": 89.3,
+      "source_url": "https://www.twse.com.tw/rwd/zh/exRight/TWT49UDetail?STK_NO=3702&T1=20240725&response=json",
+      "basis": "TWSE exact explicit per-share cash and shareholder free shares per1000; employee allotment not assigned to portfolio",
+      "validation": {
+        "before_price_matches": true,
+        "explicit_amount_reference_check": true,
+        "receivable_cash_and_shares_not_spendable": true
+      }
+    }
+  ],
+  "closure_evidence": [
+    "https://www.twse.com.tw/staticFiles/news/news/tsecnews/8a8216d6906d4d340190df83a6ac0170.pdf",
+    "https://www.twse.com.tw/staticFiles/news/news/tsecnews/8a8216d6906d4d340190e4a4ef640174.pdf"
+  ],
+  "cash_and_stock_timing": "same prior receivable model; no new capital subscription assumptions",
+  "still_unmodelled_paid_capital": [
+    {
+      "stock_id": "2344",
+      "date": "2023-10-16",
+      "before": 28.35,
+      "reference": 28.04,
+      "reason": "paid_capital_increase_or_subscription_accounting_not_modelled",
+      "url": "https://www.twse.com.tw/rwd/zh/exRight/TWT49UDetail?STK_NO=2344&T1=20231016&response=json"
+    },
+    {
+      "stock_id": "3036",
+      "date": "2023-11-21",
+      "before": 116.5,
+      "reference": 113.99,
+      "reason": "paid_capital_increase_or_subscription_accounting_not_modelled",
+      "url": "https://www.twse.com.tw/rwd/zh/exRight/TWT49UDetail?STK_NO=3036&T1=20231121&response=json"
+    },
+    {
+      "stock_id": "2886",
+      "date": "2023-12-08",
+      "before": 39.0,
+      "reference": 38.83,
+      "reason": "paid_capital_increase_or_subscription_accounting_not_modelled",
+      "url": "https://www.twse.com.tw/rwd/zh/exRight/TWT49UDetail?STK_NO=2886&T1=20231208&response=json"
+    },
+    {
+      "stock_id": "6139",
+      "date": "2024-01-24",
+      "before": 160.0,
+      "reference": 158.64,
+      "reason": "paid_capital_increase_or_subscription_accounting_not_modelled",
+      "url": "https://www.twse.com.tw/rwd/zh/exRight/TWT49UDetail?STK_NO=6139&T1=20240124&response=json"
+    },
+    {
+      "stock_id": "2344",
+      "date": "2024-07-02",
+      "before": 25.5,
+      "reference": 25.32,
+      "reason": "paid_capital_increase_or_subscription_accounting_not_modelled",
+      "url": "https://www.twse.com.tw/rwd/zh/exRight/TWT49UDetail?STK_NO=2344&T1=20240702&response=json"
+    },
+    {
+      "stock_id": "5871",
+      "date": "2024-09-05",
+      "before": 143.0,
+      "reference": 142.69,
+      "reason": "paid_capital_increase_or_subscription_accounting_not_modelled",
+      "url": "https://www.twse.com.tw/rwd/zh/exRight/TWT49UDetail?STK_NO=5871&T1=20240905&response=json"
+    },
+    {
+      "stock_id": "1605",
+      "date": "2025-06-04",
+      "before": 20.9,
+      "reference": 20.36,
+      "reason": "paid_capital_increase_or_subscription_accounting_not_modelled",
+      "cash": 0.5,
+      "stock_ratio": 0.0,
+      "paid_ratio": 0.07937821165,
+      "paid_price": 20.0,
+      "url": "https://www.twse.com.tw/rwd/zh/exRight/TWT49UDetail?STK_NO=1605&T1=20250604&response=json"
+    },
+    {
+      "stock_id": "2812",
+      "date": "2025-10-28",
+      "before": 21.9,
+      "reference": 21.85,
+      "reason": "paid_capital_increase_or_subscription_accounting_not_modelled",
+      "cash": 0.0,
+      "stock_ratio": 0.0,
+      "paid_ratio": 0.012665440370000001,
+      "paid_price": 18.9,
+      "url": "https://www.twse.com.tw/rwd/zh/exRight/TWT49UDetail?STK_NO=2812&T1=20251028&response=json"
+    },
+    {
+      "stock_id": "3037",
+      "date": "2025-11-14",
+      "before": 178.5,
+      "reference": 176.67,
+      "reason": "paid_capital_increase_or_subscription_accounting_not_modelled",
+      "url": "https://www.twse.com.tw/rwd/zh/exRight/TWT49UDetail?STK_NO=3037&T1=20251114&response=json"
+    },
+    {
+      "stock_id": "3189",
+      "date": "2026-01-26",
+      "before": 214.0,
+      "reference": 204.83,
+      "reason": "paid_capital_increase_or_subscription_accounting_not_modelled",
+      "url": "https://www.twse.com.tw/rwd/zh/exRight/TWT49UDetail?STK_NO=3189&T1=20260126&response=json"
+    },
+    {
+      "stock_id": "2313",
+      "date": "2026-06-22",
+      "before": 259.5,
+      "reference": 257.64,
+      "reason": "paid_capital_increase_or_subscription_accounting_not_modelled",
+      "url": "https://www.twse.com.tw/rwd/zh/exRight/TWT49UDetail?STK_NO=2313&T1=20260622&response=json"
+    },
+    {
+      "stock_id": "2890",
+      "date": "2026-10-07",
+      "before": 45.4,
+      "reference": 44.97,
+      "reason": "paid_capital_increase_or_subscription_accounting_not_modelled",
+      "url": "https://www.twse.com.tw/rwd/zh/exRight/TWT49UDetail?STK_NO=2890&T1=20261007&response=json"
+    }
+  ],
+  "prior_anomaly3293": "verified ex-right35TWD cash +1000free shares per1000, reference715, not a46pct market crash"
+}

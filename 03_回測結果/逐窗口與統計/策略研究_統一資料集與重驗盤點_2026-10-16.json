@@ -1,0 +1,121 @@
+{
+  "contract": {
+    "date": "2026-10-16",
+    "dataset": "v30同一資料快照：2016-07-01..2025-12-31；起點2016-09-30..2025-11-27",
+    "planned_windows": 2236,
+    "current150_not_historical150": true,
+    "sources": {
+      "price_current150_cache": "ea800cb5f3c11893db177adcb406bd134f341eb26e0fdf55b0550edf81094e86",
+      "flow_current150_cache": "f4b2e03d369e809ca06b6b11bdac6fcec83ee505e71fad055825391c06c97338"
+    },
+    "price_action_method": "v27修正後價格／股息／未知公司行動，v30法人資料與掛牌日門檻",
+    "common_quality": "60日價量／公司行動與20日完整外資＋投信；個別訊號若需額外資料須揭露覆蓋",
+    "fixed_execution": "24日、25檔目標、五日例行評估、1000股、原費稅及日末約束；變動因子事前標明",
+    "new_candidate_pairing": "同2236計畫日期，但不強迫所有候選有效日期完全一致；每項對照用相同有效窗口，列出自己的覆蓋與失敗，不將無效填0",
+    "primary_evaluation": "2016..2018校準，2019..2025後段；全期含校準只描述；歷史已看過非真正未見樣本外",
+    "dedup": "experiment_key+definition+source snapshot hashes+engine version；相同格重用；只重算受影響格",
+    "promotion": "只有本快照已驗證結果才列主要結論／主比較圖；舊版留歷史附錄且不得與主表排名",
+    "summary_outputs": "費後勝率、24日期望值、平均虧損／P10／回撤、費稅、窗口數、覆蓋、配對差區間、年份一致性",
+    "boxplots": "實際全部窗口點；桃紅中位數；0線；兩時段固定尺度；不把平均值畫成分布",
+    "new_runs_this_step": 0,
+    "unattended_schedule_changed": false
+  },
+  "inventory": [
+    {
+      "id": "core_selection",
+      "priority": "已完成",
+      "scope": "20／60各半動能、純法人（外資＋投信）",
+      "status": "可列主要總結",
+      "source": "v30",
+      "action": "重用既有4472列，不重跑；共同1359、後段1041"
+    },
+    {
+      "id": "environment_switch",
+      "priority": "已完成",
+      "scope": "趨勢、廣度、波動分層及開賽前選家族",
+      "status": "可列主要總結，未證實優於動能",
+      "source": "v30",
+      "action": "重用既有結果與校準；不再拿v29近期低波動結果作決策依據"
+    },
+    {
+      "id": "benchmark_and_hold",
+      "priority": "優先1",
+      "scope": "同期市場參考、成交金額排名25檔持有、動能初始持有 vs 五日調整",
+      "status": "待統一重算／補正式基準",
+      "source": "v16機制；v29代理非正式基準",
+      "action": "先隔離選股與換手效果；市場指數需正式總報酬來源；不把研究代理稱alpha"
+    },
+    {
+      "id": "lookback",
+      "priority": "優先1",
+      "scope": "純20日／純60日／各半，全部每五日評估",
+      "status": "待統一重算",
+      "source": "v20",
+      "action": "原定三組，保留共同60日品質門檻，不擴充參數網格"
+    },
+    {
+      "id": "capital",
+      "priority": "優先1",
+      "scope": "固定80／90／95%投入",
+      "status": "待以v30共同法人品質門檻重算",
+      "source": "v27為同年代但價量門檻不同",
+      "action": "90%基準直接重用；80與95只算新增格；100%舊預算負現金不列合格候選"
+    },
+    {
+      "id": "allocation",
+      "priority": "優先2",
+      "scope": "等權 vs 原排名1.25至0.75溫和非等權；小額略過分開",
+      "status": "待統一重算",
+      "source": "v16",
+      "action": "等權原結果重用；權重與略過用四格隔離，不以組合效果冒稱權重效果"
+    },
+    {
+      "id": "stop_add",
+      "priority": "優先2",
+      "scope": "MA5／連兩日MA5／破前五日收盤低點 × 條件加碼",
+      "status": "待統一重算",
+      "source": "v23",
+      "action": "固定既定八格與退出替補規則；原動能基準去重，統計失敗窗口覆蓋；不足25不事後放寬"
+    },
+    {
+      "id": "add_attribution",
+      "priority": "優先2",
+      "scope": "加碼與平均曝險相近固定投入對照",
+      "status": "待統一重算",
+      "source": "v24／v25",
+      "action": "只用2016～2018曝險校準對照；不得沿用用2024訓練出的比例當2016可知"
+    },
+    {
+      "id": "other_price_families",
+      "priority": "優先3",
+      "scope": "純低波動、短期反轉；必要時波動調整動能",
+      "status": "待統一重算",
+      "source": "v15／v19／v28",
+      "action": "既定定義與v30快照；v28反轉中位退出列候選待重驗，不直接納入新總結結論"
+    },
+    {
+      "id": "overlap_loss",
+      "priority": "優先3",
+      "scope": "持股重疊、虧損歸因、賣後反彈與回復時間",
+      "status": "部分可由v30軌跡整理，其餘待預先定義",
+      "source": "v17／v18",
+      "action": "先重用trace；賣後毛報酬不是觸底機率或交易策略績效"
+    },
+    {
+      "id": "macro",
+      "priority": "資料門檻",
+      "scope": "景氣燈號、PMI",
+      "status": "資料尚不足，不列有效策略",
+      "source": "v29來源稽核",
+      "action": "須2016～2025首次公布值／時間及改版口徑；最新修訂數列不可直接回填"
+    },
+    {
+      "id": "fundamental_sector",
+      "priority": "資料門檻",
+      "scope": "營收MoM／YoY、財務／公告權重、產業季節性／輪動",
+      "status": "資料尚不足，不列有效策略",
+      "source": "舊公告研究與產業觀察",
+      "action": "須全可選池歷史公開時間／產業分類；近期個案不擴稱十年驗證；LLM批次維持暫不測"
+    }
+  ]
+}

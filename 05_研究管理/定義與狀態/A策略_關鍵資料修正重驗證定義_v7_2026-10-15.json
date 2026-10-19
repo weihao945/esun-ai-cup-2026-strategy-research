@@ -1,0 +1,92 @@
+{
+  "raw_snapshot_sha256": "1b826aa999a02664f43ff9c48a77259881901d8b8399c6ee85ebc275af7ea0e2",
+  "changes": [
+    "8 verified closure-date action alignment",
+    "recorded single-digit hour parsing",
+    "explicitly bounded non-operating corrections and future-board notices"
+  ],
+  "scope": "150same stocks,650start windows,24days,5day adjustment,90pct,1000shares,samefees",
+  "broad_methods": {
+    "REF": [
+      "REF",
+      "equal",
+      0
+    ],
+    "A_equal": [
+      "A",
+      "equal",
+      0
+    ],
+    "B": [
+      "B",
+      "equal",
+      0
+    ],
+    "C": [
+      "C",
+      "equal",
+      0
+    ],
+    "AH": [
+      "AH",
+      "equal",
+      0
+    ],
+    "BH": [
+      "BH",
+      "equal",
+      0
+    ],
+    "A_mild": [
+      "A",
+      "mild",
+      0
+    ],
+    "A_invvol50": [
+      "A",
+      "invvol",
+      0
+    ],
+    "A_mild_tolerance": [
+      "A",
+      "mild",
+      0.005
+    ],
+    "REV5": [
+      "REV5",
+      "mild",
+      0
+    ],
+    "pure_flow": [
+      "PURE_FLOW",
+      "equal",
+      0
+    ],
+    "pure_lowvol": [
+      "PURE_LOWVOL",
+      "equal",
+      0
+    ],
+    "A_invvol100": [
+      "A",
+      "invvol100",
+      0
+    ],
+    "pure_financial": [
+      "PURE_FINANCIAL",
+      "equal",
+      0
+    ],
+    "pure_revenue": [
+      "PURE_REVENUE",
+      "equal",
+      0
+    ]
+  },
+  "financial_rule": "same Q2/Q1 orQ3/Q2 operating-margin change; uniform repaired quarter evidence",
+  "announcement_rule": "same prestart +/-1pp,1+/-.25 and .5mild+.25financial+.25revenue; frozen atstart",
+  "paid_capital": "12events still excluded, subscription/lapse policy not invented",
+  "family_count": 44,
+  "family_reason": "prior26+14 updated broad nonA+3 updated prestart information+1 matched diagnostic, conservatively count every look",
+  "not_tasks": "DataPack,DPlan,official rule clarification and operational rehearsal deferred by user; LLM deferred"
+}

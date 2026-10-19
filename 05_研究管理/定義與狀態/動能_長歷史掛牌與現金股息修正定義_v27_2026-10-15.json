@@ -1,0 +1,32 @@
+{
+  "purpose": "testdontleavecashacrosslonghistorynotonlyrecentbullsample",
+  "data": "existingFinMindprice2016-07-01..2025-12-31+dividends/globalactioncaches;noIOrequests",
+  "universe": "current150fixedhistorically,notPIT;188columnsbut150poolonly",
+  "selection": "price-only20/60half;prior60price/actionand20volumegates;noinstitutionaldataavailablehistorically,notfullA",
+  "methods": [
+    0.8,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "fixed": "25target,equal,5dayadjust,24dayfreshcapitalwindows,1e9,lots1000,fee.001425tax.003",
+  "events": "reusev14cashonlyreceivable;unknownnoncash/paidactionsinvalidwhileheld;badpasteligibilityfixed;verified2404stopmarkonly2018-11-29..12-07rawquotemissing",
+  "primary": "allcalendar24dayrolling;80/90/95exactcommondata+constraintvalid;100ownvaliddiagnosticnotdropmainmask;annualOctcasescontrolverify",
+  "diagnostics": "startyeargroups,startmonthgroups,worstwindows,24nonoverlapstartphases;nofuturemarketlabelintrading",
+  "inference": "3primaryexcesspairsBonferroni3,24/48positionblockbootstrap5000;overlapnotiid;yearconsistencynotjustpooledmean",
+  "cash_limits": "nocashnegative,cash<25%,20..30held,caps2330 .25others .1five-sessiongrace;ActiveShareunverified",
+  "no_change_after_results": "noadditionalcashgrid,noLLM,noadaptivestop,no100resizingafterexecution",
+  "snapshot_sources": [
+    "外部歷史研究_獨立歷史快取_v12_2026-10-15.json.gz",
+    "完整150檔研究_新增上櫃快取_v13_2026-10-15.json.gz"
+  ],
+  "limits": "currentpoolbias,corporateactionexclusions,provideraggregateVWAPnotcertifiedDataPack,short24daywindowsnottenyearcontinuouslyreinvestedaccount",
+  "version": "v27_sourcequality_cashdiv_and_listing",
+  "amendment_reason": "v26auditshowsprelistingemergingquotesandknowncashdividenddaysspread0;notchoosehigherreturnparameters",
+  "eligibility_amendment": "onlycurrent150withDBlisteddate<=startof60sessionlookback;DBdatesnotallindividuallyofficialverified;conservativecurrentmarketlistinggate,nothistorical150reconstruction",
+  "return_amendment": "cash-adjustedwealthreturn=(close+knowncashdiv)/previousclose-1;do_notderivecashdividendfromspread0;notexchangeexrightreferenceformula",
+  "cash_flag_relaxation": "onlyexistinguniqueexplicitcashamount,spread0,notknownnoncasheventnorpaid/freeactionthatsamedate;unknownnonzero-referenceandallotherunknownactionsstillbad",
+  "no_raw_price_change": true,
+  "previous_v26": "retainedlegacydiagnosticnotmainconclusion",
+  "primary_reference": "https://investoredu.twse.com.tw/pages/TWSE_InvestmentQA.aspx?ID=1"
+}

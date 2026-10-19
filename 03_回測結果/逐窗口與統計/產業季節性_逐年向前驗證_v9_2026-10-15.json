@@ -1,0 +1,137 @@
+{
+  "definition": "each testyear prior>=5 full12month years, score Octoberexcess minus sameyear other11month medianexcess, mean across prior years, choose top3, current-year test returns excluded from selection; exact index names not spliced",
+  "folds": [
+    {
+      "year": 2021,
+      "status": "insufficient_prior_complete_years",
+      "eligible_sectors": 0
+    },
+    {
+      "year": 2022,
+      "status": "diagnostic_complete",
+      "selected": [
+        {
+          "sector": "航運類報酬指數",
+          "train_years": 5,
+          "train_seasonal_difference_pp": 5.921835237708009
+        },
+        {
+          "sector": "電器電纜類報酬指數",
+          "train_years": 5,
+          "train_seasonal_difference_pp": 5.748056144487914
+        },
+        {
+          "sector": "玻璃陶瓷類報酬指數",
+          "train_years": 5,
+          "train_seasonal_difference_pp": 4.90600816746058
+        }
+      ],
+      "qualified_sector_count": 29,
+      "missing_control_sectors": [],
+      "top3_return_pct": 17.262946722804486,
+      "qualified_allsector_return_pct": 9.999881366827143,
+      "benchmark_return_pct": 14.948566040394628,
+      "top3_excess_pp": 2.3143806824098556,
+      "top3_minus_allsector_pp": 7.263065355977341
+    },
+    {
+      "year": 2023,
+      "status": "top3_complete_allsector_unknown",
+      "selected": [
+        {
+          "sector": "玻璃陶瓷類報酬指數",
+          "train_years": 6,
+          "train_seasonal_difference_pp": 5.687986446140425
+        },
+        {
+          "sector": "電器電纜類報酬指數",
+          "train_years": 6,
+          "train_seasonal_difference_pp": 4.529522837655936
+        },
+        {
+          "sector": "航運類報酬指數",
+          "train_years": 6,
+          "train_seasonal_difference_pp": 4.51495042638225
+        }
+      ],
+      "qualified_sector_count": 29,
+      "missing_control_sectors": [
+        "觀光類報酬指數"
+      ],
+      "top3_return_pct": 5.349086124326577,
+      "qualified_allsector_return_pct": null,
+      "benchmark_return_pct": 7.984104254175373,
+      "top3_excess_pp": -2.6350181298487945,
+      "top3_minus_allsector_pp": null
+    },
+    {
+      "year": 2024,
+      "status": "top3_complete_allsector_unknown",
+      "selected": [
+        {
+          "sector": "玻璃陶瓷類報酬指數",
+          "train_years": 7,
+          "train_seasonal_difference_pp": 4.551485915131897
+        },
+        {
+          "sector": "電器電纜類報酬指數",
+          "train_years": 7,
+          "train_seasonal_difference_pp": 4.313785869033954
+        },
+        {
+          "sector": "航運類報酬指數",
+          "train_years": 7,
+          "train_seasonal_difference_pp": 3.993071404032004
+        }
+      ],
+      "qualified_sector_count": 29,
+      "missing_control_sectors": [
+        "觀光類報酬指數"
+      ],
+      "top3_return_pct": -0.8982931848290429,
+      "qualified_allsector_return_pct": null,
+      "benchmark_return_pct": -1.9848570903285623,
+      "top3_excess_pp": 1.0865639054995193,
+      "top3_minus_allsector_pp": null
+    },
+    {
+      "year": 2025,
+      "status": "top3_complete_allsector_unknown",
+      "selected": [
+        {
+          "sector": "玻璃陶瓷類報酬指數",
+          "train_years": 8,
+          "train_seasonal_difference_pp": 4.687812529997452
+        },
+        {
+          "sector": "航運類報酬指數",
+          "train_years": 8,
+          "train_seasonal_difference_pp": 4.667783653276886
+        },
+        {
+          "sector": "電子零組件類報酬指數",
+          "train_years": 8,
+          "train_seasonal_difference_pp": 3.294706686597007
+        }
+      ],
+      "qualified_sector_count": 30,
+      "missing_control_sectors": [
+        "觀光類報酬指數"
+      ],
+      "top3_return_pct": 6.337083369233783,
+      "qualified_allsector_return_pct": null,
+      "benchmark_return_pct": -1.3111306098019138,
+      "top3_excess_pp": 7.648213979035696,
+      "top3_minus_allsector_pp": null
+    }
+  ],
+  "limits": [
+    "index diagnostic not executable stockportfolio",
+    "no fees",
+    "overlapping hierarchical index groups",
+    "few testyears",
+    "full dataset already examined previously",
+    "no individual point-in-time mapping; cannot combine stock scores yet",
+    "not same as current-year industry momentum"
+  ]
+}

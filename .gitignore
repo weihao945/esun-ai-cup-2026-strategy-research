@@ -1,0 +1,19 @@
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+# Private/local-only material
+團隊資料/
+發布網站/
+類似競賽研究/
+99_維護與備份/*.zip
+99_維護與備份/歷史版面/
+**/A策略_無人值守研究狀態.json
+# Large historical export omitted from this snapshot
+**/策略重新比較_全部窗口_v9_2026-10-15.json

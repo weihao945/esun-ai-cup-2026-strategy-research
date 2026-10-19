@@ -1,0 +1,31 @@
+{
+  "purpose": "same2016–2025 pre-entry Taiwan/US VIX environmental comparison",
+  "sample": 1209,
+  "later": 965,
+  "no_strategy_optimization": true,
+  "alignment": "Taiwan daily close strictly before entry; US date strictly before entry; maximum7 calendar days; no backfill with future data",
+  "planned_groups": "Taiwan/US both<20, Taiwan only>=20, US only>=20, both>=20; same bins20/30 diagnostic; no threshold search",
+  "sources": [],
+  "status": "partial_history_available",
+  "tw_data_range": [
+    "2023-10-17",
+    "2025-12-31"
+  ],
+  "actual_windows": 252,
+  "missing_windows": 957,
+  "source": "https://www.taifex.com.tw/indes/index.aspx/GetStockDayPrices",
+  "query": {
+    "syid": "TAIWANVIX",
+    "flag": "MS",
+    "startDate": "2023-10-17",
+    "endDate": "2025-12-31"
+  },
+  "thresholds": {
+    "level": [
+      20,
+      30
+    ],
+    "change": "difference from5 sessions earlier >0; no threshold search"
+  },
+  "dataset_limit": "official free past-three-year chart; cannot claim2016–2025 full coverage"
+}

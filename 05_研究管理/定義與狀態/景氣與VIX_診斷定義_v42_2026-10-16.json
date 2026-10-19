@@ -1,0 +1,12 @@
+{
+  "sample": "same 1209 selection windows; later 965",
+  "vix_source": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+  "alignment": "latest US dated close strictly before Taiwan start date; maximum 7 calendar days stale",
+  "bins": [
+    "<20",
+    "20<=VIX<30",
+    ">=30"
+  ],
+  "inference": "descriptive only; overlapping windows; no policy backtest",
+  "ndc": "original releases only for point-in-time interpretation; current revised history not substituted"
+}

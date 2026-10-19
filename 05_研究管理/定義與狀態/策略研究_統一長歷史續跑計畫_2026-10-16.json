@@ -1,0 +1,617 @@
+{
+  "schema_version": 1,
+  "version": "v33_unified_research_continuation",
+  "created_at": "2026-10-16",
+  "status": "prepared_not_running",
+  "common": {
+    "dataset": "v30_frozen_2016_2025",
+    "source_hashes": {
+      "price_current150_cache": "ea800cb5f3c11893db177adcb406bd134f341eb26e0fdf55b0550edf81094e86",
+      "flow_current150_cache": "f4b2e03d369e809ca06b6b11bdac6fcec83ee505e71fad055825391c06c97338",
+      "price_twse_and_actions": "3459a6316bcd2a1790a987cd5f64736c11f9aec58cbaea70282a7090b12a4f38",
+      "action_repairs": "07ce315501c0dfd7d2a09371f48d3a72d8c7a9af9eb6852f9d4df62fd91fdb60",
+      "listing_stockmaster_snapshot": "81ba1f8c26953ab7e86f2a3cc03bf187ab1f11cdb1310083a730c76a78b4ae70"
+    },
+    "engine_reference_sha256": "2fc749c08f5b88c24083b0fa6077370d30aea9266485413013ed155524fcac32",
+    "price_action": "v27 cashwealthreturns and explicit repairs; unknown actions remain invalid",
+    "universe": "same current150 conservative listing gate; not historical official150",
+    "eligibility": "same v30:60-session price/action plus20-session complete foreign+trust/volume",
+    "dates": "2016-07-01..2025-12-31;2236 starts2016-09-30..2025-11-27",
+    "horizon": 24,
+    "initial": 1000000000,
+    "target_names": 25,
+    "invested_default": 0.9,
+    "rebalance_default": 5,
+    "lot": 1000,
+    "fee": 0.001425,
+    "sell_tax": 0.003,
+    "cash_interest": 0,
+    "terminal_liquidation": false,
+    "constraints": "cash>=0 and<25%;hold20..30 actual;target25;caps2330 .25others .10 with original5-session grace;ActiveShare not fully verified",
+    "calibration": "windows ending<=2018-12-31;later starts>=2019-01-01;crossboundary omitted from calibration/later",
+    "no_new_llm": true,
+    "existing_kernel": "reconnect retained kernel;metadata first;never reset without explicit consent"
+  },
+  "reused": [
+    {
+      "experiment_key": "MOM_E0",
+      "signal": "MOM",
+      "lookback": [
+        20,
+        60
+      ],
+      "mix": [
+        0.5,
+        0.5
+      ],
+      "allocation": "equal",
+      "rebalance": 5,
+      "invested": 0.9,
+      "small_trade_tolerance": 0.0,
+      "exit": "none",
+      "conditional_add": "none",
+      "dedup_hash": "ddde2c06b05323544cff715c038b182bf78c0ec73fec1120178c7c81d6ab5993"
+    },
+    {
+      "experiment_key": "FLOW_E0",
+      "signal": "FLOW",
+      "lookback": [
+        20,
+        60
+      ],
+      "mix": [
+        0.5,
+        0.5
+      ],
+      "allocation": "equal",
+      "rebalance": 5,
+      "invested": 0.9,
+      "small_trade_tolerance": 0.0,
+      "exit": "none",
+      "conditional_add": "none",
+      "dedup_hash": "192751354fc6dd55be9fc466e773088e2231117103e404e8f551914ef6785c67"
+    }
+  ],
+  "priority1_candidates": [
+    {
+      "experiment_key": "MOM20_E0",
+      "signal": "MOM",
+      "lookback": [
+        20
+      ],
+      "mix": [
+        1.0
+      ],
+      "allocation": "equal",
+      "rebalance": 5,
+      "invested": 0.9,
+      "small_trade_tolerance": 0.0,
+      "exit": "none",
+      "conditional_add": "none",
+      "dedup_hash": "eb131a810647a3c911255dde592bcffc826e5d47aa14418a6e70b8e2fde5296f"
+    },
+    {
+      "experiment_key": "MOM60_E0",
+      "signal": "MOM",
+      "lookback": [
+        60
+      ],
+      "mix": [
+        1.0
+      ],
+      "allocation": "equal",
+      "rebalance": 5,
+      "invested": 0.9,
+      "small_trade_tolerance": 0.0,
+      "exit": "none",
+      "conditional_add": "none",
+      "dedup_hash": "7f489529e53e37c886bbeb64994e06eb7bf452fffffef21e3d235e3e103e790b"
+    },
+    {
+      "experiment_key": "MOM_HOLD",
+      "signal": "MOM",
+      "lookback": [
+        20,
+        60
+      ],
+      "mix": [
+        0.5,
+        0.5
+      ],
+      "allocation": "equal",
+      "rebalance": "initial_only",
+      "invested": 0.9,
+      "small_trade_tolerance": 0.0,
+      "exit": "none",
+      "conditional_add": "none",
+      "dedup_hash": "c7ad843a4dc6224d9945b3ecd208d83bc55b944ba6ec2ebb43e84b4147afdc79"
+    },
+    {
+      "experiment_key": "FLOW_HOLD",
+      "signal": "FLOW",
+      "lookback": [
+        20,
+        60
+      ],
+      "mix": [
+        0.5,
+        0.5
+      ],
+      "allocation": "equal",
+      "rebalance": "initial_only",
+      "invested": 0.9,
+      "small_trade_tolerance": 0.0,
+      "exit": "none",
+      "conditional_add": "none",
+      "dedup_hash": "7fc0d72dc32f46b80819c63681e04276aeabce50ad77f5cb0275e87e63f493fa"
+    },
+    {
+      "experiment_key": "LIQ_HOLD",
+      "signal": "LIQ",
+      "lookback": [
+        20
+      ],
+      "mix": [
+        1.0
+      ],
+      "allocation": "equal",
+      "rebalance": "initial_only",
+      "invested": 0.9,
+      "small_trade_tolerance": 0.0,
+      "exit": "none",
+      "conditional_add": "none",
+      "signal_formula": "prior20mean Trading_money rank;provider raw money;no close*volume replacement",
+      "dedup_hash": "e32df6b30dd2b1909430e83c15bd14fb5f13c5350fe70b8d1e2e4d4c5dfb252e"
+    },
+    {
+      "experiment_key": "MOM_P80",
+      "signal": "MOM",
+      "lookback": [
+        20,
+        60
+      ],
+      "mix": [
+        0.5,
+        0.5
+      ],
+      "allocation": "equal",
+      "rebalance": 5,
+      "invested": 0.8,
+      "small_trade_tolerance": 0.0,
+      "exit": "none",
+      "conditional_add": "none",
+      "dedup_hash": "2c5f641887f1ad2ecbfc6bc2a75975424947883c6d5e5393649c771c2953e061"
+    },
+    {
+      "experiment_key": "MOM_P95",
+      "signal": "MOM",
+      "lookback": [
+        20,
+        60
+      ],
+      "mix": [
+        0.5,
+        0.5
+      ],
+      "allocation": "equal",
+      "rebalance": 5,
+      "invested": 0.95,
+      "small_trade_tolerance": 0.0,
+      "exit": "none",
+      "conditional_add": "none",
+      "dedup_hash": "d470895f21f4137ad325815fde29ae2c17c666f61e58cc38f6f79e49d8e40fd1"
+    },
+    {
+      "experiment_key": "FLOW_P80",
+      "signal": "FLOW",
+      "lookback": [
+        20,
+        60
+      ],
+      "mix": [
+        0.5,
+        0.5
+      ],
+      "allocation": "equal",
+      "rebalance": 5,
+      "invested": 0.8,
+      "small_trade_tolerance": 0.0,
+      "exit": "none",
+      "conditional_add": "none",
+      "dedup_hash": "a0c05206a789927ea9597d340e0e318ff7e78a4e50929243289e65739a9d6156"
+    },
+    {
+      "experiment_key": "FLOW_P95",
+      "signal": "FLOW",
+      "lookback": [
+        20,
+        60
+      ],
+      "mix": [
+        0.5,
+        0.5
+      ],
+      "allocation": "equal",
+      "rebalance": 5,
+      "invested": 0.95,
+      "small_trade_tolerance": 0.0,
+      "exit": "none",
+      "conditional_add": "none",
+      "dedup_hash": "e1d8d90700f5f1dffc159a416c54e31685cbf6b324b6aec91a054b5026753e62"
+    }
+  ],
+  "priority1_new_windows": 20124,
+  "priority1_contrasts": [
+    [
+      "MOM20_E0",
+      "MOM_E0"
+    ],
+    [
+      "MOM60_E0",
+      "MOM_E0"
+    ],
+    [
+      "MOM20_E0",
+      "MOM60_E0"
+    ],
+    [
+      "MOM_HOLD",
+      "MOM_E0"
+    ],
+    [
+      "FLOW_HOLD",
+      "FLOW_E0"
+    ],
+    [
+      "MOM_HOLD",
+      "LIQ_HOLD"
+    ],
+    [
+      "FLOW_HOLD",
+      "LIQ_HOLD"
+    ],
+    [
+      "MOM_P80",
+      "MOM_E0"
+    ],
+    [
+      "MOM_P95",
+      "MOM_E0"
+    ],
+    [
+      "MOM_P95",
+      "MOM_P80"
+    ],
+    [
+      "FLOW_P80",
+      "FLOW_E0"
+    ],
+    [
+      "FLOW_P95",
+      "FLOW_E0"
+    ],
+    [
+      "FLOW_P95",
+      "FLOW_P80"
+    ]
+  ],
+  "queue_order": [
+    "bind_and_validate",
+    "lookback_20_60",
+    "hold_and_selection_reference",
+    "capital_80_95",
+    "official_reference_audit",
+    "priority1_comparison",
+    "publish_priority1",
+    "weights_and_trade_buffer",
+    "stop_add_replication",
+    "exposure_matched_add",
+    "other_families_and_attribution",
+    "macro_announcements_sector"
+  ],
+  "nodes": [
+    {
+      "id": "bind_and_validate",
+      "status": "ready",
+      "depends_on": [],
+      "definition": {
+        "reuse": "v30 results and namespace;do not rerun4472 baseline rows",
+        "checks": [
+          "kernel execution idle before submit;inspect required object metadata",
+          "snapshot and engine hashes match",
+          "baseline counts MOM1621 FLOW1541 paired1359 later1041",
+          "10 existing price-only controls and flow cross-source audit reused",
+          "all definitions saved before new calculation"
+        ],
+        "failure": "if kernel unavailable inspect saved sources;no shutdown/replacement without applicable consent"
+      },
+      "outputs": [
+        "v33 baseline binding and provenance"
+      ],
+      "done_when": "baseline mappings and hashes validated;no duplicated baseline run"
+    },
+    {
+      "id": "lookback_20_60",
+      "status": "pending",
+      "depends_on": [
+        "bind_and_validate"
+      ],
+      "experiments": [
+        "MOM20_E0",
+        "MOM60_E0"
+      ],
+      "definition": {
+        "score": "20-only or60-only adjustedreturn percentile;shared60history and20flow gate unchanged",
+        "holdings_and_execution": "same v30 equal90 25names5day;only score changes"
+      },
+      "outputs": [
+        "two new2236-window result arrays"
+      ],
+      "done_when": "4472 rows saved;quality checks and exclusions preserved"
+    },
+    {
+      "id": "hold_and_selection_reference",
+      "status": "pending",
+      "depends_on": [
+        "bind_and_validate"
+      ],
+      "experiments": [
+        "MOM_HOLD",
+        "FLOW_HOLD",
+        "LIQ_HOLD"
+      ],
+      "definition": {
+        "initial": "same t-1 signals and same targets as family baseline;only no later rebalancing",
+        "liquidity": "prior20mean raw Trading_money percentile,25names initialhold",
+        "drift": "keep same daily cash/count/cap/action checks;untradable/violations not silently waived"
+      },
+      "outputs": [
+        "three new2236-window result arrays"
+      ],
+      "done_when": "6708 rows saved;initial day matches corresponding baseline forMOM/FLOW"
+    },
+    {
+      "id": "capital_80_95",
+      "status": "pending",
+      "depends_on": [
+        "bind_and_validate"
+      ],
+      "experiments": [
+        "MOM_P80",
+        "MOM_P95",
+        "FLOW_P80",
+        "FLOW_P95"
+      ],
+      "definition": {
+        "only_change": "target totalstock allocation;reuse90forboth families",
+        "budget": "original priorclose-to-share formula,fees and actualVWAP;no hindsight resizing",
+        "literal100": "excluded fromcandidategrid dueknown negativecash;new nearfullbudget would require separate future definition"
+      },
+      "outputs": [
+        "four new2236-window result arrays"
+      ],
+      "done_when": "8944 rows saved;cash violations reported;not compare own-successsubsamples"
+    },
+    {
+      "id": "official_reference_audit",
+      "status": "pending",
+      "depends_on": [
+        "bind_and_validate"
+      ],
+      "definition": {
+        "sources": "finite source checks for official2016..2025 totalreturn market reference and its coverage",
+        "meaning": "reference comparison,not necessarily competition-eligible holding",
+        "prohibitions": "do not relabel current150 changingmean as official index;price index is priceonly andcannot claim dividend-inclusive alpha",
+        "retry_limit": 3,
+        "failure": "save sourcegap and continue other branches;do not repeat previously security-denied route"
+      },
+      "outputs": [
+        "official benchmark coverage/source audit or explicit unavailable conclusion"
+      ],
+      "done_when": "verified data or bounded exhausted audit;does not block strategycomparison"
+    },
+    {
+      "id": "priority1_comparison",
+      "status": "pending",
+      "depends_on": [
+        "lookback_20_60",
+        "hold_and_selection_reference",
+        "capital_80_95"
+      ],
+      "definition": {
+        "primary_contrasts": [
+          [
+            "MOM20_E0",
+            "MOM_E0"
+          ],
+          [
+            "MOM60_E0",
+            "MOM_E0"
+          ],
+          [
+            "MOM20_E0",
+            "MOM60_E0"
+          ],
+          [
+            "MOM_HOLD",
+            "MOM_E0"
+          ],
+          [
+            "FLOW_HOLD",
+            "FLOW_E0"
+          ],
+          [
+            "MOM_HOLD",
+            "LIQ_HOLD"
+          ],
+          [
+            "FLOW_HOLD",
+            "LIQ_HOLD"
+          ],
+          [
+            "MOM_P80",
+            "MOM_E0"
+          ],
+          [
+            "MOM_P95",
+            "MOM_E0"
+          ],
+          [
+            "MOM_P95",
+            "MOM_P80"
+          ],
+          [
+            "FLOW_P80",
+            "FLOW_E0"
+          ],
+          [
+            "FLOW_P95",
+            "FLOW_E0"
+          ],
+          [
+            "FLOW_P95",
+            "FLOW_P80"
+          ]
+        ],
+        "family_size": 13,
+        "bootstrap": "24/48 original-start-position blocks,5000 each;Bonferroni13;keep missing positions",
+        "primary_period": "2019..2025;2016..2018calibration;allperiod descriptive",
+        "metrics": [
+          "net24daywin",
+          "expectancy",
+          "meanwin/meanloss",
+          "P10",
+          "worst_mdd",
+          "fees",
+          "coverage andinvalidreasons",
+          "pairedmeanCI",
+          "startyearconsistency"
+        ],
+        "minimum_training_pairs": 100,
+        "coverage_gate": "candidate paired coverage>=80% of matched baseline valid dates;otherwise infeasible/insufficient not a winner",
+        "year_gate": "at least5 eligible later startyears with>=20 pairs/year;meanincrement positive inatleast2/3 of eligibleyears tocallconsistent",
+        "promotion": "mean improvement only if both correctedCI lower>0;full improvement additionally P10 andworstMDD notworse;otherwise risk-return tradeoff requiring explicit preference,not automatically best",
+        "no_result": "if nonepasses retain originalbaseline andsayunproven;do not pick highestpooledreturn"
+      },
+      "outputs": [
+        "statistics",
+        "all window plots with median0fixedscales",
+        "shortselection rationale"
+      ],
+      "done_when": "13 contrasts and allcandidatesincludingfailures disclosed;sourcebranch mayremainblocked"
+    },
+    {
+      "id": "publish_priority1",
+      "status": "pending",
+      "depends_on": [
+        "priority1_comparison"
+      ],
+      "definition": {
+        "update": "same summary.md andsummary.html;replace pending rows onlyaftervalidation;retain plots allpoints",
+        "index": "save resultpaths definition/source/enginehash inthis queue"
+      },
+      "outputs": [
+        "updated fixed summary and status"
+      ],
+      "done_when": "pairedsample labels, boxplot counts and links pass;no duplicate report dump"
+    },
+    {
+      "id": "weights_and_trade_buffer",
+      "status": "pending_definition_lock",
+      "depends_on": [
+        "publish_priority1"
+      ],
+      "definition": {
+        "finite_grid": "MOM/FLOW each E0(existing),E5(equal,tol.005),M0(rank1.25to.75,tol0),M5(rank1.25to.75,tol.005)",
+        "new_cells_max": 6,
+        "design": "four-factor-isolated cells;v30equalbaselines reused",
+        "must_lock_before_run": "candidate definitions,contrasts andfamilycorrection saved;notcopy2024calibratedparams"
+      },
+      "outputs": [
+        "weight vsbuffer separated comparison"
+      ],
+      "done_when": "finitecomparison published,notjustbestcell"
+    },
+    {
+      "id": "stop_add_replication",
+      "status": "pending_definition_lock",
+      "depends_on": [
+        "publish_priority1"
+      ],
+      "definition": {
+        "finite_grid": "samev23 none/MA5/MA5two/prior5closeLow × addoff/on;8cells,MOMnoneoffreused",
+        "new_cells_max": 7,
+        "rule_source": "originalNotebookv23 cells292..295 exactrules;previousdaydecision,nextVWAP;nointradaystop",
+        "add": "market20positive andbreadth>=60%;heldR3,R5>0 andclose>MA5;90->95;state-changeor5dayonly,notdailyfullretarget",
+        "replacement": "one-for-one priorvalue allocation,healthyoriginalrank;target25;candidate/countfailinvalidnotposthocrelax",
+        "scope": "MOM onlyasoriginalv23;do notsilentlyduplicateforFLOW",
+        "must_lock_before_run": "fullrules ported tolongactions;nostop/add controls reproducev30;familycontrasts fixed"
+      },
+      "outputs": [
+        "eightcell comparison andcoverage"
+      ],
+      "done_when": "allpoints andexcludedbadperiods disclosed"
+    },
+    {
+      "id": "exposure_matched_add",
+      "status": "pending_definition_lock",
+      "depends_on": [
+        "stop_add_replication"
+      ],
+      "definition": {
+        "minimum_scope": "existing90->95MOMadd vsfixedexposurematched reference",
+        "calibration": "only2016..2018 realizedexposure,notreturn;freeze1bp target before latercomparison",
+        "no_leakage": "no2024trainingweights,noeachtestwindowfutureexpo matching",
+        "reuse": "addcandidate and90baseline fromstopbranch;onlynew fixedcontrol calculated",
+        "deferred_optional": "80->85 and80->95 expansion notautoadded;separate definition if laterneeded"
+      },
+      "outputs": [
+        "increment split anduncertainty"
+      ],
+      "done_when": "matchedreference actualexposure drift andfees disclosed"
+    },
+    {
+      "id": "other_families_and_attribution",
+      "status": "pending_definition_lock",
+      "depends_on": [
+        "publish_priority1"
+      ],
+      "definition": {
+        "price_candidates": "originalpurelowvol,REV5,andvolatilityadjustedmomentum;v28medianexitonlyafteritsbaselineverified",
+        "attribution": "reusev30tracesforoverlap;defineholdingsorstockPnL attribution beforeadditionalreplay",
+        "not_automatic": "notinpriority1batch;lockscope/contrastsfirst;noopenparametersearch"
+      },
+      "outputs": [
+        "bounded latercandidatecomparison andmechanismnote"
+      ],
+      "done_when": "validatedsame-snapshotresults orclearlimitations"
+    },
+    {
+      "id": "macro_announcements_sector",
+      "status": "blocked_data",
+      "depends_on": [],
+      "definition": {
+        "needs": "2016..2025 firstreleasevalues/time,fullpoolcoverage, historicalindustryclassification",
+        "known_gap": "v29 dates/history obtained,originalvalues/timeunverified;currentclassificationcannotbackfill",
+        "retry_limit": 3,
+        "LLM": "remainnotrequestedfortesting",
+        "release_condition": "newverifiableoriginaldata available,notelapsedtime"
+      },
+      "outputs": [
+        "sourcegap audit"
+      ],
+      "done_when": "dataqualified then separatelylockmodels;otherwise remainunverified"
+    }
+  ],
+  "execution_policy": {
+    "single_kernel_writer": true,
+    "already_running": "observe original session;do not resubmit orinterrupt because20minelapsed",
+    "continue": "finishallreadyfeasible nodes,saveoutputs beforemarkdone;partialdata gapdoesnotstopotherbranches",
+    "dedup": "experimentkey+spec+sourcehashes+engineversion;completedmatchedresultreuse;runningmatchednodeonlyobserve",
+    "recovery": "persistcurrent_node/tool session/cellindex;readminimalmetadataandhistory;neverexposecredentials",
+    "deferred": "pending_definition_lock mustfreezeexisting authorizedrulebeforecalculation;notnewpermissionflow",
+    "stop": "allfeasible nodes finished orconfirmedexternalblocker forremaining;noforcedwinner",
+    "schedule": "noautomationcreatedorreactivatedbythisplanningstep"
+  },
+  "resume_instructions": "Readthisplanandstate.unified_research_v33first;ignoreoldcompletedqueueasstopcondition;bindv30retainedkernelandreadmetadata;choosefirstdependenciessatisfiednode;reusecompletedmatchingresults;do notcreateproject/chat/subagent/repo orsubmittrades."
+}

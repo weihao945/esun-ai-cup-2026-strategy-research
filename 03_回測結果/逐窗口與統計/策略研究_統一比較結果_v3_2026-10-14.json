@@ -1,0 +1,1580 @@
+{
+  "engine": "v3 verified action overlay; existing saved summaries reused",
+  "raw_snapshot_sha256": "1b826aa999a02664f43ff9c48a77259881901d8b8399c6ee85ebc275af7ea0e2",
+  "overlay_sha256": "ba088ce96b99d75e09cffa741c6497a7c202d6a736a5f20c8f887696f47b2310",
+  "selection": {
+    "validated_for_competition": null,
+    "supported_research_improvements": [],
+    "provisional_non_equal_method": "A_mild_tolerance",
+    "initial_stock_count": 25,
+    "initial_invested": 0.9,
+    "initial_weights": [
+      0.045,
+      0.027
+    ],
+    "adjustment_skip_NAV": 0.005,
+    "reason": "user non-equal constraint, same A selection, small fixed rank tilt and lower turnover; research support/compliance gates determine evidence status, no forced winner",
+    "company_action_unknown_events": 53,
+    "classification_individual_stock_history": "unavailable; official index observations are separate",
+    "news_first_publication": "not established; known available time only",
+    "full_conference_text_strategy": "not tested; retain fixed-case evidence, no new weights"
+  },
+  "methods": [
+    {
+      "method": "REF",
+      "paired_windows": 430,
+      "A_valid_excluded": 26,
+      "median_return_pct": 5.011132496581694,
+      "A_same_dates_median_pct": 5.337857594848772,
+      "mean_difference_pp": -0.6479464261601549,
+      "beat_A_pct": 44.18604651162791,
+      "mean_cost_pct": 0.12738087640666892,
+      "A_mean_cost_pct": 0.7870099331157692,
+      "P10_difference_pp": 0.21836679081114266,
+      "mdd_difference_pp": -0.1780742147271308,
+      "risk_pass": true,
+      "family_CI_pp": {
+        "24": [
+          -4.000196572737039,
+          2.439977163468543
+        ],
+        "48": [
+          -3.866108269516965,
+          2.2873002866698364
+        ]
+      },
+      "both_intervals_positive": false,
+      "yearly": [
+        {
+          "year": 2024,
+          "windows": 145,
+          "mean_difference_pp": -0.6388483426918299
+        },
+        {
+          "year": 2025,
+          "windows": 174,
+          "mean_difference_pp": -0.11182312372315589
+        },
+        {
+          "year": 2026,
+          "windows": 73,
+          "mean_difference_pp": -1.3974734030245817
+        }
+      ],
+      "early_mean_pp": -0.530210548809606,
+      "late_mean_pp": -0.8729065969049283,
+      "official_compliance_fully_verified": false,
+      "supported_research_improvement": false
+    },
+    {
+      "method": "B",
+      "paired_windows": 454,
+      "A_valid_excluded": 2,
+      "median_return_pct": 5.200301232045734,
+      "A_same_dates_median_pct": 5.278022514935666,
+      "mean_difference_pp": -0.09438206565544682,
+      "beat_A_pct": 46.47577092511013,
+      "mean_cost_pct": 0.8071279815899643,
+      "A_mean_cost_pct": 0.7821520452356387,
+      "P10_difference_pp": 0.09142712438204165,
+      "mdd_difference_pp": 0.2165111251756502,
+      "risk_pass": true,
+      "family_CI_pp": {
+        "24": [
+          -0.8154089663369564,
+          0.6771819138986155
+        ],
+        "48": [
+          -0.899960528535235,
+          0.786226068741788
+        ]
+      },
+      "both_intervals_positive": false,
+      "yearly": [
+        {
+          "year": 2024,
+          "windows": 144,
+          "mean_difference_pp": -0.11408458166481802
+        },
+        {
+          "year": 2025,
+          "windows": 186,
+          "mean_difference_pp": -0.14691588362673974
+        },
+        {
+          "year": 2026,
+          "windows": 86,
+          "mean_difference_pp": 0.2969453200248144
+        }
+      ],
+      "early_mean_pp": -0.11332880934352017,
+      "late_mean_pp": 0.4093355374541803,
+      "official_compliance_fully_verified": false,
+      "supported_research_improvement": false
+    },
+    {
+      "method": "C",
+      "paired_windows": 438,
+      "A_valid_excluded": 18,
+      "median_return_pct": 4.359860252367975,
+      "A_same_dates_median_pct": 5.098753469801354,
+      "mean_difference_pp": -0.7704181291341484,
+      "beat_A_pct": 39.04109589041096,
+      "mean_cost_pct": 0.8645267532211567,
+      "A_mean_cost_pct": 0.7881222992405502,
+      "P10_difference_pp": 0.3327147323132412,
+      "mdd_difference_pp": 1.0697276391488098,
+      "risk_pass": true,
+      "family_CI_pp": {
+        "24": [
+          -1.9312914863704396,
+          0.4712236425854356
+        ],
+        "48": [
+          -1.977592856975286,
+          0.45462698243378535
+        ]
+      },
+      "both_intervals_positive": false,
+      "yearly": [
+        {
+          "year": 2024,
+          "windows": 144,
+          "mean_difference_pp": 0.3569176253725398
+        },
+        {
+          "year": 2025,
+          "windows": 170,
+          "mean_difference_pp": -0.70927638055805
+        },
+        {
+          "year": 2026,
+          "windows": 86,
+          "mean_difference_pp": -2.173952601623476
+        }
+      ],
+      "early_mean_pp": -0.32693630682575286,
+      "late_mean_pp": -2.3903698952941586,
+      "official_compliance_fully_verified": false,
+      "supported_research_improvement": false
+    },
+    {
+      "method": "AH",
+      "paired_windows": 453,
+      "A_valid_excluded": 3,
+      "median_return_pct": 4.947492808184295,
+      "A_same_dates_median_pct": 5.2052995081935505,
+      "mean_difference_pp": 0.008685970052392702,
+      "beat_A_pct": 49.00662251655629,
+      "mean_cost_pct": 0.12749038834801457,
+      "A_mean_cost_pct": 0.7818754192031523,
+      "P10_difference_pp": 1.2072502455965646,
+      "mdd_difference_pp": -0.11362669186391061,
+      "risk_pass": true,
+      "family_CI_pp": {
+        "24": [
+          -1.0133132759485854,
+          0.9640502114462484
+        ],
+        "48": [
+          -0.8735667452385621,
+          0.9459160156266586
+        ]
+      },
+      "both_intervals_positive": false,
+      "yearly": [
+        {
+          "year": 2024,
+          "windows": 142,
+          "mean_difference_pp": 0.8155273067162532
+        },
+        {
+          "year": 2025,
+          "windows": 187,
+          "mean_difference_pp": -0.49148558910715534
+        },
+        {
+          "year": 2026,
+          "windows": 86,
+          "mean_difference_pp": -0.2147559401667826
+        }
+      ],
+      "early_mean_pp": 0.03613158430874076,
+      "late_mean_pp": -0.022263729989648505,
+      "official_compliance_fully_verified": false,
+      "supported_research_improvement": false
+    },
+    {
+      "method": "BH",
+      "paired_windows": 449,
+      "A_valid_excluded": 7,
+      "median_return_pct": 5.014642679577674,
+      "A_same_dates_median_pct": 5.187278797020856,
+      "mean_difference_pp": -0.08629193055770977,
+      "beat_A_pct": 48.10690423162583,
+      "mean_cost_pct": 0.12757108903073425,
+      "A_mean_cost_pct": 0.782842480761055,
+      "P10_difference_pp": 1.1785558633143365,
+      "mdd_difference_pp": 0.16447709167197733,
+      "risk_pass": true,
+      "family_CI_pp": {
+        "24": [
+          -1.0310032343657856,
+          0.8209272869140236
+        ],
+        "48": [
+          -1.0756423504531443,
+          0.8084724965875855
+        ]
+      },
+      "both_intervals_positive": false,
+      "yearly": [
+        {
+          "year": 2024,
+          "windows": 141,
+          "mean_difference_pp": 0.759425072619304
+        },
+        {
+          "year": 2025,
+          "windows": 184,
+          "mean_difference_pp": -0.49685738845456995
+        },
+        {
+          "year": 2026,
+          "windows": 86,
+          "mean_difference_pp": -0.18759772501049293
+        }
+      ],
+      "early_mean_pp": -0.024111445953490677,
+      "late_mean_pp": -0.01158807713612354,
+      "official_compliance_fully_verified": false,
+      "supported_research_improvement": false
+    },
+    {
+      "method": "A_mild",
+      "paired_windows": 456,
+      "A_valid_excluded": 0,
+      "median_return_pct": 5.345857768694362,
+      "A_same_dates_median_pct": 5.278022514935666,
+      "mean_difference_pp": 0.11449556096129997,
+      "beat_A_pct": 62.71929824561403,
+      "mean_cost_pct": 0.7535422333712462,
+      "A_mean_cost_pct": 0.7816759157609472,
+      "P10_difference_pp": -0.013517584771027824,
+      "mdd_difference_pp": -0.05434549634375507,
+      "risk_pass": true,
+      "family_CI_pp": {
+        "24": [
+          -0.18267518391461693,
+          0.38765517928575516
+        ],
+        "48": [
+          -0.16314734008044543,
+          0.36691372682023954
+        ]
+      },
+      "both_intervals_positive": false,
+      "yearly": [
+        {
+          "year": 2024,
+          "windows": 145,
+          "mean_difference_pp": 0.3185836193359791
+        },
+        {
+          "year": 2025,
+          "windows": 187,
+          "mean_difference_pp": 0.03914665756223028
+        },
+        {
+          "year": 2026,
+          "windows": 86,
+          "mean_difference_pp": -0.12171117870942108
+        }
+      ],
+      "early_mean_pp": 0.15045825492464698,
+      "late_mean_pp": -0.2221763182649261,
+      "official_compliance_fully_verified": false,
+      "supported_research_improvement": false
+    },
+    {
+      "method": "A_invvol50",
+      "paired_windows": 456,
+      "A_valid_excluded": 0,
+      "median_return_pct": 5.299954424946096,
+      "A_same_dates_median_pct": 5.278022514935666,
+      "mean_difference_pp": -0.16974061650025235,
+      "beat_A_pct": 36.84210526315789,
+      "mean_cost_pct": 0.8246981820833955,
+      "A_mean_cost_pct": 0.7816759157609472,
+      "P10_difference_pp": 0.24167682544113944,
+      "mdd_difference_pp": 0.16454818430571283,
+      "risk_pass": true,
+      "family_CI_pp": {
+        "24": [
+          -0.3995591529336734,
+          0.13282256438885515
+        ],
+        "48": [
+          -0.4192734629693465,
+          0.13871124481897573
+        ]
+      },
+      "both_intervals_positive": false,
+      "yearly": [
+        {
+          "year": 2024,
+          "windows": 145,
+          "mean_difference_pp": -0.26149104784702454
+        },
+        {
+          "year": 2025,
+          "windows": 187,
+          "mean_difference_pp": -0.0006769818753124175
+        },
+        {
+          "year": 2026,
+          "windows": 86,
+          "mean_difference_pp": -0.28051812113634
+        }
+      ],
+      "early_mean_pp": -0.12169932559985132,
+      "late_mean_pp": -0.299993396446809,
+      "official_compliance_fully_verified": false,
+      "supported_research_improvement": false
+    },
+    {
+      "method": "A_mild_tolerance",
+      "paired_windows": 456,
+      "A_valid_excluded": 0,
+      "median_return_pct": 5.435505377748107,
+      "A_same_dates_median_pct": 5.278022514935666,
+      "mean_difference_pp": 0.17951300541429235,
+      "beat_A_pct": 64.69298245614034,
+      "mean_cost_pct": 0.7257974988204757,
+      "A_mean_cost_pct": 0.7816759157609472,
+      "P10_difference_pp": -0.0066441268588735,
+      "mdd_difference_pp": -0.09306412823964494,
+      "risk_pass": true,
+      "family_CI_pp": {
+        "24": [
+          -0.08513899947480337,
+          0.44834838130839577
+        ],
+        "48": [
+          -0.05079465037124508,
+          0.3961884554420125
+        ]
+      },
+      "both_intervals_positive": false,
+      "yearly": [
+        {
+          "year": 2024,
+          "windows": 145,
+          "mean_difference_pp": 0.3544664307159287
+        },
+        {
+          "year": 2025,
+          "windows": 187,
+          "mean_difference_pp": 0.0758873277510688
+        },
+        {
+          "year": 2026,
+          "windows": 86,
+          "mean_difference_pp": 0.06313980387404167
+        }
+      ],
+      "early_mean_pp": 0.18311160021841766,
+      "late_mean_pp": -0.032915718835338864,
+      "official_compliance_fully_verified": false,
+      "supported_research_improvement": false
+    },
+    {
+      "method": "REV5",
+      "paired_windows": 381,
+      "A_valid_excluded": 75,
+      "median_return_pct": 2.395943042347781,
+      "A_same_dates_median_pct": 4.508654217310459,
+      "mean_difference_pp": -2.6276464651414986,
+      "beat_A_pct": 35.170603674540686,
+      "mean_cost_pct": 1.9322115908568465,
+      "A_mean_cost_pct": 0.7904529225114882,
+      "P10_difference_pp": 0.15288440884845267,
+      "mdd_difference_pp": 0.3405250244813529,
+      "risk_pass": true,
+      "family_CI_pp": {
+        "24": [
+          -5.72566618631343,
+          0.19952101756973017
+        ],
+        "48": [
+          -5.831432382922677,
+          0.27918722982600447
+        ]
+      },
+      "both_intervals_positive": false,
+      "yearly": [
+        {
+          "year": 2024,
+          "windows": 125,
+          "mean_difference_pp": -2.1303129131967844
+        },
+        {
+          "year": 2025,
+          "windows": 147,
+          "mean_difference_pp": -1.7135817625194973
+        },
+        {
+          "year": 2026,
+          "windows": 71,
+          "mean_difference_pp": -4.458791689017031
+        }
+      ],
+      "early_mean_pp": -2.0118789654759928,
+      "late_mean_pp": -4.387099786613581,
+      "official_compliance_fully_verified": false,
+      "supported_research_improvement": false
+    },
+    {
+      "method": "pure_flow",
+      "paired_windows": 402,
+      "A_valid_excluded": 54,
+      "median_return_pct": 3.987995016860524,
+      "A_same_dates_median_pct": 5.1962891526072035,
+      "mean_difference_pp": -2.350716218676608,
+      "beat_A_pct": 40.79601990049751,
+      "mean_cost_pct": 0.7491510077719132,
+      "A_mean_cost_pct": 0.7973248345297753,
+      "P10_difference_pp": 2.346396868007464,
+      "mdd_difference_pp": 2.03659174230551,
+      "risk_pass": true,
+      "family_CI_pp": {
+        "24": [
+          -6.497204539314068,
+          0.7975315286354836
+        ],
+        "48": [
+          -7.129876014328983,
+          0.975537138487759
+        ]
+      },
+      "both_intervals_positive": false,
+      "yearly": [
+        {
+          "year": 2024,
+          "windows": 144,
+          "mean_difference_pp": -0.44600843022484565
+        },
+        {
+          "year": 2025,
+          "windows": 136,
+          "mean_difference_pp": -0.5952556005438907
+        },
+        {
+          "year": 2026,
+          "windows": 86,
+          "mean_difference_pp": -7.518164329389193
+        }
+      ],
+      "early_mean_pp": -0.5906175496072719,
+      "late_mean_pp": -8.019338156127302,
+      "official_compliance_fully_verified": false,
+      "supported_research_improvement": false
+    },
+    {
+      "method": "pure_lowvol",
+      "paired_windows": 423,
+      "A_valid_excluded": 33,
+      "median_return_pct": 1.0263852724883282,
+      "A_same_dates_median_pct": 5.048302126578141,
+      "mean_difference_pp": -5.056147792089247,
+      "beat_A_pct": 28.60520094562648,
+      "mean_cost_pct": 0.45179637186066646,
+      "A_mean_cost_pct": 0.7906810355456019,
+      "P10_difference_pp": 2.6213487192303724,
+      "mdd_difference_pp": 3.532548385652312,
+      "risk_pass": true,
+      "family_CI_pp": {
+        "24": [
+          -10.846295433698504,
+          -0.5057937376004547
+        ],
+        "48": [
+          -11.877187765505383,
+          0.4663254938270044
+        ]
+      },
+      "both_intervals_positive": false,
+      "yearly": [
+        {
+          "year": 2024,
+          "windows": 142,
+          "mean_difference_pp": -2.133107193611212
+        },
+        {
+          "year": 2025,
+          "windows": 157,
+          "mean_difference_pp": -2.7693001172095384
+        },
+        {
+          "year": 2026,
+          "windows": 86,
+          "mean_difference_pp": -13.382806101142606
+        }
+      ],
+      "early_mean_pp": -2.4724806031628415,
+      "late_mean_pp": -13.696186263552576,
+      "official_compliance_fully_verified": false,
+      "supported_research_improvement": false
+    },
+    {
+      "method": "A_invvol100",
+      "paired_windows": 456,
+      "A_valid_excluded": 0,
+      "median_return_pct": 4.983563661792156,
+      "A_same_dates_median_pct": 5.278022514935666,
+      "mean_difference_pp": -0.30125714481977406,
+      "beat_A_pct": 36.40350877192983,
+      "mean_cost_pct": 0.8640609280027384,
+      "A_mean_cost_pct": 0.7816759157609472,
+      "P10_difference_pp": 0.3879049859796868,
+      "mdd_difference_pp": 0.22048660690293653,
+      "risk_pass": true,
+      "family_CI_pp": {
+        "24": [
+          -0.699053707094083,
+          0.19464483851400124
+        ],
+        "48": [
+          -0.7024813643807445,
+          0.23366441052297804
+        ]
+      },
+      "both_intervals_positive": false,
+      "yearly": [
+        {
+          "year": 2024,
+          "windows": 145,
+          "mean_difference_pp": -0.47979148762172147
+        },
+        {
+          "year": 2025,
+          "windows": 187,
+          "mean_difference_pp": -0.00557758334026746
+        },
+        {
+          "year": 2026,
+          "windows": 86,
+          "mean_difference_pp": -0.5144453571996348
+        }
+      ],
+      "early_mean_pp": -0.21905931275652077,
+      "late_mean_pp": -0.5511134551102315,
+      "official_compliance_fully_verified": false,
+      "supported_research_improvement": false
+    },
+    {
+      "method": "pure_financial",
+      "paired_windows": 129,
+      "A_valid_excluded": 327,
+      "median_return_pct": 4.476959351141341,
+      "A_same_dates_median_pct": 4.545695855519005,
+      "mean_difference_pp": -0.7106767883003883,
+      "beat_A_pct": 48.06201550387597,
+      "mean_cost_pct": 0.3286096872626358,
+      "A_mean_cost_pct": 0.7393269563506476,
+      "P10_difference_pp": -0.9345729114944291,
+      "mdd_difference_pp": 1.063886917707424,
+      "risk_pass": true,
+      "family_CI_pp": {
+        "24": [
+          -5.3281380060364825,
+          4.533766521359088
+        ],
+        "48": [
+          -4.93659106366708,
+          5.088596962456014
+        ]
+      },
+      "both_intervals_positive": false,
+      "yearly": [
+        {
+          "year": 2024,
+          "windows": 51,
+          "mean_difference_pp": -2.5953329569584915
+        },
+        {
+          "year": 2025,
+          "windows": 70,
+          "mean_difference_pp": 0.19925651914005305
+        },
+        {
+          "year": 2026,
+          "windows": 3,
+          "mean_difference_pp": 4.599546005308089
+        }
+      ],
+      "early_mean_pp": -0.9515962671926644,
+      "late_mean_pp": 4.599546005308089,
+      "official_compliance_fully_verified": false,
+      "supported_research_improvement": false
+    },
+    {
+      "method": "pure_revenue",
+      "paired_windows": 297,
+      "A_valid_excluded": 159,
+      "median_return_pct": 6.523174754827865,
+      "A_same_dates_median_pct": 5.7083293492687925,
+      "mean_difference_pp": -1.1234992300935507,
+      "beat_A_pct": 42.42424242424242,
+      "mean_cost_pct": 0.4953591539510442,
+      "A_mean_cost_pct": 0.7929195662092171,
+      "P10_difference_pp": 0.5434534962909046,
+      "mdd_difference_pp": -0.05421905753828504,
+      "risk_pass": true,
+      "family_CI_pp": {
+        "24": [
+          -5.363703527137713,
+          2.3355081973568588
+        ],
+        "48": [
+          -5.467164057433716,
+          2.9994739862510467
+        ]
+      },
+      "both_intervals_positive": false,
+      "yearly": [
+        {
+          "year": 2024,
+          "windows": 75,
+          "mean_difference_pp": -1.521996315374694
+        },
+        {
+          "year": 2025,
+          "windows": 98,
+          "mean_difference_pp": 2.2489830271771067
+        },
+        {
+          "year": 2026,
+          "windows": 86,
+          "mean_difference_pp": -4.501712701186075
+        }
+      ],
+      "early_mean_pp": 0.3169091681216935,
+      "late_mean_pp": -4.598794750744097,
+      "official_compliance_fully_verified": false,
+      "supported_research_improvement": false
+    }
+  ],
+  "seasonal_announcement_prototypes": [
+    {
+      "year": 2024,
+      "method": "financial_dual",
+      "valid": true,
+      "return_pct": 6.3045771378059,
+      "A_return_pct": 6.804579304691871,
+      "cost_pct": 0.8308682913375472,
+      "difference_pp": -0.5000021668859711
+    },
+    {
+      "year": 2024,
+      "method": "operating_no_self",
+      "valid": true,
+      "return_pct": 6.388992452771736,
+      "A_return_pct": 6.804579304691871,
+      "cost_pct": 0.8315625133930256,
+      "difference_pp": -0.41558685192013556
+    },
+    {
+      "year": 2024,
+      "method": "operating_self",
+      "valid": true,
+      "return_pct": 6.388992452771736,
+      "A_return_pct": 6.804579304691871,
+      "cost_pct": 0.8315625133930256,
+      "difference_pp": -0.41558685192013556
+    },
+    {
+      "year": 2024,
+      "method": "revenue_weight",
+      "valid": true,
+      "return_pct": 6.576626177943856,
+      "A_return_pct": 6.804579304691871,
+      "cost_pct": 0.8332636162859403,
+      "difference_pp": -0.22795312674801504
+    },
+    {
+      "year": 2024,
+      "method": "combined",
+      "valid": true,
+      "return_pct": 7.199277266157256,
+      "A_return_pct": 6.804579304691871,
+      "cost_pct": 0.8108005613502772,
+      "difference_pp": 0.3946979614653845
+    },
+    {
+      "year": 2024,
+      "method": "combined_tolerance",
+      "valid": true,
+      "return_pct": 7.358287084040627,
+      "A_return_pct": 6.804579304691871,
+      "cost_pct": 0.7765419601050193,
+      "difference_pp": 0.5537077793487555
+    },
+    {
+      "year": 2025,
+      "method": "financial_dual",
+      "valid": true,
+      "return_pct": 4.640454291573293,
+      "A_return_pct": 4.703062307847983,
+      "cost_pct": 0.6431227605454075,
+      "difference_pp": -0.06260801627469004
+    },
+    {
+      "year": 2025,
+      "method": "operating_no_self",
+      "valid": true,
+      "return_pct": 5.52140687675422,
+      "A_return_pct": 4.703062307847983,
+      "cost_pct": 0.6577208685078066,
+      "difference_pp": 0.8183445689062374
+    },
+    {
+      "year": 2025,
+      "method": "operating_self",
+      "valid": true,
+      "return_pct": 5.616956065578305,
+      "A_return_pct": 4.703062307847983,
+      "cost_pct": 0.6568519419880774,
+      "difference_pp": 0.9138937577303219
+    },
+    {
+      "year": 2025,
+      "method": "revenue_weight",
+      "valid": true,
+      "return_pct": 4.854171144277131,
+      "A_return_pct": 4.703062307847983,
+      "cost_pct": 0.6236070930482499,
+      "difference_pp": 0.15110883642914796
+    },
+    {
+      "year": 2025,
+      "method": "combined",
+      "valid": true,
+      "return_pct": 4.876670082519907,
+      "A_return_pct": 4.703062307847983,
+      "cost_pct": 0.582323729616098,
+      "difference_pp": 0.17360777467192445
+    },
+    {
+      "year": 2025,
+      "method": "combined_tolerance",
+      "valid": true,
+      "return_pct": 5.030288052689813,
+      "A_return_pct": 4.703062307847983,
+      "cost_pct": 0.5476679277353539,
+      "difference_pp": 0.3272257448418303
+    }
+  ],
+  "official_rules": {
+    "source": "AI CUP 2026玉山人工智慧公開挑戰賽_比賽辦法_1005更新.pdf pp8-9; D-Plan/DataPack v4.3",
+    "lot": 1000,
+    "fee": 0.001425,
+    "tax": 0.003,
+    "hold_count_range": [
+      20,
+      30
+    ],
+    "regular_cap": 0.1,
+    "tsmc_cap": 0.25,
+    "cash_max": 0.25,
+    "top_active_share_count": 15,
+    "active_share_min": 0.15,
+    "active_share_benchmark_history_verified": false,
+    "batch_void_semantics_fully_reproduced": false,
+    "daily_submission_and_reference_chain_verified": false,
+    "explicit_trading_volume_cap_in_reviewed_rule": false,
+    "market_impact_modelled": false
+  },
+  "sector_total_return_statistics": [
+    {
+      "sector": "光電類報酬指數",
+      "years": 10,
+      "positive_years": 6,
+      "positive_year_fraction": 0.6,
+      "median_return_pct": 2.882787106021356,
+      "median_excess_pp": -1.2578285472513273,
+      "mean_excess_pp": -0.6727326231310193,
+      "worst_return_pct": -7.061396656772379,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": 0.13639768309999675,
+      "ci_family_pp": [
+        -3.901567989239106,
+        4.446240756316404
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "其他電子類報酬指數",
+      "years": 10,
+      "positive_years": 4,
+      "positive_year_fraction": 0.4,
+      "median_return_pct": -1.4356801907098427,
+      "median_excess_pp": -3.950596868164763,
+      "mean_excess_pp": -4.082663963822534,
+      "worst_return_pct": -8.154103852596306,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": -5.648397230670954,
+      "ci_family_pp": [
+        -11.267239330030728,
+        -2.105498301907222
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "其他類報酬指數",
+      "years": 10,
+      "positive_years": 5,
+      "positive_year_fraction": 0.5,
+      "median_return_pct": 0.2216047586892811,
+      "median_excess_pp": -2.0455440157499005,
+      "mean_excess_pp": -1.6682293546132598,
+      "worst_return_pct": -8.793783730668636,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": -0.6525844316280744,
+      "ci_family_pp": [
+        -3.564663475461334,
+        2.845285382634618
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "化學生技醫療類報酬指數",
+      "years": 10,
+      "positive_years": 7,
+      "positive_year_fraction": 0.7,
+      "median_return_pct": 2.1473453263189057,
+      "median_excess_pp": -2.0168211783248404,
+      "mean_excess_pp": -1.4744457698104052,
+      "worst_return_pct": -3.692660550458726,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": -0.8271918575684594,
+      "ci_family_pp": [
+        -3.768113875862436,
+        2.9552348213269624
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "化學類報酬指數",
+      "years": 10,
+      "positive_years": 5,
+      "positive_year_fraction": 0.5,
+      "median_return_pct": 1.0423437160272053,
+      "median_excess_pp": -2.5287240513447107,
+      "mean_excess_pp": -1.8162238658736174,
+      "worst_return_pct": -3.5358701582105634,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": -0.9781479822418233,
+      "ci_family_pp": [
+        -5.113921109007967,
+        3.3666090666832535
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "半導體類報酬指數",
+      "years": 10,
+      "positive_years": 6,
+      "positive_year_fraction": 0.6,
+      "median_return_pct": 2.8125826431163903,
+      "median_excess_pp": 0.28043007263543474,
+      "mean_excess_pp": 1.1725875859913826,
+      "worst_return_pct": -4.097304540534963,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": 0.7243088629902219,
+      "ci_family_pp": [
+        -2.403797772904278,
+        7.177210094115444
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "塑膠類報酬指數",
+      "years": 10,
+      "positive_years": 6,
+      "positive_year_fraction": 0.6,
+      "median_return_pct": 3.1440633753647584,
+      "median_excess_pp": -1.6338225622079539,
+      "mean_excess_pp": 0.10061562536834655,
+      "worst_return_pct": -11.31844820767267,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": 1.099483335011072,
+      "ci_family_pp": [
+        -6.417487943519777,
+        10.26103073549542
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "居家生活類報酬指數",
+      "years": 3,
+      "positive_years": 1,
+      "positive_year_fraction": 0.3333333333333333,
+      "median_return_pct": -1.9082044384667096,
+      "median_excess_pp": -0.5970738286647959,
+      "mean_excess_pp": -2.2209559348889423,
+      "worst_return_pct": -12.020965216799395,
+      "full_control_years": 2,
+      "seasonal_mean_excess_difference_pp": -4.542865091351855,
+      "ci_family_pp": null,
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "建材營造類報酬指數",
+      "years": 10,
+      "positive_years": 7,
+      "positive_year_fraction": 0.7,
+      "median_return_pct": 2.315287087813689,
+      "median_excess_pp": -0.6800279166430223,
+      "mean_excess_pp": -0.4263434942982725,
+      "worst_return_pct": -1.7467087307681761,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": 0.47536565329200736,
+      "ci_family_pp": [
+        -7.000827453616883,
+        5.284874368335765
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "數位雲端類報酬指數",
+      "years": 3,
+      "positive_years": 0,
+      "positive_year_fraction": 0.0,
+      "median_return_pct": -3.09504792332268,
+      "median_excess_pp": -1.7839173135207664,
+      "mean_excess_pp": -3.857480216115875,
+      "worst_return_pct": -3.6347901341410638,
+      "full_control_years": 2,
+      "seasonal_mean_excess_difference_pp": 5.780744312036379,
+      "ci_family_pp": null,
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "橡膠類報酬指數",
+      "years": 10,
+      "positive_years": 5,
+      "positive_year_fraction": 0.5,
+      "median_return_pct": 0.9986216123009484,
+      "median_excess_pp": -2.761293112471158,
+      "mean_excess_pp": -3.303441522542379,
+      "worst_return_pct": -9.570005243838498,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": -0.7181934151438714,
+      "ci_family_pp": [
+        -5.550284020153408,
+        4.68632480100026
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "水泥類報酬指數",
+      "years": 10,
+      "positive_years": 6,
+      "positive_year_fraction": 0.6,
+      "median_return_pct": 2.0570286703156526,
+      "median_excess_pp": 0.3942896063748813,
+      "mean_excess_pp": -0.6901118937009432,
+      "worst_return_pct": -3.634502175582277,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": 0.5399222999238217,
+      "ci_family_pp": [
+        -4.107463616534291,
+        5.216053870138565
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "汽車類報酬指數",
+      "years": 10,
+      "positive_years": 7,
+      "positive_year_fraction": 0.7,
+      "median_return_pct": 4.220363687817108,
+      "median_excess_pp": 0.8540492443596615,
+      "mean_excess_pp": 1.0022094315607777,
+      "worst_return_pct": -3.401943967981702,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": 2.700622735442879,
+      "ci_family_pp": [
+        -1.2860907841259275,
+        6.586025034239509
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "油電燃氣類報酬指數",
+      "years": 10,
+      "positive_years": 6,
+      "positive_year_fraction": 0.6,
+      "median_return_pct": 2.546065622079663,
+      "median_excess_pp": -2.569874747792306,
+      "mean_excess_pp": -1.5527129892732994,
+      "worst_return_pct": -15.019831005345752,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": 0.1312307310327375,
+      "ci_family_pp": [
+        -8.391555796755368,
+        9.358094305931168
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "玻璃陶瓷類報酬指數",
+      "years": 10,
+      "positive_years": 7,
+      "positive_year_fraction": 0.7,
+      "median_return_pct": 4.2723330992709645,
+      "median_excess_pp": 2.308427050251327,
+      "mean_excess_pp": 5.00500575017387,
+      "worst_return_pct": -3.8646153846153886,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": 6.305526230968941,
+      "ci_family_pp": [
+        -3.068023566740322,
+        15.412066711449961
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "生技醫療類報酬指數",
+      "years": 10,
+      "positive_years": 7,
+      "positive_year_fraction": 0.7,
+      "median_return_pct": 2.3594778704350894,
+      "median_excess_pp": -1.1225155131513564,
+      "mean_excess_pp": -1.0841096893984126,
+      "worst_return_pct": -6.176783812566566,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": -0.010245366527352997,
+      "ci_family_pp": [
+        -2.6901522390594863,
+        4.221359024076701
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "紡織纖維類報酬指數",
+      "years": 10,
+      "positive_years": 6,
+      "positive_year_fraction": 0.6,
+      "median_return_pct": 1.772332868949189,
+      "median_excess_pp": -2.6502828771848286,
+      "mean_excess_pp": -2.7197696623653034,
+      "worst_return_pct": -6.937082950048912,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": -1.753762667599247,
+      "ci_family_pp": [
+        -8.171078151798016,
+        4.650154216002197
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "綠能環保類報酬指數",
+      "years": 3,
+      "positive_years": 1,
+      "positive_year_fraction": 0.3333333333333333,
+      "median_return_pct": -5.9607969151671,
+      "median_excess_pp": -3.975939824838537,
+      "mean_excess_pp": -4.3366020651789,
+      "worst_return_pct": -8.084532374100728,
+      "full_control_years": 2,
+      "seasonal_mean_excess_difference_pp": -3.5768813600059843,
+      "ci_family_pp": null,
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "航運類報酬指數",
+      "years": 10,
+      "positive_years": 8,
+      "positive_year_fraction": 0.8,
+      "median_return_pct": 5.616862120154142,
+      "median_excess_pp": 2.083899770894948,
+      "mean_excess_pp": 2.8076605075288743,
+      "worst_return_pct": -1.8786388924828534,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": 4.5482745417352675,
+      "ci_family_pp": [
+        0.692828389102541,
+        7.676819963364973
+      ],
+      "seasonal_advantage_supported": true
+    },
+    {
+      "sector": "觀光類報酬指數",
+      "years": 7,
+      "positive_years": 4,
+      "positive_year_fraction": 0.5714285714285714,
+      "median_return_pct": 4.201398225329389,
+      "median_excess_pp": -1.4162269431871488,
+      "mean_excess_pp": 0.8906233608903555,
+      "worst_return_pct": -3.1569173630455083,
+      "full_control_years": 6,
+      "seasonal_mean_excess_difference_pp": 2.2649214167045963,
+      "ci_family_pp": [
+        -5.152013580126709,
+        9.247873099745032
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "觀光餐旅類報酬指數",
+      "years": 3,
+      "positive_years": 2,
+      "positive_year_fraction": 0.6666666666666666,
+      "median_return_pct": 0.41730592206199457,
+      "median_excess_pp": 1.6478595962319043,
+      "mean_excess_pp": 0.6160952245136093,
+      "worst_return_pct": -3.5128675448835467,
+      "full_control_years": 2,
+      "seasonal_mean_excess_difference_pp": 3.354814440965259,
+      "ci_family_pp": null,
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "貿易百貨類報酬指數",
+      "years": 10,
+      "positive_years": 6,
+      "positive_year_fraction": 0.6,
+      "median_return_pct": 1.2295702738778225,
+      "median_excess_pp": -2.7133842193669935,
+      "mean_excess_pp": -2.0835548872423715,
+      "worst_return_pct": -4.520081688223277,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": -1.5239410886099727,
+      "ci_family_pp": [
+        -7.325145139650037,
+        4.647269949640264
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "資訊服務類報酬指數",
+      "years": 10,
+      "positive_years": 8,
+      "positive_year_fraction": 0.8,
+      "median_return_pct": 2.604722227649703,
+      "median_excess_pp": -1.9161076953548295,
+      "mean_excess_pp": -0.7547867371492578,
+      "worst_return_pct": -4.38233440634953,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": -0.10190481177269678,
+      "ci_family_pp": [
+        -7.481661767655997,
+        5.44022567019505
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "通信網路類報酬指數",
+      "years": 10,
+      "positive_years": 7,
+      "positive_year_fraction": 0.7,
+      "median_return_pct": 2.2473809112977805,
+      "median_excess_pp": -2.1311451271084856,
+      "mean_excess_pp": -1.196703499162085,
+      "worst_return_pct": -3.9433148490449876,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": -0.35725253490645914,
+      "ci_family_pp": [
+        -7.2415188462083195,
+        4.399575631465145
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "造紙類報酬指數",
+      "years": 10,
+      "positive_years": 7,
+      "positive_year_fraction": 0.7,
+      "median_return_pct": 4.247526082568099,
+      "median_excess_pp": -0.22668775194548685,
+      "mean_excess_pp": -0.3820752770433755,
+      "worst_return_pct": -5.143524374817554,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": 0.7965022313148872,
+      "ci_family_pp": [
+        -4.780607304239326,
+        6.412243138545835
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "運動休閒類報酬指數",
+      "years": 3,
+      "positive_years": 2,
+      "positive_year_fraction": 0.6666666666666666,
+      "median_return_pct": 1.2882637986053602,
+      "median_excess_pp": -0.007552776844121922,
+      "mean_excess_pp": 0.40143542537165083,
+      "worst_return_pct": -1.9924098671726842,
+      "full_control_years": 2,
+      "seasonal_mean_excess_difference_pp": 5.836516726649421,
+      "ci_family_pp": null,
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "金融保險類報酬指數",
+      "years": 10,
+      "positive_years": 9,
+      "positive_year_fraction": 0.9,
+      "median_return_pct": 3.588617820372342,
+      "median_excess_pp": 0.014224673747020855,
+      "mean_excess_pp": 0.7149139465269305,
+      "worst_return_pct": -0.6746036355189,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": 1.1121701236751391,
+      "ci_family_pp": [
+        -3.1966763591809846,
+        5.028062422393067
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "鋼鐵類報酬指數",
+      "years": 10,
+      "positive_years": 6,
+      "positive_year_fraction": 0.6,
+      "median_return_pct": 1.1566032166688056,
+      "median_excess_pp": -1.1877449443346788,
+      "mean_excess_pp": -0.3682792621893949,
+      "worst_return_pct": -5.540820555325321,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": 0.7033499007611927,
+      "ci_family_pp": [
+        -6.322172076339255,
+        7.323033039672156
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "電器電纜類報酬指數",
+      "years": 10,
+      "positive_years": 7,
+      "positive_year_fraction": 0.7,
+      "median_return_pct": 6.355455680399502,
+      "median_excess_pp": 0.5760225368025895,
+      "mean_excess_pp": 2.596094814456209,
+      "worst_return_pct": -8.54736098020734,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": 2.699043463446973,
+      "ci_family_pp": [
+        -2.496399497743705,
+        9.659825474350619
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "電子工業類報酬指數",
+      "years": 7,
+      "positive_years": 5,
+      "positive_year_fraction": 0.7142857142857143,
+      "median_return_pct": 3.5935786082385235,
+      "median_excess_pp": 0.7768636471464863,
+      "mean_excess_pp": 0.916549069415884,
+      "worst_return_pct": -1.9656019656019597,
+      "full_control_years": 6,
+      "seasonal_mean_excess_difference_pp": 0.4564467304743007,
+      "ci_family_pp": [
+        -1.7361289078639968,
+        4.467923693220888
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "電子通路類報酬指數",
+      "years": 10,
+      "positive_years": 8,
+      "positive_year_fraction": 0.8,
+      "median_return_pct": 2.8116342500194347,
+      "median_excess_pp": 0.30404395444532106,
+      "mean_excess_pp": -0.19470277543634396,
+      "worst_return_pct": -3.61655897993024,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": -0.5654330978501629,
+      "ci_family_pp": [
+        -6.32158160276285,
+        4.551652873493658
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "電子零組件類報酬指數",
+      "years": 10,
+      "positive_years": 6,
+      "positive_year_fraction": 0.6,
+      "median_return_pct": 5.700273881092999,
+      "median_excess_pp": 1.1560541094517096,
+      "mean_excess_pp": 2.6227923094304053,
+      "worst_return_pct": -4.963189676565472,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": 2.5924623489421967,
+      "ci_family_pp": [
+        -1.707455252462645,
+        7.4372412603127005
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "電子類報酬指數",
+      "years": 3,
+      "positive_years": 1,
+      "positive_year_fraction": 0.3333333333333333,
+      "median_return_pct": -3.736990193132461,
+      "median_excess_pp": -2.2841477496223894,
+      "mean_excess_pp": -1.2491691583940514,
+      "worst_return_pct": -4.378557793179361,
+      "full_control_years": 3,
+      "seasonal_mean_excess_difference_pp": -1.5022658500004025,
+      "ci_family_pp": null,
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "電機機械類報酬指數",
+      "years": 10,
+      "positive_years": 7,
+      "positive_year_fraction": 0.7,
+      "median_return_pct": 2.305904738474851,
+      "median_excess_pp": -1.9907292915459007,
+      "mean_excess_pp": -0.270110109973678,
+      "worst_return_pct": -6.051018390350016,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": 0.49682777152571955,
+      "ci_family_pp": [
+        -3.2465444884305388,
+        7.212589250931875
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "電腦及週邊設備類報酬指數",
+      "years": 10,
+      "positive_years": 6,
+      "positive_year_fraction": 0.6,
+      "median_return_pct": 2.717048698562785,
+      "median_excess_pp": -2.620168054193467,
+      "mean_excess_pp": -1.6384652223700957,
+      "worst_return_pct": -5.513925315349056,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": -1.8657774035547716,
+      "ci_family_pp": [
+        -6.905904204273007,
+        2.7999449008624353
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "食品類報酬指數",
+      "years": 10,
+      "positive_years": 5,
+      "positive_year_fraction": 0.5,
+      "median_return_pct": -0.6992622439273621,
+      "median_excess_pp": -2.8111019970747053,
+      "mean_excess_pp": -3.197728343499142,
+      "worst_return_pct": -7.003329694622574,
+      "full_control_years": 9,
+      "seasonal_mean_excess_difference_pp": -2.6790796658807445,
+      "ci_family_pp": [
+        -9.322759190593146,
+        1.4952259085506325
+      ],
+      "seasonal_advantage_supported": false
+    }
+  ],
+  "sector_price_statistics": [
+    {
+      "sector": "光電類指數",
+      "years": 10,
+      "positive_years": 6,
+      "positive_year_fraction": 0.6,
+      "median_return_pct": 2.88164688802115,
+      "median_excess_pp": -1.2724575508489544,
+      "mean_excess_pp": -0.6773103368541977,
+      "worst_return_pct": -7.055093143083635,
+      "full_control_years": 10,
+      "seasonal_mean_excess_difference_pp": -0.08727452993822382,
+      "ci_family_pp": [
+        -3.5066697891086163,
+        3.6379430464214426
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "其他電子類指數",
+      "years": 10,
+      "positive_years": 4,
+      "positive_year_fraction": 0.4,
+      "median_return_pct": -1.4334405045625553,
+      "median_excess_pp": -3.939176844463521,
+      "mean_excess_pp": -4.077215540553695,
+      "worst_return_pct": -8.151075977162936,
+      "full_control_years": 10,
+      "seasonal_mean_excess_difference_pp": -4.514672550054462,
+      "ci_family_pp": [
+        -9.618650778718028,
+        -0.06443593043716266
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "半導體類指數",
+      "years": 10,
+      "positive_years": 6,
+      "positive_year_fraction": 0.6,
+      "median_return_pct": 2.813501861550949,
+      "median_excess_pp": 0.28180006707023697,
+      "mean_excess_pp": 1.1752567842238792,
+      "worst_return_pct": -4.121248320143356,
+      "full_control_years": 10,
+      "seasonal_mean_excess_difference_pp": 0.45529908709579514,
+      "ci_family_pp": [
+        -2.300306536542921,
+        6.389395672322324
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "資訊服務類指數",
+      "years": 10,
+      "positive_years": 8,
+      "positive_year_fraction": 0.8,
+      "median_return_pct": 2.6037119580886725,
+      "median_excess_pp": -1.9075639684840218,
+      "mean_excess_pp": -0.7511398249803503,
+      "worst_return_pct": -4.38261338607453,
+      "full_control_years": 10,
+      "seasonal_mean_excess_difference_pp": -0.26560773196132703,
+      "ci_family_pp": [
+        -6.069603211857121,
+        4.37307112619336
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "通信網路類指數",
+      "years": 10,
+      "positive_years": 7,
+      "positive_year_fraction": 0.7,
+      "median_return_pct": 2.244485891844017,
+      "median_excess_pp": -2.1224538133914175,
+      "mean_excess_pp": -1.1916041774171804,
+      "worst_return_pct": -3.941120607787274,
+      "full_control_years": 10,
+      "seasonal_mean_excess_difference_pp": -0.5327287846549511,
+      "ci_family_pp": [
+        -5.982982683865525,
+        3.294088621712521
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "金融保險類指數",
+      "years": 10,
+      "positive_years": 9,
+      "positive_year_fraction": 0.9,
+      "median_return_pct": 3.589023587365092,
+      "median_excess_pp": 0.020556185086806344,
+      "mean_excess_pp": 0.7197327342754134,
+      "worst_return_pct": -0.6743759456214748,
+      "full_control_years": 10,
+      "seasonal_mean_excess_difference_pp": 1.12606018087263,
+      "ci_family_pp": [
+        -2.3091712336991965,
+        4.642943494609056
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "電子通路類指數",
+      "years": 10,
+      "positive_years": 8,
+      "positive_year_fraction": 0.8,
+      "median_return_pct": 2.8099906172896927,
+      "median_excess_pp": 0.3160138581757843,
+      "mean_excess_pp": -0.1904151653464492,
+      "worst_return_pct": -3.6150091519219107,
+      "full_control_years": 10,
+      "seasonal_mean_excess_difference_pp": 0.11604940984794367,
+      "ci_family_pp": [
+        -5.136534041954423,
+        3.8293543025820274
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "電子零組件類指數",
+      "years": 10,
+      "positive_years": 6,
+      "positive_year_fraction": 0.6,
+      "median_return_pct": 5.696941353672791,
+      "median_excess_pp": 1.1595901794965058,
+      "mean_excess_pp": 2.626478108329321,
+      "worst_return_pct": -4.980747733200852,
+      "full_control_years": 10,
+      "seasonal_mean_excess_difference_pp": 2.052572979380373,
+      "ci_family_pp": [
+        -1.4560598027418716,
+        6.408701798321825
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "電子類指數",
+      "years": 10,
+      "positive_years": 6,
+      "positive_year_fraction": 0.6,
+      "median_return_pct": 3.060451130710329,
+      "median_excess_pp": 0.4932607711877868,
+      "mean_excess_pp": 0.26945645554821596,
+      "worst_return_pct": -4.390993902121232,
+      "full_control_years": 10,
+      "seasonal_mean_excess_difference_pp": -0.25562857806795347,
+      "ci_family_pp": [
+        -1.9530178042560293,
+        2.0764836860694342
+      ],
+      "seasonal_advantage_supported": false
+    },
+    {
+      "sector": "電腦及週邊設備類指數",
+      "years": 10,
+      "positive_years": 6,
+      "positive_year_fraction": 0.6,
+      "median_return_pct": 2.7136038202452806,
+      "median_excess_pp": -2.615141125750636,
+      "mean_excess_pp": -1.6374075943158337,
+      "worst_return_pct": -5.521227825393671,
+      "full_control_years": 10,
+      "seasonal_mean_excess_difference_pp": -1.5589059034421526,
+      "ci_family_pp": [
+        -5.19381841925882,
+        2.105618959684732
+      ],
+      "seasonal_advantage_supported": false
+    }
+  ],
+  "raw_curve_record": {
+    "status": "restored_and_persisted",
+    "file": "C:\\Users\\weiha\\Desktop\\文件\\03_課程資料\\115-1\\資料探勘與應用\\B_Final Project (0920~1221)\\競賽資料\\策略研究_逐窗口結果_v3_2026-10-14.json",
+    "methods": 15,
+    "windows_per_method": 650,
+    "total_records": 9750,
+    "all_valid_plotted": 6753,
+    "same_season_valid_plotted": 27,
+    "sha256": "981f1ea4669b5f2f7f8e6a298d49f1d68644b4adb6ca25b7df86f9928ef01507",
+    "original_snapshot_sha256": "1b826aa999a02664f43ff9c48a77259881901d8b8399c6ee85ebc275af7ea0e2",
+    "verification": "matches prior saved v3 paired return/cost/risk summaries; unchanged parameters; not an independent strategy validation",
+    "html_ui_verification": "offline SVG checks passed; browser local-file policy blocked runtime UI check"
+  },
+  "original_notebook": "C:\\Users\\weiha\\Desktop\\文件\\03_課程資料\\115-1\\資料探勘與應用\\B_Final Project (0920~1221)\\競賽資料\\動能持股_開賽前公告配置研究_2026-10-14.ipynb"
+}

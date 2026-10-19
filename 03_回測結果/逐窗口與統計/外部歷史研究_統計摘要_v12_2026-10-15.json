@@ -1,0 +1,293 @@
+{
+  "metrics": {
+    "等權完整調整": {
+      "n": 7,
+      "years": [
+        2016,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "invalid_years": [
+        2017,
+        2018,
+        2025
+      ],
+      "win_rate": 0.8571428571428571,
+      "flat_count": 0,
+      "expectancy": 0.044821631461092144,
+      "median": 0.06334021310777871,
+      "average_win": 0.05620096932458788,
+      "average_loss": -0.02345439571988228,
+      "mean_cost": 0.007133023199880108,
+      "worst_return": -0.02345439571988228,
+      "median_mdd": -0.024807100389916625,
+      "worst_mdd": -0.046739760846665646
+    },
+    "等權小額略過": {
+      "n": 7,
+      "years": [
+        2016,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "invalid_years": [
+        2017,
+        2018,
+        2025
+      ],
+      "win_rate": 0.8571428571428571,
+      "flat_count": 0,
+      "expectancy": 0.04558974754658925,
+      "median": 0.06408755008594502,
+      "average_win": 0.05701051746302429,
+      "average_loss": -0.02293487195202093,
+      "mean_cost": 0.006910526757751906,
+      "worst_return": -0.02293487195202093,
+      "median_mdd": -0.02524802624352096,
+      "worst_mdd": -0.04673556799411116
+    },
+    "溫和非等權略過": {
+      "n": 7,
+      "years": [
+        2016,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "invalid_years": [
+        2017,
+        2018,
+        2025
+      ],
+      "win_rate": 0.8571428571428571,
+      "flat_count": 0,
+      "expectancy": 0.047197162619184684,
+      "median": 0.0641936656904376,
+      "average_win": 0.05938165223159505,
+      "average_loss": -0.025909775055277473,
+      "mean_cost": 0.006868985913039077,
+      "worst_return": -0.025909775055277473,
+      "median_mdd": -0.023227875416301447,
+      "worst_mdd": -0.04889392806341275
+    }
+  },
+  "paired_comparisons": {
+    "等權小額略過": {
+      "n": 7,
+      "years": [
+        2016,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "mean_excess": 0.0007681160854971106,
+      "beat_base_rate": 1.0,
+      "mean_cost_change": -0.00022249644212820108,
+      "paired_year_bootstrap_97_5pct": [
+        0.0004113231076209629,
+        0.001173907340315496
+      ],
+      "note": "exploratory only; two comparisons Bonferroni marginal97.5% intervals; seven nonrandomly retained years, fixed current pool and reused development period prohibit confirmation",
+      "yearly_excess": [
+        {
+          "year": 2016,
+          "excess": 0.0005195237678613518
+        },
+        {
+          "year": 2019,
+          "excess": 0.000796961570116661
+        },
+        {
+          "year": 2020,
+          "excess": 0.0007473369781663131
+        },
+        {
+          "year": 2021,
+          "excess": 5.067924813761948e-05
+        },
+        {
+          "year": 2022,
+          "excess": 0.0006287422253401509
+        },
+        {
+          "year": 2023,
+          "excess": 0.00168335301846545
+        },
+        {
+          "year": 2024,
+          "excess": 0.0009502157903922281
+        }
+      ]
+    },
+    "溫和非等權略過": {
+      "n": 7,
+      "years": [
+        2016,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "mean_excess": 0.0023755311580925414,
+      "beat_base_rate": 0.8571428571428571,
+      "mean_cost_change": -0.00026403728684102956,
+      "paired_year_bootstrap_97_5pct": [
+        -0.0003796959720391132,
+        0.0061175466621190555
+      ],
+      "note": "exploratory only; two comparisons Bonferroni marginal97.5% intervals; seven nonrandomly retained years, fixed current pool and reused development period prohibit confirmation",
+      "yearly_excess": [
+        {
+          "year": 2016,
+          "excess": -0.0024553793353951914
+        },
+        {
+          "year": 2019,
+          "excess": 0.0014660032543725166
+        },
+        {
+          "year": 2020,
+          "excess": 0.0008534525826588979
+        },
+        {
+          "year": 2021,
+          "excess": 0.011390964035482343
+        },
+        {
+          "year": 2022,
+          "excess": 0.00114484233686718
+        },
+        {
+          "year": 2023,
+          "excess": 0.0032762569588571377
+        },
+        {
+          "year": 2024,
+          "excess": 0.0009525782738049049
+        }
+      ]
+    }
+  },
+  "failure_details": [
+    {
+      "year": 2017,
+      "date": "2017-11-27",
+      "sid": "1802",
+      "bad_action": false,
+      "close_present": true,
+      "execution_available": false,
+      "price_record": {
+        "date": "2017-11-27",
+        "stock_id": "1802",
+        "Trading_Volume": 4693856,
+        "Trading_money": 77774639,
+        "open": 16.8,
+        "max": 16.95,
+        "min": 16.6,
+        "close": 16.9,
+        "spread": 0.2,
+        "Trading_turnover": 795
+      },
+      "unknown_reference": []
+    },
+    {
+      "year": 2018,
+      "date": "2018-11-06",
+      "sid": "2886",
+      "bad_action": false,
+      "close_present": true,
+      "execution_available": false,
+      "price_record": {
+        "date": "2018-11-06",
+        "stock_id": "2886",
+        "Trading_Volume": 13328768,
+        "Trading_money": 344509384,
+        "open": 26.3,
+        "max": 26.3,
+        "min": 26.05,
+        "close": 26.25,
+        "spread": -0.05,
+        "Trading_turnover": 3718
+      },
+      "unknown_reference": []
+    },
+    {
+      "year": 2018,
+      "date": "2018-11-29",
+      "sid": "2404",
+      "bad_action": false,
+      "close_present": false,
+      "execution_available": false,
+      "price_record": null,
+      "unknown_reference": []
+    },
+    {
+      "year": 2018,
+      "date": "2018-11-30",
+      "sid": "2404",
+      "bad_action": false,
+      "close_present": false,
+      "execution_available": false,
+      "price_record": null,
+      "unknown_reference": []
+    },
+    {
+      "year": 2025,
+      "date": "2025-11-14",
+      "sid": "3037",
+      "bad_action": true,
+      "close_present": true,
+      "execution_available": true,
+      "price_record": {
+        "date": "2025-11-14",
+        "stock_id": "3037",
+        "Trading_Volume": 23311749,
+        "Trading_money": 4012685807,
+        "open": 172.5,
+        "max": 175.5,
+        "min": 168.5,
+        "close": 171.5,
+        "spread": 0.0,
+        "Trading_turnover": 46947
+      },
+      "unknown_reference": [
+        {
+          "date": "2025-11-14",
+          "sid": "3037",
+          "previous": 178.5,
+          "reported_reference": 171.5,
+          "known_cash": 0.0
+        }
+      ]
+    }
+  ],
+  "selection_conclusion": "未證實改良；不由七個有效年度選出新贏家",
+  "industry_status": "blocked_no_verified_point_in_time_individual_classification",
+  "historical_pool_status": "partial_one2016TWSE100_snapshot_only",
+  "source_errors": {
+    "global_events:TaiwanStockCapitalReductionReferencePrice": {
+      "url": "https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockCapitalReductionReferencePrice&start_date=2015-01-01&end_date=2025-12-31",
+      "http_status": 400,
+      "status": 400,
+      "message": "Your level is free. Please update your user level. Detail information:https://finmindtrade.com/analysis/#/Sponsor/sponsor",
+      "sha256": "7fec29f0c2cfbbe1fb3b5df7bf4169a5688258260d60f6f4a6863f5483f938b8",
+      "bytes": 160
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "role": "diagnostic, not candidate selected by return",
+  "weights": ".5*mild+.5*equal, matching combined momentum coefficient with information component neutral",
+  "reason": "combined vs full-mild alone confounds momentum strength with information",
+  "params": "same frozen legacy combined .5 coefficient; no threshold/multiplier tuning",
+  "family_adjustment": 24,
+  "LLM_branch": "deferred at explicit user request",
+  "team_id": "TEAM_11693"
+}

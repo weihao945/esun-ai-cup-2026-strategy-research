@@ -1,0 +1,23 @@
+{
+  "families": [
+    "MOM",
+    "FLOW"
+  ],
+  "overlays": [
+    "signal",
+    "exposure",
+    "both"
+  ],
+  "baseline": "v16 E0 equal25 invested90 rebalance5 horizon24 lots1000 fees unchanged",
+  "signal": "daily preopen using t-1: held rank percentile<0.5 AND adjusted past5return<0; replace failed with highest same-family eligible not currently held nor failed; maintain25; retarget equal25 on event; regular5daybaseline overrides; no intraday stop",
+  "exposure": "daily t-1 same150 current-universe proxy; exclude unknown action daily; require>=120 validnames perday for20days; risk if trailing20 compounded mean daily return<0 AND fraction eligible names positive20return<0.5; invested82% risk else90%; adjust on statechange or regular5day; unknown leaves90, countunknown",
+  "both": "union signal/exposure event; explicit interaction not isolatedstoploss",
+  "candidates": 6,
+  "thresholds": "fixedmechanisticroundnumbersnotoptimized;historicaldataalreadyseen",
+  "split": "train window end<=2024-12-31; test window start>=2025-01-01; crossingpurged;common dates across8methods;notgenuineunseenOOS",
+  "selection": "trainingonly: adjusted24&48block lowerbound excess>0 AND P10>=base AND worstMDD>=base AND coverage>=80% AND train>=100; if none no forced choice; lock chosen then evaluate test",
+  "secondary_risktradeoff": "P10andworstMDDimprove while adjustedlowerbound excess>-.005; sensitivityresearchnotuserutilityorconfirmedimprovement",
+  "multiplicity": "sixoverlaycomparisons Bonferroni withinblock, bothblock required;5000bootstrap extreme-tail resolutionlimit",
+  "scope": "samecurrent150biasedpool,notfullPIT,unknowncompanyactions excluded,ActiveShare not certified,notformalcompetitionexecution",
+  "data_snapshot": "1b826aa999a02664f43ff9c48a77259881901d8b8399c6ee85ebc275af7ea0e2"
+}

@@ -1,0 +1,29 @@
+{
+  "version": "v47_same_dates_annotated10",
+  "date": "2026-10-17",
+  "strategies": [
+    "MOM_E0",
+    "FLOW_E0",
+    "FLOW_50_200_ACTIVE",
+    "PURE_50_200",
+    "PURE_3_10",
+    "PURE_5_10",
+    "PURE_5_15",
+    "PURE_10_20",
+    "PURE_5_24",
+    "PURE_10_24"
+  ],
+  "source": "same2016–2025 snapshot andsame2236starts fromv45/v46;no newtradebacktest",
+  "primary_cohort": "intersectionofall10validmethods,exact same dates",
+  "secondary_cohort": "intersectionoffouroriginal/50/200strategies;retainsmorebadmarketwindows;notmixedwithprimary",
+  "unrestricted_diagnosis": "eachstrategyallvalidwindows;differentdenominators shown separately;notcrossranked",
+  "loss": "feesafter24session return<0;start/end ofwindows,notnecessarilyidenticaldailyPNL",
+  "overlap": "Jaccard bothloss/eitherloss;conditional pairloss;returncorrelation descriptive",
+  "market": "current150listedbeforestart,fixednames24session knowncash-adjustedgrossreturn;minimum80%ofstartlisted and50;reusev41whereexists",
+  "market_bad": "morethan50%stocksdown ANDequalweight24daymeanreturn<0;also reportmajoritydown and>=70%down",
+  "bear_limit": "broaddeclineinresearchpool notofficialTAIEXbearmarketlabel;currentuniversebias;posthoccannotusedforentry",
+  "conditional_comparison": "45pairsin10cohort +6pairsin4cohort=51fixedcomparisons;24/48blocks20000Bonferroni51;notnewunseenstrategyproof",
+  "selection": "observedrisk-returnandcoverage,do notdeclareglobalwinnerfromfilteredmean",
+  "all_points": "boxallcommonpoints,timelineall2236startswhiteinvalid,lossintersectionheatmap",
+  "excluded": "outsideintersectionnotzero,showmarketbadcoveragevsincluded"
+}

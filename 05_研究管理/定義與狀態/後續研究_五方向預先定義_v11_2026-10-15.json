@@ -1,0 +1,54 @@
+{
+  "version": "v11",
+  "date": "2026-10-15",
+  "request": "complete all five proposed research branches continuously in current session, no intermediate approval waits",
+  "reuse": "same retained kernel,v7 action/price engine,v9/10 216 candidates and source evidence; no LLM,DB writes or trades",
+  "branches": [
+    {
+      "id": "industry_seasonal_stock",
+      "gate": "verified historical individual classifications",
+      "candidates_if_available": 4,
+      "definition": "pure prior-year seasonality rank or50pctA+50pctseasonality,25stocks,equal/exp8; no present-day label backfill",
+      "known_gap": "fresh schema has no classification vintage; old official historical endpoints unavailable; reuse previous attempts"
+    },
+    {
+      "id": "revenue_acceleration",
+      "candidates": 4,
+      "definition": "previous consecutive reportingmonth, both records published before decision08:55; score .5percentile(deltaMoM)+.5percentile(deltaYoY); pure or50pctA;25stocks,equal/exp8; unknown excludes"
+    },
+    {
+      "id": "announcement_price",
+      "candidates": 4,
+      "definition": "same A25; latest verified monthly revenue bothMoM>0 andYoY>0; first usable decision withinlast5sessions; preannouncement20session adjusted return<=0 underreaction or>0 runup; raw weight*1.25 for each separate gate;equal/exp8;unknown neutral;no first-release claim"
+    },
+    {
+      "id": "announcement_event_study",
+      "definition": "all deduplicated stock-month earliest retained verified bulletin, availability mapped to first08:55 after timestamp; past20>=20knownreturns; future24 signalreturns only for evaluation; positive dualrate versus other, crossed prior20<=0/>0; all groups reported, not fee-adjusted portfolio"
+    },
+    {
+      "id": "long_history_universe",
+      "definition": "readonly aggregate earliest/latest price/flow/action, universe basis_date; extend only if price+flow+actions+PIT universe and sources support; otherwise state limitation; no synthetic or reclassified history"
+    },
+    {
+      "id": "selector_logic",
+      "procedures": 3,
+      "definition": "same candidate set all216+feasible8+oldAequal/oldmildtol controls; same purged2025/26 and train100pairs/80pctcoverage/P10-MDD<=1pp; mean objective, stable=max worst calendar-quarter mean(pairdiff) withquarter>=10pairs, lowcost=minmeanfees among trainingmean>=0 andriskpass;fallbackbaseline allowed; no adaptive test-year tuning"
+    }
+  ],
+  "constraints": "24tradingdays,every5days,90pct,1000sharelots,fees/tax unchanged,actual20..30,caps2330_25pct/other10pct;25only isolates new information experiment",
+  "source_policy": "earliest retained verified bulletin is known available time, not certified original firstrelease; revisions and missing originals remain limitations",
+  "comparison": "each informational overlay versus identical A25equal/exp8+.005skip; all new versus oldA; selectors on identical valid dates; stock-event returns cannot be called tradable expectancy",
+  "reporting": "net positive-return win rate,mean24day portfolio return,conditionalmeanwin/loss,n,fees,mdd,paired beatbaseline; all point estimates label dependent samples",
+  "max_new_candidates": 12,
+  "immediately_feasible_candidates": 8,
+  "family": 279,
+  "family_reason": "264 prior+12maximum conditional candidates+3selection procedures; newmechanism contrasts secondary descriptive",
+  "statistics": "24/48positionblocks5000reps,family279;shallow extreme tails exploratory,year andriskgates;no pristineholdout",
+  "stop": "all feasible branches saved and unavailable branches recorded; do not keep adding hypotheses until positive; no schedule activation needed for one continuous batch",
+  "deferred": [
+    "LLM",
+    "formal account/DataPack/DPlan",
+    "operational rehearsal",
+    "new repository/project/site"
+  ]
+}

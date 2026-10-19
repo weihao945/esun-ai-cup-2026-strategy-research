@@ -1,0 +1,31 @@
+{
+  "version": "v49_variable20to25_fixed1",
+  "date": "2026-10-17",
+  "pairs": [
+    "10_20",
+    "10_24"
+  ],
+  "modes": {
+    "VARIABLE": "regular positiveMA candidates20..25; under20 invalid; offcycle death replace available slots only, may reduce actual names if >=20; cash/holdings/caps still audited",
+    "FALLBACK": "same variable names; if regular under20 OR death cannot replace all exited slots, full MOM25 rebalance and no MA exits until next regular review; retry MA at each regular5dayreview"
+  },
+  "baseline": "same cached v46 PURE pair and MOM/FLOW/50_200; no new parameter search",
+  "fixed_controls": "count_mode FIXED exact original25 simulation",
+  "weights": "90%/selected_count at regular or fallback trades; offcycle replacements match old holding value; no special cashoverlay",
+  "timing": "priorclose signal; earliest nextVWAP;24sessions;normal5days",
+  "rules": "20..30 actualpositiveholdings,1000shares,cash>=0 and<25%,2330cap25%others10% andold5daygrace;officialActiveShareandexecutionvoidsnotcertified",
+  "sources": "local competition explanation2026-10-13 lines77..83 and v45/v46 retained engine; no claim latest external rule recertification",
+  "fallback": "only prior-known candidate shortage; unknown execution/actions stillinvalid, never hindsightfallback",
+  "family": 10,
+  "contrasts": "4new vs MOM,4new vs ownPURE25,2FALLBACKvsVARIABLE",
+  "statistics": "24/48 originalposition blocks20000,Bonferroni10;pairedvalid;2019..2025 alreadyseen;years,P10,worstMDD,coverage;no bestmeanforcedwinner",
+  "input_hashes": {
+    "price_current150_cache": "ea800cb5f3c11893db177adcb406bd134f341eb26e0fdf55b0550edf81094e86",
+    "flow_current150_cache": "f4b2e03d369e809ca06b6b11bdac6fcec83ee505e71fad055825391c06c97338",
+    "price_twse_and_actions": "3459a6316bcd2a1790a987cd5f64736c11f9aec58cbaea70282a7090b12a4f38",
+    "action_repairs": "07ce315501c0dfd7d2a09371f48d3a72d8c7a9af9eb6852f9d4df62fd91fdb60",
+    "listing_stockmaster_snapshot": "81ba1f8c26953ab7e86f2a3cc03bf187ab1f11cdb1310083a730c76a78b4ae70"
+  },
+  "reuse": "old controls direct, matched fixedcontrols;new4*2236=8944windows",
+  "no_daily_fullrebalance": true
+}

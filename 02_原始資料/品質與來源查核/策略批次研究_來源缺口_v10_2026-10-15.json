@@ -1,0 +1,16 @@
+{
+  "status": "unavailable_verified_historical_individual_classification",
+  "prior_schema_evidence": "stocks snapshot updated2026-10-11 only; no valid_from/valid_to table found in prior authorized readonly DB audit",
+  "new_attempts": [
+    {
+      "url": "https://mops.twse.com.tw/nas/t21/sii/t21sc03_113_9.html",
+      "result": "web inaccessible2026-10-15"
+    },
+    {
+      "url": "https://mopsov.twse.com.tw/nas/t21/sii/t21sc03_113_9.html",
+      "result": "web inaccessible2026-10-15"
+    }
+  ],
+  "industry_index": "v9 prior-year-only index validation reused; not stock portfolio",
+  "not_claimed": "did not merge current industry labels into historical rankings; did not claim all potential external archives exhausted"
+}

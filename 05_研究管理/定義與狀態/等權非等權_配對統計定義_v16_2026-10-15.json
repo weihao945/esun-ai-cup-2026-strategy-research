@@ -1,0 +1,25 @@
+{
+  "version": "v16_weight_vs_skip_factorial_statistics",
+  "user_request": "pairedweightstatisticsandassessstockselection/earlyexitinterpretation",
+  "scope": "same5families;2weightmodes*2skiprules=20fixedcells;reuseallv15plusv7Amild;no new signalparameters",
+  "factors": {
+    "weight": [
+      "equal",
+      "mildrank1.25to.75"
+    ],
+    "retained_adjustment_skip": [
+      0,
+      0.005
+    ]
+  },
+  "primary": "mild_fullminus_equal_fullisolatesweight;also mild_skipminus_equal_skip;notdiagonalonly",
+  "population": "same150fixedcurrentpool;650overlapping24daywindows;25hold,90pct,5dayrebalance,lotsandfeesunchanged",
+  "sampling": "all20commonprimary plus eachpaircoverage diagnostics;no mixingindependentdenominators",
+  "metrics": "netwinrate,mean24dEV,conditionalmeanwin/loss,n,cost,mdd,P10;pairedmean/medianexcess,p10/p90diff,beatbase,samepositive_negativeoutcomeagreement",
+  "intervals": "24/48positionmovingblocks5000sameindices;ordinary95pctdescriptive and conservativefamily289+11=300 exploratory;90pct sensitivityequivalence bands ±.10/.25/.50pp, allreported not pickbestmargin",
+  "equivalence_warning": "lackofsignificanceisnotequivalence;bandsarepostplotresearchreportingscalesnotuserutilityorprospectiveconfirmatoryTOST;mustboth90pctblockintervalsinsideband",
+  "exit_reference": "reusev7AHequalinitial25buyholdversusAequal5dayranking;pairedmatchedcoverage;not daily stoploss;includesnewselectionandweightretargeting",
+  "do_not_claim": "cannotknowwrongstockexante;no automatic-5or-10stopthreshold;no futurefilter;stockselectionfamilyeffectnotcausalattribution",
+  "decision": "ifweightincrementunprovenkeepallocationascontrol;selection/exitareprioritiesforfurtherhypothesesnotprovenmaincause",
+  "no_additional_execution": "no daily stoploss experiment thisbatch, no LLMortradesorschedules"
+}

@@ -1,0 +1,298 @@
+{
+  "status": "numeric_subexperiments_complete_no_LLM_or_full_self_integration",
+  "family": 24,
+  "family_members": "14 prior broad nonA+6 prior seasonal+3 new frozen-prestart variants+1 matched information diagnostic, conservatively counted",
+  "results": {
+    "A_formal_operating_prestart": {
+      "pairs": 535,
+      "mean_difference_pp": 0.018352881695329483,
+      "candidate_median_pct": 4.519318484984924,
+      "A_median_same_dates_pct": 4.545695855519005,
+      "ties": 328,
+      "beat_pct_all_pairs": 19.813084112149532,
+      "beat_pct_changed_pairs": 51.20772946859904,
+      "mean_cost_pct": 0.7861990233803214,
+      "block24_interval_pp": [
+        -0.07669323894302262,
+        0.14752169124837491
+      ],
+      "block48_interval_pp": [
+        -0.06691942039155029,
+        0.1788748939251896
+      ],
+      "family": 24,
+      "p10_difference_pp": 0.0,
+      "median_mdd_difference_pp": 0.021527325194437008,
+      "years": {
+        "2024": {
+          "pairs": 179,
+          "mean_difference_pp": 0.08092978875145326
+        },
+        "2025": {
+          "pairs": 209,
+          "mean_difference_pp": 0.030805745568847798
+        },
+        "2026": {
+          "pairs": 147,
+          "mean_difference_pp": -0.0755513013836602
+        }
+      },
+      "halves": {
+        "early": {
+          "pairs": 260,
+          "mean_difference_pp": 0.055717046871192825
+        },
+        "late": {
+          "pairs": 275,
+          "mean_difference_pp": -0.016973238107304948
+        }
+      },
+      "seasonal": [
+        {
+          "date": "2024-10-29",
+          "valid": true,
+          "return_pct": 7.934047381444342,
+          "A_return_pct": 6.804579304691871,
+          "difference_pp": 1.1294680767524712
+        },
+        {
+          "date": "2025-10-28",
+          "valid": true,
+          "return_pct": 5.378115776382586,
+          "A_return_pct": 4.703062307847983,
+          "difference_pp": 0.6750534685346032
+        }
+      ],
+      "other_controls": {
+        "A_mild": {
+          "pairs": 535,
+          "mean_difference_pp": -0.08141476552247165
+        },
+        "A_mild_tolerance": {
+          "pairs": 535,
+          "mean_difference_pp": -0.14282736483703892
+        }
+      },
+      "risk_pass": true,
+      "supported": false
+    },
+    "A_revenue_prestart": {
+      "pairs": 535,
+      "mean_difference_pp": -0.027493329425522905,
+      "candidate_median_pct": 4.526355469240184,
+      "A_median_same_dates_pct": 4.545695855519005,
+      "ties": 66,
+      "beat_pct_all_pairs": 36.822429906542055,
+      "beat_pct_changed_pairs": 42.00426439232409,
+      "mean_cost_pct": 0.788708056288229,
+      "block24_interval_pp": [
+        -0.15204787755779872,
+        0.07765873489236506
+      ],
+      "block48_interval_pp": [
+        -0.16182457887955945,
+        0.06502184627671677
+      ],
+      "family": 24,
+      "p10_difference_pp": -0.31622681440857114,
+      "median_mdd_difference_pp": -0.043792665579134304,
+      "years": {
+        "2024": {
+          "pairs": 179,
+          "mean_difference_pp": -0.018192789505830843
+        },
+        "2025": {
+          "pairs": 209,
+          "mean_difference_pp": -0.05742462269152192
+        },
+        "2026": {
+          "pairs": 147,
+          "mean_difference_pp": 0.0037368994654220877
+        }
+      },
+      "halves": {
+        "early": {
+          "pairs": 260,
+          "mean_difference_pp": -0.02389829328599837
+        },
+        "late": {
+          "pairs": 275,
+          "mean_difference_pp": -0.030892272684709742
+        }
+      },
+      "seasonal": [
+        {
+          "date": "2024-10-29",
+          "valid": true,
+          "return_pct": 6.371741014932009,
+          "A_return_pct": 6.804579304691871,
+          "difference_pp": -0.4328382897598626
+        },
+        {
+          "date": "2025-10-28",
+          "valid": true,
+          "return_pct": 5.0181292165303315,
+          "A_return_pct": 4.703062307847983,
+          "difference_pp": 0.31506690868234877
+        }
+      ],
+      "other_controls": {
+        "A_mild": {
+          "pairs": 535,
+          "mean_difference_pp": -0.12726097664332403
+        },
+        "A_mild_tolerance": {
+          "pairs": 535,
+          "mean_difference_pp": -0.18867357595789133
+        }
+      },
+      "risk_pass": true,
+      "supported": false
+    },
+    "A_combined_prestart": {
+      "pairs": 535,
+      "mean_difference_pp": 0.07058781401854375,
+      "candidate_median_pct": 4.645692022910075,
+      "A_median_same_dates_pct": 4.545695855519005,
+      "ties": 0,
+      "beat_pct_all_pairs": 62.616822429906534,
+      "beat_pct_changed_pairs": 62.616822429906534,
+      "mean_cost_pct": 0.7586407382864133,
+      "block24_interval_pp": [
+        -0.08442969690325838,
+        0.2185903948302549
+      ],
+      "block48_interval_pp": [
+        -0.07052519523291331,
+        0.2049125061821656
+      ],
+      "family": 24,
+      "p10_difference_pp": -0.09525894670018506,
+      "median_mdd_difference_pp": -0.10345330629274452,
+      "years": {
+        "2024": {
+          "pairs": 179,
+          "mean_difference_pp": 0.18624536062327895
+        },
+        "2025": {
+          "pairs": 209,
+          "mean_difference_pp": 0.06720086684947398
+        },
+        "2026": {
+          "pairs": 147,
+          "mean_difference_pp": -0.06543143008970126
+        }
+      },
+      "halves": {
+        "early": {
+          "pairs": 260,
+          "mean_difference_pp": 0.10817374383912709
+        },
+        "late": {
+          "pairs": 275,
+          "mean_difference_pp": 0.03505202582453768
+        }
+      },
+      "seasonal": [
+        {
+          "date": "2024-10-29",
+          "valid": true,
+          "return_pct": 7.546129688926895,
+          "A_return_pct": 6.804579304691871,
+          "difference_pp": 0.7415503842350235
+        },
+        {
+          "date": "2025-10-28",
+          "valid": true,
+          "return_pct": 4.89573628138551,
+          "A_return_pct": 4.703062307847983,
+          "difference_pp": 0.19267397353752713
+        }
+      ],
+      "other_controls": {
+        "A_mild": {
+          "pairs": 535,
+          "mean_difference_pp": -0.029179833199257384
+        },
+        "A_mild_tolerance": {
+          "pairs": 535,
+          "mean_difference_pp": -0.09059243251382464
+        }
+      },
+      "risk_pass": true,
+      "supported": false
+    }
+  },
+  "selected_supported": [],
+  "limitations": [
+    "retained original known-time sources do not certify first publication",
+    "formal financial onlyQ2/Q1,Q3/Q2; newer unparsed earnings/corrections neutral",
+    "no untouched out-of-sample evaluation",
+    "only2 competition-season years"
+  ],
+  "matched_information_diagnostic": {
+    "pairs": 535,
+    "mean_difference_pp": 0.00421542439448707,
+    "candidate_median_pct": 4.645692022910075,
+    "ties": 66,
+    "beat_pct_all_pairs": 45.42056074766355,
+    "beat_pct_changed_pairs": 51.812366737739865,
+    "mean_cost_pct": 0.7586407382864133,
+    "block24_interval_pp": [
+      -0.03335581054313903,
+      0.042684601383321114
+    ],
+    "block48_interval_pp": [
+      -0.03363324273605561,
+      0.037189248782812045
+    ],
+    "family": 24,
+    "p10_difference_pp": -0.12987861235491463,
+    "median_mdd_difference_pp": 0.004559260144931798,
+    "years": {
+      "2024": {
+        "pairs": 179,
+        "mean_difference_pp": 0.02117429768860012
+      },
+      "2025": {
+        "pairs": 209,
+        "mean_difference_pp": -0.005710589182261484
+      },
+      "2026": {
+        "pairs": 147,
+        "mean_difference_pp": -0.0023226809259604677
+      }
+    },
+    "halves": {
+      "early": {
+        "pairs": 260,
+        "mean_difference_pp": 0.011248853902073095
+      },
+      "late": {
+        "pairs": 275,
+        "mean_difference_pp": -0.002434363503594262
+      }
+    },
+    "seasonal": [
+      {
+        "date": "2024-10-29",
+        "valid": true,
+        "return_pct": 7.546129688926895,
+        "difference_pp": 0.15776552108774933,
+        "reference_return_pct": 7.388364167839145
+      },
+      {
+        "date": "2025-10-28",
+        "valid": true,
+        "return_pct": 4.89573628138551,
+        "difference_pp": 0.2892125395991707,
+        "reference_return_pct": 4.606523741786339
+      }
+    ],
+    "risk_pass": true,
+    "supported": false,
+    "reference": ".5mild+.5equal same25 A selection",
+    "reference_median_same_dates_pct": 4.606523741786339
+  },
+  "LLM_branch": "deferred by user; not backtested"
+}

@@ -1,0 +1,104 @@
+{
+  "ndc_history": {
+    "url": "https://ws.ndc.gov.tw/Download.ashx?icon=.zip&n=5pmv5rCj5oyH5qiZ5Y%2BK54eI6JmfLnppcA%3D%3D&u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL3JlbGZpbGUvNTc4MS82MzkyL2VhMjM1YmQ5LWQwNTItNGE2OS1hYmZjLWQ1Yzc4NWQzZDBlMi56aXA%3D",
+    "status": "downloaded_current_snapshot_not_vintage",
+    "bytes": 71400,
+    "sha256": "6358545a3642f6d5235f34f7947e4173bd0d350030f302774784a4ab691902a9",
+    "content_type": "application/x-zip-compressed",
+    "members": [
+      "manifest.csv",
+      "schema-同時指標構成項目.csv",
+      "schema-景氣指標與燈號.csv",
+      "schema-景氣對策信號構成項目.csv",
+      "schema-落後指標構成項目.csv",
+      "schema-領先指標構成項目.csv",
+      "同時指標構成項目.csv",
+      "景氣指標與燈號.csv",
+      "景氣對策信號構成項目.csv",
+      "落後指標構成項目.csv",
+      "領先指標構成項目.csv"
+    ]
+  },
+  "pmi_history": {
+    "url": "https://ws.ndc.gov.tw/Download.ashx?icon=.csv&n=6Ie654Gj5o6h6LO857aT55CG5Lq65oyH5pW4KHBtaeWPim5taSkuY3N2&u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL3JlbGZpbGUvNTc4MS82MzkxL2JmOGE0ZWI3LTEwZmUtNGZhMC1iNjQ2LTMwZTg5MGQwMjE4YS5jc3Y%3D",
+    "status": "downloaded_current_snapshot_not_vintage",
+    "bytes": 2935,
+    "sha256": "6edc4a335bbd462962af281db2d803364c03091618ea6e2356907e8931d74e2d",
+    "content_type": "application/vnd.ms-excel",
+    "encoding": "utf-8-sig",
+    "rows": 172,
+    "header": [
+      "Date",
+      "PMI",
+      "NMI"
+    ],
+    "date_examples": [
+      "201207",
+      "201208",
+      "201209"
+    ]
+  },
+  "ndc_release_latest": {
+    "url": "https://ws.ndc.gov.tw/Download.ashx?icon=.csv&n=5pyA5paw5pmv5rCj5qaC5rOB5paw6IGe56i%2FLmNzdg%3D%3D&u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL3JlbGZpbGUvNTc4MS8yNTEzOS85MThmYjdmMi00MTY1LTQ0ZjUtYjIzOC01NDc4NWQ0ODBlZTEuY3N2",
+    "status": "downloaded_current_snapshot_not_vintage",
+    "bytes": 13624,
+    "sha256": "57a20f2ae6c1f4f0aa49ba2470c792beb711c5e5604dfc0a808df8476663447c",
+    "content_type": "application/vnd.ms-excel",
+    "encoding": "utf-8-sig",
+    "rows": 104,
+    "header": [
+      "authority(發布機關)",
+      "frequency(發布週期)",
+      "date(發布日期)",
+      "title(標題)",
+      "url(網址)"
+    ],
+    "date_examples": [
+      "國家發展委員會",
+      "國家發展委員會",
+      "國家發展委員會"
+    ]
+  },
+  "pmi_release_latest": {
+    "url": "https://ws.ndc.gov.tw/Download.ashx?icon=.csv&n=5pyA5paw6Ie654Gj5o6h6LO857aT55CG5Lq65oyH5pW45paw6IGe56i%2FLmNzdg%3D%3D&u=LzAwMS9hZG1pbmlzdHJhdG9yLzEwL3JlbGZpbGUvNTc4MS8yNTE0MC84Y2RiM2I4Ny0yNWIyLTRjYTUtOGFjOS0yYTRlMTQyNzE2OWEuY3N2",
+    "status": "downloaded_current_snapshot_not_vintage",
+    "bytes": 15150,
+    "sha256": "a74adb3529cb5c96963ead00a342777acbfe8f386f30eed08c8ea985aa056caa",
+    "content_type": "application/vnd.ms-excel",
+    "encoding": "utf-8-sig",
+    "rows": 105,
+    "header": [
+      "authority(發布機關)",
+      "frequency(發布週期)",
+      "date(發布日期)",
+      "title(標題)",
+      "url(網址)"
+    ],
+    "date_examples": [
+      "國家發展委員會",
+      "國家發展委員會",
+      "國家發展委員會"
+    ]
+  },
+  "release_archive": {
+    "status": "dates_and_urls_obtained_original_values_incomplete",
+    "website_attempts": "NDC direct page403; alternate official archive route403; open data found latest release only",
+    "no_fabricated_release_dates": true,
+    "rule_revision": "2024-03-04 release of2024-01 switched method; cannot silently backfill latest system",
+    "primary_sources": [
+      "https://data.gov.tw/dataset/6099",
+      "https://data.gov.tw/dataset/6100",
+      "https://data.gov.tw/dataset/27543",
+      "https://data.gov.tw/dataset/27541"
+    ],
+    "ndc_rows": 103,
+    "pmi_rows": 104,
+    "original_attempted": 73,
+    "original_success": 0,
+    "errors": {
+      "URLError": 73
+    },
+    "python_original_transport_error": "TLS CERTIFICATE_VERIFY_FAILED Missing Subject Key Identifier; verification not disabled",
+    "windows_native_verified_request": "representative original nc_332_40495:403"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "definition": "v48_fixed_market_state_1",
+  "plan_file": "策略研究_市場狀態與策略選擇計畫_v48_2026-10-17.md",
+  "keys": [
+    "MOM_E0",
+    "FLOW_E0",
+    "FLOW_50_200_ACTIVE",
+    "PURE_50_200",
+    "PURE_10_20",
+    "PURE_10_24"
+  ],
+  "state": "prior-close synthetic equalweight60SMA trend and individual20SMA breadth>50%; unknown if coverage<80% or<50names",
+  "timing": "prior close only; each training outcome ends before testyear; annual expanding training,2019..2025",
+  "selectors": [
+    "S1_MOM_FLOW",
+    "S2_six"
+  ],
+  "minimum_training": "2years,6nonoverlap24daywindows,90%candidatecoverage",
+  "gate": "both24/48block Bonferroni intervals strictlypositive vsMOM; tie lower fees; fallbackMOM",
+  "family": {
+    "training_tests": 105,
+    "evaluation_tests": 8
+  },
+  "bootstrap_draws": 20000,
+  "investment": 0.9,
+  "review_days": 5,
+  "fallback": "prior-known candidate shortage => MOM; data/action error remainsunknown, not retrospectivefallback",
+  "engine_parent": "c3f855a0b902cf0af8d8c0eab13c22c4b2d98c55ccf5dca27eba43ce6ad272a0",
+  "newlookbacksearch": false
+}

@@ -1,0 +1,17 @@
+{
+  "base": "originalA20/60percentilerankhalf;25equal90%;rebalance5;24session;lot1000fees.001425tax.003",
+  "factorial": "exit none/MA5below/2consecutiveMA5below/closebelowprevious5closesmin x addoff/on;8cells7new",
+  "indicators": "companyactionadjustedsignalprice,allknownqclose,earliestq+1VWAP;nointradaystop",
+  "exit": "qclosebelowownMA5 orqandq-1belowownMA5 orqclosebelowminq-5..q-1;statesnotonlycrossevents;knownqualityrequired",
+  "initialcontrol": "allcellsidenticalinitial25and90%;exceptionmonitoring/addstartsnextsession;initialbuydoesnotfiltercurrentweak",
+  "replacement": "fromsession2,normal5daynewselectionandreplacementexcludeownweakflag;nonregularonlyfailedheldsharesreplacedoneforonebyhighestrankedhealthynewnamesatpriorvaluetarget,otherholdingsnotretargeted;retain25;insufficienthealthy=>infeasiblenotfabricated",
+  "add": "ifprior20daycurrent150qualityproxypositiveANDpositive20daybreadth>=60%ANDselectedholdingR3>0R5>0aboveMA5;market>=120valid/dayandnames;onfirstconditionactivationraisegrossstocktargetup to95%byaddingonlyqualifiednames equalextrabudget;initial90%;regular5day90%baseequalplus5%equaloverqualified;signaloffafteraddontrimtotalto90%;noeverydayfullretarget",
+  "add_caps": "newbuyscappedat10%each,2330 25%;notfilledextraifcapsbind;cashdriftsnotfixed5or10;previousNAVandcloseonly",
+  "scope": "stoponlystill90targettoisolatestop;addcellsvariable90/95,allcellscash>=0cash<25%,20..30heldand5daycapgracechecked;notActiveSharecertified",
+  "data_sufficiency": "cannotreplaceenoughhealthy25orbadprices=>invalid;reportlostbaselineworstwindowsandcoverage;commondateconditionalrisknotunconditionalrisk",
+  "analysis": "7newvsbaseline+3addonmarginalwithstops+3stopmarginalwithaddon=13contrastsBonferroni;24/48blocks5000;common8primaryplusownpairs;train<=2024end,laterstart>=2025;crossyearpurged",
+  "selection": "commontrain>=100,traincoverage>=80%,bothfamilylowerexcess>0,P10andworstMDDnotworse;qualifythenlowtrainfee;none=>noforcedchoice",
+  "knownlimits": "previouslyobservedhistory/current150bias/unknownactions/insufficienthealthy/nextdaygaps/noncertifiedofficialexecution",
+  "snapshot": "1b826aa999a02664f43ff9c48a77259881901d8b8399c6ee85ebc275af7ea0e2",
+  "new_windows": 4550
+}

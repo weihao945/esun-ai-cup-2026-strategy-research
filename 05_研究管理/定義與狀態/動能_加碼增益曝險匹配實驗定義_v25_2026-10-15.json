@@ -1,0 +1,40 @@
+{
+  "hypothesis": "addedEVmaybeidlecashdecreaseandmorestockexposure,notbettertiming",
+  "strategy": "originalA,25target,5dayregular,24sessions,lotsfeesallv24unchanged;noexit",
+  "new_controls": {
+    "D80_85": {
+      "fixed_key": "MATCH_D80_85",
+      "fixed_target": 0.8215,
+      "dynamic_train_actual_exposure": 0.816846195290821,
+      "train_n": 179,
+      "calibration_only_exposure_not_return": true
+    },
+    "D80_95": {
+      "fixed_key": "MATCH_D80_95",
+      "fixed_target": 0.8647,
+      "dynamic_train_actual_exposure": 0.8600664290329904,
+      "train_n": 179,
+      "calibration_only_exposure_not_return": true
+    },
+    "D90_95": {
+      "fixed_key": "MATCH_D90_95",
+      "fixed_target": 0.9214,
+      "dynamic_train_actual_exposure": 0.9169614555305495,
+      "train_n": 179,
+      "calibration_only_exposure_not_return": true
+    }
+  },
+  "fixed_target_calibration": "useonlyv24commontrainingwindowsend<=2024-12-31;linearactualexposuremapF80/F95;matchdynamictrainingmeanexposure;roundtarget1bp,freeze;noadjustafterlaterresults",
+  "primary": "3dynamicminusmatchedfixed,24/48block5000Bonferroni3;common10coreincl3new+old7;laterstart>=2025-01-01;oldhistoryalreadyseen",
+  "secondary": "all-common-windowexpostaccounting3parts: exposureeffect via staticgross-return/exposure interpolation + timing/allocation/modelresidual - feeincrease;identityperwindow;descriptive95intervalsnotcausalpercentages",
+  "accounting_warning": "usesactualfutureaverageexposure&realizedwindowreturns;nottradablesignalorforecast;feeaddbackfixedordersnotzerofeecounterfactual;residualincludesallocation,timing,drift,rounding,financingzero",
+  "not_added": [
+    "newcashgrid",
+    "newstops",
+    "newaddsignal",
+    "100percentleverage"
+  ],
+  "new_method_count": 3,
+  "new_windows": 1950,
+  "snapshot": "1b826aa999a02664f43ff9c48a77259881901d8b8399c6ee85ebc275af7ea0e2"
+}

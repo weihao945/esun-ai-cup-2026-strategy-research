@@ -1,0 +1,19 @@
+{
+  "baseline_matches": 10,
+  "methods": 16,
+  "new_methods": 14,
+  "new_window_runs": 31304,
+  "contrasts": 18,
+  "same_dates_all": 1282,
+  "same_dates_later": 976,
+  "events_strictly_lagged": true,
+  "boxpoints_per_view": {
+    "MOM_all": 6410,
+    "MOM_later": 4880,
+    "FLOW_all": 6410,
+    "FLOW_later": 4880
+  },
+  "full_improvements": [],
+  "timing_increment_supported": [],
+  "browser_visual_qa": "not performed;programmatic validation only"
+}

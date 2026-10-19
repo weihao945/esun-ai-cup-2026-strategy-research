@@ -1,0 +1,24 @@
+{
+  "version": "v50_benchmark_fixed1",
+  "date": "2026-10-19",
+  "keys": [
+    "MOM_E0",
+    "FLOW_E0",
+    "FLOW_50_200_ACTIVE",
+    "PURE_50_200",
+    "10_20_FALLBACK",
+    "10_24_FALLBACK"
+  ],
+  "sample": "samev49 allsixcommon, later2019..2025 primary, all2016..2025 available secondary",
+  "primary_benchmark": "TAIEX total return index, includes dividends, raw100%index no investmentfees; not investable ETF or officialcompetitionbenchmark certification",
+  "secondary": "TAIEX priceindex ifavailable, clearlywithoutdividends; no use150proxyasofficialindex",
+  "alignment": "index previous tradingdayclose before strategy firstsession to close of24thsession, exact24dailyreturns and all25datedlevels; no forwardfill",
+  "metrics": "absolute win net>0; beatmarket net>indexreturn; tie separately; mean strategy net,marketreturn,arithmetic excess percentagepoints; not guaranteed alpha",
+  "fee_asymmetry": "strategy after actual modelcosts versus costless100%index;90%strategy exposure not rescaled;no claim exposureadjustedalpha",
+  "statistics": "primary6excessmean+6beatprobminus.5, family12;24/48originalposition circularblocks20000Bonferroni12;overlap andretrospective limits",
+  "sources": [
+    "https://finmind.github.io/tutor/TaiwanMarket/Technical/",
+    "https://www.twse.com.tw/downloads/zh/products/indices/IndexS02.pdf"
+  ],
+  "network": "try new documented public FinMind index source; no retry previously blockedTWSE endpoints; at most3meaningfulattempts per newsource"
+}

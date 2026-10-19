@@ -1,0 +1,35 @@
+{
+  "version": "v44_context_exit_reentry_1",
+  "input_hashes": {
+    "price_current150_cache": "ea800cb5f3c11893db177adcb406bd134f341eb26e0fdf55b0550edf81094e86",
+    "flow_current150_cache": "f4b2e03d369e809ca06b6b11bdac6fcec83ee505e71fad055825391c06c97338",
+    "price_twse_and_actions": "3459a6316bcd2a1790a987cd5f64736c11f9aec58cbaea70282a7090b12a4f38",
+    "action_repairs": "07ce315501c0dfd7d2a09371f48d3a72d8c7a9af9eb6852f9d4df62fd91fdb60",
+    "listing_stockmaster_snapshot": "81ba1f8c26953ab7e86f2a3cc03bf187ab1f11cdb1310083a730c76a78b4ae70"
+  },
+  "baseline_engine": "5b38693c7a1a53841ddd24d6839b674d14166d88e221c008a8af482b9e149af3",
+  "sample": "all2236 possible starts in2016–2025; paired valid windows;2016–2018calibration,2019–2025later already studied",
+  "shared": "same MOM20/60half or pure20dayFLOW selectors,25names,equal90initial,24sessions,regular5sessions,1000shares,VWAP execution,knownactions andexistingfees",
+  "market_universe": "current150 historical listed/available subset; not all Taiwan and not official index",
+  "market_known": "for5 and20 days: complete adjusted returns and no unknown action; at least max(50,ceil(.8*currently priced pool names))",
+  "market_weak": "prior20day breadth<40% AND mean of fixed-known-pool prior5day returns<0",
+  "market_stable": "prior20day breadth>=50% AND same prior5day mean>=0",
+  "recovery": "prior5day breadth>=60% AND mean>0, on2consecutive known days",
+  "stock_weak": "two consecutive closes below5day adjusted-level average; reusev36 ma5two; no parameter search",
+  "modes": {
+    "LOCAL": "only when market stable, replace weak holdings nextday by next-ranked eligible healthy stocks; original firstday, healthy25 at regular stable reviews; otherdays replace failed slots only",
+    "MARKET_STAY80": "after first broad weak signal reduce target90to80; keep80 through window even if recovery",
+    "MARKET_RECOVER": "same reduce80; restore90 upon recovery, can reactivate later; changesonly orregular5days",
+    "COMBINED_RECOVER": "LOCAL plus MARKET_RECOVER"
+  },
+  "offcycle_sizing": "replacement matches previous holding value with1000share rounding; market exposure changes rescale current holdings, not rerank all stocks",
+  "unknown": "no extra trigger on unknown market state; preserve current risk state; reportunknown days, do not infer future",
+  "first_day": "all overlays initially same90; risk actions start day2, before eachday open from previousclose",
+  "fixed_controls": "6 controls, one per family × market mode; invested parameter calibrated to mean exposure of valid2016–2018 overlay windows only; keepconstant all years; label approximate realized exposure match, no resulttarget matching",
+  "primary_contrasts": "8overlays−own90baseline +2RECOVER−STAY +2COMBINED−RECOVER +6overlay−owncalibratedfixed=18",
+  "statistics": "paired feesafter; block24/48 on original positions5000,Bonferroni18; years/P10/worstMDD/coverage/training criteria reused; all/common andpairwise shown",
+  "full_gate": "both correctedCI lower>0;P10 andworstMDD>=control;coverage>=80%;training>=100;>=5years n>=20 and >=2/3positiveyears",
+  "vix": "USfull/TWpartial252 fromv42/v43 onlydiagnostic; no VIX-driven policy or monthly lights invented",
+  "compliance_limits": "existing simulated cash<25%,20–30holdings,caps2330 25%others10% with5daydriftgrace;ActiveShare and official executions not fully certified; no submittedtrades",
+  "no_extra_grid": true
+}

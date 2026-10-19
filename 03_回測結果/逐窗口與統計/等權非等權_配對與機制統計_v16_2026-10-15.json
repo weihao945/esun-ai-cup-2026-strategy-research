@@ -1,0 +1,3099 @@
+{
+  "definition": {
+    "version": "v16_weight_vs_skip_factorial_statistics",
+    "user_request": "pairedweightstatisticsandassessstockselection/earlyexitinterpretation",
+    "scope": "same5families;2weightmodes*2skiprules=20fixedcells;reuseallv15plusv7Amild;no new signalparameters",
+    "factors": {
+      "weight": [
+        "equal",
+        "mildrank1.25to.75"
+      ],
+      "retained_adjustment_skip": [
+        0,
+        0.005
+      ]
+    },
+    "primary": "mild_fullminus_equal_fullisolatesweight;also mild_skipminus_equal_skip;notdiagonalonly",
+    "population": "same150fixedcurrentpool;650overlapping24daywindows;25hold,90pct,5dayrebalance,lotsandfeesunchanged",
+    "sampling": "all20commonprimary plus eachpaircoverage diagnostics;no mixingindependentdenominators",
+    "metrics": "netwinrate,mean24dEV,conditionalmeanwin/loss,n,cost,mdd,P10;pairedmean/medianexcess,p10/p90diff,beatbase,samepositive_negativeoutcomeagreement",
+    "intervals": "24/48positionmovingblocks5000sameindices;ordinary95pctdescriptive and conservativefamily289+11=300 exploratory;90pct sensitivityequivalence bands ±.10/.25/.50pp, allreported not pickbestmargin",
+    "equivalence_warning": "lackofsignificanceisnotequivalence;bandsarepostplotresearchreportingscalesnotuserutilityorprospectiveconfirmatoryTOST;mustboth90pctblockintervalsinsideband",
+    "exit_reference": "reusev7AHequalinitial25buyholdversusAequal5dayranking;pairedmatchedcoverage;not daily stoploss;includesnewselectionandweightretargeting",
+    "do_not_claim": "cannotknowwrongstockexante;no automatic-5or-10stopthreshold;no futurefilter;stockselectionfamilyeffectnotcausalattribution",
+    "decision": "ifweightincrementunprovenkeepallocationascontrol;selection/exitareprioritiesforfurtherhypothesesnotprovenmaincause",
+    "no_additional_execution": "no daily stoploss experiment thisbatch, no LLMortradesorschedules"
+  },
+  "definition_sha256": "46d6960cd7b8434c7fed9426e538707c84821b2c4011eedb0b54629534b3b893",
+  "common20_n": 313,
+  "common20_indices": [
+    84,
+    85,
+    86,
+    88,
+    89,
+    90,
+    91,
+    93,
+    94,
+    95,
+    96,
+    100,
+    105,
+    110,
+    115,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    134,
+    136,
+    139,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    202,
+    203,
+    204,
+    205,
+    207,
+    208,
+    209,
+    210,
+    212,
+    213,
+    214,
+    215,
+    217,
+    218,
+    219,
+    220,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254,
+    281,
+    282,
+    283,
+    284,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    296,
+    297,
+    298,
+    299,
+    300,
+    301,
+    302,
+    303,
+    304,
+    305,
+    306,
+    307,
+    308,
+    309,
+    310,
+    311,
+    312,
+    313,
+    314,
+    315,
+    316,
+    317,
+    411,
+    412,
+    413,
+    414,
+    416,
+    417,
+    421,
+    426,
+    454,
+    455,
+    456,
+    457,
+    459,
+    460,
+    461,
+    462,
+    464,
+    465,
+    466,
+    467,
+    469,
+    470,
+    471,
+    472,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479,
+    503,
+    508,
+    513,
+    518,
+    519,
+    520,
+    521,
+    522,
+    523,
+    524,
+    525,
+    526,
+    527,
+    528,
+    529,
+    530,
+    531,
+    532,
+    533,
+    534,
+    535,
+    536,
+    537,
+    538,
+    539,
+    540,
+    541,
+    542,
+    543,
+    544,
+    545,
+    546,
+    547,
+    548,
+    549,
+    550,
+    551,
+    552,
+    553,
+    554,
+    555,
+    556,
+    557,
+    558,
+    559,
+    560,
+    561,
+    562,
+    563,
+    564,
+    565,
+    566,
+    567,
+    568,
+    569,
+    570,
+    571,
+    572,
+    573,
+    575,
+    576,
+    577,
+    578,
+    580,
+    581,
+    582,
+    583,
+    585,
+    586,
+    587,
+    588,
+    590,
+    591,
+    592,
+    593,
+    595,
+    596,
+    597,
+    598,
+    599,
+    600,
+    601,
+    602,
+    603,
+    604,
+    605,
+    606,
+    607,
+    608,
+    609,
+    610,
+    611,
+    612,
+    613,
+    614,
+    615,
+    616,
+    617,
+    618,
+    619,
+    620,
+    621,
+    622,
+    623,
+    624,
+    625,
+    626,
+    627,
+    628,
+    629,
+    630,
+    631,
+    632,
+    633,
+    634,
+    635,
+    636,
+    637,
+    638,
+    639,
+    640,
+    641,
+    642,
+    643,
+    644,
+    645,
+    646
+  ],
+  "weight_only": {
+    "MOM_full": {
+      "candidate": "MOM_M0",
+      "base": "MOM_E0",
+      "n": 313,
+      "mean_excess": -0.00026655107798549064,
+      "median_excess": 0.0013077900108564577,
+      "P10_diff": -0.009673018241684761,
+      "P90_diff": 0.0073987552644581905,
+      "beat_base_rate": 0.5814696485623003,
+      "net_sign_agreement": 0.9840255591054313,
+      "return_correlation": 0.9980293300151649,
+      "mean_cost_change": -0.00029532214993288305,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.7220447284345048,
+        "expectancy": 0.04863584088211192,
+        "mean_win": 0.09697403916251028,
+        "mean_loss": -0.07693235235202632,
+        "flat_count": 0,
+        "mean_cost": 0.007809753052128389,
+        "median_mdd": -0.06331912641889348,
+        "worst_mdd": -0.23522207366782166,
+        "P10": -0.09265091376820993
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.7188498402555911,
+        "expectancy": 0.04890239196009741,
+        "mean_win": 0.09652467807018658,
+        "mean_loss": -0.07285913502592602,
+        "flat_count": 0,
+        "mean_cost": 0.008105075202061274,
+        "median_mdd": -0.061648784576174065,
+        "worst_mdd": -0.22491181137073002,
+        "P10": -0.08644650949441592
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 0.003788256472577388
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": -0.001230317974034634
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": -0.00315934695329429
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.0027055017773642415,
+        0.0022681155145338667
+      ],
+      "block24_90": [
+        -0.0022689201967662684,
+        0.0019517319671091213
+      ],
+      "block24_family300": [
+        -0.005091866414205062,
+        0.003623976257452462
+      ],
+      "block48_95": [
+        -0.0026953683240571523,
+        0.002429982593210898
+      ],
+      "block48_90": [
+        -0.00221205796337339,
+        0.0020622095966000165
+      ],
+      "block48_family300": [
+        -0.00484271861639787,
+        0.0037864473709171677
+      ],
+      "both95includezero": true,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "MOM_skip": {
+      "candidate": "MOM_M5",
+      "base": "MOM_E5",
+      "n": 313,
+      "mean_excess": 6.951450963024839e-05,
+      "median_excess": 0.0009434634150515819,
+      "P10_diff": -0.009106363183074473,
+      "P90_diff": 0.008799369192634734,
+      "beat_base_rate": 0.5750798722044729,
+      "net_sign_agreement": 0.9840255591054313,
+      "return_correlation": 0.9982324229706557,
+      "mean_cost_change": -0.000304589458992748,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.7252396166134185,
+        "expectancy": 0.04930171814529276,
+        "mean_win": 0.09744375783488957,
+        "mean_loss": -0.07777087498887551,
+        "flat_count": 0,
+        "mean_cost": 0.007546988577707242,
+        "median_mdd": -0.06289147490287716,
+        "worst_mdd": -0.23429292068501917,
+        "P10": -0.09178844716344858
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.7156549520766773,
+        "expectancy": 0.04923220363566251,
+        "mean_win": 0.09742270651517704,
+        "mean_loss": -0.07205625304985722,
+        "flat_count": 0,
+        "mean_cost": 0.00785157803669999,
+        "median_mdd": -0.06241295178082329,
+        "worst_mdd": -0.2261711162831811,
+        "P10": -0.08692442571922121
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 0.003661961399131954
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": -0.0012968603591306423
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": -0.002024442567774877
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.002128182054734063,
+        0.002364410229304478
+      ],
+      "block24_90": [
+        -0.0017069344159432688,
+        0.002100366097083475
+      ],
+      "block24_family300": [
+        -0.0041065305575616546,
+        0.0038990443653991015
+      ],
+      "block48_95": [
+        -0.001915500774810739,
+        0.002486122710280368
+      ],
+      "block48_90": [
+        -0.001519050222197324,
+        0.0021308320015812053
+      ],
+      "block48_family300": [
+        -0.003474511901455032,
+        0.0038902068581561674
+      ],
+      "both95includezero": true,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "FLOW_full": {
+      "candidate": "FLOW_M0",
+      "base": "FLOW_E0",
+      "n": 313,
+      "mean_excess": -0.001203936640988727,
+      "median_excess": -0.0008797599366332509,
+      "P10_diff": -0.005829366455282514,
+      "P90_diff": 0.0034940112058166497,
+      "beat_base_rate": 0.3865814696485623,
+      "net_sign_agreement": 0.9904153354632588,
+      "return_correlation": 0.9977507147748375,
+      "mean_cost_change": -3.701745205050696e-05,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.805111821086262,
+        "expectancy": 0.03250285737752225,
+        "mean_win": 0.049855333073961554,
+        "mean_loss": -0.03918277992580072,
+        "flat_count": 0,
+        "mean_cost": 0.007119416190572701,
+        "median_mdd": -0.0345919769734615,
+        "worst_mdd": -0.1959615029143802,
+        "P10": -0.02681468434496541
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.8083067092651757,
+        "expectancy": 0.033706794018510976,
+        "mean_win": 0.05103126432038782,
+        "mean_loss": -0.03934472242106969,
+        "flat_count": 0,
+        "mean_cost": 0.0071564336426232075,
+        "median_mdd": -0.03615582848869292,
+        "worst_mdd": -0.1981062111008861,
+        "P10": -0.02365354033336233
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 0.0008048340852784081
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": -0.0023853480151289318
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": -0.0016659930071563462
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.002473465462537955,
+        -1.7829555081656114e-05
+      ],
+      "block24_90": [
+        -0.0022679364151782164,
+        -0.00019832736079453687
+      ],
+      "block24_family300": [
+        -0.0036154133680512527,
+        0.0008181345276684037
+      ],
+      "block48_95": [
+        -0.002594049114121132,
+        2.520265752396608e-05
+      ],
+      "block48_90": [
+        -0.002395886843357226,
+        -0.00018118711538058082
+      ],
+      "block48_family300": [
+        -0.0035243038753849927,
+        0.0007849282936860756
+      ],
+      "both95includezero": false,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "FLOW_skip": {
+      "candidate": "FLOW_M5",
+      "base": "FLOW_E5",
+      "n": 313,
+      "mean_excess": -0.001220832435267322,
+      "median_excess": -0.0009471985666675842,
+      "P10_diff": -0.006283817809239034,
+      "P90_diff": 0.0034096774562294655,
+      "beat_base_rate": 0.402555910543131,
+      "net_sign_agreement": 0.987220447284345,
+      "return_correlation": 0.9974818939038367,
+      "mean_cost_change": -5.305043701005611e-05,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.805111821086262,
+        "expectancy": 0.0328645582597785,
+        "mean_win": 0.050223556487368065,
+        "mean_loss": -0.03884802458206692,
+        "flat_count": 0,
+        "mean_cost": 0.0068715998921737844,
+        "median_mdd": -0.03489425022538761,
+        "worst_mdd": -0.1963849526055762,
+        "P10": -0.02657201529730588
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.805111821086262,
+        "expectancy": 0.03408539069504583,
+        "mean_win": 0.05183036751087047,
+        "mean_loss": -0.03922172664245931,
+        "flat_count": 0,
+        "mean_cost": 0.00692465032918384,
+        "median_mdd": -0.03649809932837633,
+        "worst_mdd": -0.20027779337675022,
+        "P10": -0.025331113966344396
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 0.0009410065516571903
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": -0.0019425790653804162
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": -0.001992391379662205
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.0025984846728895933,
+        -8.012284260202556e-06
+      ],
+      "block24_90": [
+        -0.002338399446018626,
+        -0.00019450023650415183
+      ],
+      "block24_family300": [
+        -0.003680774552090906,
+        0.0011110983322059464
+      ],
+      "block48_95": [
+        -0.0026679526012521166,
+        5.3812066302587965e-05
+      ],
+      "block48_90": [
+        -0.002430256341977685,
+        -0.00013287998438680276
+      ],
+      "block48_family300": [
+        -0.003546495319818056,
+        0.0008354097823068477
+      ],
+      "both95includezero": false,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "REV_full": {
+      "candidate": "REV_M0",
+      "base": "REV_E0",
+      "n": 313,
+      "mean_excess": 0.0008868129125618935,
+      "median_excess": 0.0008976979111526839,
+      "P10_diff": -0.004842003922759819,
+      "P90_diff": 0.006090113063227156,
+      "beat_base_rate": 0.5878594249201278,
+      "net_sign_agreement": 0.9904153354632588,
+      "return_correlation": 0.9990292410818058,
+      "mean_cost_change": 0.00018688571467412362,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.6293929712460063,
+        "expectancy": 0.029978428972777926,
+        "mean_win": 0.08561363907538194,
+        "mean_loss": -0.06450550542560993,
+        "flat_count": 0,
+        "mean_cost": 0.019284612214555852,
+        "median_mdd": -0.06657994132645761,
+        "worst_mdd": -0.2988157060382788,
+        "P10": -0.08593299198390544
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.6261980830670927,
+        "expectancy": 0.029091616060216038,
+        "mean_win": 0.08475547651717323,
+        "mean_loss": -0.06415724419246437,
+        "flat_count": 0,
+        "mean_cost": 0.019097726499881725,
+        "median_mdd": -0.06603561042291495,
+        "worst_mdd": -0.30058711855715425,
+        "P10": -0.08580630628868562
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 0.0008740511076496796
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": 0.0010306166746887977
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": 0.0005832818479925049
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.00033714296799115134,
+        0.0021753285571338254
+      ],
+      "block24_90": [
+        -0.00012669272511811806,
+        0.0019356020370400672
+      ],
+      "block24_family300": [
+        -0.0015109258374926707,
+        0.0032296824964110314
+      ],
+      "block48_95": [
+        -0.00024618094116042225,
+        0.0021790595794779137
+      ],
+      "block48_90": [
+        -5.337865466482297e-05,
+        0.002001153633005134
+      ],
+      "block48_family300": [
+        -0.0009047423685772523,
+        0.003219919438282816
+      ],
+      "both95includezero": true,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "REV_skip": {
+      "candidate": "REV_M5",
+      "base": "REV_E5",
+      "n": 313,
+      "mean_excess": 0.0013048377488448582,
+      "median_excess": 0.0012312410795201068,
+      "P10_diff": -0.004729631437307668,
+      "P90_diff": 0.0065502234617359715,
+      "beat_base_rate": 0.6293929712460063,
+      "net_sign_agreement": 0.9840255591054313,
+      "return_correlation": 0.9989532280401949,
+      "mean_cost_change": 0.00028020593756288383,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.6293929712460063,
+        "expectancy": 0.03000865825295233,
+        "mean_win": 0.08567580317328974,
+        "mean_loss": -0.06452951027555169,
+        "flat_count": 0,
+        "mean_cost": 0.019227515320272916,
+        "median_mdd": -0.06668603257504813,
+        "worst_mdd": -0.2988678713240319,
+        "P10": -0.08409626799186394
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.6198083067092651,
+        "expectancy": 0.028703820504107476,
+        "mean_win": 0.0848248014802767,
+        "mean_loss": -0.06278752663351293,
+        "flat_count": 0,
+        "mean_cost": 0.018947309382710036,
+        "median_mdd": -0.06579979118163859,
+        "worst_mdd": -0.29871654576489937,
+        "P10": -0.08452651431449332
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 0.0009895792981182137
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": 0.0014587693048322883
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": 0.0010883876997681817
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -2.2024082608584237e-05,
+        0.0027575774314641853
+      ],
+      "block24_90": [
+        0.00016877445000112854,
+        0.0025011228587020796
+      ],
+      "block24_family300": [
+        -0.000984111162433377,
+        0.003917508669784681
+      ],
+      "block48_95": [
+        -2.8622701912206924e-05,
+        0.002809221677932758
+      ],
+      "block48_90": [
+        0.00016498296735076567,
+        0.0025791423822448946
+      ],
+      "block48_family300": [
+        -0.0008204939560781722,
+        0.0039370792676917225
+      ],
+      "both95includezero": true,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": false,
+        "0.50pp": true
+      }
+    },
+    "LOWVOL_full": {
+      "candidate": "LOWVOL_M0",
+      "base": "LOWVOL_E0",
+      "n": 313,
+      "mean_excess": -0.0009500438656908784,
+      "median_excess": -0.0010094205350272833,
+      "P10_diff": -0.003325340060037263,
+      "P90_diff": 0.0015680540026560942,
+      "beat_base_rate": 0.3035143769968051,
+      "net_sign_agreement": 0.9936102236421726,
+      "return_correlation": 0.9987792965202547,
+      "mean_cost_change": 4.197513757186309e-05,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.6741214057507987,
+        "expectancy": 0.01120022152689312,
+        "mean_win": 0.02751037473439438,
+        "mean_loss": -0.022539409127839877,
+        "flat_count": 0,
+        "mean_cost": 0.004335051418290261,
+        "median_mdd": -0.02093672294261517,
+        "worst_mdd": -0.12351260609658321,
+        "P10": -0.030441702256790392
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.6741214057507987,
+        "expectancy": 0.012150265392583997,
+        "mean_win": 0.02918836096553282,
+        "mean_loss": -0.02309520682204542,
+        "flat_count": 0,
+        "mean_cost": 0.004293076280718399,
+        "median_mdd": -0.02146822239976509,
+        "worst_mdd": -0.12772728413519163,
+        "P10": -0.03149542408553256
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 0.00031731491829070196
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": -0.0010726124622849643
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": -0.0015869579411101704
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.0015587517178426097,
+        -0.00033973147755386116
+      ],
+      "block24_90": [
+        -0.0014665451817402807,
+        -0.0004430828657279462
+      ],
+      "block24_family300": [
+        -0.0020026464890321974,
+        0.00031582020925400184
+      ],
+      "block48_95": [
+        -0.0015756590073530443,
+        -0.00022905481925656696
+      ],
+      "block48_90": [
+        -0.0014767622849267996,
+        -0.0003514854496002124
+      ],
+      "block48_family300": [
+        -0.0020996607488476603,
+        0.0004174183984221358
+      ],
+      "both95includezero": false,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "LOWVOL_skip": {
+      "candidate": "LOWVOL_M5",
+      "base": "LOWVOL_E5",
+      "n": 313,
+      "mean_excess": -0.0007852224615440144,
+      "median_excess": -0.0008103259884926217,
+      "P10_diff": -0.003352541742444881,
+      "P90_diff": 0.0016852382490362145,
+      "beat_base_rate": 0.36741214057507987,
+      "net_sign_agreement": 0.9904153354632588,
+      "return_correlation": 0.9987533491930009,
+      "mean_cost_change": -9.874417959648483e-05,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.6741214057507987,
+        "expectancy": 0.01137395356916668,
+        "mean_win": 0.027635755859506877,
+        "mean_loss": -0.022265657051046866,
+        "flat_count": 0,
+        "mean_cost": 0.0040436561169973715,
+        "median_mdd": -0.020663657093950016,
+        "worst_mdd": -0.12465575503768667,
+        "P10": -0.029939045272281726
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.670926517571885,
+        "expectancy": 0.012159176030710693,
+        "mean_win": 0.029314894511109996,
+        "mean_loss": -0.022818502424472347,
+        "flat_count": 0,
+        "mean_cost": 0.004142400296593856,
+        "median_mdd": -0.021412606885981345,
+        "worst_mdd": -0.12725018811890831,
+        "P10": -0.03179720449530059
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 0.0004046652787729625
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": -0.0008960355670601175
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": -0.0014413360911058935
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.0013758489899830895,
+        -0.00015815778332911264
+      ],
+      "block24_90": [
+        -0.0012880548527209343,
+        -0.0002685644134178369
+      ],
+      "block24_family300": [
+        -0.0018490914469904759,
+        0.0004295861344484643
+      ],
+      "block48_95": [
+        -0.0013819030216795248,
+        -5.422713556279862e-05
+      ],
+      "block48_90": [
+        -0.0012752296149806431,
+        -0.00016918417049443689
+      ],
+      "block48_family300": [
+        -0.0018687092920507313,
+        0.0005959106038910735
+      ],
+      "both95includezero": false,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "REVENU_full": {
+      "candidate": "REVENU_M0",
+      "base": "REVENU_E0",
+      "n": 313,
+      "mean_excess": 0.0018796529721854724,
+      "median_excess": 0.0013134715750937609,
+      "P10_diff": -0.002819735959306424,
+      "P90_diff": 0.007852384578338352,
+      "beat_base_rate": 0.610223642172524,
+      "net_sign_agreement": 0.9840255591054313,
+      "return_correlation": 0.9991120844281527,
+      "mean_cost_change": 4.021340284354904e-05,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.6964856230031949,
+        "expectancy": 0.04915022718998201,
+        "mean_win": 0.0964746844906163,
+        "mean_loss": -0.05944694851042089,
+        "flat_count": 0,
+        "mean_cost": 0.004884982467208994,
+        "median_mdd": -0.06323626744642441,
+        "worst_mdd": -0.3058634431002005,
+        "P10": -0.08143687960360572
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.6869009584664537,
+        "expectancy": 0.047270574217796534,
+        "mean_win": 0.09553182206975278,
+        "mean_loss": -0.058608694028842126,
+        "flat_count": 0,
+        "mean_cost": 0.004844769064365445,
+        "median_mdd": -0.06389237264223424,
+        "worst_mdd": -0.30540394600447407,
+        "P10": -0.08435721867277839
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 0.0007085714496400438
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": -0.00042135153881550473
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": 0.003913482227676048
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        0.000389511124095365,
+        0.003543030783513986
+      ],
+      "block24_90": [
+        0.0005889392608205553,
+        0.0032869909068971507
+      ],
+      "block24_family300": [
+        -0.00047815554897552874,
+        0.005138278297834911
+      ],
+      "block48_95": [
+        2.791286606249669e-05,
+        0.0035932703585416703
+      ],
+      "block48_90": [
+        0.0002965756099553126,
+        0.0033177002170403074
+      ],
+      "block48_family300": [
+        -0.0009284152865123408,
+        0.005392254544171987
+      ],
+      "both95includezero": false,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": false,
+        "0.50pp": true
+      }
+    },
+    "REVENU_skip": {
+      "candidate": "REVENU_M5",
+      "base": "REVENU_E5",
+      "n": 313,
+      "mean_excess": 0.002161781066485233,
+      "median_excess": 0.0017684022489735662,
+      "P10_diff": -0.00349835933720497,
+      "P90_diff": 0.009324308001210868,
+      "beat_base_rate": 0.6230031948881789,
+      "net_sign_agreement": 0.9744408945686901,
+      "return_correlation": 0.9987029317811719,
+      "mean_cost_change": 2.2827856133041386e-05,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.6932907348242812,
+        "expectancy": 0.049232309161432675,
+        "mean_win": 0.09696505478052829,
+        "mean_loss": -0.058663584581731376,
+        "flat_count": 0,
+        "mean_cost": 0.004576230373932209,
+        "median_mdd": -0.06254450643751863,
+        "worst_mdd": -0.3096091728932363,
+        "P10": -0.08183022130345982
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.6869009584664537,
+        "expectancy": 0.04707052809494744,
+        "mean_win": 0.0953573387867207,
+        "mean_loss": -0.058864821892106144,
+        "flat_count": 0,
+        "mean_cost": 0.004553402517799167,
+        "median_mdd": -0.06351862480142445,
+        "worst_mdd": -0.3072027670920805,
+        "P10": -0.08538241389404765
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 0.0008018035540657779
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": -0.0005721024237344986
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": 0.0044693082438993295
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        0.00040376584969370444,
+        0.004174861210018068
+      ],
+      "block24_90": [
+        0.0006106907740135416,
+        0.0038674484032663005
+      ],
+      "block24_family300": [
+        -0.0005398765258413973,
+        0.005882554556681823
+      ],
+      "block48_95": [
+        8.211967373688847e-05,
+        0.004309620087742759
+      ],
+      "block48_90": [
+        0.0003340280844284299,
+        0.003946846643635396
+      ],
+      "block48_family300": [
+        -0.0009588872796945221,
+        0.006561937443602404
+      ],
+      "both95includezero": false,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": false,
+        "0.50pp": true
+      }
+    }
+  },
+  "skip_only": {
+    "MOM_equal": {
+      "candidate": "MOM_E5",
+      "base": "MOM_E0",
+      "n": 313,
+      "mean_excess": 0.00032981167556510034,
+      "median_excess": 0.00026940677668152446,
+      "P10_diff": -0.001731497534588655,
+      "P90_diff": 0.0026337055280173604,
+      "beat_base_rate": 0.5878594249201278,
+      "net_sign_agreement": 0.9968051118210862,
+      "return_correlation": 0.9998639348089324,
+      "mean_cost_change": -0.0002534971653612832,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.7156549520766773,
+        "expectancy": 0.04923220363566251,
+        "mean_win": 0.09742270651517704,
+        "mean_loss": -0.07205625304985722,
+        "flat_count": 0,
+        "mean_cost": 0.00785157803669999,
+        "median_mdd": -0.06241295178082329,
+        "worst_mdd": -0.2261711162831811,
+        "P10": -0.08692442571922121
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.7188498402555911,
+        "expectancy": 0.04890239196009741,
+        "mean_win": 0.09652467807018658,
+        "mean_loss": -0.07285913502592602,
+        "flat_count": 0,
+        "mean_cost": 0.008105075202061274,
+        "median_mdd": -0.061648784576174065,
+        "worst_mdd": -0.22491181137073002,
+        "P10": -0.08644650949441592
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 0.00039741989394528307
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": 0.0004370907165151001
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": 2.1291245947838047e-05
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        1.0889602072010855e-05,
+        0.0007484907670614718
+      ],
+      "block24_90": [
+        6.751554472272941e-05,
+        0.0006745539089051112
+      ],
+      "block24_family300": [
+        -0.00023173174704686398,
+        0.0011677190161066531
+      ],
+      "block48_95": [
+        6.937142368063249e-05,
+        0.0007891659656281468
+      ],
+      "block48_90": [
+        0.00011346597439612281,
+        0.0007017601032303659
+      ],
+      "block48_family300": [
+        -0.0001640201736199462,
+        0.001231580567309467
+      ],
+      "both95includezero": false,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": true,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "MOM_mild": {
+      "candidate": "MOM_M5",
+      "base": "MOM_M0",
+      "n": 313,
+      "mean_excess": 0.0006658772631808394,
+      "median_excess": 0.00033621118873283784,
+      "P10_diff": -0.0015444247129162924,
+      "P90_diff": 0.0032813459993800372,
+      "beat_base_rate": 0.6038338658146964,
+      "net_sign_agreement": 0.9968051118210862,
+      "return_correlation": 0.999831723037515,
+      "mean_cost_change": -0.00026276447442114817,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.7252396166134185,
+        "expectancy": 0.04930171814529276,
+        "mean_win": 0.09744375783488957,
+        "mean_loss": -0.07777087498887551,
+        "flat_count": 0,
+        "mean_cost": 0.007546988577707242,
+        "median_mdd": -0.06289147490287716,
+        "worst_mdd": -0.23429292068501917,
+        "P10": -0.09178844716344858
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.7220447284345048,
+        "expectancy": 0.04863584088211192,
+        "mean_win": 0.09697403916251028,
+        "mean_loss": -0.07693235235202632,
+        "flat_count": 0,
+        "mean_cost": 0.007809753052128389,
+        "median_mdd": -0.06331912641889348,
+        "worst_mdd": -0.23522207366782166,
+        "P10": -0.09265091376820993
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 0.0002711248204998488
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": 0.0003705483314190919
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": 0.001156195631467251
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        0.000198196795560112,
+        0.0013363449205338071
+      ],
+      "block24_90": [
+        0.0002571974479064815,
+        0.0012025156812829286
+      ],
+      "block24_family300": [
+        -7.308062586296467e-05,
+        0.0017774753984193057
+      ],
+      "block48_95": [
+        0.00017457470363371448,
+        0.0014301908895691271
+      ],
+      "block48_90": [
+        0.0002320988047894028,
+        0.00128680361737024
+      ],
+      "block48_family300": [
+        -2.7135023301849244e-05,
+        0.0019625017980903522
+      ],
+      "both95includezero": false,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "FLOW_equal": {
+      "candidate": "FLOW_E5",
+      "base": "FLOW_E0",
+      "n": 313,
+      "mean_excess": 0.0003785966765348473,
+      "median_excess": 0.0003287766235127165,
+      "P10_diff": -0.0008976025457150704,
+      "P90_diff": 0.0016865883852700946,
+      "beat_base_rate": 0.6517571884984026,
+      "net_sign_agreement": 0.9968051118210862,
+      "return_correlation": 0.9998101861085206,
+      "mean_cost_change": -0.0002317833134393673,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.805111821086262,
+        "expectancy": 0.03408539069504583,
+        "mean_win": 0.05183036751087047,
+        "mean_loss": -0.03922172664245931,
+        "flat_count": 0,
+        "mean_cost": 0.00692465032918384,
+        "median_mdd": -0.03649809932837633,
+        "worst_mdd": -0.20027779337675022,
+        "P10": -0.025331113966344396
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.8083067092651757,
+        "expectancy": 0.033706794018510976,
+        "mean_win": 0.05103126432038782,
+        "mean_loss": -0.03934472242106969,
+        "flat_count": 0,
+        "mean_cost": 0.0071564336426232075,
+        "median_mdd": -0.03615582848869292,
+        "worst_mdd": -0.1981062111008861,
+        "P10": -0.02365354033336233
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 0.00018198525490007342
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": -0.00023108267463739333
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": 0.0007744639640300561
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        8.394494153971869e-05,
+        0.0006536179097085031
+      ],
+      "block24_90": [
+        0.00013154553670817205,
+        0.0006104146704884244
+      ],
+      "block24_family300": [
+        -0.0001643695057143978,
+        0.0009146100018022054
+      ],
+      "block48_95": [
+        9.737271115413616e-06,
+        0.0006826238374912208
+      ],
+      "block48_90": [
+        6.629148530857686e-05,
+        0.0006293948886050235
+      ],
+      "block48_family300": [
+        -0.0003755101051325556,
+        0.00094347962519666
+      ],
+      "both95includezero": false,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": true,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "FLOW_mild": {
+      "candidate": "FLOW_M5",
+      "base": "FLOW_M0",
+      "n": 313,
+      "mean_excess": 0.0003617008822562522,
+      "median_excess": 0.00033202809941790257,
+      "P10_diff": -0.001029272651172519,
+      "P90_diff": 0.001758879574849326,
+      "beat_base_rate": 0.6421725239616614,
+      "net_sign_agreement": 1.0,
+      "return_correlation": 0.9997336173498113,
+      "mean_cost_change": -0.00024781629839891646,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.805111821086262,
+        "expectancy": 0.0328645582597785,
+        "mean_win": 0.050223556487368065,
+        "mean_loss": -0.03884802458206692,
+        "flat_count": 0,
+        "mean_cost": 0.0068715998921737844,
+        "median_mdd": -0.03489425022538761,
+        "worst_mdd": -0.1963849526055762,
+        "P10": -0.02657201529730588
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.805111821086262,
+        "expectancy": 0.03250285737752225,
+        "mean_win": 0.049855333073961554,
+        "mean_loss": -0.03918277992580072,
+        "flat_count": 0,
+        "mean_cost": 0.007119416190572701,
+        "median_mdd": -0.0345919769734615,
+        "worst_mdd": -0.1959615029143802,
+        "P10": -0.02681468434496541
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 0.00031815772127885555
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": 0.00021168627511112224
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": 0.0004480655915241976
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        0.00016445479189566335,
+        0.0005911850577006155
+      ],
+      "block24_90": [
+        0.00019341544645694886,
+        0.000551821064637803
+      ],
+      "block24_family300": [
+        -7.146494299389069e-06,
+        0.0008488720149742783
+      ],
+      "block48_95": [
+        0.00018037774970638685,
+        0.0005837421742806673
+      ],
+      "block48_90": [
+        0.00021338680825921724,
+        0.0005468755508412233
+      ],
+      "block48_family300": [
+        3.1699274852960605e-05,
+        0.0008024795620809483
+      ],
+      "both95includezero": false,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": true,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "REV_equal": {
+      "candidate": "REV_E5",
+      "base": "REV_E0",
+      "n": 313,
+      "mean_excess": -0.00038779555610856086,
+      "median_excess": -0.0003334983049687601,
+      "P10_diff": -0.0019017579917044003,
+      "P90_diff": 0.0009356205076276777,
+      "beat_base_rate": 0.329073482428115,
+      "net_sign_agreement": 0.9936102236421726,
+      "return_correlation": 0.9999387397914158,
+      "mean_cost_change": -0.00015041711717169487,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.6198083067092651,
+        "expectancy": 0.028703820504107476,
+        "mean_win": 0.0848248014802767,
+        "mean_loss": -0.06278752663351293,
+        "flat_count": 0,
+        "mean_cost": 0.018947309382710036,
+        "median_mdd": -0.06579979118163859,
+        "worst_mdd": -0.29871654576489937,
+        "P10": -0.08452651431449332
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.6261980830670927,
+        "expectancy": 0.029091616060216038,
+        "mean_win": 0.08475547651717323,
+        "mean_loss": -0.06415724419246437,
+        "flat_count": 0,
+        "mean_cost": 0.019097726499881725,
+        "median_mdd": -0.06603561042291495,
+        "worst_mdd": -0.30058711855715425,
+        "P10": -0.08580630628868562
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 2.4993706370449498e-05
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": -0.0004993452397865535
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": -0.0005445823823914863
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.000732349070226366,
+        -2.0557602798234766e-05
+      ],
+      "block24_90": [
+        -0.0006739813320412882,
+        -8.161290346543506e-05
+      ],
+      "block24_family300": [
+        -0.0010008228051221475,
+        0.00035832129360666804
+      ],
+      "block48_95": [
+        -0.0007257257722951231,
+        -4.7166353692406826e-05
+      ],
+      "block48_90": [
+        -0.0006697578243795131,
+        -0.00010466186329129364
+      ],
+      "block48_family300": [
+        -0.0009854060009125512,
+        0.00015329758073182262
+      ],
+      "both95includezero": false,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": true,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "REV_mild": {
+      "candidate": "REV_M5",
+      "base": "REV_M0",
+      "n": 313,
+      "mean_excess": 3.022928017440374e-05,
+      "median_excess": 2.9520373080904605e-05,
+      "P10_diff": -0.000694170113020931,
+      "P90_diff": 0.0007417559620883197,
+      "beat_base_rate": 0.5335463258785943,
+      "net_sign_agreement": 1.0,
+      "return_correlation": 0.9999793318685594,
+      "mean_cost_change": -5.709689428293467e-05,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.6293929712460063,
+        "expectancy": 0.03000865825295233,
+        "mean_win": 0.08567580317328974,
+        "mean_loss": -0.06452951027555169,
+        "flat_count": 0,
+        "mean_cost": 0.019227515320272916,
+        "median_mdd": -0.06668603257504813,
+        "worst_mdd": -0.2988678713240319,
+        "P10": -0.08409626799186394
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.6293929712460063,
+        "expectancy": 0.029978428972777926,
+        "mean_win": 0.08561363907538194,
+        "mean_loss": -0.06450550542560993,
+        "flat_count": 0,
+        "mean_cost": 0.019284612214555852,
+        "median_mdd": -0.06657994132645761,
+        "worst_mdd": -0.2988157060382788,
+        "P10": -0.08593299198390544
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 0.00014052189683898362
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": -7.11926096430629e-05
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": -3.947653061580961e-05
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.00010570332743370546,
+        0.00014961118691088698
+      ],
+      "block24_90": [
+        -8.393019184224491e-05,
+        0.00013217828407076005
+      ],
+      "block24_family300": [
+        -0.0002334875211234064,
+        0.00026472197461020834
+      ],
+      "block48_95": [
+        -9.860599815231263e-05,
+        0.0001603137941275868
+      ],
+      "block48_90": [
+        -8.053170081629336e-05,
+        0.00013686513060437566
+      ],
+      "block48_family300": [
+        -0.0002209709204861425,
+        0.000286945233350148
+      ],
+      "both95includezero": true,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": true,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "LOWVOL_equal": {
+      "candidate": "LOWVOL_E5",
+      "base": "LOWVOL_E0",
+      "n": 313,
+      "mean_excess": 8.910638126697269e-06,
+      "median_excess": 2.6167738184201816e-05,
+      "P10_diff": -0.0005277265714152879,
+      "P90_diff": 0.0005208979136961835,
+      "beat_base_rate": 0.5079872204472844,
+      "net_sign_agreement": 0.9968051118210862,
+      "return_correlation": 0.9998722456067309,
+      "mean_cost_change": -0.00015067598412454183,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.670926517571885,
+        "expectancy": 0.012159176030710693,
+        "mean_win": 0.029314894511109996,
+        "mean_loss": -0.022818502424472347,
+        "flat_count": 0,
+        "mean_cost": 0.004142400296593856,
+        "median_mdd": -0.021412606885981345,
+        "worst_mdd": -0.12725018811890831,
+        "P10": -0.03179720449530059
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.6741214057507987,
+        "expectancy": 0.012150265392583997,
+        "mean_win": 0.02918836096553282,
+        "mean_loss": -0.02309520682204542,
+        "flat_count": 0,
+        "mean_cost": 0.004293076280718399,
+        "median_mdd": -0.02146822239976509,
+        "worst_mdd": -0.12772728413519163,
+        "P10": -0.03149542408553256
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 0.00014549679578541638
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": 1.6305068707041237e-06
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": -9.88446102985671e-05
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.0001360097509612586,
+        0.00011248942663126244
+      ],
+      "block24_90": [
+        -0.00011922615834440904,
+        8.925033075086447e-05
+      ],
+      "block24_family300": [
+        -0.00023067618477342594,
+        0.00021522279219164813
+      ],
+      "block48_95": [
+        -0.0001448306591422661,
+        0.00011613337009364751
+      ],
+      "block48_90": [
+        -0.000126539011175743,
+        9.600689612176207e-05
+      ],
+      "block48_family300": [
+        -0.00022450996199214156,
+        0.0002063391560249457
+      ],
+      "both95includezero": true,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": true,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "LOWVOL_mild": {
+      "candidate": "LOWVOL_M5",
+      "base": "LOWVOL_M0",
+      "n": 313,
+      "mean_excess": 0.0001737320422735612,
+      "median_excess": 0.00021975962882225808,
+      "P10_diff": -0.0006678261340010038,
+      "P90_diff": 0.0009914068163844104,
+      "beat_base_rate": 0.6645367412140575,
+      "net_sign_agreement": 1.0,
+      "return_correlation": 0.9997353528566991,
+      "mean_cost_change": -0.00029139530129288974,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.6741214057507987,
+        "expectancy": 0.01137395356916668,
+        "mean_win": 0.027635755859506877,
+        "mean_loss": -0.022265657051046866,
+        "flat_count": 0,
+        "mean_cost": 0.0040436561169973715,
+        "median_mdd": -0.020663657093950016,
+        "worst_mdd": -0.12465575503768667,
+        "P10": -0.029939045272281726
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.6741214057507987,
+        "expectancy": 0.01120022152689312,
+        "mean_win": 0.02751037473439438,
+        "mean_loss": -0.022539409127839877,
+        "flat_count": 0,
+        "mean_cost": 0.004335051418290261,
+        "median_mdd": -0.02093672294261517,
+        "worst_mdd": -0.12351260609658321,
+        "P10": -0.030441702256790392
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": 0.00023284715626767694
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": 0.00017820740209555097
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": 4.677723970570982e-05
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -3.230555104104259e-08,
+        0.00032844791053917666
+      ],
+      "block24_90": [
+        3.1657666746374466e-05,
+        0.0003034537809878082
+      ],
+      "block24_family300": [
+        -0.0001488707523561269,
+        0.0005072772871498251
+      ],
+      "block48_95": [
+        9.332761410950773e-08,
+        0.00033988120099252595
+      ],
+      "block48_90": [
+        2.509252162303789e-05,
+        0.0003136209046606038
+      ],
+      "block48_family300": [
+        -0.0001351638103013231,
+        0.0004662480701779985
+      ],
+      "both95includezero": false,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": true,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "REVENU_equal": {
+      "candidate": "REVENU_E5",
+      "base": "REVENU_E0",
+      "n": 313,
+      "mean_excess": -0.00020004612284909055,
+      "median_excess": -0.00019565146827060786,
+      "P10_diff": -0.0023003987196002383,
+      "P90_diff": 0.0018363369207685667,
+      "beat_base_rate": 0.45686900958466453,
+      "net_sign_agreement": 0.9936102236421726,
+      "return_correlation": 0.9998210674537136,
+      "mean_cost_change": -0.00029136654656627785,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.6869009584664537,
+        "expectancy": 0.04707052809494744,
+        "mean_win": 0.0953573387867207,
+        "mean_loss": -0.058864821892106144,
+        "flat_count": 0,
+        "mean_cost": 0.004553402517799167,
+        "median_mdd": -0.06351862480142445,
+        "worst_mdd": -0.3072027670920805,
+        "P10": -0.08538241389404765
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.6869009584664537,
+        "expectancy": 0.047270574217796534,
+        "mean_win": 0.09553182206975278,
+        "mean_loss": -0.058608694028842126,
+        "flat_count": 0,
+        "mean_cost": 0.004844769064365445,
+        "median_mdd": -0.06389237264223424,
+        "worst_mdd": -0.30540394600447407,
+        "P10": -0.08435721867277839
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": -0.00017386421531134788
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": 0.0004705552711924896
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": -0.0006877209464488009
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.0005875791824266977,
+        0.0002693093039129642
+      ],
+      "block24_90": [
+        -0.0005361635096513103,
+        0.00018594665932518916
+      ],
+      "block24_family300": [
+        -0.0008701134710700376,
+        0.0008132079782543206
+      ],
+      "block48_95": [
+        -0.0005834513482834238,
+        0.0003297332755557923
+      ],
+      "block48_90": [
+        -0.0005131433378922057,
+        0.000232384525781517
+      ],
+      "block48_family300": [
+        -0.0008849793567877758,
+        0.0008213038058972442
+      ],
+      "both95includezero": true,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": true,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "REVENU_mild": {
+      "candidate": "REVENU_M5",
+      "base": "REVENU_M0",
+      "n": 313,
+      "mean_excess": 8.208197145067009e-05,
+      "median_excess": 0.00012291030150990423,
+      "P10_diff": -0.0020911304164333176,
+      "P90_diff": 0.0020415148839592503,
+      "beat_base_rate": 0.536741214057508,
+      "net_sign_agreement": 0.9968051118210862,
+      "return_correlation": 0.9998479059552632,
+      "mean_cost_change": -0.00030875209327678547,
+      "candidate_stats": {
+        "n": 313,
+        "win_rate": 0.6932907348242812,
+        "expectancy": 0.049232309161432675,
+        "mean_win": 0.09696505478052829,
+        "mean_loss": -0.058663584581731376,
+        "flat_count": 0,
+        "mean_cost": 0.004576230373932209,
+        "median_mdd": -0.06254450643751863,
+        "worst_mdd": -0.3096091728932363,
+        "P10": -0.08183022130345982
+      },
+      "base_stats": {
+        "n": 313,
+        "win_rate": 0.6964856230031949,
+        "expectancy": 0.04915022718998201,
+        "mean_win": 0.0964746844906163,
+        "mean_loss": -0.05944694851042089,
+        "flat_count": 0,
+        "mean_cost": 0.004884982467208994,
+        "median_mdd": -0.06323626744642441,
+        "worst_mdd": -0.3058634431002005,
+        "P10": -0.08143687960360572
+      },
+      "years": {
+        "2024": {
+          "n": 86,
+          "mean_excess": -8.063211088561373e-05
+        },
+        "2025": {
+          "n": 64,
+          "mean_excess": 0.00031980438627349575
+        },
+        "2026": {
+          "n": 127,
+          "mean_excess": -0.00013189493022551982
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.00028785920352738685,
+        0.0004174620487660169
+      ],
+      "block24_90": [
+        -0.0002297162719034868,
+        0.00035863673062882747
+      ],
+      "block24_family300": [
+        -0.000567698547331254,
+        0.0006427498181565716
+      ],
+      "block48_95": [
+        -0.00022688114509433782,
+        0.0004375941352130641
+      ],
+      "block48_90": [
+        -0.00017701646017254642,
+        0.0003878907281190983
+      ],
+      "block48_family300": [
+        -0.0004971132698151075,
+        0.0007110421109932814
+      ],
+      "both95includezero": true,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": true,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    }
+  },
+  "factorial_means": {
+    "MOM": {
+      "weight_main_effect": -9.851828417762114e-05,
+      "skip_main_effect": 0.0004978444693729699,
+      "interaction": 0.00033606558761573903,
+      "cells": {
+        "E0": {
+          "n": 313,
+          "win_rate": 0.7188498402555911,
+          "expectancy": 0.04890239196009741,
+          "mean_win": 0.09652467807018658,
+          "mean_loss": -0.07285913502592602,
+          "flat_count": 0,
+          "mean_cost": 0.008105075202061274,
+          "median_mdd": -0.061648784576174065,
+          "worst_mdd": -0.22491181137073002,
+          "P10": -0.08644650949441592
+        },
+        "E5": {
+          "n": 313,
+          "win_rate": 0.7156549520766773,
+          "expectancy": 0.04923220363566251,
+          "mean_win": 0.09742270651517704,
+          "mean_loss": -0.07205625304985722,
+          "flat_count": 0,
+          "mean_cost": 0.00785157803669999,
+          "median_mdd": -0.06241295178082329,
+          "worst_mdd": -0.2261711162831811,
+          "P10": -0.08692442571922121
+        },
+        "M0": {
+          "n": 313,
+          "win_rate": 0.7220447284345048,
+          "expectancy": 0.04863584088211192,
+          "mean_win": 0.09697403916251028,
+          "mean_loss": -0.07693235235202632,
+          "flat_count": 0,
+          "mean_cost": 0.007809753052128389,
+          "median_mdd": -0.06331912641889348,
+          "worst_mdd": -0.23522207366782166,
+          "P10": -0.09265091376820993
+        },
+        "M5": {
+          "n": 313,
+          "win_rate": 0.7252396166134185,
+          "expectancy": 0.04930171814529276,
+          "mean_win": 0.09744375783488957,
+          "mean_loss": -0.07777087498887551,
+          "flat_count": 0,
+          "mean_cost": 0.007546988577707242,
+          "median_mdd": -0.06289147490287716,
+          "worst_mdd": -0.23429292068501917,
+          "P10": -0.09178844716344858
+        }
+      }
+    },
+    "FLOW": {
+      "weight_main_effect": -0.0012123845381280245,
+      "skip_main_effect": 0.0003701487793955497,
+      "interaction": -1.6895794278595057e-05,
+      "cells": {
+        "E0": {
+          "n": 313,
+          "win_rate": 0.8083067092651757,
+          "expectancy": 0.033706794018510976,
+          "mean_win": 0.05103126432038782,
+          "mean_loss": -0.03934472242106969,
+          "flat_count": 0,
+          "mean_cost": 0.0071564336426232075,
+          "median_mdd": -0.03615582848869292,
+          "worst_mdd": -0.1981062111008861,
+          "P10": -0.02365354033336233
+        },
+        "E5": {
+          "n": 313,
+          "win_rate": 0.805111821086262,
+          "expectancy": 0.03408539069504583,
+          "mean_win": 0.05183036751087047,
+          "mean_loss": -0.03922172664245931,
+          "flat_count": 0,
+          "mean_cost": 0.00692465032918384,
+          "median_mdd": -0.03649809932837633,
+          "worst_mdd": -0.20027779337675022,
+          "P10": -0.025331113966344396
+        },
+        "M0": {
+          "n": 313,
+          "win_rate": 0.805111821086262,
+          "expectancy": 0.03250285737752225,
+          "mean_win": 0.049855333073961554,
+          "mean_loss": -0.03918277992580072,
+          "flat_count": 0,
+          "mean_cost": 0.007119416190572701,
+          "median_mdd": -0.0345919769734615,
+          "worst_mdd": -0.1959615029143802,
+          "P10": -0.02681468434496541
+        },
+        "M5": {
+          "n": 313,
+          "win_rate": 0.805111821086262,
+          "expectancy": 0.0328645582597785,
+          "mean_win": 0.050223556487368065,
+          "mean_loss": -0.03884802458206692,
+          "flat_count": 0,
+          "mean_cost": 0.0068715998921737844,
+          "median_mdd": -0.03489425022538761,
+          "worst_mdd": -0.1963849526055762,
+          "P10": -0.02657201529730588
+        }
+      }
+    },
+    "REV": {
+      "weight_main_effect": 0.0010958253307033758,
+      "skip_main_effect": -0.00017878313796707856,
+      "interaction": 0.00041802483628296456,
+      "cells": {
+        "E0": {
+          "n": 313,
+          "win_rate": 0.6261980830670927,
+          "expectancy": 0.029091616060216038,
+          "mean_win": 0.08475547651717323,
+          "mean_loss": -0.06415724419246437,
+          "flat_count": 0,
+          "mean_cost": 0.019097726499881725,
+          "median_mdd": -0.06603561042291495,
+          "worst_mdd": -0.30058711855715425,
+          "P10": -0.08580630628868562
+        },
+        "E5": {
+          "n": 313,
+          "win_rate": 0.6198083067092651,
+          "expectancy": 0.028703820504107476,
+          "mean_win": 0.0848248014802767,
+          "mean_loss": -0.06278752663351293,
+          "flat_count": 0,
+          "mean_cost": 0.018947309382710036,
+          "median_mdd": -0.06579979118163859,
+          "worst_mdd": -0.29871654576489937,
+          "P10": -0.08452651431449332
+        },
+        "M0": {
+          "n": 313,
+          "win_rate": 0.6293929712460063,
+          "expectancy": 0.029978428972777926,
+          "mean_win": 0.08561363907538194,
+          "mean_loss": -0.06450550542560993,
+          "flat_count": 0,
+          "mean_cost": 0.019284612214555852,
+          "median_mdd": -0.06657994132645761,
+          "worst_mdd": -0.2988157060382788,
+          "P10": -0.08593299198390544
+        },
+        "M5": {
+          "n": 313,
+          "win_rate": 0.6293929712460063,
+          "expectancy": 0.03000865825295233,
+          "mean_win": 0.08567580317328974,
+          "mean_loss": -0.06452951027555169,
+          "flat_count": 0,
+          "mean_cost": 0.019227515320272916,
+          "median_mdd": -0.06668603257504813,
+          "worst_mdd": -0.2988678713240319,
+          "P10": -0.08409626799186394
+        }
+      }
+    },
+    "LOWVOL": {
+      "weight_main_effect": -0.0008676331636174464,
+      "skip_main_effect": 9.132134020012925e-05,
+      "interaction": 0.00016482140414686395,
+      "cells": {
+        "E0": {
+          "n": 313,
+          "win_rate": 0.6741214057507987,
+          "expectancy": 0.012150265392583997,
+          "mean_win": 0.02918836096553282,
+          "mean_loss": -0.02309520682204542,
+          "flat_count": 0,
+          "mean_cost": 0.004293076280718399,
+          "median_mdd": -0.02146822239976509,
+          "worst_mdd": -0.12772728413519163,
+          "P10": -0.03149542408553256
+        },
+        "E5": {
+          "n": 313,
+          "win_rate": 0.670926517571885,
+          "expectancy": 0.012159176030710693,
+          "mean_win": 0.029314894511109996,
+          "mean_loss": -0.022818502424472347,
+          "flat_count": 0,
+          "mean_cost": 0.004142400296593856,
+          "median_mdd": -0.021412606885981345,
+          "worst_mdd": -0.12725018811890831,
+          "P10": -0.03179720449530059
+        },
+        "M0": {
+          "n": 313,
+          "win_rate": 0.6741214057507987,
+          "expectancy": 0.01120022152689312,
+          "mean_win": 0.02751037473439438,
+          "mean_loss": -0.022539409127839877,
+          "flat_count": 0,
+          "mean_cost": 0.004335051418290261,
+          "median_mdd": -0.02093672294261517,
+          "worst_mdd": -0.12351260609658321,
+          "P10": -0.030441702256790392
+        },
+        "M5": {
+          "n": 313,
+          "win_rate": 0.6741214057507987,
+          "expectancy": 0.01137395356916668,
+          "mean_win": 0.027635755859506877,
+          "mean_loss": -0.022265657051046866,
+          "flat_count": 0,
+          "mean_cost": 0.0040436561169973715,
+          "median_mdd": -0.020663657093950016,
+          "worst_mdd": -0.12465575503768667,
+          "P10": -0.029939045272281726
+        }
+      }
+    },
+    "REVENU": {
+      "weight_main_effect": 0.0020207170193353528,
+      "skip_main_effect": -5.898207569921023e-05,
+      "interaction": 0.00028212809429976063,
+      "cells": {
+        "E0": {
+          "n": 313,
+          "win_rate": 0.6869009584664537,
+          "expectancy": 0.047270574217796534,
+          "mean_win": 0.09553182206975278,
+          "mean_loss": -0.058608694028842126,
+          "flat_count": 0,
+          "mean_cost": 0.004844769064365445,
+          "median_mdd": -0.06389237264223424,
+          "worst_mdd": -0.30540394600447407,
+          "P10": -0.08435721867277839
+        },
+        "E5": {
+          "n": 313,
+          "win_rate": 0.6869009584664537,
+          "expectancy": 0.04707052809494744,
+          "mean_win": 0.0953573387867207,
+          "mean_loss": -0.058864821892106144,
+          "flat_count": 0,
+          "mean_cost": 0.004553402517799167,
+          "median_mdd": -0.06351862480142445,
+          "worst_mdd": -0.3072027670920805,
+          "P10": -0.08538241389404765
+        },
+        "M0": {
+          "n": 313,
+          "win_rate": 0.6964856230031949,
+          "expectancy": 0.04915022718998201,
+          "mean_win": 0.0964746844906163,
+          "mean_loss": -0.05944694851042089,
+          "flat_count": 0,
+          "mean_cost": 0.004884982467208994,
+          "median_mdd": -0.06323626744642441,
+          "worst_mdd": -0.3058634431002005,
+          "P10": -0.08143687960360572
+        },
+        "M5": {
+          "n": 313,
+          "win_rate": 0.6932907348242812,
+          "expectancy": 0.049232309161432675,
+          "mean_win": 0.09696505478052829,
+          "mean_loss": -0.058663584581731376,
+          "flat_count": 0,
+          "mean_cost": 0.004576230373932209,
+          "median_mdd": -0.06254450643751863,
+          "worst_mdd": -0.3096091728932363,
+          "P10": -0.08183022130345982
+        }
+      }
+    }
+  },
+  "weight_ownpair_diagnostic": {
+    "MOM": {
+      "candidate": "MOM_M0",
+      "base": "MOM_E0",
+      "n": 557,
+      "mean_excess": 0.0011037065638763697,
+      "median_excess": 0.0014965410610172647,
+      "P10_diff": -0.0066620336713044456,
+      "P90_diff": 0.009664583224974344,
+      "beat_base_rate": 0.6247755834829444,
+      "net_sign_agreement": 0.9874326750448833,
+      "return_correlation": 0.9978944867446283,
+      "mean_cost_change": -0.0002799825314553609,
+      "candidate_stats": {
+        "n": 557,
+        "win_rate": 0.7217235188509874,
+        "expectancy": 0.052870156974463824,
+        "mean_win": 0.09749173385865517,
+        "mean_loss": -0.06285806178324542,
+        "flat_count": 0,
+        "mean_cost": 0.0075929995488797615,
+        "median_mdd": -0.06332169338266458,
+        "worst_mdd": -0.23522207366782166,
+        "P10": -0.06745615687647799
+      },
+      "base_stats": {
+        "n": 557,
+        "win_rate": 0.7235188509874326,
+        "expectancy": 0.05176645041058745,
+        "mean_win": 0.09503386966804399,
+        "mean_loss": -0.061459328555354006,
+        "flat_count": 0,
+        "mean_cost": 0.007872982080335123,
+        "median_mdd": -0.06183233631933427,
+        "worst_mdd": -0.22491181137073002,
+        "P10": -0.0687774528317945
+      },
+      "years": {
+        "2024": {
+          "n": 179,
+          "mean_excess": 0.0036518201660759664
+        },
+        "2025": {
+          "n": 193,
+          "mean_excess": 0.0008051906059789172
+        },
+        "2026": {
+          "n": 147,
+          "mean_excess": -0.0019210028231601867
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.0007051195128018233,
+        0.0029809336795267876
+      ],
+      "block24_90": [
+        -0.00036452268880607944,
+        0.0026963094319919084
+      ],
+      "block24_family300": [
+        -0.0019968450602486166,
+        0.00476553117269887
+      ],
+      "block48_95": [
+        -0.0006338555316709565,
+        0.002880628583239717
+      ],
+      "block48_90": [
+        -0.0003712966801481797,
+        0.002607494030412874
+      ],
+      "block48_family300": [
+        -0.0024390004281292185,
+        0.003956833947944781
+      ],
+      "both95includezero": true,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": false,
+        "0.50pp": true
+      }
+    },
+    "FLOW": {
+      "candidate": "FLOW_M0",
+      "base": "FLOW_E0",
+      "n": 567,
+      "mean_excess": -0.0012040318254569707,
+      "median_excess": -0.0009949684156176364,
+      "P10_diff": -0.005782521088832926,
+      "P90_diff": 0.0034750207320574326,
+      "beat_base_rate": 0.37566137566137564,
+      "net_sign_agreement": 0.9929453262786596,
+      "return_correlation": 0.9977068727400095,
+      "mean_cost_change": -5.4884676016321696e-05,
+      "candidate_stats": {
+        "n": 567,
+        "win_rate": 0.798941798941799,
+        "expectancy": 0.03555894364557384,
+        "mean_win": 0.05295120192264587,
+        "mean_loss": -0.03355239845542293,
+        "flat_count": 0,
+        "mean_cost": 0.007226757014750447,
+        "median_mdd": -0.029785868546953087,
+        "worst_mdd": -0.1959615029143802,
+        "P10": -0.022514286287747987
+      },
+      "base_stats": {
+        "n": 567,
+        "win_rate": 0.8024691358024691,
+        "expectancy": 0.036762975471030815,
+        "mean_win": 0.05426604160132041,
+        "mean_loss": -0.03434323068327068,
+        "flat_count": 0,
+        "mean_cost": 0.007281641690766769,
+        "median_mdd": -0.03129657778328199,
+        "worst_mdd": -0.1981062111008861,
+        "P10": -0.021970979234273467
+      },
+      "years": {
+        "2024": {
+          "n": 210,
+          "mean_excess": -0.0006960412997586345
+        },
+        "2025": {
+          "n": 149,
+          "mean_excess": -0.0012637819755266348
+        },
+        "2026": {
+          "n": 163,
+          "mean_excess": -0.001582552066525349
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.0022181883634197065,
+        -0.00029921877031815553
+      ],
+      "block24_90": [
+        -0.0020588855625474924,
+        -0.00044046128628341
+      ],
+      "block24_family300": [
+        -0.003318855831109173,
+        0.00027455264211991264
+      ],
+      "block48_95": [
+        -0.002229124309033087,
+        -0.00023408748145905078
+      ],
+      "block48_90": [
+        -0.0020790222911222273,
+        -0.000391903459422502
+      ],
+      "block48_family300": [
+        -0.003040075867595639,
+        0.0006132272641376123
+      ],
+      "both95includezero": false,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "REV": {
+      "candidate": "REV_M0",
+      "base": "REV_E0",
+      "n": 531,
+      "mean_excess": 0.0007186479097274667,
+      "median_excess": 0.0006171971147252986,
+      "P10_diff": -0.0038197882934603022,
+      "P90_diff": 0.005167975816036785,
+      "beat_base_rate": 0.5706214689265536,
+      "net_sign_agreement": 0.9811676082862524,
+      "return_correlation": 0.9989569722882062,
+      "mean_cost_change": 0.00019362010243410745,
+      "candidate_stats": {
+        "n": 531,
+        "win_rate": 0.6534839924670434,
+        "expectancy": 0.02558415230533389,
+        "mean_win": 0.06795846368462798,
+        "mean_loss": -0.05432827187192182,
+        "flat_count": 0,
+        "mean_cost": 0.01924151161543052,
+        "median_mdd": -0.059107757179338694,
+        "worst_mdd": -0.30855417087618386,
+        "P10": -0.06587744022401698
+      },
+      "base_stats": {
+        "n": 531,
+        "win_rate": 0.6497175141242938,
+        "expectancy": 0.024865504395606423,
+        "mean_win": 0.06736945869392125,
+        "mean_loss": -0.05397247535126784,
+        "flat_count": 0,
+        "mean_cost": 0.01904789151299641,
+        "median_mdd": -0.05816828815295805,
+        "worst_mdd": -0.3063600683954807,
+        "P10": -0.06726528971876944
+      },
+      "years": {
+        "2024": {
+          "n": 178,
+          "mean_excess": 0.000534041449790396
+        },
+        "2025": {
+          "n": 165,
+          "mean_excess": 0.0009162839861045827
+        },
+        "2026": {
+          "n": 140,
+          "mean_excess": 0.0005002922592047321
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -6.313061736465525e-05,
+        0.0015536391788702082
+      ],
+      "block24_90": [
+        5.3383611571639956e-05,
+        0.0014186840059198927
+      ],
+      "block24_family300": [
+        -0.0006889109317438811,
+        0.002292609506054986
+      ],
+      "block48_95": [
+        -1.5033853830225315e-05,
+        0.0016319153153084949
+      ],
+      "block48_90": [
+        0.00010195312692873321,
+        0.0014801674464594457
+      ],
+      "block48_family300": [
+        -0.0006096425288637584,
+        0.0022813724605152404
+      ],
+      "both95includezero": true,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "LOWVOL": {
+      "candidate": "LOWVOL_M0",
+      "base": "LOWVOL_E0",
+      "n": 633,
+      "mean_excess": -0.0004579073220025967,
+      "median_excess": -0.0005816574620761683,
+      "P10_diff": -0.0029384806326005373,
+      "P90_diff": 0.002267204309304563,
+      "beat_base_rate": 0.39652448657187994,
+      "net_sign_agreement": 0.9826224328593997,
+      "return_correlation": 0.9980744986344319,
+      "mean_cost_change": 4.037208035996516e-05,
+      "candidate_stats": {
+        "n": 633,
+        "win_rate": 0.6793048973143759,
+        "expectancy": 0.009686575826022852,
+        "mean_win": 0.022782836750957842,
+        "mean_loss": -0.018054272438617767,
+        "flat_count": 0,
+        "mean_cost": 0.004477639729677756,
+        "median_mdd": -0.020513931017507536,
+        "worst_mdd": -0.12351260609658321,
+        "P10": -0.019898284933181486
+      },
+      "base_stats": {
+        "n": 633,
+        "win_rate": 0.6714060031595577,
+        "expectancy": 0.010144483148025447,
+        "mean_win": 0.024158995612883975,
+        "mean_loss": -0.018490938955651827,
+        "flat_count": 0,
+        "mean_cost": 0.0044372676493177905,
+        "median_mdd": -0.021086729048911623,
+        "worst_mdd": -0.12772728413519163,
+        "P10": -0.021088782785371206
+      },
+      "years": {
+        "2024": {
+          "n": 214,
+          "mean_excess": 0.00019468801038529228
+        },
+        "2025": {
+          "n": 211,
+          "mean_excess": -1.3010359618068845e-06
+        },
+        "2026": {
+          "n": 160,
+          "mean_excess": -0.0016245957074626477
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.0010225409692341677,
+        0.0001057492953819005
+      ],
+      "block24_90": [
+        -0.0009382374385782944,
+        1.7142284776380594e-05
+      ],
+      "block24_family300": [
+        -0.0013491527063083776,
+        0.0004989566486616332
+      ],
+      "block48_95": [
+        -0.0010526822307523592,
+        0.00021586292215898826
+      ],
+      "block48_90": [
+        -0.0009628480305912528,
+        0.0001157836681720115
+      ],
+      "block48_family300": [
+        -0.0014580389655212012,
+        0.0006711452932236378
+      ],
+      "both95includezero": true,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": true,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    },
+    "REVENU": {
+      "candidate": "REVENU_M0",
+      "base": "REVENU_E0",
+      "n": 455,
+      "mean_excess": 0.0016908459473681035,
+      "median_excess": 0.0013134715750937609,
+      "P10_diff": -0.002981376460749074,
+      "P90_diff": 0.006388612144607732,
+      "beat_base_rate": 0.6417582417582418,
+      "net_sign_agreement": 0.9868131868131869,
+      "return_correlation": 0.9989816466347209,
+      "mean_cost_change": 5.156634900373578e-05,
+      "candidate_stats": {
+        "n": 455,
+        "win_rate": 0.7494505494505495,
+        "expectancy": 0.05530727967614463,
+        "mean_win": 0.09240367471768755,
+        "mean_loss": -0.0556564984744355,
+        "flat_count": 0,
+        "mean_cost": 0.004834163599393302,
+        "median_mdd": -0.06389114847763067,
+        "worst_mdd": -0.3058634431002005,
+        "P10": -0.04484279203651677
+      },
+      "base_stats": {
+        "n": 455,
+        "win_rate": 0.7450549450549451,
+        "expectancy": 0.05361643372877653,
+        "mean_win": 0.09111119411873225,
+        "mean_loss": -0.05595877120393889,
+        "flat_count": 0,
+        "mean_cost": 0.004782597250389567,
+        "median_mdd": -0.06425699684077923,
+        "worst_mdd": -0.30540394600447407,
+        "P10": -0.04768224454861471
+      },
+      "years": {
+        "2024": {
+          "n": 133,
+          "mean_excess": 0.0017000623054789664
+        },
+        "2025": {
+          "n": 114,
+          "mean_excess": 0.00011579329002032792
+        },
+        "2026": {
+          "n": 163,
+          "mean_excess": 0.0029256516916174946
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        0.0004436943429453543,
+        0.0030623326145236903
+      ],
+      "block24_90": [
+        0.0006385930601039003,
+        0.002839019173375266
+      ],
+      "block24_family300": [
+        -0.00045172739611183606,
+        0.004394415259267903
+      ],
+      "block48_95": [
+        0.00018854871000077855,
+        0.003191725846236898
+      ],
+      "block48_90": [
+        0.0003850168763425829,
+        0.002938270303850601
+      ],
+      "block48_family300": [
+        -0.0008275144626389947,
+        0.004630494455089767
+      ],
+      "both95includezero": false,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": false,
+        "0.50pp": true
+      }
+    }
+  },
+  "mechanism_definition": {
+    "status": "fixed_before_newcontraststatistics_butpastresultsalreadyseen",
+    "nodes": [
+      "REF_liquidity25_equal_buyhold",
+      "AH_momentum25_equal_buyhold",
+      "A_momentum25_equal5day",
+      "A_momentum25_mild5day",
+      "A_momentum25_mild5day_skip005"
+    ],
+    "contrasts": [
+      "AHminusREFinitialrankingcomparison",
+      "AequalminusAH5dayreselectionandretargeting",
+      "AmildminusAequalweightonly",
+      "AmildskipminusAmildsmalltradeskiponly"
+    ],
+    "identity": "sum4pairedincrements=AmildskipminusREFonexactcommon5nodewindows",
+    "limits": "reference-specificdescriptivenotcausal;rankingexitincludesentriesandretargeting;no daily loss-stop rule or futureknowledge"
+  },
+  "mechanism_common_n": 518,
+  "mechanism_pairs": {
+    "initial_selection": {
+      "candidate": "AH",
+      "base": "REF",
+      "n": 518,
+      "mean_excess": 0.008328376418354105,
+      "median_excess": 0.010832254288435095,
+      "P10_diff": -0.05178120154974703,
+      "P90_diff": 0.06964060185967003,
+      "beat_base_rate": 0.6081081081081081,
+      "net_sign_agreement": 0.859073359073359,
+      "return_correlation": 0.8042399321639704,
+      "mean_cost_change": 9.871399045885665e-07,
+      "candidate_stats": {
+        "n": 518,
+        "win_rate": 0.7316602316602316,
+        "expectancy": 0.05391763871193306,
+        "mean_win": 0.09526832036364478,
+        "mean_loss": -0.05882990334561193,
+        "flat_count": 0,
+        "mean_cost": 0.0012732521350311006,
+        "median_mdd": -0.061559787984653,
+        "worst_mdd": -0.29625929124088424,
+        "P10": -0.056851894243919045
+      },
+      "base_stats": {
+        "n": 518,
+        "win_rate": 0.6718146718146718,
+        "expectancy": 0.04558926229357895,
+        "mean_win": 0.09764602191831932,
+        "mean_loss": -0.06097398682059546,
+        "flat_count": 0,
+        "mean_cost": 0.001272264995126512,
+        "median_mdd": -0.062028839333953256,
+        "worst_mdd": -0.29220608589863795,
+        "P10": -0.07391300490180931
+      },
+      "years": {
+        "2024": {
+          "n": 176,
+          "mean_excess": 0.021972879777581337
+        },
+        "2025": {
+          "n": 181,
+          "mean_excess": -0.0007292429072042532
+        },
+        "2026": {
+          "n": 123,
+          "mean_excess": -0.0005953649691942166
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.011610804338091061,
+        0.0299333408577206
+      ],
+      "block24_90": [
+        -0.00856178715541991,
+        0.02670414709511113
+      ],
+      "block24_family300": [
+        -0.028329006231081585,
+        0.05301747004274221
+      ],
+      "block48_95": [
+        -0.011740039477536964,
+        0.030118703602758132
+      ],
+      "block48_90": [
+        -0.00834233013766344,
+        0.026128728360131456
+      ],
+      "block48_family300": [
+        -0.02997848508063717,
+        0.046198271801345524
+      ],
+      "both95includezero": true,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": false,
+        "0.50pp": false
+      }
+    },
+    "five_day_reselection": {
+      "candidate": "MOM_E0",
+      "base": "AH",
+      "n": 518,
+      "mean_excess": -0.0039516216331184585,
+      "median_excess": -0.002318541343608427,
+      "P10_diff": -0.04505202435509704,
+      "P90_diff": 0.03141896705235939,
+      "beat_base_rate": 0.4749034749034749,
+      "net_sign_agreement": 0.916988416988417,
+      "return_correlation": 0.9549250033882851,
+      "mean_cost_change": 0.0066560577892618294,
+      "candidate_stats": {
+        "n": 518,
+        "win_rate": 0.7104247104247104,
+        "expectancy": 0.0499660170788146,
+        "mean_win": 0.09580273016964001,
+        "mean_loss": -0.06248671903734377,
+        "flat_count": 0,
+        "mean_cost": 0.007929309924292931,
+        "median_mdd": -0.06005511232003785,
+        "worst_mdd": -0.22491181137073002,
+        "P10": -0.07348558245613937
+      },
+      "base_stats": {
+        "n": 518,
+        "win_rate": 0.7316602316602316,
+        "expectancy": 0.05391763871193306,
+        "mean_win": 0.09526832036364478,
+        "mean_loss": -0.05882990334561193,
+        "flat_count": 0,
+        "mean_cost": 0.0012732521350311006,
+        "median_mdd": -0.061559787984653,
+        "worst_mdd": -0.29625929124088424,
+        "P10": -0.056851894243919045
+      },
+      "years": {
+        "2024": {
+          "n": 176,
+          "mean_excess": -0.010119746414801782
+        },
+        "2025": {
+          "n": 181,
+          "mean_excess": 0.004939430482735649
+        },
+        "2026": {
+          "n": 123,
+          "mean_excess": -0.009477421450262178
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.010703495820729884,
+        0.004098294705258069
+      ],
+      "block24_90": [
+        -0.009390254059158812,
+        0.003073724323409589
+      ],
+      "block24_family300": [
+        -0.01672572211443235,
+        0.009950109710828133
+      ],
+      "block48_95": [
+        -0.009417099435147937,
+        0.004995995298460396
+      ],
+      "block48_90": [
+        -0.008198538477657391,
+        0.0040851840687188
+      ],
+      "block48_family300": [
+        -0.015418556651360608,
+        0.01090027135005896
+      ],
+      "both95includezero": true,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": false,
+        "0.50pp": false
+      }
+    },
+    "weight_only": {
+      "candidate": "MOM_M0",
+      "base": "MOM_E0",
+      "n": 518,
+      "mean_excess": 0.0008753169640808052,
+      "median_excess": 0.0013007576037887825,
+      "P10_diff": -0.007108397216679451,
+      "P90_diff": 0.00966381879534033,
+      "beat_base_rate": 0.6138996138996139,
+      "net_sign_agreement": 0.9864864864864865,
+      "return_correlation": 0.997901012144603,
+      "mean_cost_change": -0.0002789587909091207,
+      "candidate_stats": {
+        "n": 518,
+        "win_rate": 0.7084942084942085,
+        "expectancy": 0.050841334042895404,
+        "mean_win": 0.09804834377342608,
+        "mean_loss": -0.0638935836465401,
+        "flat_count": 0,
+        "mean_cost": 0.007650351133383809,
+        "median_mdd": -0.06236842769053519,
+        "worst_mdd": -0.23522207366782166,
+        "P10": -0.07315143145883396
+      },
+      "base_stats": {
+        "n": 518,
+        "win_rate": 0.7104247104247104,
+        "expectancy": 0.0499660170788146,
+        "mean_win": 0.09580273016964001,
+        "mean_loss": -0.06248671903734377,
+        "flat_count": 0,
+        "mean_cost": 0.007929309924292931,
+        "median_mdd": -0.06005511232003785,
+        "worst_mdd": -0.22491181137073002,
+        "P10": -0.07348558245613937
+      },
+      "years": {
+        "2024": {
+          "n": 176,
+          "mean_excess": 0.0037332590041606662
+        },
+        "2025": {
+          "n": 181,
+          "mean_excess": 0.0005038865673966687
+        },
+        "2026": {
+          "n": 123,
+          "mean_excess": -0.00311314829625507
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        -0.0010160201923169407,
+        0.0028186127213176452
+      ],
+      "block24_90": [
+        -0.0006485267455849444,
+        0.0025202010442945144
+      ],
+      "block24_family300": [
+        -0.002550314363324375,
+        0.004670024885317094
+      ],
+      "block48_95": [
+        -0.001041975491607974,
+        0.0027238018622600924
+      ],
+      "block48_90": [
+        -0.000744043458746592,
+        0.0024557238415961456
+      ],
+      "block48_family300": [
+        -0.002927327637862914,
+        0.0038761597923544972
+      ],
+      "both95includezero": true,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": false,
+        "0.25pp": false,
+        "0.50pp": true
+      }
+    },
+    "skip_only": {
+      "candidate": "MOM_M5",
+      "base": "MOM_M0",
+      "n": 518,
+      "mean_excess": 0.0005632986791715632,
+      "median_excess": 0.00035116425836051457,
+      "P10_diff": -0.0014210206461799158,
+      "P90_diff": 0.0025433434159077175,
+      "beat_base_rate": 0.61003861003861,
+      "net_sign_agreement": 0.9961389961389961,
+      "return_correlation": 0.9998451948405495,
+      "mean_cost_change": -0.0002650230084504751,
+      "candidate_stats": {
+        "n": 518,
+        "win_rate": 0.7123552123552124,
+        "expectancy": 0.05140463272206697,
+        "mean_win": 0.09825439483339445,
+        "mean_loss": -0.06461927478853595,
+        "flat_count": 0,
+        "mean_cost": 0.0073853281249333345,
+        "median_mdd": -0.06240815573798392,
+        "worst_mdd": -0.23429292068501917,
+        "P10": -0.07536271190386369
+      },
+      "base_stats": {
+        "n": 518,
+        "win_rate": 0.7084942084942085,
+        "expectancy": 0.050841334042895404,
+        "mean_win": 0.09804834377342608,
+        "mean_loss": -0.0638935836465401,
+        "flat_count": 0,
+        "mean_cost": 0.007650351133383809,
+        "median_mdd": -0.06236842769053519,
+        "worst_mdd": -0.23522207366782166,
+        "P10": -0.07315143145883396
+      },
+      "years": {
+        "2024": {
+          "n": 176,
+          "mean_excess": 0.00028246945771593317
+        },
+        "2025": {
+          "n": 181,
+          "mean_excess": 0.0004038232429506067
+        },
+        "2026": {
+          "n": 123,
+          "mean_excess": 0.001235862786520254
+        }
+      },
+      "equivalence_warning": "predefinedafterplotreportingscales,notprospectiveclinicalequivalencetestoruserutility",
+      "block24_95": [
+        0.00023849423423817905,
+        0.0009942664813225766
+      ],
+      "block24_90": [
+        0.0002832596186272197,
+        0.0009202100612649008
+      ],
+      "block24_family300": [
+        -2.1735973558773808e-05,
+        0.0013677658784598697
+      ],
+      "block48_95": [
+        0.00022160867171745427,
+        0.0010726377513861028
+      ],
+      "block48_90": [
+        0.0002706961219035701,
+        0.0009837747919897494
+      ],
+      "block48_family300": [
+        6.129666260281912e-05,
+        0.0016189747838699408
+      ],
+      "both95includezero": false,
+      "band90_contains_both_blockintervals": {
+        "0.10pp": true,
+        "0.25pp": true,
+        "0.50pp": true
+      }
+    }
+  },
+  "mechanism_node_metrics": {
+    "REF": {
+      "n": 518,
+      "win_rate": 0.6718146718146718,
+      "expectancy": 0.04558926229357895,
+      "mean_win": 0.09764602191831932,
+      "mean_loss": -0.06097398682059546,
+      "flat_count": 0,
+      "mean_cost": 0.001272264995126512,
+      "median_mdd": -0.062028839333953256,
+      "worst_mdd": -0.29220608589863795,
+      "P10": -0.07391300490180931
+    },
+    "AH": {
+      "n": 518,
+      "win_rate": 0.7316602316602316,
+      "expectancy": 0.05391763871193306,
+      "mean_win": 0.09526832036364478,
+      "mean_loss": -0.05882990334561193,
+      "flat_count": 0,
+      "mean_cost": 0.0012732521350311006,
+      "median_mdd": -0.061559787984653,
+      "worst_mdd": -0.29625929124088424,
+      "P10": -0.056851894243919045
+    },
+    "MOM_E0": {
+      "n": 518,
+      "win_rate": 0.7104247104247104,
+      "expectancy": 0.0499660170788146,
+      "mean_win": 0.09580273016964001,
+      "mean_loss": -0.06248671903734377,
+      "flat_count": 0,
+      "mean_cost": 0.007929309924292931,
+      "median_mdd": -0.06005511232003785,
+      "worst_mdd": -0.22491181137073002,
+      "P10": -0.07348558245613937
+    },
+    "MOM_M0": {
+      "n": 518,
+      "win_rate": 0.7084942084942085,
+      "expectancy": 0.050841334042895404,
+      "mean_win": 0.09804834377342608,
+      "mean_loss": -0.0638935836465401,
+      "flat_count": 0,
+      "mean_cost": 0.007650351133383809,
+      "median_mdd": -0.06236842769053519,
+      "worst_mdd": -0.23522207366782166,
+      "P10": -0.07315143145883396
+    },
+    "MOM_M5": {
+      "n": 518,
+      "win_rate": 0.7123552123552124,
+      "expectancy": 0.05140463272206697,
+      "mean_win": 0.09825439483339445,
+      "mean_loss": -0.06461927478853595,
+      "flat_count": 0,
+      "mean_cost": 0.0073853281249333345,
+      "median_mdd": -0.06240815573798392,
+      "worst_mdd": -0.23429292068501917,
+      "P10": -0.07536271190386369
+    }
+  },
+  "mechanism_sum": 0.005815370428488015,
+  "mechanism_total": 0.005815370428488018,
+  "limits": [
+    "overlappingwindows",
+    "pastdataalreadyseen",
+    "postplotpracticalbands",
+    "currentuniversebias",
+    "unknownpaidcapitalexcluded",
+    "notdailystoploss",
+    "allocationrangeonlymild1.25to.75"
+  ]
+}

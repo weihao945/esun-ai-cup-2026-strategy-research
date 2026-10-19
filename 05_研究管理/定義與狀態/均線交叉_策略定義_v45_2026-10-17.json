@@ -1,0 +1,56 @@
+{
+  "version": "v45_sma_cross_fixed_1",
+  "date": "2026-10-17",
+  "input_hashes": {
+    "price_current150_cache": "ea800cb5f3c11893db177adcb406bd134f341eb26e0fdf55b0550edf81094e86",
+    "flow_current150_cache": "f4b2e03d369e809ca06b6b11bdac6fcec83ee505e71fad055825391c06c97338",
+    "price_twse_and_actions": "3459a6316bcd2a1790a987cd5f64736c11f9aec58cbaea70282a7090b12a4f38",
+    "action_repairs": "07ce315501c0dfd7d2a09371f48d3a72d8c7a9af9eb6852f9d4df62fd91fdb60",
+    "listing_stockmaster_snapshot": "81ba1f8c26953ab7e86f2a3cc03bf187ab1f11cdb1310083a730c76a78b4ae70"
+  },
+  "pairs": {
+    "3_5": [
+      3,
+      5
+    ],
+    "5_20": [
+      5,
+      20
+    ],
+    "20_60": [
+      20,
+      60
+    ],
+    "50_200": [
+      50,
+      200
+    ]
+  },
+  "mean_type": "SMA only; known-cash-dividend adjusted wealth-price levels; no EMA parameter search",
+  "golden_event": "known today gap>0 andknown previousgap<=0",
+  "death_event": "known todaygap<0 andknownpreviousgap>=0",
+  "bullish_state": "shortSMA>longSMA; positive state need notcross onentryday",
+  "INITIAL": "MOM/FLOW rank, firstday filterpositiveMAstate, then original unfiltered5day reselect; no extra death exit",
+  "ACTIVE": "MOM/FLOW rank, positiveMAstate filtereveryregular5dayreview; priorclose deathcross onheldstock triggers nextday oneforonebullishreplacement; otherholdingsunchanged; newlybullishstockseligible asrankedcandidates, not automatic buy allgoldenevents",
+  "PURE": "rankpositiveMAstate by shortSMA/longSMA−1 descending, tie symbol; same ACTIVE crossover handling; no MOM/FLOW ranking input, common pastdataquality screen retained",
+  "shared": "25stocks,equal90%target,24sessions,5dayregular,1000shares,previousclose sizing,nextVWAP execution,existingsettle costs/actions/caps",
+  "cash": "no new cashoverlay; compareeachwith own90baseline",
+  "shortage": "under25eligible positives atrequiredtrade: invalid, no negative-state forcedfill; coverage and dropped-baselineoutcomes disclosed",
+  "warmup": "use only existing2016–2025 prices;50/200requires200knownpricelevels, earliest2016starts unavailable;do notbackfill fabricated2015",
+  "count": {
+    "new_specs": 20,
+    "possible_starts": 2236,
+    "new_window_runs": 44720,
+    "primary_contrasts": 32
+  },
+  "contrasts": "16 INITIAL/ACTIVE vsownbaseline;8ACTIVEvsINITIAL;4PUREvsMOM;4PUREvsFLOW",
+  "statistics": "original-position24/48dayblocks10000each;Bonferroni32; pairedfeeafter;2016–2018calibration2019–2025later,notunseen",
+  "gate": "bothcorrectedCI lower>0,P10andworstMDDnotworse,coverage>=80%,training>=100,>=5years n>=20and>=2/3positiveyears;no highestbacktestwinner",
+  "dedup": "fixedspec+inputhash+enginehash;reuseresults",
+  "not_tested": "EMA,tunedlookbacks,allcashentryexit,freshgoldcrossonly25stocks,200daydatafrom2015",
+  "sources": [
+    "https://www.fidelity.com/learning-center/trading-investing/technical-analysis/what-is-technical-analysis",
+    "https://www.schwab.com/learn/story/understanding-simple-moving-average-crossovers"
+  ],
+  "limits": "current150historicalsubset/survivorship,unknownactions excluded,officialActiveShareandexecutionvoidsnotfullycertified;nottradeinstructions"
+}

@@ -1,0 +1,732 @@
+[
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20231027",
+    "title(標題)": "112年9月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_37469",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20231127",
+    "title(標題)": "112年10月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_37583",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20231227",
+    "title(標題)": "112年11月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_37720",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240126",
+    "title(標題)": "112年12月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_37801",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240304",
+    "title(標題)": "113年1月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_37924",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240327",
+    "title(標題)": "113年2月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_37997",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240426",
+    "title(標題)": "113年3月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_38041",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240527",
+    "title(標題)": "113年4月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_38159",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240627",
+    "title(標題)": "113年5月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_38237",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240729",
+    "title(標題)": "113年6月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_38332",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240827",
+    "title(標題)": "113年7月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_38395",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240927",
+    "title(標題)": "113年8月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_38487",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20241028",
+    "title(標題)": "113年9月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_38572",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20241127",
+    "title(標題)": "113年10月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_38653",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20241227",
+    "title(標題)": "113年11月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_38756",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250205",
+    "title(標題)": "113年12月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_38809",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250227",
+    "title(標題)": "114年1月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_38848",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250327",
+    "title(標題)": "114年2月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_38910",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250428",
+    "title(標題)": "114年3月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_39001",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250527",
+    "title(標題)": "114年4月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_39112",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250627",
+    "title(標題)": "114年5月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_39171",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250728",
+    "title(標題)": "114年6月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_39234",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250828",
+    "title(標題)": "114年7月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_39302",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250926",
+    "title(標題)": "114年8月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_39393",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20251028",
+    "title(標題)": "114年9月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_39450",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20251127",
+    "title(標題)": "114年10月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_39542",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20251229",
+    "title(標題)": "114年11月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_39632",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260127",
+    "title(標題)": "114年12月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_39710",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260309",
+    "title(標題)": "115年1月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_39872",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260330",
+    "title(標題)": "115年2月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_39958",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260427",
+    "title(標題)": "115年3月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_40070",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260528",
+    "title(標題)": "115年4月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_40163",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260626",
+    "title(標題)": "115年5月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_40251",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260727",
+    "title(標題)": "115年6月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_40325",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260827",
+    "title(標題)": "115年7月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_40404",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "ndc_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260929",
+    "title(標題)": "115年8月份景氣概況新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_332_40495",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20231002",
+    "title(標題)": "2023年9月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_37383",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20231101",
+    "title(標題)": "2023年10月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_37487",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20231201",
+    "title(標題)": "2023年11月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_37610",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240102",
+    "title(標題)": "2023年12月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_37744",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240201",
+    "title(標題)": "2024年1月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_37829",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240305",
+    "title(標題)": "2024年2月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_37930",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240401",
+    "title(標題)": "2024年3月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_38001",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240502",
+    "title(標題)": "2024年4月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_38071",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240603",
+    "title(標題)": "2024年5月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_38188",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240701",
+    "title(標題)": "2024年6月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_38251",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240801",
+    "title(標題)": "2024年7月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_38351",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20240902",
+    "title(標題)": "2024年8月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_38412",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20241001",
+    "title(標題)": "2024年9月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_38500",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20241101",
+    "title(標題)": "2024年10月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_38584",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20241202",
+    "title(標題)": "2024年11月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_38667",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250102",
+    "title(標題)": "2024年12月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_38763",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250210",
+    "title(標題)": "2025年1月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_38817",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250305",
+    "title(標題)": "2025年2月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_38856",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250401",
+    "title(標題)": "2025年3月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_38922",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250502",
+    "title(標題)": "2025年4月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_39011",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250602",
+    "title(標題)": "2025年5月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_39123",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250701",
+    "title(標題)": "2025年6月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_39178",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250801",
+    "title(標題)": "2025年7月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_39240",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20250901",
+    "title(標題)": "2025年8月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_39315",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20251001",
+    "title(標題)": "2025年9月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_39397",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20251103",
+    "title(標題)": "2025年10月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_39462",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20251201",
+    "title(標題)": "2025年11月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_39551",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260102",
+    "title(標題)": "2025年12月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_39653",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260202",
+    "title(標題)": "2026年1月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_39720",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260313",
+    "title(標題)": "2026年2月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_39886",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260401",
+    "title(標題)": "2026年3月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_39974",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260504",
+    "title(標題)": "2026年4月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_40083",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260601",
+    "title(標題)": "2026年5月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_40174",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260701",
+    "title(標題)": "2026年6月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_40260",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260803",
+    "title(標題)": "2026年7月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_40349",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20260901",
+    "title(標題)": "2026年8月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_40426",
+    "status": "unavailable",
+    "error_type": "URLError"
+  },
+  {
+    "kind": "pmi_release_latest",
+    "authority(發布機關)": "國家發展委員會",
+    "frequency(發布週期)": "每月",
+    "date(發布日期)": "20261001",
+    "title(標題)": "2026年9月臺灣採購經理人指數新聞稿",
+    "url(網址)": "https://www.ndc.gov.tw/nc_333_40509",
+    "status": "unavailable",
+    "error_type": "URLError"
+  }
+]

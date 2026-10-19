@@ -1,0 +1,18 @@
+{
+  "status": "fixed_before_newcontraststatistics_butpastresultsalreadyseen",
+  "nodes": [
+    "REF_liquidity25_equal_buyhold",
+    "AH_momentum25_equal_buyhold",
+    "A_momentum25_equal5day",
+    "A_momentum25_mild5day",
+    "A_momentum25_mild5day_skip005"
+  ],
+  "contrasts": [
+    "AHminusREFinitialrankingcomparison",
+    "AequalminusAH5dayreselectionandretargeting",
+    "AmildminusAequalweightonly",
+    "AmildskipminusAmildsmalltradeskiponly"
+  ],
+  "identity": "sum4pairedincrements=AmildskipminusREFonexactcommon5nodewindows",
+  "limits": "reference-specificdescriptivenotcausal;rankingexitincludesentriesandretargeting;no daily loss-stop rule or futureknowledge"
+}

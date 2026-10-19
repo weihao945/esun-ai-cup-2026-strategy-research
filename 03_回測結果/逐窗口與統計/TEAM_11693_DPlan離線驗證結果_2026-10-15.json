@@ -1,0 +1,337 @@
+{
+  "purpose": "offline software validation only; no strategy returns or live DataPack",
+  "team_id": "TEAM_11693",
+  "schema_file": "C:\\Users\\weiha\\Desktop\\文件\\03_課程資料\\115-1\\資料探勘與應用\\B_Final Project (0920~1221)\\競賽資料\\官方文件\\D-Plan.schema_v4.3.json",
+  "schema_sha256": "2f48c2db0bb8df87fb0169d75f2ac9d0c210189a8469c4a8fc807eba1df499ce",
+  "jsonschema_version": "4.26.0",
+  "official_example_warning": "正例範例檔。市場數據為推估值，非真實行情。",
+  "test_fixtures": "synthetic prices/account, official illustrative text; never real market observations",
+  "test_results": [
+    {
+      "name": "positive_no_trade_with_receivables",
+      "expected_code": null,
+      "status": "LOCAL_CHECKS_PASSED_PENDING_OFFICIAL_REVIEW",
+      "codes": [],
+      "pass": true
+    },
+    {
+      "name": "positive_add_uses_tradableNAV_not_AUM",
+      "expected_code": null,
+      "status": "LOCAL_CHECKS_PASSED_PENDING_OFFICIAL_REVIEW",
+      "codes": [],
+      "pass": true
+    },
+    {
+      "name": "no_DataPack_stops",
+      "expected_code": null,
+      "status": "WAITING_DATAPACK",
+      "codes": [],
+      "pass": true
+    },
+    {
+      "name": "null_account_not_zero",
+      "expected_code": null,
+      "status": "WAITING_DATAPACK",
+      "codes": [],
+      "pass": true
+    },
+    {
+      "name": "null_holdings_not_empty",
+      "expected_code": null,
+      "status": "WAITING_DATAPACK",
+      "codes": [],
+      "pass": true
+    },
+    {
+      "name": "missing_previous_close",
+      "expected_code": null,
+      "status": "WAITING_DATAPACK",
+      "codes": [],
+      "pass": true
+    },
+    {
+      "name": "missing_market_prices",
+      "expected_code": null,
+      "status": "WAITING_PRICES",
+      "codes": [],
+      "pass": true
+    },
+    {
+      "name": "wrong_team",
+      "expected_code": "wrong_team",
+      "status": "REJECTED",
+      "codes": [
+        "wrong_team"
+      ],
+      "pass": true
+    },
+    {
+      "name": "wrong_pack_team",
+      "expected_code": "DataPack_wrong_team",
+      "status": "REJECTED",
+      "codes": [
+        "DataPack_wrong_team"
+      ],
+      "pass": true
+    },
+    {
+      "name": "stale_account_date",
+      "expected_code": "DataPack_stale_asof",
+      "status": "REJECTED",
+      "codes": [
+        "DataPack_stale_asof"
+      ],
+      "pass": true
+    },
+    {
+      "name": "NAV_reconciliation",
+      "expected_code": "DataPack_NAV_reconciliation",
+      "status": "REJECTED",
+      "codes": [
+        "DataPack_NAV_reconciliation"
+      ],
+      "pass": true
+    },
+    {
+      "name": "unknown_extra_field",
+      "expected_code": "schema",
+      "status": "REJECTED",
+      "codes": [
+        "schema"
+      ],
+      "pass": true
+    },
+    {
+      "name": "NaN_never_passes",
+      "expected_code": "non_finite_or_non_JSON",
+      "status": "REJECTED",
+      "codes": [
+        "non_finite_or_non_JSON"
+      ],
+      "pass": true
+    },
+    {
+      "name": "source_after_deadline",
+      "expected_code": "source_after_cutoff",
+      "status": "REJECTED",
+      "codes": [
+        "source_after_cutoff"
+      ],
+      "pass": true
+    },
+    {
+      "name": "broken_source_reference",
+      "expected_code": "broken_reference",
+      "status": "REJECTED",
+      "codes": [
+        "broken_reference"
+      ],
+      "pass": true
+    },
+    {
+      "name": "noncontiguous_source_ID",
+      "expected_code": "non_contiguous_ids",
+      "status": "REJECTED",
+      "codes": [
+        "broken_reference",
+        "non_contiguous_ids"
+      ],
+      "pass": true
+    },
+    {
+      "name": "duplicate_ID",
+      "expected_code": "duplicate_id",
+      "status": "REJECTED",
+      "codes": [
+        "duplicate_id",
+        "non_contiguous_ids"
+      ],
+      "pass": true
+    },
+    {
+      "name": "missing_old_holding_reason",
+      "expected_code": "prior_holdings_missing_decisions",
+      "status": "REJECTED",
+      "codes": [
+        "prior_holdings_missing_decisions"
+      ],
+      "pass": true
+    },
+    {
+      "name": "non_lot_order500",
+      "expected_code": "schema",
+      "status": "REJECTED",
+      "codes": [
+        "schema"
+      ],
+      "pass": true
+    },
+    {
+      "name": "wrong_order_quantity",
+      "expected_code": "order_quantity_formula_mismatch",
+      "status": "REJECTED",
+      "codes": [
+        "cash_outside_declared_range",
+        "order_quantity_formula_mismatch"
+      ],
+      "pass": true
+    },
+    {
+      "name": "missing_required_order",
+      "expected_code": "order_quantity_formula_mismatch",
+      "status": "REJECTED",
+      "codes": [
+        "net_flow_intent_mismatch",
+        "order_quantity_formula_mismatch"
+      ],
+      "pass": true
+    },
+    {
+      "name": "BUY_on_existing_holding",
+      "expected_code": "BUY_requires_zero_tradable_holding",
+      "status": "REJECTED",
+      "codes": [
+        "BUY_requires_zero_tradable_holding"
+      ],
+      "pass": true
+    },
+    {
+      "name": "side_conflicts_decision",
+      "expected_code": "order_side_mismatch",
+      "status": "REJECTED",
+      "codes": [
+        "order_side_mismatch"
+      ],
+      "pass": true
+    },
+    {
+      "name": "cash_range_reversed",
+      "expected_code": "cash_range_reversed",
+      "status": "REJECTED",
+      "codes": [
+        "cash_range_reversed"
+      ],
+      "pass": true
+    },
+    {
+      "name": "wrong_market_net_intent",
+      "expected_code": "net_flow_intent_mismatch",
+      "status": "REJECTED",
+      "codes": [
+        "net_flow_intent_mismatch"
+      ],
+      "pass": true
+    },
+    {
+      "name": "funding_tag_on_buy",
+      "expected_code": "funding_must_be_sell",
+      "status": "REJECTED",
+      "codes": [
+        "funding_must_be_sell"
+      ],
+      "pass": true
+    },
+    {
+      "name": "receivable_shares_cannot_sell",
+      "expected_code": "sell_exceeds_tradable_holding",
+      "status": "REJECTED",
+      "codes": [
+        "adjust_requires_held_stock",
+        "sell_exceeds_tradable_holding",
+        "sell_target_not_decrease",
+        "unneeded_zero_delta_order"
+      ],
+      "pass": true
+    },
+    {
+      "name": "buying_power_short",
+      "expected_code": "estimated_cash_negative",
+      "status": "REJECTED",
+      "codes": [
+        "cash_outside_declared_range",
+        "estimated_cash_negative"
+      ],
+      "pass": true
+    },
+    {
+      "name": "first_day_true_cash_account",
+      "expected_code": null,
+      "status": "LOCAL_CHECKS_PASSED_PENDING_OFFICIAL_REVIEW",
+      "codes": [],
+      "pass": true
+    },
+    {
+      "name": "invalid_cutoff_rejected",
+      "expected_code": null,
+      "status": "REJECTED",
+      "codes": [
+        "invalid_Taipei_timestamp"
+      ],
+      "pass": true
+    },
+    {
+      "name": "invalid_prices_context_type",
+      "expected_code": "invalid_previous_closes",
+      "status": "REJECTED",
+      "codes": [
+        "invalid_previous_closes"
+      ],
+      "pass": true
+    },
+    {
+      "name": "price_differs_from_official_holding",
+      "expected_code": "price_account_mismatch",
+      "status": "REJECTED",
+      "codes": [
+        "buy_target_not_increase",
+        "cash_outside_declared_range",
+        "price_account_mismatch",
+        "unneeded_zero_delta_order"
+      ],
+      "pass": true
+    },
+    {
+      "name": "null_held_price_stops",
+      "expected_code": "DataPack_incomplete_or_invalid_numbers",
+      "status": "REJECTED",
+      "codes": [
+        "DataPack_incomplete_or_invalid_numbers"
+      ],
+      "pass": true
+    },
+    {
+      "name": "new_stock_missing_quote",
+      "expected_code": null,
+      "status": "WAITING_PRICES",
+      "codes": [],
+      "pass": true
+    },
+    {
+      "name": "funding_when_cash_already_sufficient",
+      "expected_code": "funding_gap_not_demonstrated",
+      "status": "REJECTED",
+      "codes": [
+        "funding_gap_not_demonstrated"
+      ],
+      "pass": true
+    }
+  ],
+  "test_count": 35,
+  "ready_to_submit": false,
+  "real_DataPack_received": false,
+  "submitted": false,
+  "live_unsupported_gates": [
+    "official DataPack and actual previous trading date",
+    "official current universe and matching previous close",
+    "official Active Share and cap grace history",
+    "source content truthfulness and strategy/prospectus consistency",
+    "official receipt cutoff, latest rule verification and mean-price/batch settlement"
+  ],
+  "notebook_cells": [
+    174,
+    178,
+    177,
+    179
+  ],
+  "call_signature": "validate_dplan_local(plan, team_id, trade_date, cutoff, datapack, previous_trade_date, first_day, previous_closes, universe)"
+}

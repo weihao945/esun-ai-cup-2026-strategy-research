@@ -1,0 +1,120 @@
+{
+  "version": "v28_reversal_median_exit",
+  "defined_at": "2026-10-16",
+  "status": "registered_before_new_results",
+  "scope": "C1 only; no RSI/breakout/monthend/SUE execution",
+  "source_report": "公開交易教程_24日競賽策略研究.md",
+  "source": "https://repub.eur.nl/pub/25718/AnotherLook_2011.pdf",
+  "source_limit": "Taiwan long-only adaptation, not original paper reproduction",
+  "data": "reuse v15 verified short snapshot; no fetching or DB writes",
+  "portfolio": {
+    "count": 25,
+    "invested": 0.9,
+    "horizon": 24,
+    "rebalance": 5,
+    "lot": 1000,
+    "fee": 0.001425,
+    "tax": 0.003
+  },
+  "signal": "previous 5 complete action-adjusted session returns, same v15 common eligibility; ascending return, ties stock code",
+  "candidate": "initial lowest25; daily held r5 strictly above eligible-pool median exits; replace lowest r5 not held/not exited today, exit stock-code order; budget prior close market value of exiting stock; no rebalance of unaffected shares except every5 sessions",
+  "control_daily": "same clock, accounting and 5session equalweight schedule; daily exit held stocks outside current lowest25, replace missing lowest25",
+  "control_existing": "v15 REV_equal reused after snapshot/features/engine and sample replay agreement",
+  "missing": "missing held signal/required sizing close, insufficient replacement, unknown held action, unavailable ordered execution flag invalid; retain diagnostics; no hidden fill",
+  "ordering": "corporate-action entitlement -> yesterday NAV/signals -> replacement decisions -> scheduled equalweight of resulting25 -> settlement -> valuation -> compliance",
+  "settlement": "single net order vector per day, never roundtrip same stock; prior close target formula; actual daily turnover/volume price; fees paid cash; receivables not spendable",
+  "daily_carry": "nonregular unaffected shares carried unchanged",
+  "evaluation": {
+    "common_windows": true,
+    "paired_main": [
+      "C1-C1_N",
+      "C1-B2"
+    ],
+    "reserve_family_comparisons": 10,
+    "bootstrap_reps": 20000,
+    "blocks": [
+      24,
+      48
+    ],
+    "seed": 20261016,
+    "minimum_training_pairs": 100,
+    "coverage": 0.8,
+    "mean_gate": "both 24/48 Bonferroni10 lowerbounds>0",
+    "risk_gate": "P10 and median MDD no worse than1pp; worst MDD no worse",
+    "holdout": "all prior history already viewed; no untouched holdout",
+    "stress": "additional adverse 10bp per side diagnostic; no parameter optimization"
+  },
+  "compliance": "retain all invalid/violation windows,20to30actualholdings,cashnonnegativeand<25%,2330cap25%others10%,5daydrift; ActiveShare historic unavailable not certified",
+  "kernel_safety": "existing original heartbeat closed and no Python/Jupyter process; no new/restart/replacement kernel before current explicit user approval",
+  "outputs": [
+    "Notebook with executed inputs and outputs",
+    "full window JSON",
+    "summary and paired uncertainty JSON",
+    "Traditional Chinese Markdown report"
+  ],
+  "kernel_recovery_authorized": true,
+  "kernel_connection": "kernel-aicup-reversal-20261016.json",
+  "kernel_pid": 36240,
+  "snapshot_sha256": "1b826aa999a02664f43ff9c48a77259881901d8b8399c6ee85ebc275af7ea0e2",
+  "control_replay_checks": [
+    {
+      "method": "REV_E0",
+      "index": 0,
+      "matched": true
+    },
+    {
+      "method": "REV_E0",
+      "index": 100,
+      "matched": true
+    },
+    {
+      "method": "REV_E0",
+      "index": 200,
+      "matched": true
+    },
+    {
+      "method": "REV_E0",
+      "index": 400,
+      "matched": true
+    },
+    {
+      "method": "REV_E0",
+      "index": 649,
+      "matched": true
+    },
+    {
+      "method": "MOM_E0",
+      "index": 0,
+      "matched": true
+    },
+    {
+      "method": "MOM_E0",
+      "index": 100,
+      "matched": true
+    },
+    {
+      "method": "MOM_E0",
+      "index": 200,
+      "matched": true
+    },
+    {
+      "method": "MOM_E0",
+      "index": 400,
+      "matched": true
+    },
+    {
+      "method": "MOM_E0",
+      "index": 649,
+      "matched": true
+    }
+  ],
+  "implementation_notes": {
+    "missing_held_signal": "flag invalid and stop partial window, do not silently force exit",
+    "target25": "planned selected names and actual lot-positive shares must reach25 for candidate execution; actual20to30 separately official",
+    "daily_priority": "calculate exits/replacements then one target vector; equalweight on offsets0,5,10,15,20",
+    "replacements": "pretrade close market value per exiting stock; no redistribution of others on nonregular days",
+    "no_roundtrip": "one net delta per stock per session",
+    "trace": "retain daily execution/feasibility counts and planned decisions"
+  },
+  "implementation_sha256": "4e5c4571d02b69cf2d75e1aebf5bfcc02c9d265cb11bf30a250c0d315c0ba5a6"
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-15",
+  "diagnostic_url": "https://www.twse.com.tw/rwd/zh/afterTrading/MI_INDEX?date=20160930&type=ALLBUT0999&response=json",
+  "http_status": 307,
+  "message": "FOR SECURITY REASONS, THIS PAGE CAN NOT BE ACCESSED.",
+  "action": "cancel queued requests; preserve cache and kernel; no alternatehost/IP or other bypass; no further batch requests",
+  "failed_cell": 230,
+  "interruption": "only failed fetch cell interrupted, not kernel restart/shutdown; pending executor tasks cancelled",
+  "partial_counts": {
+    "quotes": 91,
+    "capital": 1,
+    "actions": 0,
+    "errors": 88,
+    "source_metadata": 178
+  }
+}

@@ -1,0 +1,470 @@
+{
+  "decision_cutoff": "2025-10-28 08:55 Asia/Taipei",
+  "selection": "purposive A25 contrast cases, no stock post-start return accessed for case selection",
+  "cases": [
+    {
+      "stock_id": "2408",
+      "anchor": "2025-10-28",
+      "inventory": {
+        "anchor": "2025-10-28",
+        "stock_id": "2408",
+        "momentum_rank": 2,
+        "mild_initial_target_weight": 0.044250000000000005,
+        "financial": {
+          "status": "verified_formal",
+          "delta_pp": 1.1354950710497302,
+          "quarter": 2,
+          "source_ids": [
+            "85ce10b8ad544528a287e5310d53e757b87de673",
+            "b5f53f814046a1b6ea8c91671f7d7d5f1531507e"
+          ],
+          "source_stamps": [
+            "2025-05-02 14:10:08",
+            "2025-08-07 14:00:46"
+          ]
+        },
+        "revenue": {
+          "stock_id": "2408",
+          "year_month": "2025-09",
+          "mom": -1.45,
+          "yoy": 157.81,
+          "published_at": "2025-10-03 16:15:22",
+          "news_id": "cnyes:6177441",
+          "url": "https://news.cnyes.com/news/id/6177441",
+          "source": "cnyes",
+          "status": "verified_original_known_available_time",
+          "age_days": 24.694189814814816
+        },
+        "original_revenue_announcements_observed_before_start": [],
+        "first_publication_verified": false,
+        "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+      },
+      "financial_source_documents": [
+        {
+          "stock_id": "2408",
+          "ann_id": "85ce10b8ad544528a287e5310d53e757b87de673",
+          "announce_date": "2025-05-02",
+          "announce_time": "14:10:08",
+          "subject": "本公司114年第1季合併財務報告業經董事會決議通過",
+          "event_date": "2025-05-02",
+          "content": "1.提報董事會或經董事會決議日期:114/05/02\n2.審計委員會通過日期:114/05/02\n3.財務報告或年度自結財務資訊報導期間\n起訖日期(XXX/XX/XX~XXX/XX/XX):114/01/01~114/03/31\n4.1月1日累計至本期止營業收入(仟元):7,187,940\n5.1月1日累計至本期止營業毛利(毛損) (仟元):(1,074,672)\n6.1月1日累計至本期止營業利益(損失) (仟元):(3,155,337)\t\n7.1月1日累計至本期止稅前淨利(淨損) (仟元):(2,423,396)\n8.1月1日累計至本期止本期淨利(淨損) (仟元):(1,940,639)\n9.1月1日累計至本期止歸屬於母公司業主淨利(損) (仟元):(1,940,639)\n10.1月1日累計至本期止基本每股盈餘(損失) (元):(0.63)\n11.期末總資產(仟元):214,737,315\n12.期末總負債(仟元):50,865,874\n13.期末歸屬於母公司業主之權益(仟元):163,871,441\n14.其他應敘明事項:無",
+          "source": "mops"
+        },
+        {
+          "stock_id": "2408",
+          "ann_id": "b5f53f814046a1b6ea8c91671f7d7d5f1531507e",
+          "announce_date": "2025-08-07",
+          "announce_time": "14:00:46",
+          "subject": "本公司114年第2季合併財務報告業經董事會決議通過",
+          "event_date": "2025-08-07",
+          "content": "1.提報董事會或經董事會決議日期:114/08/07\n2.審計委員會通過日期:114/08/07\n3.財務報告或年度自結財務資訊報導期間\n起訖日期(XXX/XX/XX~XXX/XX/XX):114/01/01~114/06/30\n4.1月1日累計至本期止營業收入(仟元):17,714,034\n5.1月1日累計至本期止營業毛利(毛損) (仟元):(3,239,656)\n6.1月1日累計至本期止營業利益(損失) (仟元):(7,656,522)\n7.1月1日累計至本期止稅前淨利(淨損) (仟元):(7,523,819)\n8.1月1日累計至本期止本期淨利(淨損) (仟元):(6,042,752)\n9.1月1日累計至本期止歸屬於母公司業主淨利(損) (仟元):(6,042,752)\n10.1月1日累計至本期止基本每股盈餘(損失) (元):(1.95)\n11.期末總資產(仟元):203,745,126\n12.期末總負債(仟元):49,079,275\n13.期末歸屬於母公司業主之權益(仟元):154,665,851\n14.其他應敘明事項:無",
+          "source": "mops"
+        }
+      ],
+      "revenue_source_document": {
+        "news_id": "cnyes:6177441",
+        "published_at": "2025-10-03 16:15:22",
+        "title": "營收速報 - 南亞科(2408)9月營收66.64億元年增率高達157.81％",
+        "summary": "2025年9月南亞科(2408-TW) 營收年增成長157.81% , 盤後股價為83元",
+        "content": "南亞科(2408-TW)今天公告2025年9月營收為新台幣66.64億元，年增率157.81%，月增率-1.45%。 今年1-9月累計營收為364.93億元，累計年增率32.43%。 最新價為83元，近5日股價上漲4.05%，相關半導體業上漲2.48%，股價漲幅表現優於產業指數。近5日籌碼 三大法人合計買賣超：-7034 張 外資買賣超：-5093 張 投信買賣超：-211 張 自營商買賣超：-1730 張近6個月營收一覽 月份 月營收 年增率 月增率 25/9 66.64億 158% -1% 25/8 67.63億 141% 26% 25/7 53.52億 95% 31% 25/6 40.74億 21% 22% 25/5 33.33億 -1% 7% 25/4 31.19億 -3% 13% 南亞科(2408-TW) 所屬產業為半導體業，主要業務為電子零組件製造業。國際貿易業。其他顧問服務業。註：數據僅供參考，不作為投資建議。",
+        "url": "https://news.cnyes.com/news/id/6177441",
+        "source": "cnyes",
+        "stock_id": "2408",
+        "match_type": "tag"
+      },
+      "pre_start_price_context": {
+        "20_sessions_pct": 48.14814814814812,
+        "60_sessions_pct": 184.36018957345962
+      },
+      "post_start_return_read_for_selection": false,
+      "document_level": "MOPS earnings-summary announcements and revenue bulletin; not full financial statements or conference transcript"
+    },
+    {
+      "stock_id": "8299",
+      "anchor": "2025-10-28",
+      "inventory": {
+        "anchor": "2025-10-28",
+        "stock_id": "8299",
+        "momentum_rank": 4,
+        "mild_initial_target_weight": 0.04275,
+        "financial": {
+          "status": "verified_formal",
+          "delta_pp": 4.7195569511230815,
+          "quarter": 2,
+          "source_ids": [
+            "6beab27052c09756f5509b6dc4364b61714c04b8",
+            "511431d2c189cf35c1b47b86cfde4d3bd25831c7"
+          ],
+          "source_stamps": [
+            "2025-05-07 17:00:02",
+            "2025-08-14 16:34:14"
+          ]
+        },
+        "revenue": {
+          "stock_id": "8299",
+          "year_month": "2025-09",
+          "mom": 9.8,
+          "yoy": 47.04,
+          "published_at": "2025-10-09 15:16:40",
+          "news_id": "cnyes:6183976",
+          "url": "https://news.cnyes.com/news/id/6183976",
+          "source": "cnyes",
+          "status": "verified_original_known_available_time",
+          "age_days": 18.734953703703702
+        },
+        "original_revenue_announcements_observed_before_start": [],
+        "first_publication_verified": false,
+        "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+      },
+      "financial_source_documents": [
+        {
+          "stock_id": "8299",
+          "ann_id": "6beab27052c09756f5509b6dc4364b61714c04b8",
+          "announce_date": "2025-05-07",
+          "announce_time": "17:00:02",
+          "subject": "公告董事會決議通過民國114年第1季合併財務報告",
+          "event_date": "2025-05-07",
+          "content": "1.提報董事會或經董事會決議日期:114/05/07\n2.審計委員會通過日期:114/05/07\n3.財務報告或年度自結財務資訊報導期間\n起訖日期(XXX/XX/XX~XXX/XX/XX):114/01/01-114/03/31\n4.1月1日累計至本期止營業收入(仟元):13,838,565\n5.1月1日累計至本期止營業毛利(毛損) (仟元):4,280,725\n6.1月1日累計至本期止營業利益(損失) (仟元):1,161,645\n7.1月1日累計至本期止稅前淨利(淨損) (仟元):1,350,554\n8.1月1日累計至本期止本期淨利(淨損) (仟元):1,140,757\n9.1月1日累計至本期止歸屬於母公司業主淨利(損) (仟元):1,140,568\n10.1月1日累計至本期止基本每股盈餘(損失) (元):5.53\n11.期末總資產(仟元):71,935,790\n12.期末總負債(仟元):23,708,467\n13.期末歸屬於母公司業主之權益(仟元):48,217,191\n14.其他應敘明事項:有關本公司上述財務報告詳細資訊，將於主管機關規定期限內完成\n上傳作業，屆時相關之訊息，請逕向公開資訊觀測站查詢。",
+          "source": "mops"
+        },
+        {
+          "stock_id": "8299",
+          "ann_id": "511431d2c189cf35c1b47b86cfde4d3bd25831c7",
+          "announce_date": "2025-08-14",
+          "announce_time": "16:34:14",
+          "subject": "公告董事會決議通過民國114年第2季合併財務報告",
+          "event_date": "2025-08-14",
+          "content": "1.提報董事會或經董事會決議日期:114/08/14\n2.審計委員會通過日期:114/08/14\n3.財務報告或年度自結財務資訊報導期間\n起訖日期(XXX/XX/XX~XXX/XX/XX):114/01/01-114/06/30\n4.1月1日累計至本期止營業收入(仟元):31,728,636\n5.1月1日累計至本期止營業毛利(毛損) (仟元):9,479,891\n6.1月1日累計至本期止營業利益(損失) (仟元):3,507,716\n7.1月1日累計至本期止稅前淨利(淨損) (仟元):2,351,594\n8.1月1日累計至本期止本期淨利(淨損) (仟元):1,885,345\n9.1月1日累計至本期止歸屬於母公司業主淨利(損) (仟元):1,885,144\n10.1月1日累計至本期止基本每股盈餘(損失) (元):9.14\n11.期末總資產(仟元):69,829,863\n12.期末總負債(仟元):21,298,760\n13.期末歸屬於母公司業主之權益(仟元):48,521,837\n14.其他應敘明事項:有關本公司上述財務報告詳細資訊，將於主管機關規定期限內完成\n上傳作業，屆時相關之訊息，請逕向公開資訊觀測站查詢。",
+          "source": "mops"
+        }
+      ],
+      "revenue_source_document": {
+        "news_id": "cnyes:6183976",
+        "published_at": "2025-10-09 15:16:40",
+        "title": "營收速報 - 群聯(8299)9月營收65.15億元年增率高達47.04％",
+        "summary": "2025年9月群聯(8299-TW) 營收年增成長47.04% , 盤後股價為882元",
+        "content": "群聯(8299-TW)今天公告2025年9月營收為新台幣65.15億元，年增率47.04%，月增率9.8%。 今年1-9月累計營收為498.65億元，累計年增率7.55%。 最新價為882元，近5日股價上漲18.09%，相關半導體類指數上漲3.98%，股價漲幅表現優於產業指數。近5日籌碼 三大法人合計買賣超：+4173 張 外資買賣超：+1049 張 投信買賣超：+4103 張 自營商買賣超：-979 張近6個月營收一覽 月份 月營收 年增率 月增率 25/9 65.15億 47% 10% 25/8 59.34億 23% 4% 25/7 56.88億 21% -8% 25/6 61.98億 16% 9% 25/5 56.90億 6% -5% 25/4 60.03億 16% 5% 群聯(8299-TW) 所屬產業為半導體業，主要業務為IC設計業。半導體業。電腦及週邊設備業。註：數據僅供參考，不作為投資建議。",
+        "url": "https://news.cnyes.com/news/id/6183976",
+        "source": "cnyes",
+        "stock_id": "8299",
+        "match_type": "tag"
+      },
+      "pre_start_price_context": {
+        "20_sessions_pct": 36.33802816901408,
+        "60_sessions_pct": 85.08604206500956
+      },
+      "post_start_return_read_for_selection": false,
+      "document_level": "MOPS earnings-summary announcements and revenue bulletin; not full financial statements or conference transcript"
+    },
+    {
+      "stock_id": "3189",
+      "anchor": "2025-10-28",
+      "inventory": {
+        "anchor": "2025-10-28",
+        "stock_id": "3189",
+        "momentum_rank": 16,
+        "mild_initial_target_weight": 0.03375,
+        "financial": {
+          "status": "verified_formal",
+          "delta_pp": -0.41887717324342255,
+          "quarter": 3,
+          "source_ids": [
+            "31083ff8d9ae2eeb2970f4da072b1502381d05ec",
+            "d792331ef864d66c69941543e468117e3e82b771",
+            "0df204ea1450eb46bc066a91baf99f355d77109c"
+          ],
+          "source_stamps": [
+            "2025-04-28 18:27:24",
+            "2025-07-28 18:00:22",
+            "2025-10-27 18:03:42"
+          ]
+        },
+        "revenue": {
+          "stock_id": "3189",
+          "year_month": "2025-09",
+          "mom": 4.82,
+          "yoy": 35.51,
+          "published_at": "2025-10-03 18:30:23",
+          "news_id": "cnyes:6177700",
+          "url": "https://news.cnyes.com/news/id/6177700",
+          "source": "cnyes",
+          "status": "verified_original_known_available_time",
+          "age_days": 24.60042824074074
+        },
+        "original_revenue_announcements_observed_before_start": [],
+        "first_publication_verified": false,
+        "limitations": "known retained-source availability only; first official release/revision history not proven; no sentiment or full conference-text judgment"
+      },
+      "financial_source_documents": [
+        {
+          "stock_id": "3189",
+          "ann_id": "31083ff8d9ae2eeb2970f4da072b1502381d05ec",
+          "announce_date": "2025-04-28",
+          "announce_time": "18:27:24",
+          "subject": "公告本公司董事會通過114年第1季合併財務報告",
+          "event_date": "2025-04-28",
+          "content": "1.提報董事會或經董事會決議日期:114/04/28\n2.審計委員會通過日期:114/04/28\n3.財務報告或年度自結財務資訊報導期間\n起訖日期(XXX/XX/XX~XXX/XX/XX):114/01/01~114/03/31\n4.1月1日累計至本期止營業收入(仟元):8,619,744\n5.1月1日累計至本期止營業毛利(毛損) (仟元):1,941,539\n6.1月1日累計至本期止營業利益(損失) (仟元):501,092\n7.1月1日累計至本期止稅前淨利(淨損) (仟元):699,654\n8.1月1日累計至本期止本期淨利(淨損) (仟元):611,959\n9.1月1日累計至本期止歸屬於母公司業主淨利(損) (仟元):276,072\n10.1月1日累計至本期止基本每股盈餘(損失) (元):0.61\n11.期末總資產(仟元):79,692,781\n12.期末總負債(仟元):40,197,800\n13.期末歸屬於母公司業主之權益(仟元):31,519,108\n14.其他應敘明事項:無",
+          "source": "mops"
+        },
+        {
+          "stock_id": "3189",
+          "ann_id": "d792331ef864d66c69941543e468117e3e82b771",
+          "announce_date": "2025-07-28",
+          "announce_time": "18:00:22",
+          "subject": "公告本公司董事會通過114年第2季合併財務報告",
+          "event_date": "2025-07-28",
+          "content": "1.提報董事會或經董事會決議日期:114/07/28\n2.審計委員會通過日期:114/07/28\n3.財務報告或年度自結財務資訊報導期間\n起訖日期(XXX/XX/XX~XXX/XX/XX):114/01/01~114/06/30\n4.1月1日累計至本期止營業收入(仟元):18,183,470\n5.1月1日累計至本期止營業毛利(毛損) (仟元):3,957,307\n6.1月1日累計至本期止營業利益(損失) (仟元):1,121,089\n7.1月1日累計至本期止稅前淨利(淨損) (仟元):1,318,962\n8.1月1日累計至本期止本期淨利(淨損) (仟元):1,166,693\n9.1月1日累計至本期止歸屬於母公司業主淨利(損) (仟元):614,264\n10.1月1日累計至本期止基本每股盈餘(損失) (元):1.35\n11.期末總資產(仟元):79,200,920\n12.期末總負債(仟元):39,603,737\n13.期末歸屬於母公司業主之權益(仟元):31,547,318\n14.其他應敘明事項:無",
+          "source": "mops"
+        },
+        {
+          "stock_id": "3189",
+          "ann_id": "0df204ea1450eb46bc066a91baf99f355d77109c",
+          "announce_date": "2025-10-27",
+          "announce_time": "18:03:42",
+          "subject": "公告本公司董事會通過114年第3季合併財務報告",
+          "event_date": "2025-10-27",
+          "content": "1.提報董事會或經董事會決議日期:114/10/27\n2.審計委員會通過日期:114/10/27\n3.財務報告或年度自結財務資訊報導期間\n起訖日期(XXX/XX/XX~XXX/XX/XX):114/01/01~114/09/30\n4.1月1日累計至本期止營業收入(仟元):28,539,658\n5.1月1日累計至本期止營業毛利(毛損) (仟元):5,921,014\n6.1月1日累計至本期止營業利益(損失) (仟元):1,749,080\n7.1月1日累計至本期止稅前淨利(淨損) (仟元):2,031,772\n8.1月1日累計至本期止本期淨利(淨損) (仟元):1,779,400\n9.1月1日累計至本期止歸屬於母公司業主淨利(損) (仟元):953,603\n10.1月1日累計至本期止基本每股盈餘(損失) (元):2.10\n11.期末總資產(仟元):78,917,195\n12.期末總負債(仟元):38,561,096\n13.期末歸屬於母公司業主之權益(仟元):32,008,425\n14.其他應敘明事項:無",
+          "source": "mops"
+        }
+      ],
+      "revenue_source_document": {
+        "news_id": "cnyes:6177700",
+        "published_at": "2025-10-03 18:30:23",
+        "title": "營收速報 - 景碩(3189)9月營收35.86億元年增率高達35.51％",
+        "summary": "2025年9月景碩(3189-TW) 營收年增成長35.51% , 盤後股價為112元",
+        "content": "景碩(3189-TW)今天公告2025年9月營收為新台幣35.86億元，年增率35.51%，月增率4.82%。 今年1-9月累計營收為285.40億元，累計年增率26.89%。 最新價為112元，近5日股價上漲6.67%，相關半導體業上漲6.79%，短期股價無明顯表現。近5日籌碼 三大法人合計買賣超：+1783 張 外資買賣超：+1735 張 投信買賣超：-88 張 自營商買賣超：+136 張近6個月營收一覽 月份 月營收 年增率 月增率 25/9 35.86億 36% 5% 25/8 34.21億 20% 2% 25/7 33.48億 24% 5% 25/6 31.94億 33% 1% 25/5 31.57億 26% -2% 25/4 32.13億 35% 2% 景碩(3189-TW) 所屬產業為半導體業，主要業務為電子零組件製造業。電子材料批發業。電子材料零售業。註：數據僅供參考，不作為投資建議。",
+        "url": "https://news.cnyes.com/news/id/6177700",
+        "source": "cnyes",
+        "stock_id": "3189",
+        "match_type": "tag"
+      },
+      "pre_start_price_context": {
+        "20_sessions_pct": 33.18385650224216,
+        "60_sessions_pct": 40.09433962264144
+      },
+      "post_start_return_read_for_selection": false,
+      "document_level": "MOPS earnings-summary announcements and revenue bulletin; not full financial statements or conference transcript"
+    }
+  ],
+  "quarter_accounting": [
+    {
+      "stock_id": "2408",
+      "unit": "TWD thousands",
+      "quarters": [
+        {
+          "revenue": 7187940.0,
+          "gross": -1074672.0,
+          "operating": -3155337.0,
+          "pretax": -2423396.0,
+          "net": -1940639.0,
+          "parent_net": -1940639.0,
+          "quarter": 1,
+          "operating_margin_pct": -43.89765356972929,
+          "gross_margin_pct": -14.951042997020009,
+          "pretax_minus_operating": 731941.0
+        },
+        {
+          "revenue": 10526094.0,
+          "gross": -2164984.0,
+          "operating": -4501185.0,
+          "pretax": -5100423.0,
+          "net": -4102113.0,
+          "parent_net": -4102113.0,
+          "quarter": 2,
+          "operating_margin_pct": -42.76215849867956,
+          "gross_margin_pct": -20.567781363153323,
+          "pretax_minus_operating": -599238.0
+        }
+      ],
+      "comparison": {
+        "revenue_qoq_pct": 46.441038739889315,
+        "operating_margin_change_pp": 1.135495071049732,
+        "gross_margin_change_pp": -5.616738366133314,
+        "operating_amount_change_thousand": -1345848.0,
+        "parent_net_change_thousand": -2161474.0,
+        "parent_net_qoq_pct": null
+      }
+    },
+    {
+      "stock_id": "8299",
+      "unit": "TWD thousands",
+      "quarters": [
+        {
+          "revenue": 13838565.0,
+          "gross": 4280725.0,
+          "operating": 1161645.0,
+          "pretax": 1350554.0,
+          "net": 1140757.0,
+          "parent_net": 1140568.0,
+          "quarter": 1,
+          "operating_margin_pct": 8.39425908683451,
+          "gross_margin_pct": 30.933301249081822,
+          "pretax_minus_operating": 188909.0
+        },
+        {
+          "revenue": 17890071.0,
+          "gross": 5199166.0,
+          "operating": 2346071.0,
+          "pretax": 1001040.0,
+          "net": 744588.0,
+          "parent_net": 744576.0,
+          "quarter": 2,
+          "operating_margin_pct": 13.11381603795759,
+          "gross_margin_pct": 29.06174044809548,
+          "pretax_minus_operating": -1345031.0
+        }
+      ],
+      "comparison": {
+        "revenue_qoq_pct": 29.27692286013759,
+        "operating_margin_change_pp": 4.7195569511230815,
+        "gross_margin_change_pp": -1.871560800986341,
+        "operating_amount_change_thousand": 1184426.0,
+        "parent_net_change_thousand": -395992.0,
+        "parent_net_qoq_pct": -34.718841840205926
+      }
+    },
+    {
+      "stock_id": "3189",
+      "unit": "TWD thousands",
+      "quarters": [
+        {
+          "revenue": 8619744.0,
+          "gross": 1941539.0,
+          "operating": 501092.0,
+          "pretax": 699654.0,
+          "net": 611959.0,
+          "parent_net": 276072.0,
+          "quarter": 1,
+          "operating_margin_pct": 5.8133048962939045,
+          "gross_margin_pct": 22.524323228160835,
+          "pretax_minus_operating": 198562.0
+        },
+        {
+          "revenue": 9563726.0,
+          "gross": 2015768.0,
+          "operating": 619997.0,
+          "pretax": 619308.0,
+          "net": 554734.0,
+          "parent_net": 338192.0,
+          "quarter": 2,
+          "operating_margin_pct": 6.48279760419736,
+          "gross_margin_pct": 21.077224504340673,
+          "pretax_minus_operating": -689.0
+        },
+        {
+          "revenue": 10356188.0,
+          "gross": 1963707.0,
+          "operating": 627991.0,
+          "pretax": 712810.0,
+          "net": 612707.0,
+          "parent_net": 339339.0,
+          "quarter": 3,
+          "operating_margin_pct": 6.063920430953938,
+          "gross_margin_pct": 18.961677791094562,
+          "pretax_minus_operating": 84819.0
+        }
+      ],
+      "comparison": {
+        "revenue_qoq_pct": 8.28612195706988,
+        "operating_margin_change_pp": -0.41887717324342244,
+        "gross_margin_change_pp": -2.115546713246111,
+        "operating_amount_change_thousand": 7994.0,
+        "parent_net_change_thousand": 1147.0,
+        "parent_net_qoq_pct": 0.3391564555045745
+      }
+    }
+  ],
+  "issuer_primary_update": {
+    "url": "https://www.nanya.com/en/IR/16?IRId=10046",
+    "calendar_url": "https://www.nanya.com/en/IR/14/Investor%20Calendar?IRId=3270",
+    "release_date": "2025-10-13",
+    "exact_release_time": null,
+    "quarter": "2025Q3",
+    "basis": "issuer published unaudited self-reported release",
+    "revenue_TWD_million": 18779,
+    "gross_TWD_million": 3465,
+    "operating_TWD_million": 1119,
+    "net_TWD_million": 1563,
+    "gross_margin_pct": 18.5,
+    "operating_margin_pct": 6.0,
+    "EPS_TWD": 0.5,
+    "available_before_case_start_by_date": true,
+    "included_in_v4_model": false
+  },
+  "prestart_disclosed_calendar": [
+    {
+      "stock_id": "8299",
+      "source_id": "8e8cdb4fa3323794bb919102cb56edcc9a633fbe",
+      "stamp": "2025-10-15 14:33:25",
+      "subject": "公告本公司受邀參加麥格理證券舉辦之群聯3Q25財報公告線上法說會 (英文場)",
+      "content": "符合條款第四條第XX款：12\n事實發生日：114/11/07\n1.召開法人說明會之日期：114/11/07\n2.召開法人說明會之時間：17 時 00 分 \n3.召開法人說明會之地點：麥格理證券安排之線上會議\n4.法人說明會擇要訊息：本公司受邀參加麥格理證券舉辦之3Q25財報公告線上法說會，說明營運績效等。\n5.其他應敘明事項：會議細節請洽麥格理證券。\n完整財務業務資訊請至公開資訊觀測站之法人說明會一覽表或法說會項目下查閱。"
+    },
+    {
+      "stock_id": "3189",
+      "source_id": "90833ba2266391bffd3ca2a54a488203a25a5c19",
+      "stamp": "2025-10-17 16:10:51",
+      "subject": "公告本公司114年第3季財務報告董事會召開日期為114年10月27日",
+      "content": "1.董事會召集通知日:114/10/17\n2.董事會預計召開日期:114/10/27\n3.預計提報董事會或經董事會決議之財務報告或\n年度自結財務資訊年季:114年第3季\n4.其他應敘明事項:無"
+    }
+  ],
+  "review": {
+    "2408": {
+      "company": "南亞科",
+      "direction": "維持；列為有條件加碼研究候選",
+      "support": [
+        "補查的公司Q3自結已由虧轉盈，並在开賽前公開",
+        "9月營收YoY157.81%"
+      ],
+      "contradictions": [
+        "9月MoM−1.45%",
+        "開賽前60日調整後報酬約184.36%，不能由好消息推論仍未反映",
+        "DB只保留Q2，舊訊號不能當現實最新；Q3自結未經核閱"
+      ],
+      "missing": [
+        "市場事前盈利預期／估值／持續性與完整Q3財報核閱細節"
+      ],
+      "numeric_weight": null,
+      "confidence": "資訊改善方向可核對；加碼報酬效果未測"
+    },
+    "8299": {
+      "company": "群聯",
+      "direction": "維持並查核；暫不直接因雙率正就加碼",
+      "support": [
+        "Q2本業利益率由8.39%升至13.11%",
+        "9月MoM9.80%、YoY47.04%"
+      ],
+      "contradictions": [
+        "Q2毛利率下降約1.87pp",
+        "Q2歸母淨利季減約34.72%",
+        "稅前與本業利益差額轉負，尚未拆解為匯兌或其他項目"
+      ],
+      "missing": [
+        "業外／稅負／一次性項目明細、研發及費用變化的持續性",
+        "開賽期間11/7法說內容；其結果在開賽時尚未知"
+      ],
+      "numeric_weight": null,
+      "confidence": "本業改善可核對；完整盈利品質與事件後果不可判定"
+    },
+    "3189": {
+      "company": "景碩",
+      "direction": "降低加碼信心；列為減碼研究候選",
+      "support": [
+        "9月MoM4.82%、YoY35.51%",
+        "Q3單季營收較Q2增加8.29%"
+      ],
+      "contradictions": [
+        "Q3毛利率由約21.08%降至18.96%",
+        "Q3本業利益率由約6.48%降至6.06%",
+        "Q3歸母淨利僅季增約0.34%，成長轉成獲利的幅度有限"
+      ],
+      "missing": [
+        "产品組合／產能利用率／成本／折舊原因、同比与同季基準"
+      ],
+      "numeric_weight": null,
+      "confidence": "成長與利潤率分歧可核對；減碼能否改善24日報酬未測"
+    }
+  },
+  "status": "case_reading_complete; no LLM weighting backtest or trades",
+  "generalization": "three selected cases not evidence for whole A25 or strategy superiority",
+  "v4_prototype_caveat": "financial/revenue source corpus incomplete; known missed prestart 2408 Q3 issuer release. Existing v4 outputs are as-retained-corpus prototypes, not full-information announcement backtests."
+}

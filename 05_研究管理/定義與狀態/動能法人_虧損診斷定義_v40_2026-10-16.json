@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-16",
+  "meaning": "negativegain=net24dayreturn<0;alsoexplain5dayminusinitialhold",
+  "sample": "exactsame7-method selection/hold group common dates;separateall/later",
+  "not_new_strategy": true,
+  "attribution": "exactperstockexecutedcashflows+endingmark+cashdivreceivable-fees;cost addback accounting notzerofeererun",
+  "market": "current150 changingproxy descriptive only,not officialindex orcausal marketbeta",
+  "warnings": [
+    "overlappingwindows",
+    "posthoclossconditioning",
+    "currentpoolbias",
+    "feesaffectfuturelotbudget",
+    "cannotinfernewsortriggersfrompricesalone"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": "v29_environment_observation",
+  "date": "2026-10-16",
+  "type": "observational_not_new_trading_strategy",
+  "reuse": "v16 MOM_E0 and FLOW_E0; no strategy rerun",
+  "lookback": 20,
+  "information_cutoff": "start-1 close",
+  "features": {
+    "trend": "20-session equalweight150 proxy cumulative return positive vs nonpositive",
+    "breadth": "fraction positive20 returns >=0.5 vs below; minimum120 complete names",
+    "volatility": "20-session proxy daily std above training median vs at_or_below"
+  },
+  "volatility_threshold_training": "only starts with end<=2024-12-31; feature only, not future outcomes",
+  "proxy": "current150 daily mean of finite known-action-adjusted returns; >=120 names; changing constituents, not official index or executable portfolio",
+  "benchmark": "90% buyhold of gross proxy daily returns minus initial fee0.001425*0.9; no sale at end; no costs for implicit proxy membership changes; indicative nontradable reference, not proven alpha",
+  "sample": "both strategies valid; proxy outcome complete; features complete; no future data used to classify",
+  "intervals": "24 and48 original start-position circular blocks,3000 repetitions; three interaction contrasts Bonferroni; exploratory within-group95 not corrected",
+  "interaction": "difference of (MOM minus FLOW) in high state versus low state, not standalone strategy superiority",
+  "min_group_for_interpretation": 50,
+  "years": "grouped by start year; not independent unseen test",
+  "no_parameter_search": true,
+  "new_trades": false,
+  "limitations": [
+    "current150 survivorship",
+    "missingness nonrandom",
+    "repeated historical inspection",
+    "few independent regimes",
+    "price-derived regimes correlated with momentum",
+    "macro first-release data incomplete"
+  ],
+  "locked_vol_threshold": 0.007943392407260884
+}

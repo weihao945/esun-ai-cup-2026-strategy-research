@@ -1,0 +1,3704 @@
+{
+  "summary": {
+    "stocks": 25,
+    "original_notices": 379,
+    "news_stock_links": 262,
+    "stocks_with_actual_summary_retained": 24,
+    "stocks_with_newer_published_attention_earnings": 11,
+    "newer_attention_earnings_notices": 15,
+    "parser_fix_verified_stocks": 3,
+    "prior_parseable_values_preserved": 192,
+    "earnings_calendar_issuers": 8,
+    "earnings_calendar_notice_count": 14,
+    "individual_first_publication_certified": false,
+    "complete_issuer_IR_history_certified": false,
+    "model_or_weights_changed": false,
+    "audit_window": [
+      "2025-10-28",
+      "2025-11-28"
+    ]
+  },
+  "audit": [
+    {
+      "stock_id": "2344",
+      "name_snapshot": "華邦電",
+      "momentum_rank": 1,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": -1.3328852727602176,
+        "quarter": 2,
+        "source_ids": [
+          "ef60af731100d5767e6707d5323a09bcee44fedc",
+          "8d02c14556fe6ce2d6cb2d3a3e08bd3530ce900c"
+        ],
+        "source_stamps": [
+          "2025-05-05 15:46:26",
+          "2025-08-05 17:15:51"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "8d02c14556fe6ce2d6cb2d3a3e08bd3530ce900c",
+        "stamp": "2025-08-05 17:15:51",
+        "subject": "公告本公司董事會通過114年第二季合併財務報告",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [
+        {
+          "ann_id": "b4a00405df0816ccfe5881c093e6b5e5d8c5ac30",
+          "stamp": "2025-09-22 15:55:29",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-08",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "70b59a74d4ceb0b78140330b0ad21e87f31092fa",
+          "stamp": "2025-10-21 15:50:20",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-09",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "017009880a16c09db38b39145d77ca3639e9e0bc",
+          "stamp": "2025-07-23 15:13:52",
+          "subject": "本公司舉行114年第二季度法人說明會，將於會中就公司114年第二季度財務數字與營運概況做說明",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "3aaaf07934e1d25590a519544c17ad8facf32dcf",
+          "stamp": "2025-07-28 16:37:19",
+          "subject": "公告本公司114年第二季合併財務報告董事會預計召開日期為114年8月5日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "8d02c14556fe6ce2d6cb2d3a3e08bd3530ce900c",
+          "stamp": "2025-08-05 17:15:51",
+          "subject": "公告本公司董事會通過114年第二季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "b4a00405df0816ccfe5881c093e6b5e5d8c5ac30",
+          "stamp": "2025-09-22 15:55:29",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-08",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "70b59a74d4ceb0b78140330b0ad21e87f31092fa",
+          "stamp": "2025-10-21 15:50:20",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-09",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "cad5ae03cbe51fe1028110d9c886aa2825b8ea65",
+          "stamp": "2025-10-22 15:00:49",
+          "subject": "本公司舉行114年第三季度法人說明會，將於會中就公司114年第三季度財務數字與營運概況做說明",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "ba2feb99635237f6cbcb24430754a1d6f688b90c",
+          "stamp": "2025-10-27 18:29:12",
+          "subject": "公告本公司114年第三季合併財務報告董事會預計召開日期為114年11月4日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": [
+        {
+          "stock_id": "2344",
+          "name": "華邦電",
+          "kind": "earnings_meeting",
+          "event_date": "2025-11-05",
+          "ann_id": "cad5ae03cbe51fe1028110d9c886aa2825b8ea65",
+          "known_at": "2025-10-22 15:00:49",
+          "subject": "本公司舉行114年第三季度法人說明會，將於會中就公司114年第三季度財務數字與營運概況做說明",
+          "scheduled_not_actual_release_certification": true
+        },
+        {
+          "stock_id": "2344",
+          "name": "華邦電",
+          "kind": "earnings_board",
+          "event_date": "2025-11-04",
+          "ann_id": "ba2feb99635237f6cbcb24430754a1d6f688b90c",
+          "known_at": "2025-10-27 18:29:12",
+          "subject": "公告本公司114年第三季合併財務報告董事會預計召開日期為114年11月4日",
+          "scheduled_not_actual_release_certification": true
+        }
+      ]
+    },
+    {
+      "stock_id": "2408",
+      "name_snapshot": "南亞科",
+      "momentum_rank": 2,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": 1.1354950710497302,
+        "quarter": 2,
+        "source_ids": [
+          "85ce10b8ad544528a287e5310d53e757b87de673",
+          "b5f53f814046a1b6ea8c91671f7d7d5f1531507e"
+        ],
+        "source_stamps": [
+          "2025-05-02 14:10:08",
+          "2025-08-07 14:00:46"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "9d4f234378a373ac94b74ced64d48e4bcaf299f3",
+        "stamp": "2025-10-13 16:32:51",
+        "subject": "公告本公司今日法人說明會摘要",
+        "kind": "published_conference_summary",
+        "periods": [
+          "2025Q3"
+        ],
+        "newer_than_model_source": true,
+        "outside_original_query": true
+      },
+      "newer_attention_disclosures": [
+        {
+          "ann_id": "eda3847f77061af36852bff6b6a5d395e25d6a52",
+          "stamp": "2025-09-17 16:33:01",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-08",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "33a7b6dd38394311ae943c9a8dea0aacf546cd97",
+          "stamp": "2025-07-10 16:39:22",
+          "subject": "公告本公司今日法人說明會摘要",
+          "kind": "published_conference_summary",
+          "periods": [
+            "2025Q2"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "b5f53f814046a1b6ea8c91671f7d7d5f1531507e",
+          "stamp": "2025-08-07 14:00:46",
+          "subject": "本公司114年第2季合併財務報告業經董事會決議通過",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "8746963b9865bbda75daed3a151675f512d96bb5",
+          "stamp": "2025-08-25 13:56:11",
+          "subject": "本公司受邀參加台新證券投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "5b08a80caa1b775ebabb44a44be066fc8f097b36",
+          "stamp": "2025-09-10 13:46:43",
+          "subject": "本公司受邀參加Citi Taiwan Tech Tour",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "518378b85c90d49f60fc04b87ab400084f31b2b1",
+          "stamp": "2025-09-11 15:27:08",
+          "subject": "本公司受邀參加統一證券投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "d703e217b429efa39860fb0c697021c14125c72c",
+          "stamp": "2025-09-16 15:18:20",
+          "subject": "本公司受邀參加UBS Taiwan Summit 2025",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "eda3847f77061af36852bff6b6a5d395e25d6a52",
+          "stamp": "2025-09-17 16:33:01",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-08",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "42717e43d39c948c05c07103fbdc8a7f563359e9",
+          "stamp": "2025-09-22 15:10:37",
+          "subject": "本公司召開線上法人說明會公告",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "9d4f234378a373ac94b74ced64d48e4bcaf299f3",
+          "stamp": "2025-10-13 16:32:51",
+          "subject": "公告本公司今日法人說明會摘要",
+          "kind": "published_conference_summary",
+          "periods": [
+            "2025Q3"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": [],
+      "missed_by_old_title_filter": {
+        "ann_id": "9d4f234378a373ac94b74ced64d48e4bcaf299f3",
+        "known_at": "2025-10-13 16:32:51",
+        "period": "2025Q3 self-reported",
+        "cause": "old subject filter excluded conference summary; DB does contain disclosure",
+        "issuer_crosscheck": "https://www.nanya.com/en/IR/16?IRId=10046",
+        "first_publication_not_certified": true
+      }
+    },
+    {
+      "stock_id": "6770",
+      "name_snapshot": "力積電",
+      "momentum_rank": 3,
+      "original_model": {
+        "status": "verified_self",
+        "quarter": 3,
+        "delta_pp": -7.644342260103529,
+        "source_ids": [
+          "87ba944d73fca896920a304c6f09e29763bde335",
+          "40c843a534bdbbd073f4cfee82243561685b49a5",
+          "e674523c9664ad96a8bd31342129b65b5ff55451"
+        ],
+        "source_stamps": [
+          "2025-05-13 21:02:41",
+          "2025-08-12 21:41:57",
+          "2025-10-21 16:11:11"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "e674523c9664ad96a8bd31342129b65b5ff55451",
+        "stamp": "2025-10-21 16:11:11",
+        "subject": "公告本公司114年第三季自結合併損益",
+        "kind": "published_quarter_self_report",
+        "periods": [
+          "2025Q3"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [],
+      "financial_corrections": [
+        {
+          "ann_id": "ea4e1a26474bc0932fd7d7720ab8112859026616",
+          "stamp": "2025-09-19 18:37:42",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解(更正誤植單位)",
+          "kind": "financial_correction_needs_original_review",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        }
+      ],
+      "typed_originals": [
+        {
+          "ann_id": "89fded0d350fd078e48c4218e3b88386be3a5f69",
+          "stamp": "2025-07-21 14:26:29",
+          "subject": "公告本公司召開2025年第二季法人說明會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "600da474e8c12f73cd1dd323bb9f198c91c18cb5",
+          "stamp": "2025-07-22 15:38:11",
+          "subject": "公告本公司114年第二季自結合併損益",
+          "kind": "published_quarter_self_report",
+          "periods": [
+            "2025Q2"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "26cbd936fd44b89d5f698d7f05e8965e45bd58ec",
+          "stamp": "2025-08-04 16:28:22",
+          "subject": "公告本公司114年第二季財務報告董事會預計召開日期為114年08月12日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "40c843a534bdbbd073f4cfee82243561685b49a5",
+          "stamp": "2025-08-12 21:41:57",
+          "subject": "公告本公司董事會決議通過114年第二季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "294452e92a66f2a28c69ec74adfd4ebefe10ea91",
+          "stamp": "2025-09-05 14:51:32",
+          "subject": "公告本公司受邀參加國票綜合證券舉辦之法人說明會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "8ba34ec3c03bd19ba408b6c9d3db401cdc627145",
+          "stamp": "2025-09-19 15:57:58",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-08",
+            "2025Q2"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "ea4e1a26474bc0932fd7d7720ab8112859026616",
+          "stamp": "2025-09-19 18:37:42",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解(更正誤植單位)",
+          "kind": "financial_correction_needs_original_review",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "16a10d8a21bfe9840561545b52f3497b405f1151",
+          "stamp": "2025-10-20 14:30:37",
+          "subject": "公告本公司召開2025年第三季法人說明會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "e674523c9664ad96a8bd31342129b65b5ff55451",
+          "stamp": "2025-10-21 16:11:11",
+          "subject": "公告本公司114年第三季自結合併損益",
+          "kind": "published_quarter_self_report",
+          "periods": [
+            "2025Q3"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": []
+    },
+    {
+      "stock_id": "8299",
+      "name_snapshot": "群聯",
+      "momentum_rank": 4,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": 4.7195569511230815,
+        "quarter": 2,
+        "source_ids": [
+          "6beab27052c09756f5509b6dc4364b61714c04b8",
+          "511431d2c189cf35c1b47b86cfde4d3bd25831c7"
+        ],
+        "source_stamps": [
+          "2025-05-07 17:00:02",
+          "2025-08-14 16:34:14"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "511431d2c189cf35c1b47b86cfde4d3bd25831c7",
+        "stamp": "2025-08-14 16:34:14",
+        "subject": "公告董事會決議通過民國114年第2季合併財務報告",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [
+        {
+          "ann_id": "348601aa4e090c873646bed7556910575b8c0707",
+          "stamp": "2025-09-16 14:45:19",
+          "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-08",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "b462da7c1d09c61f181d0e7aa899d3b9fd50c237",
+          "stamp": "2025-10-09 15:23:32",
+          "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-09",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "5a6ceef28c341ad048c4435b29759e4f22150794",
+          "stamp": "2025-07-17 14:32:02",
+          "subject": "公告本公司受邀參加里昂證券舉辦之群聯2Q25財報公告線上法說會 (英文場)",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "a01de89908eafcad00e99a58da441906e6763c33",
+          "stamp": "2025-08-06 14:30:09",
+          "subject": "公告本公司114年第2季合併財務報告董事會預計召開日期為114年8月14日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "511431d2c189cf35c1b47b86cfde4d3bd25831c7",
+          "stamp": "2025-08-14 16:34:14",
+          "subject": "公告董事會決議通過民國114年第2季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "3e57423a5c03368967c9ff6fa302f5e93b40bc64",
+          "stamp": "2025-08-28 14:31:25",
+          "subject": "公告本公司受邀參加富邦證券舉辦之投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "e40e71722eb15b3d766de3a310efcbcefcdf8ba6",
+          "stamp": "2025-08-28 14:31:59",
+          "subject": "公告本公司受邀參加國泰證券舉辦之投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "f55739ef28dd94ab9111ee3f19a56a92bacdb0ec",
+          "stamp": "2025-08-28 14:32:31",
+          "subject": "公告本公司受邀參加UBS證券舉辦之投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "348601aa4e090c873646bed7556910575b8c0707",
+          "stamp": "2025-09-16 14:45:19",
+          "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-08",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "b462da7c1d09c61f181d0e7aa899d3b9fd50c237",
+          "stamp": "2025-10-09 15:23:32",
+          "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-09",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "8e8cdb4fa3323794bb919102cb56edcc9a633fbe",
+          "stamp": "2025-10-15 14:33:25",
+          "subject": "公告本公司受邀參加麥格理證券舉辦之群聯3Q25財報公告線上法說會 (英文場)",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": [
+        {
+          "stock_id": "8299",
+          "name": "群聯",
+          "kind": "earnings_meeting",
+          "event_date": "2025-11-07",
+          "ann_id": "8e8cdb4fa3323794bb919102cb56edcc9a633fbe",
+          "known_at": "2025-10-15 14:33:25",
+          "subject": "公告本公司受邀參加麥格理證券舉辦之群聯3Q25財報公告線上法說會 (英文場)",
+          "scheduled_not_actual_release_certification": true
+        }
+      ]
+    },
+    {
+      "stock_id": "6515",
+      "name_snapshot": "穎崴",
+      "momentum_rank": 5,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": -1.4526450982258021,
+        "quarter": 2,
+        "source_ids": [
+          "f699164ccecb3b540b63b1c484dc0e1061a9d3ca",
+          "c97edf510ed4c63cbc7307f936929ca0a121826d"
+        ],
+        "source_stamps": [
+          "2025-05-07 17:32:40",
+          "2025-08-13 17:59:20"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "c97edf510ed4c63cbc7307f936929ca0a121826d",
+        "stamp": "2025-08-13 17:59:20",
+        "subject": "公告本公司董事會通過114年第二季合併財務報告",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [
+        {
+          "ann_id": "624d4442a22f8a243cd4b3a9a08df26ec329eec1",
+          "stamp": "2025-09-02 15:49:23",
+          "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-07",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "dc33266605781ef0c5d1f2be199be16b1269fd00",
+          "stamp": "2025-08-05 17:45:21",
+          "subject": "公告本公司114年第2季合併財務報告董事會召開日期",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "c97edf510ed4c63cbc7307f936929ca0a121826d",
+          "stamp": "2025-08-13 17:59:20",
+          "subject": "公告本公司董事會通過114年第二季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "138020c96fd001a68721405b19fb231039b19c3c",
+          "stamp": "2025-08-14 16:57:09",
+          "subject": "本公司受邀參加野村證券Nomura Asia Tech Tour",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "50d984dd3130648fdc0d160868f6f9340ed394b4",
+          "stamp": "2025-08-14 17:10:07",
+          "subject": "本公司受邀參加美林證券BofA 2025 Taiwan Tech Forum",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "624d4442a22f8a243cd4b3a9a08df26ec329eec1",
+          "stamp": "2025-09-02 15:49:23",
+          "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-07",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "caab8063dea3f5dd3a05d9faf4cb076b706eb570",
+          "stamp": "2025-09-15 14:52:37",
+          "subject": "本公司受邀參加瑞銀證券UBS Taiwan Summit 2025",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": []
+    },
+    {
+      "stock_id": "5289",
+      "name_snapshot": "宜鼎",
+      "momentum_rank": 6,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": -2.33098748250974,
+        "quarter": 2,
+        "source_ids": [
+          "0ee1019bc291a761a6a6ef6d7619e101ba8270f7",
+          "fea4618615bbca9b1f1464ae3568905c0ddca92a"
+        ],
+        "source_stamps": [
+          "2025-05-09 18:46:06",
+          "2025-08-06 19:37:58"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "fea4618615bbca9b1f1464ae3568905c0ddca92a",
+        "stamp": "2025-08-06 19:37:58",
+        "subject": "本公司董事會通過114年第2季合併財務報告",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "c6496955df5c798cda008cc088bc3691d9185ee2",
+          "stamp": "2025-07-29 18:06:04",
+          "subject": "公告114年第二季財務報告董事會預計召開日期為114年08月06日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "fea4618615bbca9b1f1464ae3568905c0ddca92a",
+          "stamp": "2025-08-06 19:37:58",
+          "subject": "本公司董事會通過114年第2季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": []
+    },
+    {
+      "stock_id": "8210",
+      "name_snapshot": "勤誠",
+      "momentum_rank": 7,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": 1.5525946934834278,
+        "quarter": 2,
+        "source_ids": [
+          "4a8dc65ce0803ae7012207bcc1fcd6540940797a",
+          "0eec9d6464cafb4a31b31fd6482896239a9f2e83"
+        ],
+        "source_stamps": [
+          "2025-05-08 16:45:50",
+          "2025-08-07 13:31:07"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "0eec9d6464cafb4a31b31fd6482896239a9f2e83",
+        "stamp": "2025-08-07 13:31:07",
+        "subject": "公告本公司董事會通過114年第2季合併財務報告",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [
+        {
+          "ann_id": "21e67dbbd9c65389cffa464b5c7eba4df5417738",
+          "stamp": "2025-08-13 15:20:08",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-06",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "848e54053efc8ace26a932a19f93b5722b52db74",
+          "stamp": "2025-10-23 15:49:43",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-09",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "09719b41d7509bb42d3478bdff7b123d7687c12f",
+          "stamp": "2025-07-09 16:18:11",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-06",
+            "2025Q1"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "b8084a50d4560a998fd5cc84740519c738a8ea95",
+          "stamp": "2025-07-30 16:19:22",
+          "subject": "本公司受邀參加元大證券主辦之線上法說會進行2025年第二季營運概況說明",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "e8c01ef393c18e3ea70c65d132641e694b668ceb",
+          "stamp": "2025-07-30 16:45:48",
+          "subject": "公告本公司114年第二季財務報告預計通過董事會日期",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "0eec9d6464cafb4a31b31fd6482896239a9f2e83",
+          "stamp": "2025-08-07 13:31:07",
+          "subject": "公告本公司董事會通過114年第2季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "3a33d0984fdf39e2b59dada014ed969ed64537a0",
+          "stamp": "2025-08-12 17:24:24",
+          "subject": "本公司可轉換公司債勤誠一(代號:82101)近期達公布注意交易資訊標準，故公告相關訊息，以利投資人區別瞭解",
+          "kind": "security_disclosure_not_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "21e67dbbd9c65389cffa464b5c7eba4df5417738",
+          "stamp": "2025-08-13 15:20:08",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-06",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "636727af0b2f30d0cba5e0e1dd7f1fbfde9ff353",
+          "stamp": "2025-08-25 14:24:13",
+          "subject": "本公司受邀參加凱基證券主辦之第三季投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "d7001ebe5b37b8144451882e1bafca5677adb8d5",
+          "stamp": "2025-08-25 14:24:25",
+          "subject": "本公司受邀參加UBS主辦之Taiwan Summit 2025",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "cb46a144e2dc941d351ea3d127eb75ec36f3a827",
+          "stamp": "2025-08-25 14:24:37",
+          "subject": "本公司受邀參加Macquarie主辦之Asia TMT Conference 2025",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "dc3b9daf3d188f6e35c05502fc9dee6ed31ddbb3",
+          "stamp": "2025-08-25 18:02:40",
+          "subject": "本公司受邀參加J.P. Morgan主辦之10h Annual Asia Tech Tour",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "848e54053efc8ace26a932a19f93b5722b52db74",
+          "stamp": "2025-10-23 15:49:43",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-09",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": []
+    },
+    {
+      "stock_id": "2308",
+      "name_snapshot": "台達電",
+      "momentum_rank": 8,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": 3.248245896038489,
+        "quarter": 2,
+        "source_ids": [
+          "c121ccfee8f558cd739ad8abf2989bd1cbd2e50d",
+          "f11371340ae489c016c1be2fede49a202a4b3839"
+        ],
+        "source_stamps": [
+          "2025-04-29 17:16:11",
+          "2025-07-30 16:43:18"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "f11371340ae489c016c1be2fede49a202a4b3839",
+        "stamp": "2025-07-30 16:43:18",
+        "subject": "公告本公司114年第2季合併財務報告業經董事會通過",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [
+        {
+          "ann_id": "da1c6b2a6b7666eca440fd86ea0f119fbce451c9",
+          "stamp": "2025-10-08 16:20:10",
+          "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-08",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "b864f592df26951a26a29095ce67c946a7320bbc",
+          "stamp": "2025-07-22 18:03:16",
+          "subject": "公告本公司民國114年第二季財務報告董事會召開日期",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "f11371340ae489c016c1be2fede49a202a4b3839",
+          "stamp": "2025-07-30 16:43:18",
+          "subject": "公告本公司114年第2季合併財務報告業經董事會通過",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "bb91d97a60cb44d3925523055d4b8eebfc22ec97",
+          "stamp": "2025-08-15 17:46:24",
+          "subject": "本公司受邀參加法人說明會之相關資訊",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "5ee7f0989561129f7f9c7a3a9307e4093e81e5d0",
+          "stamp": "2025-08-18 14:48:48",
+          "subject": "本公司受邀參加法人說明會之相關資訊",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "8b637aa0549d6c06fe158af2a903280f3c04b4f6",
+          "stamp": "2025-08-18 14:49:48",
+          "subject": "本公司受邀參加法人說明會之相關資訊",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "dcff9a11b8765bac83d7b4fc815d00c289b7cd27",
+          "stamp": "2025-08-18 14:50:51",
+          "subject": "本公司受邀參加法人說明會之相關資訊",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "d6a712b89e3bedc9760cbe2adabd480e21503266",
+          "stamp": "2025-08-18 14:51:34",
+          "subject": "本公司受邀參加法人說明會之相關資訊",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "da1c6b2a6b7666eca440fd86ea0f119fbce451c9",
+          "stamp": "2025-10-08 16:20:10",
+          "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-08",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "b2b44a6c14d0c603c3bbfaa24fb9e27faa92f7c9",
+          "stamp": "2025-10-21 17:47:39",
+          "subject": "公告本公司民國114年第三季財務報告董事會召開日期",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": [
+        {
+          "stock_id": "2308",
+          "name": "台達電",
+          "kind": "earnings_meeting",
+          "event_date": "2025-10-30",
+          "ann_id": "ec37b289a972817edba35f0bb146340e98537a4d",
+          "known_at": "2025-10-17 15:12:39",
+          "subject": "本公司自辦法人說明會之相關資訊",
+          "scheduled_not_actual_release_certification": true
+        },
+        {
+          "stock_id": "2308",
+          "name": "台達電",
+          "kind": "earnings_board",
+          "event_date": "2025-10-29",
+          "ann_id": "b2b44a6c14d0c603c3bbfaa24fb9e27faa92f7c9",
+          "known_at": "2025-10-21 17:47:39",
+          "subject": "公告本公司民國114年第三季財務報告董事會召開日期",
+          "scheduled_not_actual_release_certification": true
+        }
+      ]
+    },
+    {
+      "stock_id": "2337",
+      "name_snapshot": "旺宏",
+      "momentum_rank": 9,
+      "original_model": {
+        "status": "unknown_originals"
+      },
+      "latest_actual_in_retained_originals": null,
+      "newer_attention_disclosures": [
+        {
+          "ann_id": "70a621d09d2162edaef4ea34e7a606b7b1b6ef43",
+          "stamp": "2025-09-19 16:12:37",
+          "subject": "證券交易所通知本公司股價變動達應公布注意交易資訊標準，而應公布相關資訊事",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-08",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "3a60ad963aa332b614b145686f05a7444cfd728b",
+          "stamp": "2025-07-07 14:31:15",
+          "subject": "本公司召開2025年第二季法人說明會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "75c1ceeffb6acfcbbf92827a0747694ba15aec2a",
+          "stamp": "2025-07-18 14:03:51",
+          "subject": "本公司114年第二季財務報告將提114年7月30日董事會決議",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "69e1d26583f398e9a014f9e69e56b5eac17af3ed",
+          "stamp": "2025-09-09 14:03:25",
+          "subject": "本公司受邀參加投資法人說明會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "70a621d09d2162edaef4ea34e7a606b7b1b6ef43",
+          "stamp": "2025-09-19 16:12:37",
+          "subject": "證券交易所通知本公司股價變動達應公布注意交易資訊標準，而應公布相關資訊事",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-08",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "e0b328717412053301a606b515e576f00ba695ec",
+          "stamp": "2025-10-07 14:18:30",
+          "subject": "本公司召開2025年第三季法人說明會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "0892afa5fc6c34b04e96c54dc4c47ecb4c2614e4",
+          "stamp": "2025-10-20 16:33:18",
+          "subject": "本公司114年第三季財務報告將提114年10月29日董事會決議",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": [
+        {
+          "stock_id": "2337",
+          "name": "旺宏",
+          "kind": "earnings_meeting",
+          "event_date": "2025-10-29",
+          "ann_id": "e0b328717412053301a606b515e576f00ba695ec",
+          "known_at": "2025-10-07 14:18:30",
+          "subject": "本公司召開2025年第三季法人說明會",
+          "scheduled_not_actual_release_certification": true
+        },
+        {
+          "stock_id": "2337",
+          "name": "旺宏",
+          "kind": "earnings_board",
+          "event_date": "2025-10-29",
+          "ann_id": "0892afa5fc6c34b04e96c54dc4c47ecb4c2614e4",
+          "known_at": "2025-10-20 16:33:18",
+          "subject": "本公司114年第三季財務報告將提114年10月29日董事會決議",
+          "scheduled_not_actual_release_certification": true
+        }
+      ]
+    },
+    {
+      "stock_id": "2360",
+      "name_snapshot": "致茂",
+      "momentum_rank": 10,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": 2.5144465068582864,
+        "quarter": 2,
+        "source_ids": [
+          "d66702718b09bc54ad8781d19b30ea02f11d1e6e",
+          "ac03a2e3225b92d2e7dffe0b3b815c5b6baf562c"
+        ],
+        "source_stamps": [
+          "2025-04-30 14:11:22",
+          "2025-07-31 16:17:49"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "ac03a2e3225b92d2e7dffe0b3b815c5b6baf562c",
+        "stamp": "2025-07-31 16:17:49",
+        "subject": "公告本公司董事會通過114年第二季合併財務報告",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "9b3b7d6736b2fe293cd1f7f077d58c5575003df1",
+          "stamp": "2025-07-23 16:26:16",
+          "subject": "公告114年第二季財務報告董事會預計召開日期為114年7月31日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "8944dc3ebc5dda31c92c5cd0788e28a14ba2b36c",
+          "stamp": "2025-07-23 16:38:16",
+          "subject": "本公司將召開法說會說明2025年第二季營運結果",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "ac03a2e3225b92d2e7dffe0b3b815c5b6baf562c",
+          "stamp": "2025-07-31 16:17:49",
+          "subject": "公告本公司董事會通過114年第二季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "7beb67d5f20bde81a0a65601a9c31f9c8ddc4889",
+          "stamp": "2025-09-15 16:39:08",
+          "subject": "本公司受邀參加麥格理證券舉辦之法人說明會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "a59ea2e4e0ee31181245a1569eb2b87b86c52b8f",
+          "stamp": "2025-10-22 17:02:18",
+          "subject": "公告114年第三季財務報告董事會預計召開日期為114年10月30日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "7f92a0aed43dacf3348e26d506d9638bce9c89b2",
+          "stamp": "2025-10-22 17:03:56",
+          "subject": "本公司將召開線上法說會說明2025年第三季營運結果",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": [
+        {
+          "stock_id": "2360",
+          "name": "致茂",
+          "kind": "earnings_board",
+          "event_date": "2025-10-30",
+          "ann_id": "a59ea2e4e0ee31181245a1569eb2b87b86c52b8f",
+          "known_at": "2025-10-22 17:02:18",
+          "subject": "公告114年第三季財務報告董事會預計召開日期為114年10月30日",
+          "scheduled_not_actual_release_certification": true
+        },
+        {
+          "stock_id": "2360",
+          "name": "致茂",
+          "kind": "earnings_meeting",
+          "event_date": "2025-10-30",
+          "ann_id": "7f92a0aed43dacf3348e26d506d9638bce9c89b2",
+          "known_at": "2025-10-22 17:03:56",
+          "subject": "本公司將召開線上法說會說明2025年第三季營運結果",
+          "scheduled_not_actual_release_certification": true
+        }
+      ]
+    },
+    {
+      "stock_id": "6669",
+      "name_snapshot": "緯穎",
+      "momentum_rank": 11,
+      "original_model": {
+        "status": "unknown_originals"
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "30c8cc44f7eddabbf7525e201866f2299fd782b2",
+        "stamp": "2025-08-08 17:01:24",
+        "subject": "本公司董事會通過民國一一四年第二季合併財務報告",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": true,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "25784e15a6088ad9d73bccbd16abc9d885b52139",
+          "stamp": "2025-07-31 14:06:56",
+          "subject": "公告本公司114年第二季合併財務報告董事會預計召開日期為114年8月8日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "30c8cc44f7eddabbf7525e201866f2299fd782b2",
+          "stamp": "2025-08-08 17:01:24",
+          "subject": "本公司董事會通過民國一一四年第二季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": {
+        "stock_id": "6669",
+        "source_ids": [
+          "2eee3285b94a14d511d7daf5e1ceb0e110bf19e5",
+          "30c8cc44f7eddabbf7525e201866f2299fd782b2"
+        ],
+        "source_stamps": [
+          "2025-05-08 17:01:14",
+          "2025-08-08 17:01:24"
+        ],
+        "Q1_revenue_thousand": 170655284.0,
+        "Q1_operating_thousand": 11980679.0,
+        "Q2_revenue_thousand": 220743500.0,
+        "Q2_operating_thousand": 15899244.0,
+        "margin_change_pp": 0.18219028950523658,
+        "stage_only_no_v4_update": true
+      },
+      "declared_in_window_events": []
+    },
+    {
+      "stock_id": "6290",
+      "name_snapshot": "良維",
+      "momentum_rank": 12,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": 1.8087252284681137,
+        "quarter": 2,
+        "source_ids": [
+          "8301d45100197fea8e057e591bc3bbc7e86d3a2a",
+          "be48b8104acfa85e04ab73ad40df9f770dbd09c0"
+        ],
+        "source_stamps": [
+          "2025-05-09 16:27:10",
+          "2025-08-08 17:10:37"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "be48b8104acfa85e04ab73ad40df9f770dbd09c0",
+        "stamp": "2025-08-08 17:10:37",
+        "subject": "公告本公司董事會通過114年第二季合併財務報告",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "0ed2c8b715028f16b08429e0540315a46564b116",
+          "stamp": "2025-07-31 17:26:51",
+          "subject": "114年第2季財務報告董事會預計召開日期為114年8月8日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "be48b8104acfa85e04ab73ad40df9f770dbd09c0",
+          "stamp": "2025-08-08 17:10:37",
+          "subject": "公告本公司董事會通過114年第二季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": []
+    },
+    {
+      "stock_id": "3665",
+      "name_snapshot": "貿聯-KY",
+      "momentum_rank": 13,
+      "original_model": {
+        "status": "unknown_originals"
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "33586cd6178cec2d297e53411873d608ffc0d7dd",
+        "stamp": "2025-08-20 13:32:50",
+        "subject": "本公司114年第二季合併財務報告業經提報董事會",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": true,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "3888ba19e7a0d70f86f36020055770ae38feb838",
+          "stamp": "2025-07-30 16:47:48",
+          "subject": "公告本公司通過114年第二季財務報告董事會召開日期",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "92f7fb942840b61d0bea170ed64bc65b2d98d370",
+          "stamp": "2025-08-18 15:23:51",
+          "subject": "本公司受邀參加永豐金證券舉辦的2025年第二季財報英語之線上法人說明會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "1b763a4fdd37d39e23b8b2515649a0a8e31965dd",
+          "stamp": "2025-08-18 15:24:21",
+          "subject": "本公司受邀參加美林證券所舉辦之投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "9f3755dca96c159710db4feec8b6c43fbbfd53f2",
+          "stamp": "2025-08-18 15:24:40",
+          "subject": "本公司受邀參加華南永昌證券所舉辦之秋季企業論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "4d813e052ff968ac892ee87a6f58737eaed1097d",
+          "stamp": "2025-08-18 15:25:25",
+          "subject": "本公司受邀參加摩根大通證券所舉辦之投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "4cf696187ffd417e9416cc9f260e592a208eb4b0",
+          "stamp": "2025-08-18 15:25:45",
+          "subject": "本公司受邀參加中信證券所舉辦之2025年第3季前瞻論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "755c1670880b52b915a7a059f7dea2785a7eed2d",
+          "stamp": "2025-08-18 15:26:03",
+          "subject": "本公司受邀參加元富證券所舉辦之2025年秋季投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "71a71ec85767bce708d4af092b20ee7a8bd50c1a",
+          "stamp": "2025-08-18 15:26:22",
+          "subject": "本公司受邀參加元大證券所舉辦之2025年第3季投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "d97746e547a6ba0e9dd770b36d99a0666b90ed47",
+          "stamp": "2025-08-18 15:26:42",
+          "subject": "本公司受邀參加花旗證券所舉辦之投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "05b2337d9cc8a7b9276c368947e0ce62927cd0e5",
+          "stamp": "2025-08-18 15:27:02",
+          "subject": "本公司受邀參加摩根士丹利證券所舉辦之投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "ec800a6490ab4cd747efe6eb1594f25a023a2a54",
+          "stamp": "2025-08-18 15:27:20",
+          "subject": "本公司受邀參加摩根大通所舉辦之海外投資人會議",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "33586cd6178cec2d297e53411873d608ffc0d7dd",
+          "stamp": "2025-08-20 13:32:50",
+          "subject": "本公司114年第二季合併財務報告業經提報董事會",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "091285dcc36a86507f98708d16aad71e25608cf5",
+          "stamp": "2025-09-24 14:24:57",
+          "subject": "公告本公司通過114年第三季財務報告董事會召開日期",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "5eb9d18f7ec87c83a69a1de8b81e47f6527e4ee7",
+          "stamp": "2025-10-27 16:13:54",
+          "subject": "本公司受邀參加摩根士丹利舉辦的2025年第三季財報英語之線上法人說明會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "58aa44c453b44803229bf6628dc4263c619da673",
+          "stamp": "2025-10-27 16:14:33",
+          "subject": "本公司受邀參加CLST所舉辦之投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "f63585e204ebe2d34364b84cafab12aed97a4018",
+          "stamp": "2025-10-27 16:15:20",
+          "subject": "本公司受邀參加新加坡商瑞銀所舉辦之海外投資人會議",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "e3e9ae4a8c76866e04e2e35b112ec628f33f4659",
+          "stamp": "2025-10-27 16:15:50",
+          "subject": "本公司受邀參加摩根大通證券所舉辦之海外投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "04c2b105c77563af630f18eb2a9b9bcd51dd0efd",
+          "stamp": "2025-10-27 16:16:28",
+          "subject": "本公司受邀參加美林證券所舉辦之海外投資人會議",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "a4c35bedbdaf711b04272f6c53fe14fcd7b6d523",
+          "stamp": "2025-10-27 16:16:54",
+          "subject": "本公司受邀參加摩根士丹利所舉辦之投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "29f9961948abbedceab5152688e704107ede092c",
+          "stamp": "2025-10-27 16:17:27",
+          "subject": "本公司受邀參加花旗證券所舉辦之投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "be4efdac04e59d92ed30ecaaab766ca92bcea840",
+          "stamp": "2025-10-27 16:17:57",
+          "subject": "本公司受邀參加Jefferies所舉辦之投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "0a9a83b49326b66485cc208f3af029fcf8a5da1b",
+          "stamp": "2025-10-27 16:18:20",
+          "subject": "本公司受邀參加統一證券所舉辦之冬季投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "cfd719c06e8b23923261e085f5e6873b6d90ab46",
+          "stamp": "2025-10-27 16:18:45",
+          "subject": "本公司受邀參加富邦證券所舉辦之投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "9efd116ea8990581557601cb531bfef1d976995a",
+          "stamp": "2025-10-27 16:19:09",
+          "subject": "本公司受邀參加國泰證券所舉辦之第四季投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "fc187408f3030cb9efe8c86c68877b141bc89b96",
+          "stamp": "2025-10-27 16:19:35",
+          "subject": "本公司受邀參加元大證券所舉辦之2025年第4季投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "478230ffb8e86685a5dba88ef118f16d86f2d2ba",
+          "stamp": "2025-10-27 16:20:00",
+          "subject": "本公司受邀參加中信證券所舉辦之2025年第4季投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": {
+        "stock_id": "3665",
+        "source_ids": [
+          "d3e0e1adf7537b4b79e1f6166546b8eac067187c",
+          "33586cd6178cec2d297e53411873d608ffc0d7dd"
+        ],
+        "source_stamps": [
+          "2025-05-14 13:33:57",
+          "2025-08-20 13:32:50"
+        ],
+        "Q1_revenue_thousand": 16120785.0,
+        "Q1_operating_thousand": 2360292.0,
+        "Q2_revenue_thousand": 16933328.0,
+        "Q2_operating_thousand": 2866853.0,
+        "margin_change_pp": 2.28894264996598,
+        "stage_only_no_v4_update": true
+      },
+      "declared_in_window_events": [
+        {
+          "stock_id": "3665",
+          "name": "貿聯-KY",
+          "kind": "earnings_board",
+          "event_date": "2025-11-07",
+          "ann_id": "091285dcc36a86507f98708d16aad71e25608cf5",
+          "known_at": "2025-09-24 14:24:57",
+          "subject": "公告本公司通過114年第三季財務報告董事會召開日期",
+          "scheduled_not_actual_release_certification": true
+        },
+        {
+          "stock_id": "3665",
+          "name": "貿聯-KY",
+          "kind": "earnings_meeting",
+          "event_date": "2025-11-07",
+          "ann_id": "5eb9d18f7ec87c83a69a1de8b81e47f6527e4ee7",
+          "known_at": "2025-10-27 16:13:54",
+          "subject": "本公司受邀參加摩根士丹利舉辦的2025年第三季財報英語之線上法人說明會",
+          "scheduled_not_actual_release_certification": true
+        },
+        {
+          "stock_id": "3665",
+          "name": "貿聯-KY",
+          "kind": "investor_meeting",
+          "event_date": "2025-11-11",
+          "ann_id": "58aa44c453b44803229bf6628dc4263c619da673",
+          "known_at": "2025-10-27 16:14:33",
+          "subject": "本公司受邀參加CLST所舉辦之投資論壇",
+          "scheduled_not_actual_release_certification": true
+        },
+        {
+          "stock_id": "3665",
+          "name": "貿聯-KY",
+          "kind": "investor_meeting",
+          "event_date": "2025-11-17",
+          "ann_id": "f63585e204ebe2d34364b84cafab12aed97a4018",
+          "known_at": "2025-10-27 16:15:20",
+          "subject": "本公司受邀參加新加坡商瑞銀所舉辦之海外投資人會議",
+          "scheduled_not_actual_release_certification": true
+        },
+        {
+          "stock_id": "3665",
+          "name": "貿聯-KY",
+          "kind": "investor_meeting",
+          "event_date": "2025-11-17",
+          "ann_id": "e3e9ae4a8c76866e04e2e35b112ec628f33f4659",
+          "known_at": "2025-10-27 16:15:50",
+          "subject": "本公司受邀參加摩根大通證券所舉辦之海外投資論壇",
+          "scheduled_not_actual_release_certification": true
+        },
+        {
+          "stock_id": "3665",
+          "name": "貿聯-KY",
+          "kind": "investor_meeting",
+          "event_date": "2025-11-18",
+          "ann_id": "04c2b105c77563af630f18eb2a9b9bcd51dd0efd",
+          "known_at": "2025-10-27 16:16:28",
+          "subject": "本公司受邀參加美林證券所舉辦之海外投資人會議",
+          "scheduled_not_actual_release_certification": true
+        },
+        {
+          "stock_id": "3665",
+          "name": "貿聯-KY",
+          "kind": "investor_meeting",
+          "event_date": "2025-11-19",
+          "ann_id": "a4c35bedbdaf711b04272f6c53fe14fcd7b6d523",
+          "known_at": "2025-10-27 16:16:54",
+          "subject": "本公司受邀參加摩根士丹利所舉辦之投資論壇",
+          "scheduled_not_actual_release_certification": true
+        },
+        {
+          "stock_id": "3665",
+          "name": "貿聯-KY",
+          "kind": "investor_meeting",
+          "event_date": "2025-11-24",
+          "ann_id": "29f9961948abbedceab5152688e704107ede092c",
+          "known_at": "2025-10-27 16:17:27",
+          "subject": "本公司受邀參加花旗證券所舉辦之投資論壇",
+          "scheduled_not_actual_release_certification": true
+        },
+        {
+          "stock_id": "3665",
+          "name": "貿聯-KY",
+          "kind": "investor_meeting",
+          "event_date": "2025-11-24",
+          "ann_id": "be4efdac04e59d92ed30ecaaab766ca92bcea840",
+          "known_at": "2025-10-27 16:17:57",
+          "subject": "本公司受邀參加Jefferies所舉辦之投資論壇",
+          "scheduled_not_actual_release_certification": true
+        },
+        {
+          "stock_id": "3665",
+          "name": "貿聯-KY",
+          "kind": "investor_meeting",
+          "event_date": "2025-11-25",
+          "ann_id": "0a9a83b49326b66485cc208f3af029fcf8a5da1b",
+          "known_at": "2025-10-27 16:18:20",
+          "subject": "本公司受邀參加統一證券所舉辦之冬季投資論壇",
+          "scheduled_not_actual_release_certification": true
+        }
+      ]
+    },
+    {
+      "stock_id": "6223",
+      "name_snapshot": "旺矽",
+      "momentum_rank": 14,
+      "original_model": {
+        "status": "newer_self_or_correction_unverified"
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "d9b531110133b3c006cdbbabf22e7c30807ea778",
+        "stamp": "2025-08-13 16:00:07",
+        "subject": "公告本公司董事會通過114年第2季合併財務報告",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": true,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [],
+      "financial_corrections": [
+        {
+          "ann_id": "2f706b47d52f3412fd34573f27af3ba6cae8871c",
+          "stamp": "2025-08-22 17:14:50",
+          "subject": "更正114年Q2合併財務報告附註員工福利、折舊及攤銷費用",
+          "kind": "financial_correction_needs_original_review",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        }
+      ],
+      "typed_originals": [
+        {
+          "ann_id": "2b49a0cc83f50badf22a06731ec49b9c8ab8cb52",
+          "stamp": "2025-08-05 16:40:48",
+          "subject": "公告本公司114年第二季財務報告董事會召開日期",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "d9b531110133b3c006cdbbabf22e7c30807ea778",
+          "stamp": "2025-08-13 16:00:07",
+          "subject": "公告本公司董事會通過114年第2季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "dc451482f49b498352bb2873d38a18db11e0041f",
+          "stamp": "2025-08-15 17:16:35",
+          "subject": "本公司受邀參加美銀證券舉辦之BofA 2025 Taiwan Tech Forum",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "ee62c804272f1c44a0c3fe2467c2fe703af99e56",
+          "stamp": "2025-08-15 17:16:50",
+          "subject": "本公司受邀參加證券櫃檯買賣中心舉辦之「櫃買市場業績發表會」",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "5364345497186f75d4ec51e0dfcc61dd8b82558d",
+          "stamp": "2025-08-22 17:14:34",
+          "subject": "本公司受邀參加JP Morgan 10th Annual Asia Tech Tour",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "2f706b47d52f3412fd34573f27af3ba6cae8871c",
+          "stamp": "2025-08-22 17:14:50",
+          "subject": "更正114年Q2合併財務報告附註員工福利、折舊及攤銷費用",
+          "kind": "financial_correction_needs_original_review",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "1f6a9941ecf5a2b2ac42e7735114b4e899359936",
+          "stamp": "2025-08-29 17:20:10",
+          "subject": "本公司受邀參加高盛證券舉辦之Asia Leaders Conference 2025",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "a377c23f8e9ab09a5be89bd36d7acdc5c7b9daaa",
+          "stamp": "2025-08-29 17:20:25",
+          "subject": "本公司受邀參加由凱基證券舉辦之2025年第三季投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "41ccda7649c2b8380ef8ef98815e3682530a493a",
+          "stamp": "2025-09-01 17:10:48",
+          "subject": "本公司受邀參加美銀證券舉辦之2025 Asia Pacific Conference",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "b6251aa856c0a1b44fd99d70857eb82e8ccaeb91",
+          "stamp": "2025-09-10 17:18:55",
+          "subject": "本公司受邀參加瑞銀證券舉辦之Taiwan Summit 2025",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": []
+    },
+    {
+      "stock_id": "8046",
+      "name_snapshot": "南電",
+      "momentum_rank": 15,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": 3.428882361264027,
+        "quarter": 2,
+        "source_ids": [
+          "06625ac138805563762049047562044fee00a918",
+          "9d840e4b341c70a1b7a75e3f1fc3b8fd49d96f3a"
+        ],
+        "source_stamps": [
+          "2025-05-07 15:33:03",
+          "2025-08-06 16:11:05"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "9d840e4b341c70a1b7a75e3f1fc3b8fd49d96f3a",
+        "stamp": "2025-08-06 16:11:05",
+        "subject": "公告本公司114年第2季合併財務報告業經董事會決議通過",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [
+        {
+          "ann_id": "15fbbd7462ae6a90102d0f24d11df261226b6dea",
+          "stamp": "2025-08-29 15:57:44",
+          "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-07",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "f0e183e8a7eaaf4dee681e5d44b9de7e02596f23",
+          "stamp": "2025-07-17 17:02:16",
+          "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-06",
+            "2025Q1"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "05528f878dfcd75ef6dabd6f15d603641f613a65",
+          "stamp": "2025-07-29 17:42:43",
+          "subject": "公告本公司114年第2季合併財務報告董事會召開日期為114年8月6日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "9d840e4b341c70a1b7a75e3f1fc3b8fd49d96f3a",
+          "stamp": "2025-08-06 16:11:05",
+          "subject": "公告本公司114年第2季合併財務報告業經董事會決議通過",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "15fbbd7462ae6a90102d0f24d11df261226b6dea",
+          "stamp": "2025-08-29 15:57:44",
+          "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-07",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "65a55ca7733ecc56c4e7d08f1ee011e9921c1185",
+          "stamp": "2025-09-03 14:47:43",
+          "subject": "本公司受邀參加國泰證券舉辦之2025年第三季投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": []
+    },
+    {
+      "stock_id": "3189",
+      "name_snapshot": "景碩",
+      "momentum_rank": 16,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": -0.41887717324342255,
+        "quarter": 3,
+        "source_ids": [
+          "31083ff8d9ae2eeb2970f4da072b1502381d05ec",
+          "d792331ef864d66c69941543e468117e3e82b771",
+          "0df204ea1450eb46bc066a91baf99f355d77109c"
+        ],
+        "source_stamps": [
+          "2025-04-28 18:27:24",
+          "2025-07-28 18:00:22",
+          "2025-10-27 18:03:42"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "0df204ea1450eb46bc066a91baf99f355d77109c",
+        "stamp": "2025-10-27 18:03:42",
+        "subject": "公告本公司董事會通過114年第3季合併財務報告",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q3 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "c1700fa6bc07073b68b46cdf88b3212b515dc44f",
+          "stamp": "2025-07-18 17:16:49",
+          "subject": "公告本公司114年第2季財務報告董事會召開日期為114年07月28日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "d792331ef864d66c69941543e468117e3e82b771",
+          "stamp": "2025-07-28 18:00:22",
+          "subject": "公告本公司董事會通過114年第2季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "bfd89b0c56ac707db74a2ac5afb85a9b3dba830d",
+          "stamp": "2025-08-18 16:16:16",
+          "subject": "本公司受邀參加永豐金證券/台灣證交所舉辦之2025年PCB產業主題式業績發表會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "4ecda85c5b665aa4407eced710696048097d0290",
+          "stamp": "2025-09-15 17:27:05",
+          "subject": "本公司受邀參加瑞銀證券舉辦之投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "f5da50ae46dd6e71e2a9fea76f9b0e220632adce",
+          "stamp": "2025-10-17 15:53:11",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-08",
+            "2025Q2"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "90833ba2266391bffd3ca2a54a488203a25a5c19",
+          "stamp": "2025-10-17 16:10:51",
+          "subject": "公告本公司114年第3季財務報告董事會召開日期為114年10月27日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "0df204ea1450eb46bc066a91baf99f355d77109c",
+          "stamp": "2025-10-27 18:03:42",
+          "subject": "公告本公司董事會通過114年第3季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q3 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": []
+    },
+    {
+      "stock_id": "1605",
+      "name_snapshot": "華新",
+      "momentum_rank": 17,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": -1.0471875658975511,
+        "quarter": 2,
+        "source_ids": [
+          "6f225710fd2e0098f7e7f1c0c439d57afcec52ea",
+          "cfe0552054597f7f312037569a3ad5e6dbfb06dc"
+        ],
+        "source_stamps": [
+          "2025-05-09 13:43:49",
+          "2025-08-08 13:44:52"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "cfe0552054597f7f312037569a3ad5e6dbfb06dc",
+        "stamp": "2025-08-08 13:44:52",
+        "subject": "公告本公司董事會通過114年第二季合併財務報告",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "6ee19e6dd34f77b6bc2bc22e819c707057a83816",
+          "stamp": "2025-07-31 17:48:44",
+          "subject": "114年第2季財務報告董事會預計召開日期為114年08月08日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "cfe0552054597f7f312037569a3ad5e6dbfb06dc",
+          "stamp": "2025-08-08 13:44:52",
+          "subject": "公告本公司董事會通過114年第二季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": []
+    },
+    {
+      "stock_id": "2449",
+      "name_snapshot": "京元電子",
+      "momentum_rank": 18,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": 5.2101435409303285,
+        "quarter": 2,
+        "source_ids": [
+          "f3b59f3fe5b96b22e680a674311c146adcd930a1",
+          "a4a37128cccbca3c86f564905cb4029743f857fd"
+        ],
+        "source_stamps": [
+          "2025-05-09 16:00:22",
+          "2025-08-08 15:45:33"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "a4a37128cccbca3c86f564905cb4029743f857fd",
+        "stamp": "2025-08-08 15:45:33",
+        "subject": "公告本公司董事會決議通過民國114年上半年度合併財務報表",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "2afb59b2783fe835ceb3bb29ee8f8f88efca1437",
+          "stamp": "2025-07-31 14:57:09",
+          "subject": "公告本公司決議114年第2季合併財務報告董事會預計召開日期為114年8月8日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "a4a37128cccbca3c86f564905cb4029743f857fd",
+          "stamp": "2025-08-08 15:45:33",
+          "subject": "公告本公司董事會決議通過民國114年上半年度合併財務報表",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": []
+    },
+    {
+      "stock_id": "2451",
+      "name_snapshot": "創見",
+      "momentum_rank": 19,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": 8.034032053912984,
+        "quarter": 2,
+        "source_ids": [
+          "76fb46046d694c59c4662c095d9ca4ac2b793635",
+          "12f124a2c91deed3cd939e966644a4b33a65238e"
+        ],
+        "source_stamps": [
+          "2025-05-08 19:59:41",
+          "2025-08-07 18:50:22"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "12f124a2c91deed3cd939e966644a4b33a65238e",
+        "stamp": "2025-08-07 18:50:22",
+        "subject": "公告本公司董事會通過114年第二季合併財務報告",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "c6ea8ce7ef6eba6c99119d706b6da484d76fed43",
+          "stamp": "2025-07-29 16:03:20",
+          "subject": "公告本公司114年第2季財務報告董事會預計召開日期為114年08月07日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "12f124a2c91deed3cd939e966644a4b33a65238e",
+          "stamp": "2025-08-07 18:50:22",
+          "subject": "公告本公司董事會通過114年第二季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": []
+    },
+    {
+      "stock_id": "2059",
+      "name_snapshot": "川湖",
+      "momentum_rank": 20,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": 1.2692576081039353,
+        "quarter": 2,
+        "source_ids": [
+          "f3613070627f0eafff49c63a3b6804fe30180f12",
+          "a13e9bda7804078641b2486f2845b0d4cd599ae6"
+        ],
+        "source_stamps": [
+          "2025-05-07 14:57:57",
+          "2025-08-06 14:55:33"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "a13e9bda7804078641b2486f2845b0d4cd599ae6",
+        "stamp": "2025-08-06 14:55:33",
+        "subject": "公告本公司董事會通過114年第2季合併財務報告",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "864e3dcaaee3cf4736800e139ea2b477c772e1b4",
+          "stamp": "2025-07-28 15:14:10",
+          "subject": "本公司受邀參加富邦證券所舉辦之線上法說會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "924e58928f19f5cfca4bc05c437d6bd3429c2161",
+          "stamp": "2025-07-29 15:00:27",
+          "subject": "公告本公司114年第2季財務報告董事會預計召開日期為114年8月6日。",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "a13e9bda7804078641b2486f2845b0d4cd599ae6",
+          "stamp": "2025-08-06 14:55:33",
+          "subject": "公告本公司董事會通過114年第2季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "4fb66a4408323d681b5f5b55c6cbb66cea569686",
+          "stamp": "2025-08-25 15:29:01",
+          "subject": "本公司受邀參加高盛證券舉辦之「Goldman Sachs Asia Leaders Conference 2025」",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "9ac18586ccb783c04551bf72f0ae67709a633438",
+          "stamp": "2025-08-25 15:29:41",
+          "subject": "本公司受邀參加美林證券舉辦之「2025 Asia Pacific Conference」",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": []
+    },
+    {
+      "stock_id": "3324",
+      "name_snapshot": "雙鴻",
+      "momentum_rank": 21,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": -0.8186351914393986,
+        "quarter": 2,
+        "source_ids": [
+          "eef20efb6c32736eb0ec4bd23aff77f9cafab445",
+          "9bbda001f36c66286eaa6199f69bc387d640a036"
+        ],
+        "source_stamps": [
+          "2025-05-09 18:22:33",
+          "2025-08-08 18:21:41"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "9bbda001f36c66286eaa6199f69bc387d640a036",
+        "stamp": "2025-08-08 18:21:41",
+        "subject": "本公司董事會通過114年第2季合併財務報告",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "9685976a06dd4e9d2b651f4e28724be4e429a817",
+          "stamp": "2025-07-31 19:02:13",
+          "subject": "公告本公司114年第二季財務報告董事會召開日期",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "9bbda001f36c66286eaa6199f69bc387d640a036",
+          "stamp": "2025-08-08 18:21:41",
+          "subject": "本公司董事會通過114年第2季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "08e5a8f0f26e14519680961197ea837631b01c1a",
+          "stamp": "2025-08-14 14:23:35",
+          "subject": "公告本公司受邀參加 Nomura Asia Tech Tour 2025",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "a608dcfe37343bc424e56eaed27ee966b034fc2b",
+          "stamp": "2025-08-19 16:01:04",
+          "subject": "公告本公司受邀參加 BofA 2025 Taiwan Tech Forum",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "25653054cbd6fdc68c988459f0678a62dbb7e2a3",
+          "stamp": "2025-08-19 16:01:24",
+          "subject": "公告本公司受邀參加 JP Morgan Asia Tech Tour",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "a626fd92f50a5f66a3ff7fc781f7f857ba99f50a",
+          "stamp": "2025-09-02 14:42:54",
+          "subject": "公告本公司受邀參加2025年元大證第三季投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "f40d4a25e49415a4795bb19cb4afb4e1654521ae",
+          "stamp": "2025-09-02 14:43:08",
+          "subject": "公告本公司受邀參加凱基證券 2025 年第三季投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "00f631738b531fd39c27512e870f3ec231a27572",
+          "stamp": "2025-09-02 14:43:18",
+          "subject": "公告本公司受邀參加 CLSA 32nd Investors",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "0d068af972c6a8d410c553c7dd143a5425e0c194",
+          "stamp": "2025-09-10 19:23:40",
+          "subject": "公告本公司受邀參加 Citi Taiwan Tech Tour",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "a8fa6c09326c54eab968999ebcc9b6304a5c97ca",
+          "stamp": "2025-09-10 19:24:00",
+          "subject": "公告本公司受邀參加 Morgan Stanley Taiwan AI Forum 2025",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "aa176541b215eaa3c1b60b5a9ad4940c77e46820",
+          "stamp": "2025-09-10 19:24:12",
+          "subject": "公告本公司受邀參加 UBS Taiwan Summit 2025",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "00d603ca49b2b1f20361696681375318c2aae513",
+          "stamp": "2025-09-10 19:24:30",
+          "subject": "公告本公司受邀參加國票證法人說明會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": []
+    },
+    {
+      "stock_id": "3443",
+      "name_snapshot": "創意",
+      "momentum_rank": 22,
+      "original_model": {
+        "status": "unknown_originals"
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "798198da285ff6a30f34520b89371251daafff5c",
+        "stamp": "2025-07-31 16:48:31",
+        "subject": "本公司發布114年第二季財務報告",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": true,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [
+        {
+          "ann_id": "36a8148789e5c4659c122bd06ad472ce0e1f31d4",
+          "stamp": "2025-10-22 15:49:43",
+          "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-08",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "16ab1aabdf87f4827c2deedc0ebbe5c5c318677e",
+          "stamp": "2025-07-23 13:56:47",
+          "subject": "本公司將於114/07/31召開董事會通過114年第二季財務報告",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "798198da285ff6a30f34520b89371251daafff5c",
+          "stamp": "2025-07-31 16:48:31",
+          "subject": "本公司發布114年第二季財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "181db2fac141155f75b586877ddafff0d8d7add6",
+          "stamp": "2025-07-31 16:49:45",
+          "subject": "本公司受邀於8月1日召開法人說明會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "280f71fb81f81f467b27cfab5ab03dec413c50b4",
+          "stamp": "2025-08-14 16:34:53",
+          "subject": "本公司受邀參加 Nomura Asia Tech Tour",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "1195801f227408fbd87443a8731fa4128758bcbe",
+          "stamp": "2025-08-14 16:36:45",
+          "subject": "本公司受邀參加2025 BofA Taiwan Tech Forum",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "a4f0ff675098d7db34b7453390677ae5d334b659",
+          "stamp": "2025-08-14 16:38:00",
+          "subject": "本公司受邀參加華南永昌秋季企業論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "814df1b5ed0347adaff613aa54013280d41ab012",
+          "stamp": "2025-08-14 16:39:26",
+          "subject": "本公司受邀參加JPMorgan 10th Annual Asia Tech Tour",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "135a49ce6e1652a7c6037649bb401b0d6e5bf7ef",
+          "stamp": "2025-08-18 13:44:36",
+          "subject": "本公司受邀參加之華南永昌秋季企業論壇更換地點至台北晶華酒店",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "b8c207942f72fd851ef0ceb8c4e5649d49446148",
+          "stamp": "2025-09-01 14:32:43",
+          "subject": "受邀參加宏遠證券2025趨勢產業投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "a4378635b679fdf91da9a92c86634a4213c651f9",
+          "stamp": "2025-09-01 14:35:15",
+          "subject": "受邀參加永豐金證券2025年第三季產業投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "f4e9521b368c10e93b8fa6f5c8ab9a7457995467",
+          "stamp": "2025-09-01 14:36:16",
+          "subject": "受邀參加 Fubon/Jefferies 3Q25 Tech Trip",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "51b35707a4a581b261f09b2d70b6734a45785f09",
+          "stamp": "2025-09-01 14:37:15",
+          "subject": "受邀參加第一金證券投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "b961b1bb833f89d8fa5d17633cb5634da85550be",
+          "stamp": "2025-09-01 14:38:07",
+          "subject": "受邀參加UBS Taiwan Summit 2025",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "b2758e955c65688c0b0ac8bcaf110ab3b7c9b2e9",
+          "stamp": "2025-10-22 13:42:24",
+          "subject": "本公司將於114/10/30召開董事會通過114年第三季財務報告",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "36a8148789e5c4659c122bd06ad472ce0e1f31d4",
+          "stamp": "2025-10-22 15:49:43",
+          "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-08",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": {
+        "stock_id": "3443",
+        "source_ids": [
+          "9e7fc51bde853c7d019c665a590b515cd18af99d",
+          "798198da285ff6a30f34520b89371251daafff5c"
+        ],
+        "source_stamps": [
+          "2025-04-24 17:42:39",
+          "2025-07-31 16:48:31"
+        ],
+        "Q1_revenue_thousand": 7023644.0,
+        "Q1_operating_thousand": 1094637.0,
+        "Q2_revenue_thousand": 6104577.0,
+        "Q2_operating_thousand": 943662.0,
+        "margin_change_pp": -0.1267595696625018,
+        "stage_only_no_v4_update": true
+      },
+      "declared_in_window_events": [
+        {
+          "stock_id": "3443",
+          "name": "創意",
+          "kind": "earnings_board",
+          "event_date": "2025-10-30",
+          "ann_id": "b2758e955c65688c0b0ac8bcaf110ab3b7c9b2e9",
+          "known_at": "2025-10-22 13:42:24",
+          "subject": "本公司將於114/10/30召開董事會通過114年第三季財務報告",
+          "scheduled_not_actual_release_certification": true
+        }
+      ]
+    },
+    {
+      "stock_id": "6488",
+      "name_snapshot": "環球晶",
+      "momentum_rank": 23,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": -1.3712818072328687,
+        "quarter": 2,
+        "source_ids": [
+          "95efa1197dc77f3d2e3639c778d65514a375960c",
+          "4afb349ec01538fa6e3b1139717ff74af2ef7cbf"
+        ],
+        "source_stamps": [
+          "2025-05-06 15:13:03",
+          "2025-08-05 15:03:03"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "4afb349ec01538fa6e3b1139717ff74af2ef7cbf",
+        "stamp": "2025-08-05 15:03:03",
+        "subject": "公告本公司董事會通過114年第二季合併財務報告",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [
+        {
+          "ann_id": "215f3ff202c22b27a42a4f7a50dba4ea5f58940c",
+          "stamp": "2025-08-14 15:25:20",
+          "subject": "本公司有價證券達公布注意交易資訊標準，故公告相關訊息，以利投資人區別瞭解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-06",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "85c89e39e619ea440129cd1ca566f470631d1b38",
+          "stamp": "2025-09-23 15:05:19",
+          "subject": "本公司有價證券達公布注意交易資訊標準，故公告相關訊息，以利投資人區別瞭解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-08",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "ba55cd376989fdf8905259c58e12545055d6f65b",
+          "stamp": "2025-07-15 15:12:26",
+          "subject": "本公司召開2025Q2英文線上法說會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "5e849cd1552da91d2988b407190b69a24cd20f1d",
+          "stamp": "2025-07-28 16:24:51",
+          "subject": "公告本公司114年第二季財務報告董事會預計召開日期為114年08月05日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "4afb349ec01538fa6e3b1139717ff74af2ef7cbf",
+          "stamp": "2025-08-05 15:03:03",
+          "subject": "公告本公司董事會通過114年第二季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "517b38569ae886ff869a9e601d2093a856a384d3",
+          "stamp": "2025-08-11 15:23:24",
+          "subject": "本公司受邀參加「櫃買市場業績發表會」",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "215f3ff202c22b27a42a4f7a50dba4ea5f58940c",
+          "stamp": "2025-08-14 15:25:20",
+          "subject": "本公司有價證券達公布注意交易資訊標準，故公告相關訊息，以利投資人區別瞭解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-06",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "9b6a4425c589c4807cdf10c2afdacadd361670bb",
+          "stamp": "2025-08-27 15:10:33",
+          "subject": "本公司受邀參加元大證券辦理之2025年第三季投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "85c89e39e619ea440129cd1ca566f470631d1b38",
+          "stamp": "2025-09-23 15:05:19",
+          "subject": "本公司有價證券達公布注意交易資訊標準，故公告相關訊息，以利投資人區別瞭解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-08",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "1040be954ac3e613a6089a64808ee218f4d22f71",
+          "stamp": "2025-10-21 15:22:00",
+          "subject": "本公司召開2025Q3英文線上法說會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "7ae6ed8fe9b324b4fb770043c0f8e6fb0c02020f",
+          "stamp": "2025-10-27 15:13:03",
+          "subject": "公告本公司114年第三季財務報告董事會預計召開日期為114年11月04日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": false
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": [
+        {
+          "stock_id": "6488",
+          "name": "環球晶",
+          "kind": "earnings_meeting",
+          "event_date": "2025-11-04",
+          "ann_id": "1040be954ac3e613a6089a64808ee218f4d22f71",
+          "known_at": "2025-10-21 15:22:00",
+          "subject": "本公司召開2025Q3英文線上法說會",
+          "scheduled_not_actual_release_certification": true
+        },
+        {
+          "stock_id": "6488",
+          "name": "環球晶",
+          "kind": "earnings_board",
+          "event_date": "2025-11-04",
+          "ann_id": "7ae6ed8fe9b324b4fb770043c0f8e6fb0c02020f",
+          "known_at": "2025-10-27 15:13:03",
+          "subject": "公告本公司114年第三季財務報告董事會預計召開日期為114年11月04日",
+          "scheduled_not_actual_release_certification": true
+        }
+      ]
+    },
+    {
+      "stock_id": "3017",
+      "name_snapshot": "奇鋐",
+      "momentum_rank": 24,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": -1.4751299981972832,
+        "quarter": 2,
+        "source_ids": [
+          "33599dd8186bd1f7186a26bb470a9803c740a740",
+          "608d930d5e334684c5fcae0c74bac8e9ebf99af3"
+        ],
+        "source_stamps": [
+          "2025-05-13 15:19:06",
+          "2025-08-13 14:37:06"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "608d930d5e334684c5fcae0c74bac8e9ebf99af3",
+        "stamp": "2025-08-13 14:37:06",
+        "subject": "董事會通過114年第二季合併財務報告",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [
+        {
+          "ann_id": "bf714092224622a70ce3ae23aa76042ac9690550",
+          "stamp": "2025-08-14 15:06:50",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-06",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "5093b6fd11bb5ea1fbc4677234c153e8e6933147",
+          "stamp": "2025-07-14 14:01:32",
+          "subject": "本公司受邀參加受邀參加大和國泰證券法人說明會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "5c248f147bf2e77e0287cf7146979d765b563bb5",
+          "stamp": "2025-07-14 21:33:06",
+          "subject": "本公司受邀參加國泰證券法人說明會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "e3fd955c4cecebceeec859b9ee49d22af84b0b0e",
+          "stamp": "2025-07-14 21:33:42",
+          "subject": "補公告本公司受邀參加高盛線上法說會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "3116eedbb052a0d628663ef297e107d740cade73",
+          "stamp": "2025-08-05 14:29:59",
+          "subject": "公告114年度第二季合併財務報告董事會預計召開日期為114年8月13日",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "2505528330d0c65ef723e266b78f62a83d575c65",
+          "stamp": "2025-08-12 20:01:18",
+          "subject": "本公司受邀參加富邦證券法人說明會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "608d930d5e334684c5fcae0c74bac8e9ebf99af3",
+          "stamp": "2025-08-13 14:37:06",
+          "subject": "董事會通過114年第二季合併財務報告",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "bf714092224622a70ce3ae23aa76042ac9690550",
+          "stamp": "2025-08-14 15:06:50",
+          "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+          "kind": "attention_monthly_or_quarterly_numeric_disclosure",
+          "periods": [
+            "2025-06",
+            "2025Q2"
+          ],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "4cb9ced43303513e506ec7f628ecc6db670c921b",
+          "stamp": "2025-08-19 15:52:55",
+          "subject": "本公司受邀參加高盛證券法人說明會",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "916bb6c43b00958ab8ff2bb28cd592f0b759b10c",
+          "stamp": "2025-08-20 15:14:17",
+          "subject": "本公司受邀參加JP Morgan 10th Annual Asia Tech Tour",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "6c063d25b510ae232cf73779263e9c143e2b7f5f",
+          "stamp": "2025-08-20 15:14:27",
+          "subject": "本公司受邀參加元富證券秋季論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "4ea94c06103a631d7bf28c7db8885ddb7118f8b3",
+          "stamp": "2025-08-20 15:14:42",
+          "subject": "本公司受邀參加KGI第三季投資論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "0baa91b84d530ea03a49a0e217d5983e04912de7",
+          "stamp": "2025-08-20 15:14:57",
+          "subject": "本公司受邀參加BofA 2025 APAC Equity & Credit Conference",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "dd64946dfca14c555126671de76c7a046c0c6af5",
+          "stamp": "2025-08-20 15:15:08",
+          "subject": "本公司受邀參加CITIC CLSA Flagship Investor Forum",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "e741bc13131735a8ee847b715fb3f2ea184cd896",
+          "stamp": "2025-08-20 15:15:21",
+          "subject": "本公司受邀參加統一證券論壇",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        },
+        {
+          "ann_id": "ef9d7b6d0ab82af98ce4647a69f6bc31819615e5",
+          "stamp": "2025-08-20 15:15:31",
+          "subject": "本公司受邀參加UBS Taiwan Summit 2025",
+          "kind": "meeting_plan_not_new_earnings",
+          "periods": [],
+          "newer_than_model_source": true,
+          "outside_original_query": true
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": []
+    },
+    {
+      "stock_id": "6139",
+      "name_snapshot": "亞翔",
+      "momentum_rank": 25,
+      "original_model": {
+        "status": "verified_formal",
+        "delta_pp": -2.358988371677953,
+        "quarter": 2,
+        "source_ids": [
+          "22115f91e2ff8d7e61e1a16c9efc911c674e0a33",
+          "348d4dc8818a70027c6600f5c676006f181a53de"
+        ],
+        "source_stamps": [
+          "2025-05-09 15:31:28",
+          "2025-08-08 15:18:05"
+        ]
+      },
+      "latest_actual_in_retained_originals": {
+        "ann_id": "348d4dc8818a70027c6600f5c676006f181a53de",
+        "stamp": "2025-08-08 15:18:05",
+        "subject": "公告本公司114年第2季合併財務報告業經提報董事會通過",
+        "kind": "published_formal_financial_summary",
+        "periods": [
+          "2025Q2 cumulative"
+        ],
+        "newer_than_model_source": false,
+        "outside_original_query": false
+      },
+      "newer_attention_disclosures": [],
+      "financial_corrections": [],
+      "typed_originals": [
+        {
+          "ann_id": "b7428ce6b613422f5b3622ac6a0a1bc2d3ac6ed5",
+          "stamp": "2025-07-30 17:14:59",
+          "subject": "公告本公司114年第2季財務報告董事會召開日期",
+          "kind": "future_board_plan_not_earnings",
+          "periods": [],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        },
+        {
+          "ann_id": "348d4dc8818a70027c6600f5c676006f181a53de",
+          "stamp": "2025-08-08 15:18:05",
+          "subject": "公告本公司114年第2季合併財務報告業經提報董事會通過",
+          "kind": "published_formal_financial_summary",
+          "periods": [
+            "2025Q2 cumulative"
+          ],
+          "newer_than_model_source": false,
+          "outside_original_query": false
+        }
+      ],
+      "issuer_complete_history_verified": false,
+      "first_publication_certified": false,
+      "source_status": "retained original corpus reviewed; missing outside-source documents still possible",
+      "staged_parser_repair": null,
+      "declared_in_window_events": []
+    }
+  ],
+  "declared_events": [
+    {
+      "stock_id": "2344",
+      "name": "華邦電",
+      "kind": "earnings_meeting",
+      "event_date": "2025-11-05",
+      "ann_id": "cad5ae03cbe51fe1028110d9c886aa2825b8ea65",
+      "known_at": "2025-10-22 15:00:49",
+      "subject": "本公司舉行114年第三季度法人說明會，將於會中就公司114年第三季度財務數字與營運概況做說明",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "2344",
+      "name": "華邦電",
+      "kind": "earnings_board",
+      "event_date": "2025-11-04",
+      "ann_id": "ba2feb99635237f6cbcb24430754a1d6f688b90c",
+      "known_at": "2025-10-27 18:29:12",
+      "subject": "公告本公司114年第三季合併財務報告董事會預計召開日期為114年11月4日",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "8299",
+      "name": "群聯",
+      "kind": "earnings_meeting",
+      "event_date": "2025-11-07",
+      "ann_id": "8e8cdb4fa3323794bb919102cb56edcc9a633fbe",
+      "known_at": "2025-10-15 14:33:25",
+      "subject": "公告本公司受邀參加麥格理證券舉辦之群聯3Q25財報公告線上法說會 (英文場)",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "2308",
+      "name": "台達電",
+      "kind": "earnings_meeting",
+      "event_date": "2025-10-30",
+      "ann_id": "ec37b289a972817edba35f0bb146340e98537a4d",
+      "known_at": "2025-10-17 15:12:39",
+      "subject": "本公司自辦法人說明會之相關資訊",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "2308",
+      "name": "台達電",
+      "kind": "earnings_board",
+      "event_date": "2025-10-29",
+      "ann_id": "b2b44a6c14d0c603c3bbfaa24fb9e27faa92f7c9",
+      "known_at": "2025-10-21 17:47:39",
+      "subject": "公告本公司民國114年第三季財務報告董事會召開日期",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "2337",
+      "name": "旺宏",
+      "kind": "earnings_meeting",
+      "event_date": "2025-10-29",
+      "ann_id": "e0b328717412053301a606b515e576f00ba695ec",
+      "known_at": "2025-10-07 14:18:30",
+      "subject": "本公司召開2025年第三季法人說明會",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "2337",
+      "name": "旺宏",
+      "kind": "earnings_board",
+      "event_date": "2025-10-29",
+      "ann_id": "0892afa5fc6c34b04e96c54dc4c47ecb4c2614e4",
+      "known_at": "2025-10-20 16:33:18",
+      "subject": "本公司114年第三季財務報告將提114年10月29日董事會決議",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "2360",
+      "name": "致茂",
+      "kind": "earnings_board",
+      "event_date": "2025-10-30",
+      "ann_id": "a59ea2e4e0ee31181245a1569eb2b87b86c52b8f",
+      "known_at": "2025-10-22 17:02:18",
+      "subject": "公告114年第三季財務報告董事會預計召開日期為114年10月30日",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "2360",
+      "name": "致茂",
+      "kind": "earnings_meeting",
+      "event_date": "2025-10-30",
+      "ann_id": "7f92a0aed43dacf3348e26d506d9638bce9c89b2",
+      "known_at": "2025-10-22 17:03:56",
+      "subject": "本公司將召開線上法說會說明2025年第三季營運結果",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "3665",
+      "name": "貿聯-KY",
+      "kind": "earnings_board",
+      "event_date": "2025-11-07",
+      "ann_id": "091285dcc36a86507f98708d16aad71e25608cf5",
+      "known_at": "2025-09-24 14:24:57",
+      "subject": "公告本公司通過114年第三季財務報告董事會召開日期",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "3665",
+      "name": "貿聯-KY",
+      "kind": "earnings_meeting",
+      "event_date": "2025-11-07",
+      "ann_id": "5eb9d18f7ec87c83a69a1de8b81e47f6527e4ee7",
+      "known_at": "2025-10-27 16:13:54",
+      "subject": "本公司受邀參加摩根士丹利舉辦的2025年第三季財報英語之線上法人說明會",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "3665",
+      "name": "貿聯-KY",
+      "kind": "investor_meeting",
+      "event_date": "2025-11-11",
+      "ann_id": "58aa44c453b44803229bf6628dc4263c619da673",
+      "known_at": "2025-10-27 16:14:33",
+      "subject": "本公司受邀參加CLST所舉辦之投資論壇",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "3665",
+      "name": "貿聯-KY",
+      "kind": "investor_meeting",
+      "event_date": "2025-11-17",
+      "ann_id": "f63585e204ebe2d34364b84cafab12aed97a4018",
+      "known_at": "2025-10-27 16:15:20",
+      "subject": "本公司受邀參加新加坡商瑞銀所舉辦之海外投資人會議",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "3665",
+      "name": "貿聯-KY",
+      "kind": "investor_meeting",
+      "event_date": "2025-11-17",
+      "ann_id": "e3e9ae4a8c76866e04e2e35b112ec628f33f4659",
+      "known_at": "2025-10-27 16:15:50",
+      "subject": "本公司受邀參加摩根大通證券所舉辦之海外投資論壇",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "3665",
+      "name": "貿聯-KY",
+      "kind": "investor_meeting",
+      "event_date": "2025-11-18",
+      "ann_id": "04c2b105c77563af630f18eb2a9b9bcd51dd0efd",
+      "known_at": "2025-10-27 16:16:28",
+      "subject": "本公司受邀參加美林證券所舉辦之海外投資人會議",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "3665",
+      "name": "貿聯-KY",
+      "kind": "investor_meeting",
+      "event_date": "2025-11-19",
+      "ann_id": "a4c35bedbdaf711b04272f6c53fe14fcd7b6d523",
+      "known_at": "2025-10-27 16:16:54",
+      "subject": "本公司受邀參加摩根士丹利所舉辦之投資論壇",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "3665",
+      "name": "貿聯-KY",
+      "kind": "investor_meeting",
+      "event_date": "2025-11-24",
+      "ann_id": "29f9961948abbedceab5152688e704107ede092c",
+      "known_at": "2025-10-27 16:17:27",
+      "subject": "本公司受邀參加花旗證券所舉辦之投資論壇",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "3665",
+      "name": "貿聯-KY",
+      "kind": "investor_meeting",
+      "event_date": "2025-11-24",
+      "ann_id": "be4efdac04e59d92ed30ecaaab766ca92bcea840",
+      "known_at": "2025-10-27 16:17:57",
+      "subject": "本公司受邀參加Jefferies所舉辦之投資論壇",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "3665",
+      "name": "貿聯-KY",
+      "kind": "investor_meeting",
+      "event_date": "2025-11-25",
+      "ann_id": "0a9a83b49326b66485cc208f3af029fcf8a5da1b",
+      "known_at": "2025-10-27 16:18:20",
+      "subject": "本公司受邀參加統一證券所舉辦之冬季投資論壇",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "3443",
+      "name": "創意",
+      "kind": "earnings_board",
+      "event_date": "2025-10-30",
+      "ann_id": "b2758e955c65688c0b0ac8bcaf110ab3b7c9b2e9",
+      "known_at": "2025-10-22 13:42:24",
+      "subject": "本公司將於114/10/30召開董事會通過114年第三季財務報告",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "6488",
+      "name": "環球晶",
+      "kind": "earnings_meeting",
+      "event_date": "2025-11-04",
+      "ann_id": "1040be954ac3e613a6089a64808ee218f4d22f71",
+      "known_at": "2025-10-21 15:22:00",
+      "subject": "本公司召開2025Q3英文線上法說會",
+      "scheduled_not_actual_release_certification": true
+    },
+    {
+      "stock_id": "6488",
+      "name": "環球晶",
+      "kind": "earnings_board",
+      "event_date": "2025-11-04",
+      "ann_id": "7ae6ed8fe9b324b4fb770043c0f8e6fb0c02020f",
+      "known_at": "2025-10-27 15:13:03",
+      "subject": "公告本公司114年第三季財務報告董事會預計召開日期為114年11月04日",
+      "scheduled_not_actual_release_certification": true
+    }
+  ],
+  "attention_original_reading": [
+    {
+      "stock_id": "2344",
+      "name": "華邦電",
+      "ann_id": "b4a00405df0816ccfe5881c093e6b5e5d8c5ac30",
+      "stamp": "2025-09-22 15:55:29",
+      "reported_periods": [
+        "2025-08",
+        "2025Q2"
+      ],
+      "numeric_block": "3.財務業務資訊:\n期間       月           季         最近四季累計\n==== =========== =========== =======\n        最近一月  與去年   最近一季  與去年    113年第3季\n科目    114年08月  同期增減%  114年第2季 同期增減%   至114年第2季\n              (合併自結數)           (合併核閱數)      (合併核閱數)\n==== ===== ===== ===== ===== =======\n營業收入  7,013         0.21%     21,018       -2.17%        81,015\n(百萬)\n稅前淨利    919      685.47%     -1,819     -177.64%        -3,770\n(百萬)\n歸屬母公司\n業主淨利    722      813.92%     -1,312     -176.15%        -3,061\n(百萬)\n每股盈餘   0.16       787.62%      -0.29     -170.73%         -0.69\n(元)\n\n",
+      "not_a_full_new_quarter_report": true
+    },
+    {
+      "stock_id": "2344",
+      "name": "華邦電",
+      "ann_id": "70b59a74d4ceb0b78140330b0ad21e87f31092fa",
+      "stamp": "2025-10-21 15:50:20",
+      "reported_periods": [
+        "2025-09",
+        "2025Q2"
+      ],
+      "numeric_block": "3.財務業務資訊:\n期間       月           季         最近四季累計\n==== =========== =========== =======\n        最近一月  與去年   最近一季  與去年    113年第3季\n科目    114年09月  同期增減%  114年第2季 同期增減%   至114年第2季\n              (合併自結數)           (合併核閱數)      (合併核閱數)\n==== ===== ===== ===== ===== =======\n營業收入  7,920         9.53%     21,018       -2.17%        81,015\n(百萬)\n稅前淨利  1,384      298.57%     -1,819     -177.64%        -3,770\n(百萬)\n歸屬母公司\n業主淨利  1,169      317.29%     -1,312     -176.15%        -3,061\n(百萬)\n每股盈餘   0.26       316.67%      -0.29     -170.73%         -0.69\n(元)\n\n",
+      "not_a_full_new_quarter_report": true
+    },
+    {
+      "stock_id": "2408",
+      "name": "南亞科",
+      "ann_id": "eda3847f77061af36852bff6b6a5d395e25d6a52",
+      "stamp": "2025-09-17 16:33:01",
+      "reported_periods": [
+        "2025-08",
+        "2025Q2"
+      ],
+      "numeric_block": "3.財務業務資訊:(IFRS合併)\n\n單位:新台幣佰萬元     最近一月          與去年同期\n科目             (114年8月自結數)         增減%\n-----------      -----------------   ---------------\n營業收入               6,763             141.32%\n稅前淨利                 985             201.23%\n歸屬母公司業主淨利       811             210.19%\n每股盈餘(元)            0.26             208.33%\n\n\n單位:新台幣佰萬元     最近一季          與去年同期         最近四季累計\n                (114年第2季核閱數)        增減%           (113年第3季至\n科目                                                     114年第2季核閱數)\n-----------      -----------------   ---------------   ---------------------\n營業收入               10,526              6.10%              32,422\n稅前淨利               (5,100)          (300.58%)            (11,265)\n歸屬母公司業主淨利     (4,102)          (403.65%)             (9,103)\n每股盈餘(元)            (1.32)          (407.69%)              (2.94)\n\n",
+      "not_a_full_new_quarter_report": true
+    },
+    {
+      "stock_id": "8299",
+      "name": "群聯",
+      "ann_id": "348601aa4e090c873646bed7556910575b8c0707",
+      "stamp": "2025-09-16 14:45:19",
+      "reported_periods": [
+        "2025-08",
+        "2025Q2"
+      ],
+      "numeric_block": "3.財務業務資訊:\n\n(1)單月(註1)\n                             最近一月單月    去年同月      與去年同期增減%\n                              (114年8月)    (113年8月)\n----------------------------------------------------------------------------\n營業收入(百萬元)               5,934         4,806             23.47%\n稅前淨利(百萬元)                 780            12          6,400.00%\n歸屬母公司業主淨利(百萬元)        650            13          4,900.00%\n每股盈餘(元)                    3.15          0.05          6,200.00%\n============================================================================\n\n(2)單季(註2)\n                             最近一季單季      去年同期     與去年同期增減%\n                             (114年第2季)   (113年第2季)\n----------------------------------------------------------------------------\n營業收入(百萬元)              17,890          15,895          12.55%\n稅前淨利(百萬元)               1,001           2,890         -65.36%\n歸屬母公司業主淨利(百萬元)        745           2,451         -69.60%\n每股盈餘(元)                    3.60           11.97         -69.92%\n============================================================================\n\n(3)最近四季累計(註3)\n                                113年第3季至114年第2季\n------------------------------------------------------------\n營業收入(百萬元)                      58,244\n稅前淨利(百萬元)                       6,376\n歸屬母公司業主淨利(百萬元)              4,968\n每股盈餘(元)                           24.13\n============================================================\n",
+      "not_a_full_new_quarter_report": true
+    },
+    {
+      "stock_id": "8299",
+      "name": "群聯",
+      "ann_id": "b462da7c1d09c61f181d0e7aa899d3b9fd50c237",
+      "stamp": "2025-10-09 15:23:32",
+      "reported_periods": [
+        "2025-09",
+        "2025Q2"
+      ],
+      "numeric_block": "3.財務業務資訊:\n\n(1)單月(註1)\n                             最近一月單月    去年同月      與去年同期增減%\n                              (114年9月)    (113年9月)\n----------------------------------------------------------------------------\n營業收入(百萬元)               6,515         4,431             47.04%\n稅前淨利(百萬元)               1,010            80          1,162.50%\n歸屬母公司業主淨利(百萬元)       843            69          1,121.74%\n每股盈餘(元)                    4.06          0.34          1,094.12%\n============================================================================\n\n(2)單季(註2)\n                             最近一季單季      去年同期     與去年同期增減%\n                             (114年第2季)   (113年第2季)\n----------------------------------------------------------------------------\n營業收入(百萬元)              17,890          15,895          12.55%\n稅前淨利(百萬元)               1,001           2,890         -65.36%\n歸屬母公司業主淨利(百萬元)       745           2,451         -69.60%\n每股盈餘(元)                    3.60           11.97         -69.92%\n============================================================================\n\n(3)最近四季累計(註3)\n                                113年第3季至114年第2季\n------------------------------------------------------------\n營業收入(百萬元)                      58,244\n稅前淨利(百萬元)                       6,376\n歸屬母公司業主淨利(百萬元)             4,968\n每股盈餘(元)                           24.13\n============================================================\n",
+      "not_a_full_new_quarter_report": true
+    },
+    {
+      "stock_id": "6515",
+      "name": "穎崴",
+      "ann_id": "624d4442a22f8a243cd4b3a9a08df26ec329eec1",
+      "stamp": "2025-09-02 15:49:23",
+      "reported_periods": [
+        "2025-07",
+        "2025Q2"
+      ],
+      "numeric_block": "3.財務業務資訊:\n 期間             (月)                      (季)           (最近四季累計)\n====  ============ =========== =======\n      最近一月   與去年   最近一季  與去年   最近四季累計\n 科目   (114年7月)  同期增減% 114年第2季  同期增減%  113年第3季至\n                                                            114年第2季\n         (合併自結數)              (合併核閱數)              (合併核閱數)\n====  ====  ====== ===== =====  =======\n營業收入      626       5.39%    1,522     21.18%     7,288\n(百萬)\n稅前淨利        151       -6.21%      265      -2.57%     1,944\n(百萬)\n歸屬母公司     120     -9.09%      205     -8.48%     1,580\n業主淨利(百萬)\n每股盈餘(元)   3.38      -11.95%     5.76    -11.66%      44.95\n",
+      "not_a_full_new_quarter_report": true
+    },
+    {
+      "stock_id": "8210",
+      "name": "勤誠",
+      "ann_id": "3a33d0984fdf39e2b59dada014ed969ed64537a0",
+      "stamp": "2025-08-12 17:24:24",
+      "reported_periods": [],
+      "numeric_block": "1.事實發生日:114/08/12\n2.發生緣由:依櫃買中心通知辦理\n3.公司債相關資訊:\n 到期日期:114/09/10\n 實際發行總額:1,000,000,000元\n 本月發行餘額: 174,300,000元(截至114/07/31未轉換金額)\n 最新轉(交)換價格:260.8元\n 轉換標的收市價格(8210):617元(114/8/12收盤價)\n 轉債收市價格(82101):237元(114/8/12收盤價)\n4.其他應敘明事項:無",
+      "not_a_full_new_quarter_report": true
+    },
+    {
+      "stock_id": "8210",
+      "name": "勤誠",
+      "ann_id": "21e67dbbd9c65389cffa464b5c7eba4df5417738",
+      "stamp": "2025-08-13 15:20:08",
+      "reported_periods": [
+        "2025-06",
+        "2025Q2"
+      ],
+      "numeric_block": "3.財務業務資訊:\n一、本公司之合併財務資料如下:\n期間             (月)                     (季)              (最近四季累計)\n          最近一月    與去年同    最近一季     與去年同\n科目       114年6月    期增減%   114年第2季     期增減%   113第3季至114第2季\n            (IFRS合併自結數)        (IFRS合併核閱數)        (IFRS合併核閱數)\n營業收入     1635      23%          5,443          51%          17,733\n  (百萬)\n稅前淨利      319      24%          1,137          87%           3,549\n  (百萬)\n歸屬母公司\n業主淨利      245      28%            829          83%           2,612\n  (百萬)\n每股盈餘     2.02      28%           6.87          82%           21.65\n   (元)\n二、本公司營運一切正常,公司於集中市場股票價格變動係由市場自由交易機\n制所決定。\n",
+      "not_a_full_new_quarter_report": true
+    },
+    {
+      "stock_id": "8210",
+      "name": "勤誠",
+      "ann_id": "848e54053efc8ace26a932a19f93b5722b52db74",
+      "stamp": "2025-10-23 15:49:43",
+      "reported_periods": [
+        "2025-09",
+        "2025Q2"
+      ],
+      "numeric_block": "3.財務業務資訊:\n一、本公司之合併財務資料如下:\n期間             (月)                     (季)              (最近四季累計)\n          最近一月    與去年同    最近一季     與去年同\n科目       114年9月    期增減%   114年第2季     期增減%   113第3季至114第2季\n            (IFRS合併自結數)        (IFRS合併核閱數)        (IFRS合併核閱數)\n營業收入    2,176      49%          5,443          51%          17,733\n  (百萬)\n稅前淨利      452      63%          1,137          87%           3,549\n  (百萬)\n歸屬母公司\n業主淨利      336      61%            829          83%           2,612\n  (百萬)\n每股盈餘     2.71      57%           6.87          82%           21.65\n   (元)\n二、本公司營運一切正常,公司於集中市場股票價格變動係由市場自由交易機\n制所決定。\n",
+      "not_a_full_new_quarter_report": true
+    },
+    {
+      "stock_id": "2308",
+      "name": "台達電",
+      "ann_id": "da1c6b2a6b7666eca440fd86ea0f119fbce451c9",
+      "stamp": "2025-10-08 16:20:10",
+      "reported_periods": [
+        "2025-08",
+        "2025Q2"
+      ],
+      "numeric_block": "3.財務業務資訊:\n期間       (月)                   (季)              (最近四季累計)\n====  =========== ===========  =======\n     最近一月   與去年同期  最近一季  與去年同期   (113年第3季至\n科目   (114年8月)  增減%  (114年第2季)  增減%      114年第2季)\n         (合併自結數)            (合併核閱數)        (合併查核/核閱數)\n==== =====  =====  =====  =====   =======\n營業收入  47,860        27%        124,035       20%         469,360\n(百萬)\n稅前淨利    8,446        49%         19,571       30%          62,749\n(百萬)\n歸屬母公司\n業主淨利    5,854        49%         13,948       40%          43,696\n(百萬)\n每股盈餘     2.25        49%           5.37       40%           16.82\n(元)\n",
+      "not_a_full_new_quarter_report": true
+    },
+    {
+      "stock_id": "2337",
+      "name": "旺宏",
+      "ann_id": "70a621d09d2162edaef4ea34e7a606b7b1b6ef43",
+      "stamp": "2025-09-19 16:12:37",
+      "reported_periods": [
+        "2025-08",
+        "2025Q2"
+      ],
+      "numeric_block": "3.財務業務資訊:\n期間              月                      季\n===============   ====================================================\n             最近一月    與去年      最近一季     與去年\n科目           114年8月   同期增減%    114年第2季  同期增減%\n             (合併自結數)              (合併核閱數)\n================   ====================================================\n營業收入         2,557   (5%)     6,799   5%\n(新台幣百萬元)\n稅前淨利         (383)   (568%)    (1,408)  (348%)\n(新台幣百萬元)\n歸屬母公司業主淨利    (345)   (560%)    (1,276)  (346%)\n(新台幣百萬元)\n每股盈餘         (0.19)   (533%)    (0.69)   (360%)\n(新台幣元)\n\n期間                    最近四季累計\n================   ========================\n科目           113年第3季\n                        至114年第2季\n            (合併查核(閱)數)\n================   =========================\n營業收入                26,604\n(新台幣百萬元)\n稅前淨利        (4,413)\n(新台幣百萬元)\n歸屬母公司業主淨利   (3,997)\n(新台幣百萬元)\n每股盈餘        (2.15)\n(新台幣元)\n",
+      "not_a_full_new_quarter_report": true
+    },
+    {
+      "stock_id": "8046",
+      "name": "南電",
+      "ann_id": "15fbbd7462ae6a90102d0f24d11df261226b6dea",
+      "stamp": "2025-08-29 15:57:44",
+      "reported_periods": [
+        "2025-07",
+        "2025Q2"
+      ],
+      "numeric_block": "3.財務業務資訊:\n \t   最近一月    與去年同    最近一季   與去年同       最近四季累計\n         合併自結數    期增減%   合併核閱數   期增減%      合併查核/核閱數\n         (114年7月)              (114年2季)             (113年3季至114年2季)\n-----------------------------------------------------------------------------\n營業收入   3,621       15.85%       9,583     18.01%         35,103\n(百萬)\n稅前淨利     116      -16.63%        -227   -226.14%            254\n(百萬)\n歸屬母公司    92      -16.63%        -187   -258.04%            258\n業主淨利\n(百萬)\n每股盈餘    0.14      -17.65%       -0.29   -261.11%           0.40\n(元)\n",
+      "not_a_full_new_quarter_report": true
+    },
+    {
+      "stock_id": "3443",
+      "name": "創意",
+      "ann_id": "36a8148789e5c4659c122bd06ad472ce0e1f31d4",
+      "stamp": "2025-10-22 15:49:43",
+      "reported_periods": [
+        "2025-08",
+        "2025Q2"
+      ],
+      "numeric_block": "3.財務業務資訊:\n期間              (月)                      (季)          (最近四季累計)\n====  ============ =========== =======\n      最近一月   與去年   最近一季  與去年   最近四季累計\n 科目  (114年8月)  同期增減% 114年第2季  同期增減% 113年第3季至\n                                                            114年第2季\n         (合併自結數)              (合併核閱數)              (合併核閱數)\n====  ====  ====== ===== =====  =======\n營業收入   2,768         42.3%   6,104      -9.2%     25,762\n(百萬)\n稅前淨利       266          16.2%      928      -15.9%      4,256\n(百萬)\n歸屬母公司    225        16.0%      782     -13.8%      3,624\n業主淨利(百萬)\n每股盈餘     1.68          16.0%     5.84     -13.8%       27.04(元)\n",
+      "not_a_full_new_quarter_report": true
+    },
+    {
+      "stock_id": "6488",
+      "name": "環球晶",
+      "ann_id": "215f3ff202c22b27a42a4f7a50dba4ea5f58940c",
+      "stamp": "2025-08-14 15:25:20",
+      "reported_periods": [
+        "2025-06",
+        "2025Q2"
+      ],
+      "numeric_block": "3.財務業務資訊:\n一、基本資料\n(一)單月                     114年6月         113年6月        與去年同期增減\n營業收入(百萬元)              5,717            5,339              7.1%\n稅前淨利(百萬元)              1,552            1,328             16.9%\n歸屬母公司業主淨利(百萬元)     1,276            921               38.5%\n每股盈餘(元)                   2.67             1.93             38.3%\n\n(二)單季                    114年第2季      113年第2季        與去年同期增減\n營業收入(百萬元)             16,007           15,325              4.4%\n稅前淨利(百萬元)              2,288            3,531              -35.2%\n歸屬母公司業主淨利(百萬元)     1,681            2,879              -41.6%\n每股盈餘(元)                   3.52             6.02              -41.5%\n\n(三)最近四季累計       113年第3季至114年第2季\n營業收入(百萬元)             63,815\n稅前淨利(百萬元)              8,761\n歸屬母公司業主淨利(百萬元)     6,570\n每股盈餘(元)                  13.74\n每股面額:10元\n",
+      "not_a_full_new_quarter_report": true
+    },
+    {
+      "stock_id": "6488",
+      "name": "環球晶",
+      "ann_id": "85c89e39e619ea440129cd1ca566f470631d1b38",
+      "stamp": "2025-09-23 15:05:19",
+      "reported_periods": [
+        "2025-08",
+        "2025Q2"
+      ],
+      "numeric_block": "3.財務業務資訊:\n一、基本資料\n(一)單月                     114年8月         113年8月        與去年同期增減\n營業收入(百萬元)              4,427            5,359             -17.3%\n稅前淨利(百萬元)                424            1,265             -66.4%\n歸屬母公司業主淨利(百萬元)      288              903             -68.1%\n每股盈餘(元)                   0.60             1.89             -68.2%\n\n(二)單季                    114年第2季      113年第2季        與去年同期增減\n營業收入(百萬元)             16,007           15,325               4.4%\n稅前淨利(百萬元)              2,288            3,531             -35.2%\n歸屬母公司業主淨利(百萬元)    1,681            2,879             -41.6%\n每股盈餘(元)                   3.52             6.02             -41.5%\n\n(三)最近四季累計       113年第3季至114年第2季\n營業收入(百萬元)             63,815\n稅前淨利(百萬元)              8,761\n歸屬母公司業主淨利(百萬元)    6,570\n每股盈餘(元)                  13.74\n每股面額:10元\n",
+      "not_a_full_new_quarter_report": true
+    },
+    {
+      "stock_id": "3017",
+      "name": "奇鋐",
+      "ann_id": "bf714092224622a70ce3ae23aa76042ac9690550",
+      "stamp": "2025-08-14 15:06:50",
+      "reported_periods": [
+        "2025-06",
+        "2025Q2"
+      ],
+      "numeric_block": "3.財務業務資訊:\n期間              (月)                      (季)             (最近四季累計)\n-------- -----------------------  ------------------------  ---------------\n科目      最近一月    與去年同期  最近一季      與去年同期   113年第3季至\n     (114年6月)  增減%       (114年第2季)  增減%        114年第2季\n          (IFRS合併               (IFRS合併核                (IFRS合併查核\n           自結數)                 閱數)                      /核閱數)\n-------- ----------  ----------  ------------  ----------  ---------------\n營業收入   10,606       76.41%      29,595         79.54%         92,896\n(百萬)\n-------- ----------  ----------  ------------  ----------  ---------------\n稅前淨利    1,987       82.97%       5,896        100.89%         17,603\n(百萬)\n-------- ----------  ----------  ------------  ----------  ---------------\n歸屬母公\n司業主淨利  1,332       90.83%       3,997        105.29%         11,872\n(百萬)\n-------- ----------  ----------  ------------  ----------  ---------------\n每股盈餘     3.43       88.46%       10.30        102.76%          30.63\n(元)\n-------- ----------  ----------  ------------  ----------  ---------------\n",
+      "not_a_full_new_quarter_report": true
+    }
+  ],
+  "staged_extractor_results": [
+    {
+      "stock_id": "6669",
+      "source_ids": [
+        "2eee3285b94a14d511d7daf5e1ceb0e110bf19e5",
+        "30c8cc44f7eddabbf7525e201866f2299fd782b2"
+      ],
+      "source_stamps": [
+        "2025-05-08 17:01:14",
+        "2025-08-08 17:01:24"
+      ],
+      "Q1_revenue_thousand": 170655284.0,
+      "Q1_operating_thousand": 11980679.0,
+      "Q2_revenue_thousand": 220743500.0,
+      "Q2_operating_thousand": 15899244.0,
+      "margin_change_pp": 0.18219028950523658,
+      "stage_only_no_v4_update": true
+    },
+    {
+      "stock_id": "3665",
+      "source_ids": [
+        "d3e0e1adf7537b4b79e1f6166546b8eac067187c",
+        "33586cd6178cec2d297e53411873d608ffc0d7dd"
+      ],
+      "source_stamps": [
+        "2025-05-14 13:33:57",
+        "2025-08-20 13:32:50"
+      ],
+      "Q1_revenue_thousand": 16120785.0,
+      "Q1_operating_thousand": 2360292.0,
+      "Q2_revenue_thousand": 16933328.0,
+      "Q2_operating_thousand": 2866853.0,
+      "margin_change_pp": 2.28894264996598,
+      "stage_only_no_v4_update": true
+    },
+    {
+      "stock_id": "3443",
+      "source_ids": [
+        "9e7fc51bde853c7d019c665a590b515cd18af99d",
+        "798198da285ff6a30f34520b89371251daafff5c"
+      ],
+      "source_stamps": [
+        "2025-04-24 17:42:39",
+        "2025-07-31 16:48:31"
+      ],
+      "Q1_revenue_thousand": 7023644.0,
+      "Q1_operating_thousand": 1094637.0,
+      "Q2_revenue_thousand": 6104577.0,
+      "Q2_operating_thousand": 943662.0,
+      "margin_change_pp": -0.1267595696625018,
+      "stage_only_no_v4_update": true
+    }
+  ],
+  "next_work": "uniform extractor and source-type correction for all decision timestamps and supported universe, source-coverage checks first; no three-stock asymmetric score patch"
+}

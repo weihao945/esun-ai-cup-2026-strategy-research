@@ -1,0 +1,15 @@
+{
+  "actual_tw_days": 539,
+  "paired": 252,
+  "missing": 957,
+  "all_previous_dates": true,
+  "current2026_not_in_research": true,
+  "official_close_matches": 10,
+  "boxpoints_per_view": {
+    "level_group": 504,
+    "tw_bin": 504,
+    "rise_group": 504
+  },
+  "full_history_complete": false,
+  "visual_qa": "programmatic only"
+}

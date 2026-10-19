@@ -1,0 +1,433 @@
+{
+  "verified_on": "2026-10-16",
+  "ndc_method": "original NDC releases verified via web-indexed official content/PDF; main HTML fetch returns403; not a complete monthly PIT database",
+  "case_selection": "each strategy lowest net window per start year in same1209 sample; retrospective illustration only",
+  "case_records": [
+    {
+      "year": "2016",
+      "method": "MOM_E0",
+      "start": "2016-10-13",
+      "end": "2016-11-15",
+      "net": -0.044758389010539856,
+      "vix_date": "2016-10-12",
+      "vix": 15.91,
+      "during_max": 22.51,
+      "ndc": {
+        "month": "2016-08",
+        "release": "2016-09-29",
+        "score": 25,
+        "light": "綠燈",
+        "url": "https://ws.ndc.gov.tw/001/administrator/10/relfile/6217/26346/0ddaf78a-0f8a-4660-b85d-7f5cc650dd75.pdf"
+      }
+    },
+    {
+      "year": "2016",
+      "method": "FLOW_E0",
+      "start": "2016-10-13",
+      "end": "2016-11-15",
+      "net": -0.05238406847058108,
+      "vix_date": "2016-10-12",
+      "vix": 15.91,
+      "during_max": 22.51,
+      "ndc": {
+        "month": "2016-08",
+        "release": "2016-09-29",
+        "score": 25,
+        "light": "綠燈",
+        "url": "https://ws.ndc.gov.tw/001/administrator/10/relfile/6217/26346/0ddaf78a-0f8a-4660-b85d-7f5cc650dd75.pdf"
+      }
+    },
+    {
+      "year": "2017",
+      "method": "MOM_E0",
+      "start": "2017-11-24",
+      "end": "2017-12-27",
+      "net": -0.05409623596398583,
+      "vix_date": "2017-11-22",
+      "vix": 9.88,
+      "during_max": 11.68,
+      "ndc": {
+        "month": "2017-09",
+        "release": "2017-10-27",
+        "score": 30,
+        "light": "綠燈",
+        "url": "https://www.ndc.gov.tw/nc_332_27998"
+      }
+    },
+    {
+      "year": "2017",
+      "method": "FLOW_E0",
+      "start": "2017-11-24",
+      "end": "2017-12-27",
+      "net": -0.01785594346797148,
+      "vix_date": "2017-11-22",
+      "vix": 9.88,
+      "during_max": 11.68,
+      "ndc": {
+        "month": "2017-09",
+        "release": "2017-10-27",
+        "score": 30,
+        "light": "綠燈",
+        "url": "https://www.ndc.gov.tw/nc_332_27998"
+      }
+    },
+    {
+      "year": "2018",
+      "method": "MOM_E0",
+      "start": "2018-09-11",
+      "end": "2018-10-16",
+      "net": -0.12484851506443595,
+      "vix_date": "2018-09-10",
+      "vix": 14.16,
+      "during_max": 24.98,
+      "ndc": {
+        "month": "2018-07",
+        "release": "2018-08-27",
+        "score": 27,
+        "light": "綠燈",
+        "url": "https://ws.ndc.gov.tw/001/administrator/10/relfile/6217/30068/a5c576a7-b219-41b9-9caf-b33938ecf6b8.pdf"
+      }
+    },
+    {
+      "year": "2018",
+      "method": "FLOW_E0",
+      "start": "2018-09-11",
+      "end": "2018-10-16",
+      "net": -0.09593208431604605,
+      "vix_date": "2018-09-10",
+      "vix": 14.16,
+      "during_max": 24.98,
+      "ndc": {
+        "month": "2018-07",
+        "release": "2018-08-27",
+        "score": 27,
+        "light": "綠燈",
+        "url": "https://ws.ndc.gov.tw/001/administrator/10/relfile/6217/30068/a5c576a7-b219-41b9-9caf-b33938ecf6b8.pdf"
+      }
+    },
+    {
+      "year": "2019",
+      "method": "MOM_E0",
+      "start": "2019-04-19",
+      "end": "2019-05-23",
+      "net": -0.11668451173159278,
+      "vix_date": "2019-04-18",
+      "vix": 12.09,
+      "during_max": 20.55,
+      "ndc": {
+        "month": "2019-02",
+        "release": "2019-03-27",
+        "score": 17,
+        "light": "黃藍燈",
+        "url": "https://www.ndc.gov.tw/nc_332_32216"
+      }
+    },
+    {
+      "year": "2019",
+      "method": "FLOW_E0",
+      "start": "2019-04-16",
+      "end": "2019-05-20",
+      "net": -0.08265999944619706,
+      "vix_date": "2019-04-15",
+      "vix": 12.32,
+      "during_max": 20.55,
+      "ndc": {
+        "month": "2019-02",
+        "release": "2019-03-27",
+        "score": 17,
+        "light": "黃藍燈",
+        "url": "https://www.ndc.gov.tw/nc_332_32216"
+      }
+    },
+    {
+      "year": "2020",
+      "method": "MOM_E0",
+      "start": "2020-02-14",
+      "end": "2020-03-19",
+      "net": -0.2746003363664956,
+      "vix_date": "2020-02-13",
+      "vix": 14.15,
+      "during_max": 82.69,
+      "ndc": {
+        "month": "2019-12",
+        "release": "2020-02-03",
+        "score": 27,
+        "light": "綠燈",
+        "url": "https://www.ndc.gov.tw/nc_332_33778"
+      }
+    },
+    {
+      "year": "2020",
+      "method": "FLOW_E0",
+      "start": "2020-02-14",
+      "end": "2020-03-19",
+      "net": -0.30935700007197453,
+      "vix_date": "2020-02-13",
+      "vix": 14.15,
+      "during_max": 82.69,
+      "ndc": {
+        "month": "2019-12",
+        "release": "2020-02-03",
+        "score": 27,
+        "light": "綠燈",
+        "url": "https://www.ndc.gov.tw/nc_332_33778"
+      }
+    },
+    {
+      "year": "2021",
+      "method": "MOM_E0",
+      "start": "2021-04-13",
+      "end": "2021-05-17",
+      "net": -0.11376028416367723,
+      "vix_date": "2021-04-12",
+      "vix": 16.91,
+      "during_max": 27.59,
+      "ndc": {
+        "month": "2021-02",
+        "release": "2021-03-26",
+        "score": 40,
+        "light": "紅燈",
+        "url": "https://www.ndc.gov.tw/nc_332_34860"
+      }
+    },
+    {
+      "year": "2021",
+      "method": "FLOW_E0",
+      "start": "2021-05-07",
+      "end": "2021-06-09",
+      "net": -0.05838162314332007,
+      "vix_date": "2021-05-06",
+      "vix": 18.39,
+      "during_max": 27.59,
+      "ndc": {
+        "month": "2021-03",
+        "release": "2021-04-27",
+        "score": 40,
+        "light": "紅燈",
+        "url": "https://www.ndc.gov.tw/nc_332_34949"
+      }
+    },
+    {
+      "year": "2022",
+      "method": "MOM_E0",
+      "start": "2022-04-08",
+      "end": "2022-05-12",
+      "net": -0.09305595120846977,
+      "vix_date": "2022-04-07",
+      "vix": 21.55,
+      "during_max": 34.75,
+      "ndc": {
+        "month": "2022-02",
+        "release": "2022-03-28",
+        "score": 34,
+        "light": "黃紅燈",
+        "url": "https://ws.ndc.gov.tw/001/administrator/10/relfile/6217/35682/52bc919c-7914-45fe-a735-3a0d23dd44f7.pdf"
+      }
+    },
+    {
+      "year": "2022",
+      "method": "FLOW_E0",
+      "start": "2022-04-08",
+      "end": "2022-05-12",
+      "net": -0.07569530967706839,
+      "vix_date": "2022-04-07",
+      "vix": 21.55,
+      "during_max": 34.75,
+      "ndc": {
+        "month": "2022-02",
+        "release": "2022-03-28",
+        "score": 34,
+        "light": "黃紅燈",
+        "url": "https://ws.ndc.gov.tw/001/administrator/10/relfile/6217/35682/52bc919c-7914-45fe-a735-3a0d23dd44f7.pdf"
+      }
+    },
+    {
+      "year": "2023",
+      "method": "MOM_E0",
+      "start": "2023-12-15",
+      "end": "2024-01-18",
+      "net": -0.07219168342759497,
+      "vix_date": "2023-12-14",
+      "vix": 12.48,
+      "during_max": 14.79,
+      "ndc": {
+        "month": "2023-10",
+        "release": "2023-11-27",
+        "score": 16,
+        "light": "藍燈",
+        "url": "https://www.ndc.gov.tw/nc_332_37583"
+      }
+    },
+    {
+      "year": "2023",
+      "method": "FLOW_E0",
+      "start": "2023-12-15",
+      "end": "2024-01-18",
+      "net": -0.048177637569945864,
+      "vix_date": "2023-12-14",
+      "vix": 12.48,
+      "during_max": 14.79,
+      "ndc": {
+        "month": "2023-10",
+        "release": "2023-11-27",
+        "score": 16,
+        "light": "藍燈",
+        "url": "https://www.ndc.gov.tw/nc_332_37583"
+      }
+    },
+    {
+      "year": "2024",
+      "method": "MOM_E0",
+      "start": "2024-03-19",
+      "end": "2024-04-23",
+      "net": -0.09248122533686887,
+      "vix_date": "2024-03-18",
+      "vix": 14.33,
+      "during_max": 19.23,
+      "ndc": {
+        "month": "2024-01",
+        "release": "2024-03-04",
+        "score": 27,
+        "light": "綠燈",
+        "url": "https://www.ndc.gov.tw/nc_332_37924"
+      }
+    },
+    {
+      "year": "2024",
+      "method": "FLOW_E0",
+      "start": "2024-03-19",
+      "end": "2024-04-23",
+      "net": -0.05444054908998275,
+      "vix_date": "2024-03-18",
+      "vix": 14.33,
+      "during_max": 19.23,
+      "ndc": {
+        "month": "2024-01",
+        "release": "2024-03-04",
+        "score": 27,
+        "light": "綠燈",
+        "url": "https://www.ndc.gov.tw/nc_332_37924"
+      }
+    },
+    {
+      "year": "2025",
+      "method": "MOM_E0",
+      "start": "2025-03-05",
+      "end": "2025-04-09",
+      "net": -0.21041156391783733,
+      "vix_date": "2025-03-04",
+      "vix": 23.51,
+      "during_max": 52.33,
+      "ndc": {
+        "month": "2025-01",
+        "release": "2025-02-27",
+        "score": 34,
+        "light": "黃紅燈",
+        "url": "https://www.ndc.gov.tw/nc_332_38848"
+      }
+    },
+    {
+      "year": "2025",
+      "method": "FLOW_E0",
+      "start": "2025-03-05",
+      "end": "2025-04-09",
+      "net": -0.19207973183480898,
+      "vix_date": "2025-03-04",
+      "vix": 23.51,
+      "during_max": 52.33,
+      "ndc": {
+        "month": "2025-01",
+        "release": "2025-02-27",
+        "score": 34,
+        "light": "黃紅燈",
+        "url": "https://www.ndc.gov.tw/nc_332_38848"
+      }
+    }
+  ],
+  "source_records": [
+    {
+      "month": "2016-08",
+      "release": "2016-09-29",
+      "score": 25,
+      "light": "綠燈",
+      "url": "https://ws.ndc.gov.tw/001/administrator/10/relfile/6217/26346/0ddaf78a-0f8a-4660-b85d-7f5cc650dd75.pdf"
+    },
+    {
+      "month": "2017-09",
+      "release": "2017-10-27",
+      "score": 30,
+      "light": "綠燈",
+      "url": "https://www.ndc.gov.tw/nc_332_27998"
+    },
+    {
+      "month": "2018-07",
+      "release": "2018-08-27",
+      "score": 27,
+      "light": "綠燈",
+      "url": "https://ws.ndc.gov.tw/001/administrator/10/relfile/6217/30068/a5c576a7-b219-41b9-9caf-b33938ecf6b8.pdf"
+    },
+    {
+      "month": "2019-02",
+      "release": "2019-03-27",
+      "score": 17,
+      "light": "黃藍燈",
+      "url": "https://www.ndc.gov.tw/nc_332_32216"
+    },
+    {
+      "month": "2019-12",
+      "release": "2020-02-03",
+      "score": 27,
+      "light": "綠燈",
+      "url": "https://www.ndc.gov.tw/nc_332_33778"
+    },
+    {
+      "month": "2021-02",
+      "release": "2021-03-26",
+      "score": 40,
+      "light": "紅燈",
+      "url": "https://www.ndc.gov.tw/nc_332_34860"
+    },
+    {
+      "month": "2021-03",
+      "release": "2021-04-27",
+      "score": 40,
+      "light": "紅燈",
+      "url": "https://www.ndc.gov.tw/nc_332_34949"
+    },
+    {
+      "month": "2022-02",
+      "release": "2022-03-28",
+      "score": 34,
+      "light": "黃紅燈",
+      "url": "https://ws.ndc.gov.tw/001/administrator/10/relfile/6217/35682/52bc919c-7914-45fe-a735-3a0d23dd44f7.pdf"
+    },
+    {
+      "month": "2023-10",
+      "release": "2023-11-27",
+      "score": 16,
+      "light": "藍燈",
+      "url": "https://www.ndc.gov.tw/nc_332_37583"
+    },
+    {
+      "month": "2024-01",
+      "release": "2024-03-04",
+      "score": 27,
+      "light": "綠燈",
+      "url": "https://www.ndc.gov.tw/nc_332_37924"
+    },
+    {
+      "month": "2025-01",
+      "release": "2025-02-27",
+      "score": 34,
+      "light": "黃紅燈",
+      "url": "https://www.ndc.gov.tw/nc_332_38848"
+    }
+  ],
+  "vix": "https://cdn-api.cboe.com/api/global/us_indices/daily_prices/VIX_History.csv",
+  "limits": [
+    "no full-sample original NDC light conditional statistics",
+    "monthly publication lag",
+    "2018-07 and2024-01 method changes",
+    "VIX is US SPX implied volatility, not Taiwan index or crash probability"
+  ]
+}

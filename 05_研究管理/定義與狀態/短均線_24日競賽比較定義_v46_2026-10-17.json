@@ -1,0 +1,52 @@
+{
+  "version": "v46_short_sma_fixed_1",
+  "date": "2026-10-17",
+  "input_hashes": {
+    "price_current150_cache": "ea800cb5f3c11893db177adcb406bd134f341eb26e0fdf55b0550edf81094e86",
+    "flow_current150_cache": "f4b2e03d369e809ca06b6b11bdac6fcec83ee505e71fad055825391c06c97338",
+    "price_twse_and_actions": "3459a6316bcd2a1790a987cd5f64736c11f9aec58cbaea70282a7090b12a4f38",
+    "action_repairs": "07ce315501c0dfd7d2a09371f48d3a72d8c7a9af9eb6852f9d4df62fd91fdb60",
+    "listing_stockmaster_snapshot": "81ba1f8c26953ab7e86f2a3cc03bf187ab1f11cdb1310083a730c76a78b4ae70"
+  },
+  "parent_definition": "a13380a4d86805e725c731d5970f833b645ba3c7babd2f01ae17425d852bdb57",
+  "engine": "c3f855a0b902cf0af8d8c0eab13c22c4b2d98c55ccf5dca27eba43ce6ad272a0",
+  "new_pairs": {
+    "3_10": [
+      3,
+      10
+    ],
+    "5_10": [
+      5,
+      10
+    ],
+    "5_15": [
+      5,
+      15
+    ],
+    "10_20": [
+      10,
+      20
+    ],
+    "5_24": [
+      5,
+      24
+    ],
+    "10_24": [
+      10,
+      24
+    ]
+  },
+  "new_modes": "MOM ACTIVE,FLOW ACTIVE,PURE ACTIVE perpair;initial-only notexpanded because prior incremental results tiny",
+  "holding": "always24sessions;90%target,25names,5dayregular,1000shares,fees/actions/constraints identicalv45",
+  "signals": "same adjusted-SMA positive state eligibility;actual priorclose deathcross triggers nextday oneforone replacement;newgoldenstate qualifies candidates,notautomatic buy",
+  "pure_ranking": "shortSMA/longSMA−1 amongpositive states;commonhistoricalquality,notoriginal MOM/FLOW ranking",
+  "warmup": "use same existing2016–2025 snapshots,do notmanufacture earlierdata",
+  "new_specs": 18,
+  "new_window_runs": 40248,
+  "comparisons": "reuse32old +24newvsownbaseline +18newvs50/200samevariant =74;all fixed before newreturn analysis",
+  "statistics": "24/48day original-positionblocks20000each;Bonferroni74;2016–2018training2019–2025later;notunseen",
+  "gate": "samev45 bothCIpositive,P10andworstMDDnotworse,80%coverage,100training,5yearmin20and2/3positiveyears",
+  "shortage": "invalidifbullishavailableunder25;coverage andexcludedbaselineoutcomes shown;no forcedfill",
+  "scope": "SMA daypairs only;noEMA or outcome-selected fine grid",
+  "selection": "do not assume shorterlookback better merelybecause24daycompetition;no highestmean forcedwinner"
+}

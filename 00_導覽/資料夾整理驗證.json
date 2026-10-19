@@ -1,0 +1,33 @@
+{
+  "status": "completed",
+  "date": "2026-10-19",
+  "moved_files": 418,
+  "mapping_count": 421,
+  "original_data_hashes_verified": 291,
+  "notebooks": [
+    "04_Notebook/動能基準研究_24日回測_2026-10-13.ipynb",
+    "04_Notebook/動能基準研究_25檔權重比較_2026-10-14.ipynb",
+    "04_Notebook/動能持股_開賽前公告配置研究_2026-10-14.ipynb",
+    "04_Notebook/動能持股公告個案研究_2026-10-14.ipynb",
+    "04_Notebook/反轉中位退出_比較研究_v28_2026-10-16.ipynb"
+  ],
+  "cell_indices_preserved": true,
+  "updated_link_files": 86,
+  "backup": "99_維護與備份/整理前完整檔案_2026-10-19.zip",
+  "backup_crc_passed": true,
+  "files_deleted": 0,
+  "website_repo_modified": false,
+  "root_files": [
+    "README.md",
+    "研究資料_整理索引.html",
+    "策略研究_對大盤勝率與超額報酬_v50_2026-10-19.html",
+    "策略研究_總結報告.html"
+  ],
+  "next_check": "reattach existing kernel and verify mapped input/Notebook paths without restarting",
+  "kernel_pid": 31436,
+  "existing_kernel_reused": true,
+  "saved_validation_cell": 395,
+  "resolved_legacy_paths": 421,
+  "missing_research_links": 0,
+  "external_snapshot_missing_assets": 613
+}

@@ -1,0 +1,173 @@
+{
+  "corrected_with_suspension_valuation_convention": {
+    "等權完整調整": {
+      "n": 8,
+      "years": [
+        2016,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "invalid_years": [
+        2017,
+        2025
+      ],
+      "win_rate": 0.875,
+      "flat_count": 0,
+      "expectancy": 0.05165852855922655,
+      "median": 0.05865496829316841,
+      "average_win": 0.06468738790331541,
+      "average_loss": -0.03954348684939546,
+      "mean_cost": 0.008369949136892024,
+      "worst_return": -0.03954348684939546,
+      "median_mdd": -0.028410256234024323,
+      "worst_mdd": -0.05888486701652307
+    },
+    "等權小額略過": {
+      "n": 8,
+      "years": [
+        2016,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "invalid_years": [
+        2017,
+        2025
+      ],
+      "win_rate": 0.875,
+      "flat_count": 0,
+      "expectancy": 0.052780871087720366,
+      "median": 0.05998329916940037,
+      "average_win": 0.06588923330998986,
+      "average_loss": -0.038977664468166084,
+      "mean_cost": 0.008131906598729886,
+      "worst_return": -0.038977664468166084,
+      "median_mdd": -0.028108743956173465,
+      "worst_mdd": -0.05874837381983089
+    },
+    "溫和非等權略過": {
+      "n": 8,
+      "years": [
+        2016,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "invalid_years": [
+        2017,
+        2025
+      ],
+      "win_rate": 0.875,
+      "flat_count": 0,
+      "expectancy": 0.05492167105360102,
+      "median": 0.06311250376024924,
+      "average_win": 0.06844051495799361,
+      "average_loss": -0.03971023627714709,
+      "mean_cost": 0.007951080187243888,
+      "worst_return": -0.03971023627714709,
+      "median_mdd": -0.028033392619972675,
+      "worst_mdd": -0.059558293958894115
+    }
+  },
+  "conditional_waive_paid_rights": {
+    "等權完整調整": {
+      "n": 10,
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "invalid_years": [],
+      "win_rate": 0.9,
+      "flat_count": 0,
+      "expectancy": 0.048774247989054755,
+      "median": 0.054782743347245755,
+      "average_win": 0.05858732963777144,
+      "average_loss": -0.03954348684939546,
+      "mean_cost": 0.007968373529625539,
+      "worst_return": -0.03954348684939546,
+      "median_mdd": -0.028410256234024323,
+      "worst_mdd": -0.07242868046623097
+    },
+    "等權小額略過": {
+      "n": 10,
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "invalid_years": [],
+      "win_rate": 0.9,
+      "flat_count": 0,
+      "expectancy": 0.04985184543320102,
+      "median": 0.0565041161712907,
+      "average_win": 0.05972179097779737,
+      "average_loss": -0.038977664468166084,
+      "mean_cost": 0.0077136285691757995,
+      "worst_return": -0.038977664468166084,
+      "median_mdd": -0.028108743956173465,
+      "worst_mdd": -0.07295218323812935
+    },
+    "溫和非等權略過": {
+      "n": 10,
+      "years": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "invalid_years": [],
+      "win_rate": 0.9,
+      "flat_count": 0,
+      "expectancy": 0.05145593787402118,
+      "median": 0.06132601288014916,
+      "average_win": 0.06158551277970655,
+      "average_loss": -0.03971023627714709,
+      "mean_cost": 0.00752140568816929,
+      "worst_return": -0.03971023627714709,
+      "median_mdd": -0.028033392619972675,
+      "worst_mdd": -0.07719124465478266
+    }
+  },
+  "baseline_v13_cases_reproduced": 30,
+  "primary_still_unknown_years": [
+    2017,
+    2025
+  ],
+  "restored_2018_note": "aggregateVWAPformula and lastmarketvalue suspension marking;notactualtradingquote",
+  "official_paid_subscription_rule": "notfoundinretainedofficialdocuments",
+  "conclusion": "2018 recoverable with explicit historical marking convention;2017/2025 computable only conditional on declared no-subscription/no-rights-value policy;notall10yearsofficiallycertified"
+}

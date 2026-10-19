@@ -1,0 +1,83 @@
+{
+  "fixed": "originalA20/60half,25target,5dayregular,24sessions,lots1000,samefeesandpriceengine,exitnone",
+  "methods": {
+    "F80": [
+      0.8,
+      0.8,
+      false
+    ],
+    "F85": [
+      0.85,
+      0.85,
+      false
+    ],
+    "F90": [
+      0.9,
+      0.9,
+      false
+    ],
+    "F95": [
+      0.95,
+      0.95,
+      false
+    ],
+    "F100": [
+      1.0,
+      1.0,
+      false
+    ],
+    "D80_85": [
+      0.8,
+      0.85,
+      true
+    ],
+    "D80_95": [
+      0.8,
+      0.95,
+      true
+    ],
+    "D90_95": [
+      0.9,
+      0.95,
+      true
+    ],
+    "D80_100": [
+      0.8,
+      1.0,
+      true
+    ],
+    "D90_100": [
+      0.9,
+      1.0,
+      true
+    ]
+  },
+  "reuse": [
+    "F90fromv16",
+    "D90_95fromv23"
+  ],
+  "new_methods": 8,
+  "core_shared": [
+    "F80",
+    "F85",
+    "F90",
+    "F95",
+    "D80_85",
+    "D80_95",
+    "D90_95"
+  ],
+  "literal100_diagnostics": [
+    "F100",
+    "D80_100",
+    "D90_100"
+  ],
+  "denominator": "100cellsnotallowedtodropfeasiblecorewindowstoalowcount;100compareonlyownvalidpairs+showdata-quality-onlyincludingviolationsasmodeledunsafe diagnostic",
+  "add_rule": "exactv23market20positivebreadth>=60%,>=120names/day;qualifyheldR3R5positiveaboveMA5;extraonlyqualifiednames;offreturntobase;initialbaseexposureallthenactivationq+1;firstdaynotforcedceiling",
+  "cash_100": "literal100%previousNAVstocksbeforefees;integerlotresidualnotsparecashpolicy;noforesightresizingorautomatic99.xfallback;negativecash/otherlimitsreportednotcertified;100+add100identicalfixed100,noadditionalcashwithoutsellingorleverage",
+  "outcomes": "netstrategypositivewinrate;conditionalincrementpositivevsnoaddwinrate;allwindowandtriggeredwindowseparate;tiesexplicit;meanincrement,costincrement,risk",
+  "mechanism": "same+5pointadd80to85vs90to95;dynamicvsstaticceiling;notallbenefittocashitself,stockselection/addallocation/timing/costremain",
+  "contrasts": "13pairs+1differenceofincrements=14Bonferroni;24/48positionblocks5000;trainandlaterasprior,no genuineunseenOOS",
+  "fees": "buysell.001425+selltax.003;cashzerointerest;terminalmarknotforcedliquidation",
+  "limits": "current150survivorship;unknownactions;25targetinfeasibility/lotshortfall;ActiveShareunverified;familyonlycurrentexperiment",
+  "snapshot": "1b826aa999a02664f43ff9c48a77259881901d8b8399c6ee85ebc275af7ea0e2"
+}

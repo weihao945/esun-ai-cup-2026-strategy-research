@@ -1,0 +1,33 @@
+{
+  "version": "v12",
+  "date": "2026-10-15",
+  "authorization": "user asks execute historical industry and longer-history/universe branches directly",
+  "industry_gate": "MI_INDEX historical-date sector membership fails2023reclassification witness; regenerated MOPS monthly files show2026publication even for2023May and newlabels. Rejected, no current-label backfill. Continue dated news/immutable documents, do not bypass gate",
+  "long_study": "2016..2025 lastTuesdayOctober24sessions;TWSE-only independent sub-study, not official150fullmarket strategy",
+  "data": "officialdailyMI_INDEXquotes;MI_QFIISissuedshares for sameprior session;TWT48Ucash/free-stockandpaidcapital events plusTWT49Ureferencecheck;rawdailyreturns andfees model;no syntheticactionprices",
+  "universes": [
+    "fixed current contest stocks currentlyTWSE listed, intersecthistorical trading universe",
+    "historicalTWSE ordinarycommon-stock topK marketcap(previousclose*then-issuedshares),K=numbercurrentcontestTWSEstocks;excludeETF/TDR/preferredbyformat and ISIN;publishedsameprior day"
+  ],
+  "universe_limits": "historicaltopK proxy not reconstructionofpastcontest150;compositioneffect not pure survivorship effect; currentmarketclassifications not used",
+  "signals": "20/60 price momentum percentile eachhalf,20day positivevolume and60valid adjustedrefreturns; noinstitutional filter because independent price-only variant, not exactoldA",
+  "policies": [
+    "equal,no tolerance",
+    "equal,.005retained adjustment skip",
+    "mild rank1.25to.75,.005skip"
+  ],
+  "constraints": "25held isolatesuniversechange;legal20..30daily,90pctinvested,rebalance5,24sessions,1000shares,fee.001425,taxsell.003,caps2330.25others.10,5daycapgrace;same receivables-notspendable accounting;ActiveShareuncertified",
+  "actions": "cash-only TWT49U source; rights and unknown excluded whenheld and after known past event in lookback; no stock-rate inference from prices",
+  "source_bound": "tenyears,60past+24future daily marketrequests peryear from reused official calendar;max2IOworkers;each source up to3meaningful attempts;progress saved;no fixed timer deadline",
+  "outputs": "6strategies*10seasonyears,eachpointinclinvalid saved;winrateandmean24dnetreturn conditionalgain/loss,n;paired sameyears and corporateaction/sourcecoverage",
+  "interpretation": "10annualpoints not650independentwindows;no tuning bestperiod;ifaction/price gate fails keepyearinvalid;do not present price-only conditional study as full-market proven strategy",
+  "deferred": [
+    "LLM",
+    "trades",
+    "DPlan",
+    "restartkernel",
+    "new project/repository",
+    "automations"
+  ],
+  "data_gate_amendment": "TWT48U ignores historic range and returned2026forecast, rejected; use datedTWT49Ucalculation table. Pure cash rows kind息 have explicit權值+息值 cashamount; allrights/paidcapital/unexplained reference events invalid whenheld, not fabricated."
+}

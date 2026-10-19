@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-15",
+  "provider": "FinMind public unauthenticated API",
+  "docs": "https://finmind.github.io/en/quickstart/",
+  "quota": "300requests/hour withouttoken; planned<=281 including pilots, stop immediately on access/rate denial",
+  "source_amendment_reason": "official origin security-denied; independent provider succeeded on rawprice/dividend pilot; no returns used to change parameters",
+  "tickers": "union currentTWSE100 and2016historic top100 =138, no source IDs sent beyond public ticker codes",
+  "dates": "price2016-07-01..2025-12-31;dividend2015-01-01..2025-12-31;cash/source checking only",
+  "studies": "fixed currentTWSE100,2016..2025 October lastTuesday24days,3unchanged allocation rules;separate matched currentvsPIT top100 shifted2016-10-26 start because2016-10-25closecap notknownatOct25open",
+  "PIT_limit": "2017..2025annual historical cap universes still missing; do not call fixedcurrentpool survivorshipfree",
+  "actions": "cashper-shareexplicitpolicy;noncash/split/parvalue/reduction invalid ifheld, no stock-dividend-rate inference from prices;predecision eligibility excludes only known past unresolved actions",
+  "no_more_grid": true,
+  "future_inference": "at most10annualpoints, pairedsameyears; onlyhistorical exploratory, no winner forced",
+  "reference_tolerance": "max(.021NTD,.0001*previousclose); unexplainedreferencechanges flagged, never fabricate dividends"
+}

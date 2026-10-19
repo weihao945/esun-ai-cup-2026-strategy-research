@@ -1,0 +1,15 @@
+{
+  "full_new_methods": 26,
+  "full_new_window_runs": 58136,
+  "baselines_reused": 4472,
+  "initial_crosschecks": 10,
+  "stop_baseline_valid_controls": 1621,
+  "boxplot_groups": 6,
+  "periods": 2,
+  "displayed_marker_observations": 69748,
+  "duplicate_occurrence_acrossgroups_notindependent": true,
+  "partial_exposure_calibration_separate": true,
+  "no_restart": true,
+  "no_new_schedule": true,
+  "valid_path_identity_checks_including_reused": 46340
+}

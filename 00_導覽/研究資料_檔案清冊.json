@@ -1,0 +1,6060 @@
+{
+  "version": "v54_local_catalog",
+  "date": "2026-10-19",
+  "scope": "local organization only; no move rename delete or publication",
+  "root": "C:\\Users\\weiha\\Desktop\\文件\\03_課程資料\\115-1\\資料探勘與應用\\B_Final Project (0920~1221)\\競賽資料",
+  "current_main_cohort": 912,
+  "categories": {
+    "來源與品質查核": 47,
+    "其他實驗定義與結果": 221,
+    "歷史報告與說明": 112,
+    "目前結論所需資料": 26,
+    "其他Notebook": 4,
+    "團隊與背景資料": 28,
+    "官方文件": 22,
+    "發布網站（獨立管理）": 2,
+    "報告歷史備份": 8
+  },
+  "frozen_core_sha256": {
+    "02_原始資料/品質與來源查核/動能_長歷史來源修正稽核_v27_2026-10-15.json": "07ce315501c0dfd7d2a09371f48d3a72d8c7a9af9eb6852f9d4df62fd91fdb60",
+    "03_回測結果/逐策略快取/可變持股均線_10_20_FALLBACK_v49_2026-10-17.json.gz": "c3a1d92646198777cbc9cc8183814b207ab1083df4790b95367c23042e634d55",
+    "03_回測結果/逐策略快取/可變持股均線_10_24_FALLBACK_v49_2026-10-17.json.gz": "051f399bc55323eb46b27c47f0bfe5f931758b244fe906ce5b7c7bee1e706d88",
+    "01_目前報告/統計依據/同樣本比較_主表統計_v53_2026-10-19.json": "30eca33e5cf24eaa6a1761565229a84ed50376b47360ce9bb165ba620cbbe37c",
+    "01_目前報告/統計依據/同樣本比較_持有統計_v53_2026-10-19.json": "9442070c43ee20458fe63816c088f5b31e2a45f039e37819e69ab53a0ab009c6",
+    "01_目前報告/統計依據/同樣本比較_日期稽核_v53_2026-10-19.json": "2cd0ced35664796cf033b5cc4743559aad6bafecef8c4e0ecb348f7c2fdafd84",
+    "03_回測結果/逐策略快取/均線交叉_FLOW_50_200_ACTIVE_v45_2026-10-17.json.gz": "7ea1a9f0ea38a397ecc5d5c682acd19460c596a05df1f4b8febb542d1f012960",
+    "03_回測結果/逐策略快取/均線交叉_PURE_50_200_v45_2026-10-17.json.gz": "999db70cd4a798f35bcd35986e6c755710bee062566ed3aa1a93ef45f0b17fe2",
+    "02_原始資料/保存來源/外部歷史研究_獨立歷史快取_v12_2026-10-15.json.gz": "3459a6316bcd2a1790a987cd5f64736c11f9aec58cbaea70282a7090b12a4f38",
+    "02_原始資料/保存來源/完整150檔研究_新增上櫃快取_v13_2026-10-15.json.gz": "ea800cb5f3c11893db177adcb406bd134f341eb26e0fdf55b0550edf81094e86",
+    "02_原始資料/保存來源/策略大盤比較_TAIEX_PRICE_原始_v50_2026-10-19.json.gz": "ec0f2e7e63099aa763b3639bd0802bf8673715684bf1173217eee1404055b500",
+    "02_原始資料/保存來源/策略大盤比較_TAIEX_TR_原始_v50_2026-10-19.json.gz": "8e1db4d3aa21e038f9ae791474310c64066ee34aafe6cd4257261f2f2166044b",
+    "02_原始資料/品質與來源查核/策略大盤比較_來源查核_v50_2026-10-19.json": "f3d500dedb166cf3e7bf2400bd3a922be7ded6b05334e246966b130b6bc4224a",
+    "03_回測結果/逐窗口與統計/策略大盤比較_逐窗口_v50_2026-10-19.json": "bd82ff50a59059405c57bfc49a52b803f528e335267e10d99c80998aaa2a604a",
+    "02_原始資料/保存來源/策略研究_原資料快照_v3_2026-10-14.json.gz": "81ba1f8c26953ab7e86f2a3cc03bf187ab1f11cdb1310083a730c76a78b4ae70",
+    "03_回測結果/逐策略快取/統一長歷史_FLOW_HOLD_v34_2026-10-16.json.gz": "502c0ef9345821a033b4dff02eace6a2da9e58bfc39fba083aa0472c96177f2e",
+    "03_回測結果/逐策略快取/統一長歷史_MOM_HOLD_v34_2026-10-16.json.gz": "1497871e10e66b9f16d80ffd94f578a5b441e3ec266f715d49ebe117b5f97c68",
+    "02_原始資料/保存來源/長歷史法人_原始快取_v30_2026-10-16.json.gz": "f4b2e03d369e809ca06b6b11bdac6fcec83ee505e71fad055825391c06c97338",
+    "03_回測結果/逐窗口與統計/長歷史環境研究_動能法人逐窗口_v30_2026-10-16.json": "81fac7d7c16763d831a651523c622e69bf8ed4b9374fcc486bff1052f335e7d8"
+  },
+  "core_roles": [
+    {
+      "role": "閱讀入口",
+      "path": "策略研究_總結報告.html",
+      "description": "主要總結；目前第2、3節同912窗口。",
+      "legacy_path": "策略研究_總結報告.html"
+    },
+    {
+      "role": "閱讀入口",
+      "path": "策略研究_對大盤勝率與超額報酬_v50_2026-10-19.html",
+      "description": "與總結同步的固定入口；檔名v50，內容已整合至同樣本v53。",
+      "legacy_path": "策略研究_對大盤勝率與超額報酬_v50_2026-10-19.html"
+    },
+    {
+      "role": "閱讀入口",
+      "path": "01_目前報告/策略研究_總結報告.md",
+      "description": "文字版總結。",
+      "legacy_path": "策略研究_總結報告.md"
+    },
+    {
+      "role": "計算紀錄",
+      "path": "04_Notebook/動能持股_開賽前公告配置研究_2026-10-14.ipynb",
+      "description": "原Notebook，含輸入及輸出；持續追加，不自動Restart/Run All。",
+      "legacy_path": "動能持股_開賽前公告配置研究_2026-10-14.ipynb"
+    },
+    {
+      "role": "目前統計",
+      "path": "01_目前報告/統計依據/同樣本比較_主表統計_v53_2026-10-19.json",
+      "description": "目前主表912日期統計；內含沿用舊欄位，報告主表只取periods.later，勿把all欄當本輪共同樣本。",
+      "legacy_path": "同樣本比較_主表統計_v53_2026-10-19.json"
+    },
+    {
+      "role": "目前統計",
+      "path": "01_目前報告/統計依據/同樣本比較_持有統計_v53_2026-10-19.json",
+      "description": "初始持有與五日調整同912窗口。",
+      "legacy_path": "同樣本比較_持有統計_v53_2026-10-19.json"
+    },
+    {
+      "role": "日期依據",
+      "path": "01_目前報告/統計依據/同樣本比較_日期稽核_v53_2026-10-19.json",
+      "description": "912起點索引、從935排除的23窗口、八策略統計及14項區間。",
+      "legacy_path": "同樣本比較_日期稽核_v53_2026-10-19.json"
+    },
+    {
+      "role": "逐窗口基礎",
+      "path": "03_回測結果/逐窗口與統計/策略大盤比較_逐窗口_v50_2026-10-19.json",
+      "description": "完整候選2236起點；common_six是舊935集合，須用v53 included_indices取目前912。",
+      "legacy_path": "策略大盤比較_逐窗口_v50_2026-10-19.json"
+    },
+    {
+      "role": "大盤來源",
+      "path": "02_原始資料/保存來源/策略大盤比較_TAIEX_TR_原始_v50_2026-10-19.json.gz",
+      "description": "含股息TAIEX報酬指數，2320日。",
+      "legacy_path": "策略大盤比較_TAIEX_TR_原始_v50_2026-10-19.json.gz"
+    },
+    {
+      "role": "大盤來源",
+      "path": "02_原始資料/保存來源/策略大盤比較_TAIEX_PRICE_原始_v50_2026-10-19.json.gz",
+      "description": "不含股息價格指數，僅補充對照。",
+      "legacy_path": "策略大盤比較_TAIEX_PRICE_原始_v50_2026-10-19.json.gz"
+    },
+    {
+      "role": "來源查核",
+      "path": "02_原始資料/品質與來源查核/策略大盤比較_來源查核_v50_2026-10-19.json",
+      "description": "URL、欄位、時間覆蓋與雜湊。",
+      "legacy_path": "策略大盤比較_來源查核_v50_2026-10-19.json"
+    },
+    {
+      "role": "資料原始快取",
+      "path": "02_原始資料/保存來源/外部歷史研究_獨立歷史快取_v12_2026-10-15.json.gz",
+      "description": "上市價量、股息與公司行動快取。",
+      "legacy_path": "外部歷史研究_獨立歷史快取_v12_2026-10-15.json.gz"
+    },
+    {
+      "role": "資料原始快取",
+      "path": "02_原始資料/保存來源/完整150檔研究_新增上櫃快取_v13_2026-10-15.json.gz",
+      "description": "上櫃價量與事件補充。",
+      "legacy_path": "完整150檔研究_新增上櫃快取_v13_2026-10-15.json.gz"
+    },
+    {
+      "role": "資料原始快取",
+      "path": "02_原始資料/保存來源/長歷史法人_原始快取_v30_2026-10-16.json.gz",
+      "description": "外資／投信歷史原始資料。",
+      "legacy_path": "長歷史法人_原始快取_v30_2026-10-16.json.gz"
+    },
+    {
+      "role": "資料品質",
+      "path": "02_原始資料/品質與來源查核/動能_長歷史來源修正稽核_v27_2026-10-15.json",
+      "description": "來源修正與公司行動查核。",
+      "legacy_path": "動能_長歷史來源修正稽核_v27_2026-10-15.json"
+    },
+    {
+      "role": "資料品質",
+      "path": "02_原始資料/保存來源/策略研究_原資料快照_v3_2026-10-14.json.gz",
+      "description": "股票名單／掛牌日期等凍結快照；研究原始輸入，不是最新結論。",
+      "legacy_path": "策略研究_原資料快照_v3_2026-10-14.json.gz"
+    },
+    {
+      "role": "研究管理",
+      "path": "05_研究管理/A策略_無人值守研究流程.md",
+      "description": "已完成批次與接續規則。",
+      "legacy_path": "A策略_無人值守研究流程.md"
+    },
+    {
+      "role": "研究管理",
+      "path": "05_研究管理/定義與狀態/A策略_無人值守研究狀態.json",
+      "description": "各批次狀態；完成不代表所有方法通過。",
+      "legacy_path": "A策略_無人值守研究狀態.json"
+    },
+    {
+      "role": "官賽限制",
+      "path": "05_研究管理/競賽規則與每日運作說明_2026-10-13.md",
+      "description": "本機已歸檔規則解讀；並非今日重新認證。",
+      "legacy_path": "競賽規則與每日運作說明_2026-10-13.md"
+    },
+    {
+      "role": "交易結果",
+      "path": "03_回測結果/逐窗口與統計/長歷史環境研究_動能法人逐窗口_v30_2026-10-16.json",
+      "description": "原動能／五日：results.MOM；取912索引，不重跑交易。",
+      "legacy_path": "長歷史環境研究_動能法人逐窗口_v30_2026-10-16.json"
+    },
+    {
+      "role": "交易結果",
+      "path": "03_回測結果/逐窗口與統計/長歷史環境研究_動能法人逐窗口_v30_2026-10-16.json",
+      "description": "純法人／五日：results.FLOW；取912索引，不重跑交易。",
+      "legacy_path": "長歷史環境研究_動能法人逐窗口_v30_2026-10-16.json"
+    },
+    {
+      "role": "交易結果",
+      "path": "03_回測結果/逐策略快取/均線交叉_FLOW_50_200_ACTIVE_v45_2026-10-17.json.gz",
+      "description": "法人＋50／200：results；取912索引，不重跑交易。",
+      "legacy_path": "均線交叉_FLOW_50_200_ACTIVE_v45_2026-10-17.json.gz"
+    },
+    {
+      "role": "交易結果",
+      "path": "03_回測結果/逐策略快取/均線交叉_PURE_50_200_v45_2026-10-17.json.gz",
+      "description": "純50／200：results；取912索引，不重跑交易。",
+      "legacy_path": "均線交叉_PURE_50_200_v45_2026-10-17.json.gz"
+    },
+    {
+      "role": "交易結果",
+      "path": "03_回測結果/逐策略快取/可變持股均線_10_20_FALLBACK_v49_2026-10-17.json.gz",
+      "description": "10／20可變＋回退：results；取912索引，不重跑交易。",
+      "legacy_path": "可變持股均線_10_20_FALLBACK_v49_2026-10-17.json.gz"
+    },
+    {
+      "role": "交易結果",
+      "path": "03_回測結果/逐策略快取/可變持股均線_10_24_FALLBACK_v49_2026-10-17.json.gz",
+      "description": "10／24可變＋回退：results；取912索引，不重跑交易。",
+      "legacy_path": "可變持股均線_10_24_FALLBACK_v49_2026-10-17.json.gz"
+    },
+    {
+      "role": "交易結果",
+      "path": "03_回測結果/逐策略快取/統一長歷史_MOM_HOLD_v34_2026-10-16.json.gz",
+      "description": "動能初始持有：results；取912索引，不重跑交易。",
+      "legacy_path": "統一長歷史_MOM_HOLD_v34_2026-10-16.json.gz"
+    },
+    {
+      "role": "交易結果",
+      "path": "03_回測結果/逐策略快取/統一長歷史_FLOW_HOLD_v34_2026-10-16.json.gz",
+      "description": "法人初始持有：results；取912索引，不重跑交易。",
+      "legacy_path": "統一長歷史_FLOW_HOLD_v34_2026-10-16.json.gz"
+    }
+  ],
+  "strategy_paths": [
+    {
+      "strategy": "原動能／五日",
+      "file": "03_回測結果/逐窗口與統計/長歷史環境研究_動能法人逐窗口_v30_2026-10-16.json",
+      "json_key": "results.MOM",
+      "legacy_file": "長歷史環境研究_動能法人逐窗口_v30_2026-10-16.json"
+    },
+    {
+      "strategy": "純法人／五日",
+      "file": "03_回測結果/逐窗口與統計/長歷史環境研究_動能法人逐窗口_v30_2026-10-16.json",
+      "json_key": "results.FLOW",
+      "legacy_file": "長歷史環境研究_動能法人逐窗口_v30_2026-10-16.json"
+    },
+    {
+      "strategy": "法人＋50／200",
+      "file": "03_回測結果/逐策略快取/均線交叉_FLOW_50_200_ACTIVE_v45_2026-10-17.json.gz",
+      "json_key": "results",
+      "legacy_file": "均線交叉_FLOW_50_200_ACTIVE_v45_2026-10-17.json.gz"
+    },
+    {
+      "strategy": "純50／200",
+      "file": "03_回測結果/逐策略快取/均線交叉_PURE_50_200_v45_2026-10-17.json.gz",
+      "json_key": "results",
+      "legacy_file": "均線交叉_PURE_50_200_v45_2026-10-17.json.gz"
+    },
+    {
+      "strategy": "10／20可變＋回退",
+      "file": "03_回測結果/逐策略快取/可變持股均線_10_20_FALLBACK_v49_2026-10-17.json.gz",
+      "json_key": "results",
+      "legacy_file": "可變持股均線_10_20_FALLBACK_v49_2026-10-17.json.gz"
+    },
+    {
+      "strategy": "10／24可變＋回退",
+      "file": "03_回測結果/逐策略快取/可變持股均線_10_24_FALLBACK_v49_2026-10-17.json.gz",
+      "json_key": "results",
+      "legacy_file": "可變持股均線_10_24_FALLBACK_v49_2026-10-17.json.gz"
+    },
+    {
+      "strategy": "動能初始持有",
+      "file": "03_回測結果/逐策略快取/統一長歷史_MOM_HOLD_v34_2026-10-16.json.gz",
+      "json_key": "results",
+      "legacy_file": "統一長歷史_MOM_HOLD_v34_2026-10-16.json.gz"
+    },
+    {
+      "strategy": "法人初始持有",
+      "file": "03_回測結果/逐策略快取/統一長歷史_FLOW_HOLD_v34_2026-10-16.json.gz",
+      "json_key": "results",
+      "legacy_file": "統一長歷史_FLOW_HOLD_v34_2026-10-16.json.gz"
+    }
+  ],
+  "external_helpers": [
+    "C:\\Users\\weiha\\Documents\\Codex\\2026-10-09\\data-mining-final-project\\work\\author_external_history_v12.py",
+    "C:\\Users\\weiha\\Documents\\Codex\\2026-10-09\\data-mining-final-project\\work\\notebook_kernel_bridge.py"
+  ],
+  "git_scope": {
+    "path": "發布網站/strategy-review-v3",
+    "purpose": "v3 website only",
+    "root_is_git": false,
+    "modified": false
+  },
+  "excluded_internal_file_count": 32,
+  "notebook_metadata": "activeNotebook catalogsize/timestamp maychange after bridge saves thiscell; do not treat as frozen source hash",
+  "files_before_migration": [
+    {
+      "path": "A策略_2025開賽25檔最新來源查核_2026-10-14.json",
+      "category": "來源與品質查核",
+      "bytes": 1708016,
+      "modified_local": "2026-10-14T17:16:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_2025開賽25檔資訊新鮮度查核_2026-10-14.md",
+      "category": "來源與品質查核",
+      "bytes": 10433,
+      "modified_local": "2026-10-14T17:29:12",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_2025開賽25檔資訊新鮮度結果_2026-10-14.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 163005,
+      "modified_local": "2026-10-14T17:29:12",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_LLM歷史原文輸入包_v5_2026-10-14.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 39005,
+      "modified_local": "2026-10-14T21:15:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_休市除權息對齊查核_v7_2026-10-15.json",
+      "category": "來源與品質查核",
+      "bytes": 9893,
+      "modified_local": "2026-10-15T11:03:12",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_來源與時間統一查核_v5_2026-10-14.json",
+      "category": "來源與品質查核",
+      "bytes": 518152,
+      "modified_local": "2026-10-15T08:05:17",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_全池公告原文快取_v5_2026-10-14.json.gz",
+      "category": "來源與品質查核",
+      "bytes": 9780345,
+      "modified_local": "2026-10-14T21:02:25",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_公司行動官方核對_2026-10-14.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 451552,
+      "modified_local": "2026-10-14T16:54:56",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_公告原文判讀結果_2026-10-14.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 27225,
+      "modified_local": "2026-10-14T17:11:09",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_公告原文對照案例_2026-10-14.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 17842,
+      "modified_local": "2026-10-14T17:05:41",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_公告整合重驗證定義_v6_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 969,
+      "modified_local": "2026-10-15T08:08:55",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_公告整合重驗證結果_v6_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 970774,
+      "modified_local": "2026-10-15T08:11:00",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_公告整合驗證_v6_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 470,
+      "modified_local": "2026-10-15T08:11:35",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_公告期間與自結整合研究_v6_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 11207,
+      "modified_local": "2026-10-15T08:14:56",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_公告案例官方來源補查_2026-10-14.json",
+      "category": "來源與品質查核",
+      "bytes": 78709,
+      "modified_local": "2026-10-14T17:11:09",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_單月注意損益與更正查核_v6_2026-10-15.json",
+      "category": "來源與品質查核",
+      "bytes": 147753,
+      "modified_local": "2026-10-15T08:11:00",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_失效原因診斷_v8_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 615644,
+      "modified_local": "2026-10-15T13:21:40",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_失效機制比較_v8_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 386695,
+      "modified_local": "2026-10-15T13:26:14",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_失效機制統一比較_v8_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 21933,
+      "modified_local": "2026-10-15T13:22:52",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_失效機制逐窗口_v8_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1093706,
+      "modified_local": "2026-10-15T13:22:45",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_失效診斷與機制定義_v8_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 3502,
+      "modified_local": "2026-10-15T13:21:22",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_失效診斷與機制研究_v8_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 6633,
+      "modified_local": "2026-10-15T13:26:14",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_換手成本歸因_v8_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 3002604,
+      "modified_local": "2026-10-15T13:22:51",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_時間格式與更正範圍查核_v7_2026-10-15.json",
+      "category": "來源與品質查核",
+      "bytes": 441525,
+      "modified_local": "2026-10-15T11:03:27",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_歷史25檔持股與公告查閱_2026-10-14.md",
+      "category": "歷史報告與說明",
+      "bytes": 609751,
+      "modified_local": "2026-10-14T01:01:47",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_歷史開賽股數與資金查核_v5_2026-10-14.json",
+      "category": "來源與品質查核",
+      "bytes": 23041,
+      "modified_local": "2026-10-14T21:15:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_歷年開賽25檔公告來源盤點_2026-10-14.json",
+      "category": "來源與品質查核",
+      "bytes": 65482,
+      "modified_local": "2026-10-14T16:39:09",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_歷年開賽25檔公告來源盤點_v4_2026-10-14.json",
+      "category": "來源與品質查核",
+      "bytes": 65482,
+      "modified_local": "2026-10-14T16:50:32",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_歷年開賽25檔權重與證據_v6_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 24112,
+      "modified_local": "2026-10-15T08:11:00",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_無人值守研究流程.md",
+      "category": "目前結論所需資料",
+      "bytes": 65487,
+      "modified_local": "2026-10-19T16:36:49",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_無人值守研究狀態.json",
+      "category": "目前結論所需資料",
+      "bytes": 131979,
+      "modified_local": "2026-10-19T16:36:49",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_營收原文快取_v5_2026-10-14.json.gz",
+      "category": "來源與品質查核",
+      "bytes": 1899931,
+      "modified_local": "2026-10-14T21:11:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_營收與組合開賽前實驗定義_v5_2026-10-14.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 632,
+      "modified_local": "2026-10-15T08:05:17",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_策略資料缺口原始來源_v7_2026-10-15.json",
+      "category": "來源與品質查核",
+      "bytes": 318460,
+      "modified_local": "2026-10-15T11:02:04",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_自結與公告期間整合_v6_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 2007798,
+      "modified_local": "2026-10-15T08:08:55",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_資訊增量對照定義_v5_2026-10-14.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 461,
+      "modified_local": "2026-10-14T21:17:41",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_資訊增量對照結果_v5_2026-10-14.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 484222,
+      "modified_local": "2026-10-14T21:17:42",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_開賽前財務調權比較_v5_2026-10-14.html",
+      "category": "歷史報告與說明",
+      "bytes": 277391,
+      "modified_local": "2026-10-14T21:09:50",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_開賽前財務調權統計_v5_2026-10-14.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 2197,
+      "modified_local": "2026-10-14T21:09:50",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_開賽前財務調權逐窗口_v5_2026-10-14.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1450107,
+      "modified_local": "2026-10-14T21:11:40",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_開賽前資訊調權實驗定義_v5_2026-10-14.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1531,
+      "modified_local": "2026-10-15T08:05:17",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_開賽前資訊調權比較_v5_2026-10-14.html",
+      "category": "歷史報告與說明",
+      "bytes": 468332,
+      "modified_local": "2026-10-14T21:13:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_開賽前資訊調權比較_v6_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 468389,
+      "modified_local": "2026-10-15T08:11:00",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_開賽前資訊調權研究_v5_2026-10-14.md",
+      "category": "歷史報告與說明",
+      "bytes": 5678,
+      "modified_local": "2026-10-14T21:21:13",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_開賽前資訊調權統一統計_v5_2026-10-14.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 8734,
+      "modified_local": "2026-10-14T21:17:42",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_關鍵資料修正比較_v7_2026-10-15.html",
+      "category": "來源與品質查核",
+      "bytes": 585664,
+      "modified_local": "2026-10-15T11:13:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_關鍵資料修正統一統計_v7_2026-10-15.json",
+      "category": "來源與品質查核",
+      "bytes": 39838,
+      "modified_local": "2026-10-15T11:11:41",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_關鍵資料修正逐窗口_v7_2026-10-15.json",
+      "category": "來源與品質查核",
+      "bytes": 10021766,
+      "modified_local": "2026-10-15T11:11:42",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_關鍵資料修正重驗證定義_v7_2026-10-15.json",
+      "category": "來源與品質查核",
+      "bytes": 1990,
+      "modified_local": "2026-10-15T11:11:41",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "A策略_關鍵資料缺口與策略比較_v7_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 7604,
+      "modified_local": "2026-10-15T11:13:52",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "Cboe_VIX官方日資料_v42_2026-10-16.csv",
+      "category": "其他實驗定義與結果",
+      "bytes": 473788,
+      "modified_local": "2026-10-16T23:39:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "HTML成果總覽_2026-10-14.html",
+      "category": "歷史報告與說明",
+      "bytes": 11456,
+      "modified_local": "2026-10-14T21:49:35",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "TEAM_11693_DPlan離線驗證結果_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 8931,
+      "modified_local": "2026-10-15T10:36:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "TEAM_11693_DPlan離線驗證說明_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 6068,
+      "modified_local": "2026-10-15T10:36:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "五策略家族_全部逐窗口_v15_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 4976560,
+      "modified_local": "2026-10-15T20:55:51",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "五策略家族_共同窗口箱形圖_v15_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 5808892,
+      "modified_local": "2026-10-15T21:02:49",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "五策略家族_統一比較報告_v15_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 9738,
+      "modified_local": "2026-10-15T21:02:49",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "五策略家族_統一比較定義_v15_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 3224,
+      "modified_local": "2026-10-15T20:53:00",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "五策略家族_統計與配對比較_v15_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 234806,
+      "modified_local": "2026-10-15T20:57:49",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "五策略家族_資料與覆蓋查核_v15_2026-10-15.json",
+      "category": "來源與品質查核",
+      "bytes": 144717,
+      "modified_local": "2026-10-15T20:54:36",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "公司行動修正_來源_cwtc2017_v14_2026-10-15.pdf",
+      "category": "來源與品質查核",
+      "bytes": 3504700,
+      "modified_local": "2026-10-15T20:33:56",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "公司行動修正_來源_tpex_mark_rule_v14_2026-10-15.pdf",
+      "category": "來源與品質查核",
+      "bytes": 307738,
+      "modified_local": "2026-10-15T20:33:56",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "公司行動修正_來源_uisco2018_v14_2026-10-15.pdf",
+      "category": "來源與品質查核",
+      "bytes": 2502075,
+      "modified_local": "2026-10-15T20:33:56",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "公司行動與成交修正_來源查核_v14_2026-10-15.json",
+      "category": "來源與品質查核",
+      "bytes": 8272,
+      "modified_local": "2026-10-15T20:33:56",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "公司行動與成交修正_回測結果_v14_2026-10-15.json",
+      "category": "來源與品質查核",
+      "bytes": 353604,
+      "modified_local": "2026-10-15T20:33:56",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "公司行動與成交修正_比較報告_v14_2026-10-15.md",
+      "category": "來源與品質查核",
+      "bytes": 7605,
+      "modified_local": "2026-10-16T00:04:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "公司行動與成交修正_統計摘要_v14_2026-10-15.json",
+      "category": "來源與品質查核",
+      "bytes": 4512,
+      "modified_local": "2026-10-15T20:36:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "公司行動與成交修正_預先定義_v14_2026-10-15.json",
+      "category": "來源與品質查核",
+      "bytes": 3970,
+      "modified_local": "2026-10-15T20:33:56",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "公開交易教程_24日競賽策略研究.md",
+      "category": "歷史報告與說明",
+      "bytes": 42340,
+      "modified_local": "2026-10-16T01:27:41",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能20日60日_五日調整全點比較_v20_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 4993690,
+      "modified_local": "2026-10-15T22:31:25",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能20日60日_五日調整比較_v20_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 4034,
+      "modified_local": "2026-10-15T22:31:25",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能20日60日_單獨訊號比較定義_v20_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 840,
+      "modified_local": "2026-10-15T22:29:46",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能20日60日_單獨訊號統計_v20_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 39830,
+      "modified_local": "2026-10-15T22:31:25",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能20日60日_單獨訊號逐窗口_v20_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1511429,
+      "modified_local": "2026-10-15T22:29:56",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_2016至2025全年現金比例研究_v27_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 9370,
+      "modified_local": "2026-10-16T00:04:32",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_2016至2025現金比例統計_v26_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 101135,
+      "modified_local": "2026-10-15T23:53:44",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_2016至2025現金比例統計_v26_2027-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 113553,
+      "modified_local": "2026-10-16T00:01:10",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_2016至2025現金比例統計_v27_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 399586,
+      "modified_local": "2026-10-16T00:04:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_2016至2025現金比例逐窗口_v26_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 16024302,
+      "modified_local": "2026-10-15T23:53:44",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_2016至2025現金比例逐窗口_v26_2027-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 17731828,
+      "modified_local": "2026-10-16T00:01:10",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_2016至2025現金比例長期比較定義_v26_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1646,
+      "modified_local": "2026-10-15T23:51:17",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_2016至2025資料覆蓋與缺口_v26_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 3235,
+      "modified_local": "2026-10-15T23:55:31",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_80與90與100投入及加碼比較_v24_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 5087917,
+      "modified_local": "2026-10-15T23:21:57",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_三種跌破退出與加碼定義_v23_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 2227,
+      "modified_local": "2026-10-15T22:59:43",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_三種跌破退出與加碼研究_v23_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 9725,
+      "modified_local": "2026-10-15T23:07:56",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_三種跌破退出與加碼統計_v23_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 198231,
+      "modified_local": "2026-10-15T23:07:56",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_三種跌破退出與加碼逐窗口_v23_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 20631797,
+      "modified_local": "2026-10-15T23:05:16",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_加碼增益是否只是曝險研究_v25_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 6954,
+      "modified_local": "2026-10-15T23:43:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_加碼增益曝險匹配實驗定義_v25_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1908,
+      "modified_local": "2026-10-15T23:39:23",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_加碼增益曝險匹配統計_v25_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 49312,
+      "modified_local": "2026-10-15T23:43:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_加碼增益曝險匹配逐窗口_v25_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 3430547,
+      "modified_local": "2026-10-15T23:40:46",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_加碼曝險匹配與來源拆解_v25_2026-10-15.html",
+      "category": "來源與品質查核",
+      "bytes": 5060962,
+      "modified_local": "2026-10-15T23:43:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_十年全年投入比例與風險比較_v27_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 5185402,
+      "modified_local": "2026-10-16T00:04:32",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_現金比例與加碼來源研究_v24_2026-10-15.md",
+      "category": "來源與品質查核",
+      "bytes": 8875,
+      "modified_local": "2026-10-15T23:21:56",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_現金比例與加碼歸因定義_v24_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 2406,
+      "modified_local": "2026-10-15T23:16:14",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_現金比例與加碼歸因統計_v24_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 208773,
+      "modified_local": "2026-10-15T23:21:57",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_現金比例與加碼歸因逐窗口_v24_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 11741587,
+      "modified_local": "2026-10-15T23:18:46",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_跌破退出加碼八組比較_v23_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 5004318,
+      "modified_local": "2026-10-15T23:07:56",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_長歷史來源修正稽核_v27_2026-10-15.json",
+      "category": "目前結論所需資料",
+      "bytes": 264371,
+      "modified_local": "2026-10-15T23:59:39",
+      "sha256_if_frozen_core": "07ce315501c0dfd7d2a09371f48d3a72d8c7a9af9eb6852f9d4df62fd91fdb60",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能_長歷史掛牌與現金股息修正定義_v27_2026-10-15.json",
+      "category": "來源與品質查核",
+      "bytes": 2559,
+      "modified_local": "2026-10-15T23:59:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能前25檔_20與60日動能及3與5日曲線_v21_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 5653367,
+      "modified_local": "2026-10-15T22:47:38",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能前25檔_24日後結果說明_v22_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 2915,
+      "modified_local": "2026-10-15T22:47:34",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能前25檔_含24日後結果資料_v22_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 397827,
+      "modified_local": "2026-10-15T22:47:38",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能前25檔_成員與短期風險觀察_v21_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 4666,
+      "modified_local": "2026-10-15T22:44:50",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能前25檔_短長期曲線與24日後結果_v22_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 5653367,
+      "modified_local": "2026-10-15T22:47:38",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能前25檔_短長期曲線資料_v21_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 356631,
+      "modified_local": "2026-10-15T22:44:50",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能基準研究_24日回測_2026-10-13.ipynb",
+      "category": "其他Notebook",
+      "bytes": 1421623,
+      "modified_local": "2026-10-13T21:24:12",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能基準研究_24日回測初步結果_2026-10-13.md",
+      "category": "歷史報告與說明",
+      "bytes": 8934,
+      "modified_local": "2026-10-13T21:23:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能基準研究_25檔權重比較_2026-10-14.ipynb",
+      "category": "其他Notebook",
+      "bytes": 51433,
+      "modified_local": "2026-10-14T01:16:23",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能基準研究_25檔權重比較_2026-10-14.md",
+      "category": "歷史報告與說明",
+      "bytes": 6643,
+      "modified_local": "2026-10-14T01:16:23",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能基準研究_互動箱形圖_2026-10-13.html",
+      "category": "歷史報告與說明",
+      "bytes": 1120009,
+      "modified_local": "2026-10-13T21:24:12",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能基準研究_競賽季節_各年份箱形圖與散點_2026-10-13.png",
+      "category": "歷史報告與說明",
+      "bytes": 380676,
+      "modified_local": "2026-10-13T20:39:26",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能基準研究_競賽季節_歷年比較說明_2026-10-13.md",
+      "category": "歷史報告與說明",
+      "bytes": 1971,
+      "modified_local": "2026-10-13T21:23:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能基準研究_箱形圖_全部窗口_2026-10-13.png",
+      "category": "歷史報告與說明",
+      "bytes": 453900,
+      "modified_local": "2026-10-13T20:33:43",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能持股_開賽前公告配置研究_2026-10-14.ipynb",
+      "category": "目前結論所需資料",
+      "bytes": 3275383,
+      "modified_local": "2026-10-19T21:07:11",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": true
+    },
+    {
+      "path": "動能持股_開賽前公告配置研究_2026-10-14.md",
+      "category": "歷史報告與說明",
+      "bytes": 78475,
+      "modified_local": "2026-10-14T02:42:34",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能持股公告個案研究_2026-10-14.ipynb",
+      "category": "其他Notebook",
+      "bytes": 74128,
+      "modified_local": "2026-10-14T01:00:08",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能持股公告個案研究_2026-10-14.md",
+      "category": "歷史報告與說明",
+      "bytes": 36708,
+      "modified_local": "2026-10-14T17:31:56",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_同期下跌廣度定義_v41_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 888,
+      "modified_local": "2026-10-16T17:26:21",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_同期下跌廣度統計_v41_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 34322,
+      "modified_local": "2026-10-16T17:26:21",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_同期下跌廣度逐窗口_v41_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1454979,
+      "modified_local": "2026-10-16T17:26:21",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_同期整體下跌分析_v41_2026-10-16.html",
+      "category": "歷史報告與說明",
+      "bytes": 5000977,
+      "modified_local": "2026-10-17T00:02:20",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_同期整體下跌分析_v41_2026-10-16.md",
+      "category": "歷史報告與說明",
+      "bytes": 6160,
+      "modified_local": "2026-10-16T17:27:48",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_失效剔除與降曝險定義_v18_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1826,
+      "modified_local": "2026-10-15T22:01:13",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_失效剔除與降曝險研究_v18_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 6986,
+      "modified_local": "2026-10-15T22:05:26",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_失效剔除與降曝險統計_v18_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 88959,
+      "modified_local": "2026-10-15T22:05:26",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_失效剔除與降曝險逐窗口_v18_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 6596677,
+      "modified_local": "2026-10-15T22:03:24",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_持股重疊與虧損歸因_v17_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 4915602,
+      "modified_local": "2026-10-15T21:31:32",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_持股重疊與虧損歸因_v17_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 7290,
+      "modified_local": "2026-10-15T21:31:32",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_景氣燈號與恐慌指數_v42_2026-10-16.html",
+      "category": "歷史報告與說明",
+      "bytes": 5171049,
+      "modified_local": "2026-10-16T23:53:22",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_景氣燈號與恐慌指數_v42_2026-10-16.md",
+      "category": "歷史報告與說明",
+      "bytes": 7362,
+      "modified_local": "2026-10-16T23:43:06",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_虧損個股歸因_v40_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1355700,
+      "modified_local": "2026-10-16T16:22:08",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_虧損原因分析_v40_2026-10-16.html",
+      "category": "歷史報告與說明",
+      "bytes": 13157,
+      "modified_local": "2026-10-16T16:23:51",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_虧損原因分析_v40_2026-10-16.md",
+      "category": "歷史報告與說明",
+      "bytes": 6562,
+      "modified_local": "2026-10-16T16:23:51",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_虧損診斷定義_v40_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 632,
+      "modified_local": "2026-10-16T16:22:06",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_虧損診斷統計_v40_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 281435,
+      "modified_local": "2026-10-16T16:22:07",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_重疊與虧損研究定義_v17_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 576,
+      "modified_local": "2026-10-15T21:28:31",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_重疊與虧損統計_v17_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 4110828,
+      "modified_local": "2026-10-15T21:31:32",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能法人_風控比較與全窗口_v18_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 5158543,
+      "modified_local": "2026-10-15T22:05:26",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能訊號_多週期動態比較與全點_v19_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 5204550,
+      "modified_local": "2026-10-15T22:24:51",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能訊號_多週期與動態調整定義_v19_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 2274,
+      "modified_local": "2026-10-15T22:21:34",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能訊號_多週期與動態調整研究_v19_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 8364,
+      "modified_local": "2026-10-15T22:24:51",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能訊號_多週期與動態調整統計_v19_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 106132,
+      "modified_local": "2026-10-15T22:24:51",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "動能訊號_多週期與動態調整逐窗口_v19_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 4403541,
+      "modified_local": "2026-10-15T22:22:29",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "反轉中位退出_實驗定義_v28_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 4909,
+      "modified_local": "2026-10-16T13:49:58",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "反轉中位退出_成本壓力逐窗口_v28_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 13152871,
+      "modified_local": "2026-10-16T13:52:32",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "反轉中位退出_比較報告_v28_2026-10-16.md",
+      "category": "歷史報告與說明",
+      "bytes": 10182,
+      "modified_local": "2026-10-16T13:54:50",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "反轉中位退出_比較研究_v28_2026-10-16.ipynb",
+      "category": "其他Notebook",
+      "bytes": 66239,
+      "modified_local": "2026-10-16T13:54:50",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "反轉中位退出_統計與配對_v28_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 66315,
+      "modified_local": "2026-10-16T13:53:09",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "反轉中位退出_逐窗口_v28_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 12683430,
+      "modified_local": "2026-10-16T13:50:11",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "可變持股均線_10_20_FALLBACK_v49_2026-10-17.json.gz",
+      "category": "目前結論所需資料",
+      "bytes": 1605684,
+      "modified_local": "2026-10-17T19:11:08",
+      "sha256_if_frozen_core": "c3a1d92646198777cbc9cc8183814b207ab1083df4790b95367c23042e634d55",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "可變持股均線_10_20_VARIABLE_v49_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1486198,
+      "modified_local": "2026-10-17T19:10:52",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "可變持股均線_10_24_FALLBACK_v49_2026-10-17.json.gz",
+      "category": "目前結論所需資料",
+      "bytes": 1396839,
+      "modified_local": "2026-10-17T19:11:36",
+      "sha256_if_frozen_core": "051f399bc55323eb46b27c47f0bfe5f931758b244fe906ce5b7c7bee1e706d88",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "可變持股均線_10_24_VARIABLE_v49_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1273328,
+      "modified_local": "2026-10-17T19:11:22",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "可變持股均線_統計與覆蓋_v49_2026-10-17.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 107470,
+      "modified_local": "2026-10-17T19:13:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "可變持股均線_預先定義_v49_2026-10-17.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 2188,
+      "modified_local": "2026-10-17T19:10:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "台灣VIX_官方近三年查詢原始回覆_v43_2026-10-16.json",
+      "category": "來源與品質查核",
+      "bytes": 44433,
+      "modified_local": "2026-10-16T23:48:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "台美VIX_來源嘗試_v43_2026-10-16.json",
+      "category": "來源與品質查核",
+      "bytes": 1729,
+      "modified_local": "2026-10-16T23:50:52",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "台美VIX_研究定義_v43_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1057,
+      "modified_local": "2026-10-16T23:50:52",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "台美VIX_缺漏窗口_v43_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 80456,
+      "modified_local": "2026-10-16T23:50:52",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "台美VIX_部分期間比較與資料缺口_v43_2026-10-16.html",
+      "category": "歷史報告與說明",
+      "bytes": 4986977,
+      "modified_local": "2026-10-16T23:53:22",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "台美VIX_部分期間比較與資料缺口_v43_2026-10-16.md",
+      "category": "歷史報告與說明",
+      "bytes": 6325,
+      "modified_local": "2026-10-16T23:53:21",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "台美VIX_部分期間統計_v43_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 17616,
+      "modified_local": "2026-10-16T23:53:21",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "台美VIX_部分期間逐窗口_v43_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 305925,
+      "modified_local": "2026-10-16T23:50:52",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "台美VIX_驗證_v43_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 343,
+      "modified_local": "2026-10-16T23:53:22",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "同樣本比較_主表統計_v53_2026-10-19.json",
+      "category": "目前結論所需資料",
+      "bytes": 30764,
+      "modified_local": "2026-10-19T16:36:49",
+      "sha256_if_frozen_core": "30eca33e5cf24eaa6a1761565229a84ed50376b47360ce9bb165ba620cbbe37c",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "同樣本比較_持有統計_v53_2026-10-19.json",
+      "category": "目前結論所需資料",
+      "bytes": 4158,
+      "modified_local": "2026-10-19T16:36:49",
+      "sha256_if_frozen_core": "9442070c43ee20458fe63816c088f5b31e2a45f039e37819e69ab53a0ab009c6",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "同樣本比較_日期稽核_v53_2026-10-19.json",
+      "category": "目前結論所需資料",
+      "bytes": 25442,
+      "modified_local": "2026-10-19T16:36:49",
+      "sha256_if_frozen_core": "2cd0ced35664796cf033b5cc4743559aad6bafecef8c4e0ecb348f7c2fdafd84",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "團隊資料/AI_CUP_2026_比賽說明與準備計畫.md",
+      "category": "團隊與背景資料",
+      "bytes": 21306,
+      "modified_local": "2026-10-09T22:05:53",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "團隊資料/DB結構與資料摘要_2026-10-13.json",
+      "category": "團隊與背景資料",
+      "bytes": 35908,
+      "modified_local": "2026-10-13T18:56:02",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "團隊資料/歸檔與DB差異查核_2026-10-13.md",
+      "category": "團隊與背景資料",
+      "bytes": 6053,
+      "modified_local": "2026-10-13T18:57:32",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_FLOW_20_60_ACTIVE_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 857285,
+      "modified_local": "2026-10-17T00:11:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_FLOW_20_60_INITIAL_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 791156,
+      "modified_local": "2026-10-17T00:11:24",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_FLOW_3_5_ACTIVE_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1602502,
+      "modified_local": "2026-10-17T00:10:54",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_FLOW_3_5_INITIAL_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 818297,
+      "modified_local": "2026-10-17T00:10:50",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_FLOW_50_200_ACTIVE_v45_2026-10-17.json.gz",
+      "category": "目前結論所需資料",
+      "bytes": 796386,
+      "modified_local": "2026-10-17T00:11:42",
+      "sha256_if_frozen_core": "7ea1a9f0ea38a397ecc5d5c682acd19460c596a05df1f4b8febb542d1f012960",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_FLOW_50_200_INITIAL_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 799737,
+      "modified_local": "2026-10-17T00:11:39",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_FLOW_5_20_ACTIVE_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1543432,
+      "modified_local": "2026-10-17T00:11:13",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_FLOW_5_20_INITIAL_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 794652,
+      "modified_local": "2026-10-17T00:11:07",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_MOM_20_60_ACTIVE_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 783457,
+      "modified_local": "2026-10-17T00:11:22",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_MOM_20_60_INITIAL_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 794106,
+      "modified_local": "2026-10-17T00:11:18",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_MOM_3_5_ACTIVE_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1652645,
+      "modified_local": "2026-10-17T00:10:47",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_MOM_3_5_INITIAL_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 827020,
+      "modified_local": "2026-10-17T00:10:43",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_MOM_50_200_ACTIVE_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 780077,
+      "modified_local": "2026-10-17T00:11:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_MOM_50_200_INITIAL_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 807694,
+      "modified_local": "2026-10-17T00:11:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_MOM_5_20_ACTIVE_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1312002,
+      "modified_local": "2026-10-17T00:11:05",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_MOM_5_20_INITIAL_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 790471,
+      "modified_local": "2026-10-17T00:11:01",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_PURE_20_60_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 754165,
+      "modified_local": "2026-10-17T00:11:31",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_PURE_3_5_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1814499,
+      "modified_local": "2026-10-17T00:10:58",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_PURE_50_200_v45_2026-10-17.json.gz",
+      "category": "目前結論所需資料",
+      "bytes": 700053,
+      "modified_local": "2026-10-17T00:11:46",
+      "sha256_if_frozen_core": "999db70cd4a798f35bcd35986e6c755710bee062566ed3aa1a93ef45f0b17fe2",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_PURE_5_20_v45_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 986058,
+      "modified_local": "2026-10-17T00:11:16",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_全組統計_v45_2026-10-17.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 140513,
+      "modified_local": "2026-10-17T00:12:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_策略定義_v45_2026-10-17.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 3214,
+      "modified_local": "2026-10-17T00:10:26",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_選股退出與全部窗口比較_v45_2026-10-17.html",
+      "category": "歷史報告與說明",
+      "bytes": 7489130,
+      "modified_local": "2026-10-17T00:30:00",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_選股退出與全部窗口比較_v45_2026-10-17.md",
+      "category": "歷史報告與說明",
+      "bytes": 16621,
+      "modified_local": "2026-10-17T00:15:55",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "均線交叉_驗證_v45_2026-10-17.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 2335,
+      "modified_local": "2026-10-17T00:15:56",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "外部歷史研究_來源停止原因_v12_2026-10-15.json",
+      "category": "來源與品質查核",
+      "bytes": 648,
+      "modified_local": "2026-10-15T15:38:02",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "外部歷史研究_來源探測_v12_2026-10-15.json",
+      "category": "來源與品質查核",
+      "bytes": 2340569,
+      "modified_local": "2026-10-15T15:24:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "外部歷史研究_分類與股票池進度_v12_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 13654,
+      "modified_local": "2026-10-15T17:38:41",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "外部歷史研究_十年同期與股票池回測_v12_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 407924,
+      "modified_local": "2026-10-15T15:54:53",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "外部歷史研究_十年同期與股票池比較_v12_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 4845174,
+      "modified_local": "2026-10-15T17:27:36",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "外部歷史研究_官方行情來源_v12_2026-10-15.json.gz",
+      "category": "來源與品質查核",
+      "bytes": 4230469,
+      "modified_local": "2026-10-15T15:38:02",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "外部歷史研究_月報存檔探測_v12_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 2487000,
+      "modified_local": "2026-10-15T15:40:26",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "外部歷史研究_獨立供應商探測_v12_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 23352,
+      "modified_local": "2026-10-15T15:44:10",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "外部歷史研究_獨立供應商補充定義_v12_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1428,
+      "modified_local": "2026-10-15T15:54:51",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "外部歷史研究_獨立供應商補充定義_v13_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 6853,
+      "modified_local": "2026-10-15T17:34:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "外部歷史研究_獨立歷史快取_v12_2026-10-15.json.gz",
+      "category": "目前結論所需資料",
+      "bytes": 8650645,
+      "modified_local": "2026-10-15T15:50:51",
+      "sha256_if_frozen_core": "3459a6316bcd2a1790a987cd5f64736c11f9aec58cbaea70282a7090b12a4f38",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "外部歷史研究_統計摘要_v12_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 7748,
+      "modified_local": "2026-10-15T17:27:36",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "外部歷史研究_股票池與分類驗證_v12_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 46097,
+      "modified_local": "2026-10-15T15:42:50",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "外部歷史研究_預先定義_v12_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 2937,
+      "modified_local": "2026-10-15T15:30:59",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "完整150檔研究_修正後同期比較_v14_2026-10-15.html",
+      "category": "來源與品質查核",
+      "bytes": 4847669,
+      "modified_local": "2026-10-15T20:36:35",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "完整150檔研究_同期回測與100檔配對_v13_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 694549,
+      "modified_local": "2026-10-15T17:35:27",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "完整150檔研究_同期比較_v13_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 6961,
+      "modified_local": "2026-10-15T17:46:50",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "完整150檔研究_同期配對箱形圖_v13_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 4857089,
+      "modified_local": "2026-10-15T20:36:35",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "完整150檔研究_新增上櫃快取_v13_2026-10-15.json.gz",
+      "category": "目前結論所需資料",
+      "bytes": 2988534,
+      "modified_local": "2026-10-15T17:33:57",
+      "sha256_if_frozen_core": "ea800cb5f3c11893db177adcb406bd134f341eb26e0fdf55b0550edf81094e86",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "完整150檔研究_統計摘要_v13_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 16786,
+      "modified_local": "2026-10-15T17:37:52",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "完整150檔研究_預先定義_v13_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 4165,
+      "modified_local": "2026-10-15T17:32:13",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/AI CUP 2026玉山人工智慧公開挑戰賽_比賽辦法_1005更新.pdf",
+      "category": "官方文件",
+      "bytes": 437672,
+      "modified_local": "2026-10-09T23:36:15",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/D-Plan.schema_v4.2.json",
+      "category": "官方文件",
+      "bytes": 17504,
+      "modified_local": "2026-10-09T23:36:16",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/D-Plan.schema_v4.3.json",
+      "category": "官方文件",
+      "bytes": 17134,
+      "modified_local": "2026-10-13T19:20:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/D-Plan_TEAM_042_2026-10-27.json",
+      "category": "官方文件",
+      "bytes": 7845,
+      "modified_local": "2026-10-09T23:36:16",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/D-Plan_TEAM_042_2026-10-28.json",
+      "category": "官方文件",
+      "bytes": 7582,
+      "modified_local": "2026-10-13T19:20:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/D-Plan_TEAM_043_2026-10-27.json",
+      "category": "官方文件",
+      "bytes": 7957,
+      "modified_local": "2026-10-09T23:36:17",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/D-Plan_TEAM_043_2026-10-28.json",
+      "category": "官方文件",
+      "bytes": 7747,
+      "modified_local": "2026-10-13T19:20:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/D-Plan_撰寫指南_v4.2.md",
+      "category": "官方文件",
+      "bytes": 15129,
+      "modified_local": "2026-10-09T23:36:15",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/D-Plan_撰寫指南_v4.3.md",
+      "category": "官方文件",
+      "bytes": 14308,
+      "modified_local": "2026-10-13T19:20:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/DataPack_規格書_v4.3.md",
+      "category": "官方文件",
+      "bytes": 12197,
+      "modified_local": "2026-10-13T19:20:32",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/Google_Cloud_Skills_Boost_帳號建立指南_官方連結匯出_2026-10-09.pdf",
+      "category": "官方文件",
+      "bytes": 567128,
+      "modified_local": "2026-10-09T23:38:08",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/Official_page_snapshot_2026-10-09.md",
+      "category": "官方文件",
+      "bytes": 6362,
+      "modified_local": "2026-10-09T23:38:55",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/SHA256SUMS_2026-10-09.txt",
+      "category": "官方文件",
+      "bytes": 1424,
+      "modified_local": "2026-10-09T23:38:55",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/官方資料更新索引_2026-10-13.md",
+      "category": "官方文件",
+      "bytes": 2020,
+      "modified_local": "2026-10-13T19:25:04",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/官方資料索引_2026-10-09.md",
+      "category": "官方文件",
+      "bytes": 7367,
+      "modified_local": "2026-10-09T23:40:19",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/官方頁原始資料_2026-10-09.json",
+      "category": "官方文件",
+      "bytes": 223641,
+      "modified_local": "2026-10-09T23:36:14",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/官方頁資料_2026-10-13.json",
+      "category": "官方文件",
+      "bytes": 11799,
+      "modified_local": "2026-10-13T19:20:49",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/玉山挑戰賽_ETF投資策略說明文件_參賽隊伍繳交格式_v1.docx",
+      "category": "官方文件",
+      "bytes": 18043,
+      "modified_local": "2026-10-09T23:36:20",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/玉山挑戰賽_ETF投資策略說明文件_範例文件_v1.pdf",
+      "category": "官方文件",
+      "bytes": 96434,
+      "modified_local": "2026-10-09T23:36:19",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/玉山挑戰賽_Google Token Credit領取方式_v1.pdf",
+      "category": "官方文件",
+      "bytes": 332841,
+      "modified_local": "2026-10-09T23:36:17",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/玉山挑戰賽_主動型ETF列表_v1.pdf",
+      "category": "官方文件",
+      "bytes": 66168,
+      "modified_local": "2026-10-09T23:36:19",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "官方文件/玉山挑戰賽_投資組合及交易標的_150檔清單_v1.pdf",
+      "category": "官方文件",
+      "bytes": 131318,
+      "modified_local": "2026-10-09T23:36:18",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_FLOW_COMBINED_RECOVER_FIXED_v44_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 816259,
+      "modified_local": "2026-10-16T23:58:38",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_FLOW_COMBINED_RECOVER_v44_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1775556,
+      "modified_local": "2026-10-16T23:58:25",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_FLOW_LOCAL_v44_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1672011,
+      "modified_local": "2026-10-16T23:58:11",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_FLOW_MARKET_RECOVER_FIXED_v44_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 816360,
+      "modified_local": "2026-10-16T23:58:34",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_FLOW_MARKET_RECOVER_v44_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 904914,
+      "modified_local": "2026-10-16T23:58:18",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_FLOW_MARKET_STAY80_FIXED_v44_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 816286,
+      "modified_local": "2026-10-16T23:58:29",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_FLOW_MARKET_STAY80_v44_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 869464,
+      "modified_local": "2026-10-16T23:58:14",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_MOM_COMBINED_RECOVER_FIXED_v44_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 841325,
+      "modified_local": "2026-10-16T23:58:05",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_MOM_COMBINED_RECOVER_v44_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1870757,
+      "modified_local": "2026-10-16T23:57:57",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_MOM_LOCAL_v44_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1756171,
+      "modified_local": "2026-10-16T23:57:46",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_MOM_MARKET_RECOVER_FIXED_v44_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 841048,
+      "modified_local": "2026-10-16T23:58:03",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_MOM_MARKET_RECOVER_v44_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 936942,
+      "modified_local": "2026-10-16T23:57:52",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_MOM_MARKET_STAY80_FIXED_v44_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 840951,
+      "modified_local": "2026-10-16T23:58:00",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_MOM_MARKET_STAY80_v44_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 896510,
+      "modified_local": "2026-10-16T23:57:49",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_退出換股再進場定義_v44_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 3482,
+      "modified_local": "2026-10-16T23:56:57",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_退出換股再進場比較_v44_2026-10-16.html",
+      "category": "歷史報告與說明",
+      "bytes": 6202959,
+      "modified_local": "2026-10-17T00:02:19",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_退出換股再進場比較_v44_2026-10-16.md",
+      "category": "歷史報告與說明",
+      "bytes": 14633,
+      "modified_local": "2026-10-17T00:02:19",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_退出換股再進場統計_v44_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 113737,
+      "modified_local": "2026-10-16T23:59:17",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場情境_退出換股再進場驗證_v44_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 470,
+      "modified_local": "2026-10-17T00:02:20",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場狀態_六策略比較與逐年選擇_v48_2026-10-17.html",
+      "category": "歷史報告與說明",
+      "bytes": 5228625,
+      "modified_local": "2026-10-17T19:13:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場狀態_六策略比較與逐年選擇_v48_2026-10-17.md",
+      "category": "歷史報告與說明",
+      "bytes": 13942,
+      "modified_local": "2026-10-17T18:53:38",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場狀態策略選擇_事前特徵_v48_2026-10-17.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 487301,
+      "modified_local": "2026-10-17T18:49:44",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場狀態策略選擇_定義_v48_2026-10-17.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1131,
+      "modified_local": "2026-10-17T18:49:44",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場狀態策略選擇_統計_v48_2026-10-17.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 141137,
+      "modified_local": "2026-10-17T18:53:38",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場狀態策略選擇_逐年訓練_v48_2026-10-17.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 67009,
+      "modified_local": "2026-10-17T18:50:43",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場狀態策略選擇_逐窗口決策_v48_2026-10-17.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 897102,
+      "modified_local": "2026-10-17T18:52:43",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場環境分層_全部窗口_v29_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 358161,
+      "modified_local": "2026-10-16T14:45:41",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場環境分層_動能法人全部點_v29_2026-10-16.html",
+      "category": "歷史報告與說明",
+      "bytes": 5066128,
+      "modified_local": "2026-10-16T14:52:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場環境分層_動能法人研究_v29_2026-10-16.md",
+      "category": "歷史報告與說明",
+      "bytes": 6313,
+      "modified_local": "2026-10-16T14:52:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場環境分層_實驗定義_v29_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1870,
+      "modified_local": "2026-10-16T14:45:25",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場環境分層_景氣來源稽核_v29_2026-10-16.json",
+      "category": "來源與品質查核",
+      "bytes": 4189,
+      "modified_local": "2026-10-16T14:52:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "市場環境分層_統計_v29_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 46306,
+      "modified_local": "2026-10-16T14:52:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "後續研究_五方向完整計畫_v11_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 1920,
+      "modified_local": "2026-10-15T14:28:14",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "後續研究_五方向比較與箱形圖_v11_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 287164,
+      "modified_local": "2026-10-15T14:33:54",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "後續研究_五方向統一結果_v11_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 2523979,
+      "modified_local": "2026-10-15T14:31:38",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "後續研究_五方向總結_v11_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 9664,
+      "modified_local": "2026-10-15T15:42:50",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "後續研究_五方向預先定義_v11_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 3855,
+      "modified_local": "2026-10-15T14:28:14",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "後續研究_全部新窗口_v11_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 3511883,
+      "modified_local": "2026-10-15T14:29:41",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "後續研究_營收加速度與公告事件_v11_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 659092,
+      "modified_local": "2026-10-15T14:29:35",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "景氣來源稽核_ndc_history_v29_2026-10-16.zip",
+      "category": "來源與品質查核",
+      "bytes": 71400,
+      "modified_local": "2026-10-16T14:48:16",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "景氣來源稽核_ndc_release_latest_v29_2026-10-16.csv",
+      "category": "來源與品質查核",
+      "bytes": 13624,
+      "modified_local": "2026-10-16T14:48:16",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "景氣來源稽核_pmi_history_v29_2026-10-16.csv",
+      "category": "來源與品質查核",
+      "bytes": 2935,
+      "modified_local": "2026-10-16T14:48:16",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "景氣來源稽核_pmi_release_latest_v29_2026-10-16.csv",
+      "category": "來源與品質查核",
+      "bytes": 15150,
+      "modified_local": "2026-10-16T14:48:16",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "景氣來源稽核_公告原文_v29_2026-10-16.json",
+      "category": "來源與品質查核",
+      "bytes": 27001,
+      "modified_local": "2026-10-16T14:49:15",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "景氣與VIX_原始公告核對_v42_2026-10-16.json",
+      "category": "來源與品質查核",
+      "bytes": 11884,
+      "modified_local": "2026-10-16T23:43:06",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "景氣與VIX_窗口統計_v42_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 47118,
+      "modified_local": "2026-10-16T23:42:19",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "景氣與VIX_診斷定義_v42_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 509,
+      "modified_local": "2026-10-16T23:39:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "景氣與VIX_逐窗口_v42_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 944319,
+      "modified_local": "2026-10-16T23:39:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "景氣與VIX_驗證_v42_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 385,
+      "modified_local": "2026-10-16T23:43:07",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "產業季節性_後續研究計畫_v15_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 4332,
+      "modified_local": "2026-10-15T20:53:00",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "產業季節性_逐年向前驗證_v9_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 4498,
+      "modified_local": "2026-10-15T13:52:05",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "產業競賽期間_全部年度箱形圖_2026-10-14.png",
+      "category": "歷史報告與說明",
+      "bytes": 82410,
+      "modified_local": "2026-10-14T16:03:16",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "產業競賽期間_含息統計與全部窗口_2026-10-14.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1690903,
+      "modified_local": "2026-10-14T16:03:12",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "產業競賽期間_含息缺漏比較_2026-10-14.html",
+      "category": "歷史報告與說明",
+      "bytes": 40355,
+      "modified_local": "2026-10-14T14:34:59",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "產業競賽期間_含息缺漏熱圖_2026-10-14.png",
+      "category": "歷史報告與說明",
+      "bytes": 318578,
+      "modified_local": "2026-10-14T14:34:58",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "產業競賽期間_含息缺漏箱形圖_2026-10-14.png",
+      "category": "歷史報告與說明",
+      "bytes": 173441,
+      "modified_local": "2026-10-14T14:34:59",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "產業競賽期間_含息缺漏統計_2026-10-14.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 566177,
+      "modified_local": "2026-10-14T14:34:59",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "產業競賽期間_官方指數來源_2026-10-14.json",
+      "category": "來源與品質查核",
+      "bytes": 1197736,
+      "modified_local": "2026-10-14T15:00:20",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "產業競賽期間_官方月報來源_2026-10-14.json",
+      "category": "來源與品質查核",
+      "bytes": 319402,
+      "modified_local": "2026-10-14T15:00:20",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "產業競賽期間_歷年指數熱圖_2026-10-14.png",
+      "category": "歷史報告與說明",
+      "bytes": 202688,
+      "modified_local": "2026-10-14T16:03:15",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "產業競賽期間_歷年比較_2026-10-14.html",
+      "category": "歷史報告與說明",
+      "bytes": 21358,
+      "modified_local": "2026-10-14T16:03:16",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "產業競賽期間_產業含息互動表_2026-10-14.html",
+      "category": "歷史報告與說明",
+      "bytes": 62682,
+      "modified_local": "2026-10-14T16:03:12",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "產業競賽期間_產業含息熱圖_2026-10-14.png",
+      "category": "歷史報告與說明",
+      "bytes": 514311,
+      "modified_local": "2026-10-14T16:03:09",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "產業競賽期間_產業含息箱形圖_2026-10-14.png",
+      "category": "歷史報告與說明",
+      "bytes": 198865,
+      "modified_local": "2026-10-14T16:03:12",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "產業競賽期間_統計與全部窗口_2026-10-14.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 551506,
+      "modified_local": "2026-10-14T16:03:16",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "發布網站/strategy-review-v3/dist/index.html",
+      "category": "發布網站（獨立管理）",
+      "bytes": 3300215,
+      "modified_local": "2026-10-14T21:50:27",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "發布網站/strategy-review-v3/README.md",
+      "category": "發布網站（獨立管理）",
+      "bytes": 677,
+      "modified_local": "2026-10-14T21:56:20",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_24日競賽全組統計_v46_2026-10-17.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 287954,
+      "modified_local": "2026-10-17T00:27:56",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_24日競賽比較定義_v46_2026-10-17.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 2360,
+      "modified_local": "2026-10-17T00:25:04",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_24日競賽比較與全部窗口_v46_2026-10-17.html",
+      "category": "歷史報告與說明",
+      "bytes": 8720304,
+      "modified_local": "2026-10-17T00:30:00",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_24日競賽比較與全部窗口_v46_2026-10-17.md",
+      "category": "歷史報告與說明",
+      "bytes": 13892,
+      "modified_local": "2026-10-17T00:30:00",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_24日競賽驗證_v46_2026-10-17.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 2499,
+      "modified_local": "2026-10-17T00:30:01",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_FLOW_10_20_ACTIVE_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1495321,
+      "modified_local": "2026-10-17T00:26:06",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_FLOW_10_24_ACTIVE_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1410372,
+      "modified_local": "2026-10-17T00:26:32",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_FLOW_3_10_ACTIVE_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1638946,
+      "modified_local": "2026-10-17T00:25:24",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_FLOW_5_10_ACTIVE_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1624475,
+      "modified_local": "2026-10-17T00:25:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_FLOW_5_15_ACTIVE_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1592575,
+      "modified_local": "2026-10-17T00:25:50",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_FLOW_5_24_ACTIVE_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1470773,
+      "modified_local": "2026-10-17T00:26:20",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_MOM_10_20_ACTIVE_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1263641,
+      "modified_local": "2026-10-17T00:26:00",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_MOM_10_24_ACTIVE_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1099525,
+      "modified_local": "2026-10-17T00:26:27",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_MOM_3_10_ACTIVE_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1643898,
+      "modified_local": "2026-10-17T00:25:20",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_MOM_5_10_ACTIVE_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1641955,
+      "modified_local": "2026-10-17T00:25:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_MOM_5_15_ACTIVE_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1513879,
+      "modified_local": "2026-10-17T00:25:45",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_MOM_5_24_ACTIVE_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1187697,
+      "modified_local": "2026-10-17T00:26:15",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_PURE_10_20_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1026181,
+      "modified_local": "2026-10-17T00:26:11",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_PURE_10_24_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 930343,
+      "modified_local": "2026-10-17T00:26:35",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_PURE_3_10_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1565237,
+      "modified_local": "2026-10-17T00:25:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_PURE_5_10_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1583013,
+      "modified_local": "2026-10-17T00:25:41",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_PURE_5_15_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1152591,
+      "modified_local": "2026-10-17T00:25:54",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_PURE_5_24_v46_2026-10-17.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 946750,
+      "modified_local": "2026-10-17T00:26:23",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_可變持股與動能回退_v49_2026-10-17.html",
+      "category": "歷史報告與說明",
+      "bytes": 5345328,
+      "modified_local": "2026-10-19T15:36:47",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "短均線_可變持股與動能回退_v49_2026-10-17.md",
+      "category": "歷史報告與說明",
+      "bytes": 10237,
+      "modified_local": "2026-10-19T15:36:47",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "研究與開始指南_2026-10-09.md",
+      "category": "歷史報告與說明",
+      "bytes": 36676,
+      "modified_local": "2026-10-10T00:06:30",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "競賽流程_LINE.png",
+      "category": "歷史報告與說明",
+      "bytes": 387557,
+      "modified_local": "2026-10-10T00:22:27",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "競賽規則與每日運作說明_2026-10-13.md",
+      "category": "目前結論所需資料",
+      "bytes": 8735,
+      "modified_local": "2026-10-13T19:36:42",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "等權非等權_四格控制逐窗口_v16_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 10235245,
+      "modified_local": "2026-10-15T21:12:26",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "等權非等權_機制比較補充定義_v16_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 691,
+      "modified_local": "2026-10-15T21:14:26",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "等權非等權_統計與選股退出解讀_v16_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 9304,
+      "modified_local": "2026-10-15T21:19:31",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "等權非等權_配對差值與選股退出_v16_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 5482517,
+      "modified_local": "2026-10-15T21:18:16",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "等權非等權_配對統計定義_v16_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1842,
+      "modified_local": "2026-10-15T21:11:04",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "等權非等權_配對與機制統計_v16_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 91240,
+      "modified_local": "2026-10-15T21:14:29",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略大盤比較_TAIEX_PRICE_原始_v50_2026-10-19.json.gz",
+      "category": "目前結論所需資料",
+      "bytes": 109059,
+      "modified_local": "2026-10-19T15:14:37",
+      "sha256_if_frozen_core": "ec0f2e7e63099aa763b3639bd0802bf8673715684bf1173217eee1404055b500",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略大盤比較_TAIEX_TR_原始_v50_2026-10-19.json.gz",
+      "category": "目前結論所需資料",
+      "bytes": 17888,
+      "modified_local": "2026-10-19T15:14:35",
+      "sha256_if_frozen_core": "8e1db4d3aa21e038f9ae791474310c64066ee34aafe6cd4257261f2f2166044b",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略大盤比較_來源查核_v50_2026-10-19.json",
+      "category": "目前結論所需資料",
+      "bytes": 1023,
+      "modified_local": "2026-10-19T15:14:37",
+      "sha256_if_frozen_core": "f3d500dedb166cf3e7bf2400bd3a922be7ded6b05334e246966b130b6bc4224a",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略大盤比較_定義_v50_2026-10-19.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1515,
+      "modified_local": "2026-10-19T15:14:35",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略大盤比較_統計_v50_2026-10-19.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 73614,
+      "modified_local": "2026-10-19T15:16:48",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略大盤比較_逐窗口_v50_2026-10-19.json",
+      "category": "目前結論所需資料",
+      "bytes": 2425958,
+      "modified_local": "2026-10-19T15:15:17",
+      "sha256_if_frozen_core": "bd82ff50a59059405c57bfc49a52b803f528e335267e10d99c80998aaa2a604a",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略批次研究_來源缺口_v10_2026-10-15.json",
+      "category": "來源與品質查核",
+      "bytes": 746,
+      "modified_local": "2026-10-15T14:19:52",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略批次研究_全部新窗口_v10_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 36453255,
+      "modified_local": "2026-10-15T14:18:38",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略批次研究_全部比較與箱形圖_v10_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 279011,
+      "modified_local": "2026-10-15T14:19:52",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略批次研究_完整計畫_v10_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 2212,
+      "modified_local": "2026-10-15T14:16:02",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略批次研究_統一統計與逐年驗證_v10_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1372332,
+      "modified_local": "2026-10-15T14:19:52",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略批次研究_總結與選擇邏輯_v10_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 7958,
+      "modified_local": "2026-10-15T14:20:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略批次研究_預先定義_v10_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 3819,
+      "modified_local": "2026-10-15T14:16:02",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_v3互動箱形圖_2026-10-14.html",
+      "category": "歷史報告與說明",
+      "bytes": 1608549,
+      "modified_local": "2026-10-14T16:16:43",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_v4互動箱形圖_2026-10-14.html",
+      "category": "歷史報告與說明",
+      "bytes": 1890299,
+      "modified_local": "2026-10-14T16:52:53",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_勝率與期望值_v9_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 201888,
+      "modified_local": "2026-10-15T14:11:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_原資料快照_v3_2026-10-14.json.gz",
+      "category": "目前結論所需資料",
+      "bytes": 3914969,
+      "modified_local": "2026-10-14T16:16:43",
+      "sha256_if_frozen_core": "81ba1f8c26953ab7e86f2a3cc03bf187ab1f11cdb1310083a730c76a78b4ae70",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_對大盤勝率與超額報酬_v50_2026-10-19.html",
+      "category": "目前結論所需資料",
+      "bytes": 5846050,
+      "modified_local": "2026-10-19T16:36:49",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_對大盤勝率與超額報酬_v50_2026-10-19.md",
+      "category": "歷史報告與說明",
+      "bytes": 4237,
+      "modified_local": "2026-10-19T16:36:49",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_對大盤勝率與超額報酬_v50_2026-10-19_對齊912前_2026-10-19.html",
+      "category": "報告歷史備份",
+      "bytes": 5869461,
+      "modified_local": "2026-10-19T16:36:49",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_對大盤勝率與超額報酬_v50_2026-10-19_對齊912前_2026-10-19.md",
+      "category": "報告歷史備份",
+      "bytes": 2950,
+      "modified_local": "2026-10-19T16:36:49",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_對大盤勝率與超額報酬_v50_2026-10-19_整理前_2026-10-19.html",
+      "category": "報告歷史備份",
+      "bytes": 5283607,
+      "modified_local": "2026-10-19T16:25:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_對大盤勝率與超額報酬_v50_2026-10-19_整理前_2026-10-19.md",
+      "category": "報告歷史備份",
+      "bytes": 14487,
+      "modified_local": "2026-10-19T16:25:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_市場狀態與策略選擇計畫_v48_2026-10-17.md",
+      "category": "歷史報告與說明",
+      "bytes": 9051,
+      "modified_local": "2026-10-17T18:52:44",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_收斂決策與持有核對_v51_2026-10-19.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 3913,
+      "modified_local": "2026-10-19T16:16:13",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_統一比較結果_v3_2026-10-14.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 50990,
+      "modified_local": "2026-10-14T16:17:42",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_統一比較與公告來源_v4_2026-10-14.md",
+      "category": "來源與品質查核",
+      "bytes": 12212,
+      "modified_local": "2026-10-14T17:31:56",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_統一比較與產業季節性_2026-10-14.md",
+      "category": "歷史報告與說明",
+      "bytes": 14993,
+      "modified_local": "2026-10-14T16:56:38",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_統一資料集與重驗盤點_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 5866,
+      "modified_local": "2026-10-16T15:28:02",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_統一資料集與重驗盤點_2026-10-16.md",
+      "category": "歷史報告與說明",
+      "bytes": 3865,
+      "modified_local": "2026-10-16T15:28:02",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_統一長歷史續跑計畫_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 20040,
+      "modified_local": "2026-10-16T15:46:53",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_統一長歷史續跑計畫_2026-10-16.md",
+      "category": "歷史報告與說明",
+      "bytes": 6005,
+      "modified_local": "2026-10-16T15:46:02",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_總結報告.html",
+      "category": "目前結論所需資料",
+      "bytes": 5846050,
+      "modified_local": "2026-10-19T16:36:49",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_總結報告.md",
+      "category": "目前結論所需資料",
+      "bytes": 4237,
+      "modified_local": "2026-10-19T16:36:49",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_總結報告_對齊912前_2026-10-19.html",
+      "category": "報告歷史備份",
+      "bytes": 5869461,
+      "modified_local": "2026-10-19T16:36:49",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_總結報告_對齊912前_2026-10-19.md",
+      "category": "報告歷史備份",
+      "bytes": 2950,
+      "modified_local": "2026-10-19T16:36:49",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_總結報告_整理前_2026-10-19.html",
+      "category": "報告歷史備份",
+      "bytes": 10057692,
+      "modified_local": "2026-10-19T16:25:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_總結報告_整理前_2026-10-19.md",
+      "category": "報告歷史備份",
+      "bytes": 17202,
+      "modified_local": "2026-10-19T16:25:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_逐窗口結果_v3_2026-10-14.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 7815270,
+      "modified_local": "2026-10-14T16:12:48",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究_逐窗口結果_v4_2026-10-14.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 7858218,
+      "modified_local": "2026-10-14T16:52:53",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略研究方向與短期事件機會_2026-10-13.md",
+      "category": "歷史報告與說明",
+      "bytes": 60078,
+      "modified_local": "2026-10-14T01:40:16",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略重新比較_全部窗口_v9_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 63183571,
+      "modified_local": "2026-10-15T13:51:11",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略重新比較_年度選擇與統計_v9_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 873830,
+      "modified_local": "2026-10-15T13:51:26",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略重新比較_研究計畫_v9_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 2194,
+      "modified_local": "2026-10-15T13:48:17",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略重新比較_結果與選擇邏輯_v9_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 7157,
+      "modified_local": "2026-10-15T14:11:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略重新比較_配對箱形圖與全部候選_v9_2026-10-15.html",
+      "category": "歷史報告與說明",
+      "bytes": 252362,
+      "modified_local": "2026-10-15T14:11:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "策略重新比較_預先定義_v9_2026-10-15.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 3272,
+      "modified_local": "2026-10-15T13:48:17",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一策略_同日期比較與虧損定義_v47_2026-10-17.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1657,
+      "modified_local": "2026-10-17T00:39:46",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一策略_同日期比較與虧損環境_v47_2026-10-17.html",
+      "category": "歷史報告與說明",
+      "bytes": 7486088,
+      "modified_local": "2026-10-17T18:52:44",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一策略_同日期比較與虧損環境_v47_2026-10-17.md",
+      "category": "歷史報告與說明",
+      "bytes": 15285,
+      "modified_local": "2026-10-17T00:43:51",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一策略_同日期虧損統計_v47_2026-10-17.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 260211,
+      "modified_local": "2026-10-17T00:43:51",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一策略_同日期虧損逐窗口_v47_2026-10-17.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 3535358,
+      "modified_local": "2026-10-17T00:39:46",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_FLOW_E5_v35_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 501380,
+      "modified_local": "2026-10-16T16:01:10",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_FLOW_HOLD_v34_2026-10-16.json.gz",
+      "category": "目前結論所需資料",
+      "bytes": 433629,
+      "modified_local": "2026-10-16T15:56:58",
+      "sha256_if_frozen_core": "502c0ef9345821a033b4dff02eace6a2da9e58bfc39fba083aa0472c96177f2e",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_FLOW_M0_v35_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 499116,
+      "modified_local": "2026-10-16T16:01:15",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_FLOW_M5_v35_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 500588,
+      "modified_local": "2026-10-16T16:01:18",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_FLOW_P80_v34_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 497780,
+      "modified_local": "2026-10-16T15:57:19",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_FLOW_P95_v34_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 500066,
+      "modified_local": "2026-10-16T15:57:24",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_LIQ_HOLD_v34_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 413489,
+      "modified_local": "2026-10-16T15:57:03",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_LOWVOL_v35_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 479682,
+      "modified_local": "2026-10-16T16:01:25",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_MOM20_E0_v34_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 530858,
+      "modified_local": "2026-10-16T15:56:41",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_MOM60_E0_v34_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 516171,
+      "modified_local": "2026-10-16T15:56:48",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_MOM_E5_v35_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 525374,
+      "modified_local": "2026-10-16T16:00:51",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_MOM_HOLD_v34_2026-10-16.json.gz",
+      "category": "目前結論所需資料",
+      "bytes": 451894,
+      "modified_local": "2026-10-16T15:56:53",
+      "sha256_if_frozen_core": "1497871e10e66b9f16d80ffd94f578a5b441e3ec266f715d49ebe117b5f97c68",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_MOM_M0_v35_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 523498,
+      "modified_local": "2026-10-16T16:00:59",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_MOM_M5_v35_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 525947,
+      "modified_local": "2026-10-16T16:01:06",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_MOM_P80_v34_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 520820,
+      "modified_local": "2026-10-16T15:57:08",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_MOM_P95_v34_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 523649,
+      "modified_local": "2026-10-16T15:57:14",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_REV5_v35_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 553500,
+      "modified_local": "2026-10-16T16:01:22",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_VOLADJ_v35_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 514237,
+      "modified_local": "2026-10-16T16:01:29",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_優先1全部點_v34_2026-10-16.html",
+      "category": "歷史報告與說明",
+      "bytes": 5741022,
+      "modified_local": "2026-10-16T16:00:45",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_優先1研究_v34_2026-10-16.md",
+      "category": "歷史報告與說明",
+      "bytes": 4261,
+      "modified_local": "2026-10-16T16:00:45",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_優先1統計_v34_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 41259,
+      "modified_local": "2026-10-16T15:58:36",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_批次完成總報告_v39_2026-10-16.md",
+      "category": "歷史報告與說明",
+      "bytes": 11853,
+      "modified_local": "2026-10-16T16:12:29",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_批次完成驗證_v39_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 467,
+      "modified_local": "2026-10-16T16:13:58",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_曝險匹配定義_v38_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 959,
+      "modified_local": "2026-10-16T16:09:21",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_曝險匹配統計_v38_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 3837,
+      "modified_local": "2026-10-16T16:09:27",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_曝險匹配逐窗口_v38_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 810010,
+      "modified_local": "2026-10-16T16:09:27",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_權重與其他家族定義_v35_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1815,
+      "modified_local": "2026-10-16T16:00:45",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_權重退出其他家族統計_v37_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 57565,
+      "modified_local": "2026-10-16T16:09:19",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_退出加碼_low5_off_v36_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1681039,
+      "modified_local": "2026-10-16T16:04:18",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_退出加碼_low5_on_v36_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1720310,
+      "modified_local": "2026-10-16T16:04:31",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_退出加碼_ma5_off_v36_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1454428,
+      "modified_local": "2026-10-16T16:03:26",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_退出加碼_ma5_on_v36_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1465787,
+      "modified_local": "2026-10-16T16:03:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_退出加碼_ma5two_off_v36_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1716207,
+      "modified_local": "2026-10-16T16:03:44",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_退出加碼_ma5two_on_v36_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 1743792,
+      "modified_local": "2026-10-16T16:03:59",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_退出加碼_none_on_v36_2026-10-16.json.gz",
+      "category": "其他實驗定義與結果",
+      "bytes": 951099,
+      "modified_local": "2026-10-16T16:03:20",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "統一長歷史_退出加碼定義_v36_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 1178,
+      "modified_local": "2026-10-16T16:03:09",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "網站發布紀錄_v3_2026-10-15.md",
+      "category": "歷史報告與說明",
+      "bytes": 1553,
+      "modified_local": "2026-10-15T08:04:03",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "股票決策方法入門與競賽策略評估_2026-10-13.md",
+      "category": "歷史報告與說明",
+      "bytes": 11265,
+      "modified_local": "2026-10-13T19:25:04",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "長歷史法人_原始快取_v30_2026-10-16.json.gz",
+      "category": "目前結論所需資料",
+      "bytes": 10816424,
+      "modified_local": "2026-10-16T15:21:03",
+      "sha256_if_frozen_core": "f4b2e03d369e809ca06b6b11bdac6fcec83ee505e71fad055825391c06c97338",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "長歷史環境研究_全部點與年度比較_v30_2026-10-16.html",
+      "category": "歷史報告與說明",
+      "bytes": 5647787,
+      "modified_local": "2026-10-16T15:24:04",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "長歷史環境研究_動能法人比較_v30_2026-10-16.md",
+      "category": "歷史報告與說明",
+      "bytes": 8878,
+      "modified_local": "2026-10-16T15:24:04",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "長歷史環境研究_動能法人逐窗口_v30_2026-10-16.json",
+      "category": "目前結論所需資料",
+      "bytes": 8575932,
+      "modified_local": "2026-10-16T15:21:57",
+      "sha256_if_frozen_core": "81fac7d7c16763d831a651523c622e69bf8ed4b9374fcc486bff1052f335e7d8",
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "長歷史環境研究_法人口徑核對_v30_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 292,
+      "modified_local": "2026-10-16T15:21:22",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "長歷史環境研究_法人資料查核_v30_2026-10-16.json",
+      "category": "來源與品質查核",
+      "bytes": 419,
+      "modified_local": "2026-10-16T15:13:11",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "長歷史環境研究_統計與分層_v30_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 97736,
+      "modified_local": "2026-10-16T15:24:04",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "長歷史環境研究_預先定義_v30_2026-10-16.json",
+      "category": "其他實驗定義與結果",
+      "bytes": 3426,
+      "modified_local": "2026-10-16T15:24:04",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "陳韋豪_下次會議策略工作稿_2026-10-09.md",
+      "category": "歷史報告與說明",
+      "bytes": 5925,
+      "modified_local": "2026-10-10T00:06:30",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "陳韋豪_策略研究與團隊討論_v1_2026-10-14.html",
+      "category": "歷史報告與說明",
+      "bytes": 20849,
+      "modified_local": "2026-10-14T21:20:27",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "陳韋豪_策略研究與團隊討論_v1_2026-10-14.md",
+      "category": "歷史報告與說明",
+      "bytes": 11699,
+      "modified_local": "2026-10-14T21:20:27",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "陳韋豪_策略研究說明_互動圖解版_v3_2026-10-14.html",
+      "category": "歷史報告與說明",
+      "bytes": 3300215,
+      "modified_local": "2026-10-14T21:50:27",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "陳韋豪_策略研究說明_互動圖解版_v3_2026-10-14.md",
+      "category": "歷史報告與說明",
+      "bytes": 13163,
+      "modified_local": "2026-10-14T21:50:27",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "陳韋豪_策略研究說明_組員閱讀版_v2_2026-10-14.html",
+      "category": "歷史報告與說明",
+      "bytes": 14727,
+      "modified_local": "2026-10-14T21:31:41",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "陳韋豪_策略研究說明_組員閱讀版_v2_2026-10-14.md",
+      "category": "歷史報告與說明",
+      "bytes": 11257,
+      "modified_local": "2026-10-14T21:31:41",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/下載公開來源.py",
+      "category": "團隊與背景資料",
+      "bytes": 1490,
+      "modified_local": "2026-10-13T19:31:31",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/下載結果_2026-10-13.json",
+      "category": "團隊與背景資料",
+      "bytes": 11309,
+      "modified_local": "2026-10-13T19:32:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/來源下載清單_2026-10-13.json",
+      "category": "團隊與背景資料",
+      "bytes": 5150,
+      "modified_local": "2026-10-13T19:31:06",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/來源索引_2026-10-13.md",
+      "category": "團隊與背景資料",
+      "bytes": 14665,
+      "modified_local": "2026-10-13T19:42:29",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/ALGOGENE/atckr23_2026-10-13.html",
+      "category": "團隊與背景資料",
+      "bytes": 82607,
+      "modified_local": "2026-10-13T19:31:33",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/AlphaArena/nof1_home_2026-10-13.html",
+      "category": "團隊與背景資料",
+      "bytes": 133526,
+      "modified_local": "2026-10-13T19:31:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Bloomberg/2024_GTC_Introduction_2026-10-13.pdf",
+      "category": "團隊與背景資料",
+      "bytes": 97580,
+      "modified_local": "2026-10-13T19:31:32",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Bloomberg/CUHK_2025_winner_2026-10-13.html",
+      "category": "團隊與背景資料",
+      "bytes": 158248,
+      "modified_local": "2026-10-13T19:31:32",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Bloomberg/official_dates_2026-10-13.html",
+      "category": "團隊與背景資料",
+      "bytes": 11168,
+      "modified_local": "2026-10-13T19:31:34",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Bloomberg/RIT_2024_winner_2026-10-13.html",
+      "category": "團隊與背景資料",
+      "bytes": 91947,
+      "modified_local": "2026-10-13T19:32:26",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Bloomberg/USF_2025_strategy_2026-10-13.html",
+      "category": "團隊與背景資料",
+      "bytes": 70407,
+      "modified_local": "2026-10-13T19:31:35",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/FinRL/2502.01992v1_2026-10-13.html",
+      "category": "團隊與背景資料",
+      "bytes": 59802,
+      "modified_local": "2026-10-13T19:31:36",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/FinRL/2502.01992v1_2026-10-13.pdf",
+      "category": "團隊與背景資料",
+      "bytes": 1344385,
+      "modified_local": "2026-10-13T19:31:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/FinRL/entry_README_2026-10-13.md",
+      "category": "團隊與背景資料",
+      "bytes": 961,
+      "modified_local": "2026-10-13T19:31:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/FinRL/official_2026-10-13.html",
+      "category": "團隊與背景資料",
+      "bytes": 26727,
+      "modified_local": "2026-10-13T19:31:36",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/FinRL/official_README_2026-10-13.md",
+      "category": "團隊與背景資料",
+      "bytes": 7483,
+      "modified_local": "2026-10-13T19:31:36",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/FinRL/task2_eval_2026-10-13.py",
+      "category": "團隊與背景資料",
+      "bytes": 7354,
+      "modified_local": "2026-10-13T19:31:37",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/QuantConnect/PMH_Q1_2025_2026-10-13.html",
+      "category": "團隊與背景資料",
+      "bytes": 430629,
+      "modified_local": "2026-10-13T19:31:35",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/QuantConnect/Q3_result_2026-10-13.html",
+      "category": "團隊與背景資料",
+      "bytes": 157220,
+      "modified_local": "2026-10-13T19:31:35",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Wharton/2025_results_2026-10-13.html",
+      "category": "團隊與背景資料",
+      "bytes": 332578,
+      "modified_local": "2026-10-13T19:31:36",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Wharton/faq_2026-10-13.html",
+      "category": "團隊與背景資料",
+      "bytes": 336392,
+      "modified_local": "2026-10-13T19:31:36",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Wharton/overview_2026-10-13.html",
+      "category": "團隊與背景資料",
+      "bytes": 336091,
+      "modified_local": "2026-10-13T19:31:36",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Wharton/rules_2026-10-13.html",
+      "category": "團隊與背景資料",
+      "bytes": 335012,
+      "modified_local": "2026-10-13T19:31:36",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/南臺/2025_競賽簡章與辦法_2026-10-13.pdf",
+      "category": "團隊與背景資料",
+      "bytes": 250742,
+      "modified_local": "2026-10-13T19:32:28",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    },
+    {
+      "path": "類似競賽研究/類似競賽與短期策略研究_2026-10-13_v1.md",
+      "category": "團隊與背景資料",
+      "bytes": 29119,
+      "modified_local": "2026-10-13T19:42:29",
+      "sha256_if_frozen_core": null,
+      "active_notebook_metadata_may_change_on_save": false
+    }
+  ],
+  "files": [
+    {
+      "path": "00_導覽/README.md",
+      "bytes": 157
+    },
+    {
+      "path": "00_導覽/README_研究資料導覽.md",
+      "bytes": 1347
+    },
+    {
+      "path": "00_導覽/檔案搬移對照.json",
+      "bytes": 64199
+    },
+    {
+      "path": "00_導覽/研究資料_檔案清冊.json",
+      "bytes": 244785
+    },
+    {
+      "path": "00_導覽/資料夾整理驗證.json",
+      "bytes": 1247
+    },
+    {
+      "path": "00_導覽/連結與Notebook驗證.json",
+      "bytes": 304034
+    },
+    {
+      "path": "01_目前報告/README.md",
+      "bytes": 215
+    },
+    {
+      "path": "01_目前報告/策略研究_對大盤勝率與超額報酬_v50_2026-10-19.md",
+      "bytes": 4565
+    },
+    {
+      "path": "01_目前報告/策略研究_總結報告.md",
+      "bytes": 4565
+    },
+    {
+      "path": "01_目前報告/統計依據/README.md",
+      "bytes": 118
+    },
+    {
+      "path": "01_目前報告/統計依據/同樣本比較_主表統計_v53_2026-10-19.json",
+      "bytes": 30764
+    },
+    {
+      "path": "01_目前報告/統計依據/同樣本比較_持有統計_v53_2026-10-19.json",
+      "bytes": 4158
+    },
+    {
+      "path": "01_目前報告/統計依據/同樣本比較_日期稽核_v53_2026-10-19.json",
+      "bytes": 25442
+    },
+    {
+      "path": "01_目前報告/統計依據/策略大盤比較_統計_v50_2026-10-19.json",
+      "bytes": 73614
+    },
+    {
+      "path": "01_目前報告/統計依據/策略研究_收斂決策與持有核對_v51_2026-10-19.json",
+      "bytes": 3913
+    },
+    {
+      "path": "02_原始資料/README.md",
+      "bytes": 354
+    },
+    {
+      "path": "02_原始資料/保存來源/A策略_全池公告原文快取_v5_2026-10-14.json.gz",
+      "bytes": 9780345
+    },
+    {
+      "path": "02_原始資料/保存來源/A策略_營收原文快取_v5_2026-10-14.json.gz",
+      "bytes": 1899931
+    },
+    {
+      "path": "02_原始資料/保存來源/A策略_策略資料缺口原始來源_v7_2026-10-15.json",
+      "bytes": 318460
+    },
+    {
+      "path": "02_原始資料/保存來源/README.md",
+      "bytes": 118
+    },
+    {
+      "path": "02_原始資料/保存來源/台灣VIX_官方近三年查詢原始回覆_v43_2026-10-16.json",
+      "bytes": 44433
+    },
+    {
+      "path": "02_原始資料/保存來源/外部歷史研究_獨立歷史快取_v12_2026-10-15.json.gz",
+      "bytes": 8650645
+    },
+    {
+      "path": "02_原始資料/保存來源/完整150檔研究_新增上櫃快取_v13_2026-10-15.json.gz",
+      "bytes": 2988534
+    },
+    {
+      "path": "02_原始資料/保存來源/景氣與VIX_原始公告核對_v42_2026-10-16.json",
+      "bytes": 11884
+    },
+    {
+      "path": "02_原始資料/保存來源/產業競賽期間_官方指數來源_2026-10-14.json",
+      "bytes": 1197736
+    },
+    {
+      "path": "02_原始資料/保存來源/策略大盤比較_TAIEX_PRICE_原始_v50_2026-10-19.json.gz",
+      "bytes": 109059
+    },
+    {
+      "path": "02_原始資料/保存來源/策略大盤比較_TAIEX_TR_原始_v50_2026-10-19.json.gz",
+      "bytes": 17888
+    },
+    {
+      "path": "02_原始資料/保存來源/策略研究_原資料快照_v3_2026-10-14.json.gz",
+      "bytes": 3914969
+    },
+    {
+      "path": "02_原始資料/保存來源/長歷史法人_原始快取_v30_2026-10-16.json.gz",
+      "bytes": 10816424
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/A策略_2025開賽25檔最新來源查核_2026-10-14.json",
+      "bytes": 1708016
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/A策略_休市除權息對齊查核_v7_2026-10-15.json",
+      "bytes": 9893
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/A策略_來源與時間統一查核_v5_2026-10-14.json",
+      "bytes": 518152
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/A策略_公告案例官方來源補查_2026-10-14.json",
+      "bytes": 78709
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/A策略_單月注意損益與更正查核_v6_2026-10-15.json",
+      "bytes": 147753
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/A策略_時間格式與更正範圍查核_v7_2026-10-15.json",
+      "bytes": 441525
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/A策略_歷史開賽股數與資金查核_v5_2026-10-14.json",
+      "bytes": 23041
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/A策略_歷年開賽25檔公告來源盤點_2026-10-14.json",
+      "bytes": 65482
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/A策略_歷年開賽25檔公告來源盤點_v4_2026-10-14.json",
+      "bytes": 65482
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/README.md",
+      "bytes": 127
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/五策略家族_資料與覆蓋查核_v15_2026-10-15.json",
+      "bytes": 144717
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/公司行動與成交修正_來源查核_v14_2026-10-15.json",
+      "bytes": 8272
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/動能_長歷史來源修正稽核_v27_2026-10-15.json",
+      "bytes": 264371
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/台美VIX_來源嘗試_v43_2026-10-16.json",
+      "bytes": 1729
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/外部歷史研究_來源停止原因_v12_2026-10-15.json",
+      "bytes": 648
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/外部歷史研究_來源探測_v12_2026-10-15.json",
+      "bytes": 2340569
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/外部歷史研究_官方行情來源_v12_2026-10-15.json.gz",
+      "bytes": 4230469
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/市場環境分層_景氣來源稽核_v29_2026-10-16.json",
+      "bytes": 4189
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/景氣來源稽核_ndc_release_latest_v29_2026-10-16.csv",
+      "bytes": 13624
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/景氣來源稽核_pmi_history_v29_2026-10-16.csv",
+      "bytes": 2935
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/景氣來源稽核_pmi_release_latest_v29_2026-10-16.csv",
+      "bytes": 15150
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/景氣來源稽核_公告原文_v29_2026-10-16.json",
+      "bytes": 27001
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/產業競賽期間_官方月報來源_2026-10-14.json",
+      "bytes": 319402
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/策略大盤比較_來源查核_v50_2026-10-19.json",
+      "bytes": 1023
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/策略批次研究_來源缺口_v10_2026-10-15.json",
+      "bytes": 746
+    },
+    {
+      "path": "02_原始資料/品質與來源查核/長歷史環境研究_法人資料查核_v30_2026-10-16.json",
+      "bytes": 419
+    },
+    {
+      "path": "03_回測結果/README.md",
+      "bytes": 321
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_2025開賽25檔資訊新鮮度結果_2026-10-14.json",
+      "bytes": 163005
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_公司行動官方核對_2026-10-14.json",
+      "bytes": 451552
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_公告原文判讀結果_2026-10-14.json",
+      "bytes": 27225
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_公告原文對照案例_2026-10-14.json",
+      "bytes": 17842
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_公告整合重驗證結果_v6_2026-10-15.json",
+      "bytes": 970774
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_公告整合驗證_v6_2026-10-15.json",
+      "bytes": 470
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_失效原因診斷_v8_2026-10-15.json",
+      "bytes": 615644
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_失效機制統一比較_v8_2026-10-15.json",
+      "bytes": 21933
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_失效機制逐窗口_v8_2026-10-15.json",
+      "bytes": 1093706
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_換手成本歸因_v8_2026-10-15.json",
+      "bytes": 3002604
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_歷年開賽25檔權重與證據_v6_2026-10-15.json",
+      "bytes": 24112
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_自結與公告期間整合_v6_2026-10-15.json",
+      "bytes": 2007798
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_資訊增量對照結果_v5_2026-10-14.json",
+      "bytes": 484222
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_開賽前財務調權統計_v5_2026-10-14.json",
+      "bytes": 2197
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_開賽前財務調權逐窗口_v5_2026-10-14.json",
+      "bytes": 1450107
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_開賽前資訊調權統一統計_v5_2026-10-14.json",
+      "bytes": 8734
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_關鍵資料修正統一統計_v7_2026-10-15.json",
+      "bytes": 39838
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/A策略_關鍵資料修正逐窗口_v7_2026-10-15.json",
+      "bytes": 10021766
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/Cboe_VIX官方日資料_v42_2026-10-16.csv",
+      "bytes": 473788
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/README.md",
+      "bytes": 124
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/TEAM_11693_DPlan離線驗證結果_2026-10-15.json",
+      "bytes": 8931
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/五策略家族_全部逐窗口_v15_2026-10-15.json",
+      "bytes": 4976560
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/五策略家族_統計與配對比較_v15_2026-10-15.json",
+      "bytes": 234806
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/公司行動與成交修正_回測結果_v14_2026-10-15.json",
+      "bytes": 353604
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/公司行動與成交修正_統計摘要_v14_2026-10-15.json",
+      "bytes": 4512
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能20日60日_單獨訊號統計_v20_2026-10-15.json",
+      "bytes": 39830
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能20日60日_單獨訊號逐窗口_v20_2026-10-15.json",
+      "bytes": 1511429
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能_2016至2025現金比例統計_v26_2026-10-15.json",
+      "bytes": 101135
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能_2016至2025現金比例統計_v26_2027-10-15.json",
+      "bytes": 113553
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能_2016至2025現金比例統計_v27_2026-10-15.json",
+      "bytes": 399586
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能_2016至2025現金比例逐窗口_v26_2026-10-15.json",
+      "bytes": 16024302
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能_2016至2025現金比例逐窗口_v26_2027-10-15.json",
+      "bytes": 17731828
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能_2016至2025資料覆蓋與缺口_v26_2026-10-15.json",
+      "bytes": 3235
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能_三種跌破退出與加碼統計_v23_2026-10-15.json",
+      "bytes": 198231
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能_三種跌破退出與加碼逐窗口_v23_2026-10-15.json",
+      "bytes": 20631797
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能_加碼增益曝險匹配統計_v25_2026-10-15.json",
+      "bytes": 49312
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能_加碼增益曝險匹配逐窗口_v25_2026-10-15.json",
+      "bytes": 3430547
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能_現金比例與加碼歸因統計_v24_2026-10-15.json",
+      "bytes": 208773
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能_現金比例與加碼歸因逐窗口_v24_2026-10-15.json",
+      "bytes": 11741587
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能前25檔_含24日後結果資料_v22_2026-10-15.json",
+      "bytes": 397827
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能前25檔_短長期曲線資料_v21_2026-10-15.json",
+      "bytes": 356631
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能法人_同期下跌廣度統計_v41_2026-10-16.json",
+      "bytes": 34322
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能法人_同期下跌廣度逐窗口_v41_2026-10-16.json",
+      "bytes": 1454979
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能法人_失效剔除與降曝險統計_v18_2026-10-15.json",
+      "bytes": 88959
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能法人_失效剔除與降曝險逐窗口_v18_2026-10-15.json",
+      "bytes": 6596677
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能法人_虧損診斷統計_v40_2026-10-16.json",
+      "bytes": 281435
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能法人_重疊與虧損統計_v17_2026-10-15.json",
+      "bytes": 4110828
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能訊號_多週期與動態調整統計_v19_2026-10-15.json",
+      "bytes": 106132
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/動能訊號_多週期與動態調整逐窗口_v19_2026-10-15.json",
+      "bytes": 4403541
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/反轉中位退出_成本壓力逐窗口_v28_2026-10-16.json",
+      "bytes": 13152871
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/反轉中位退出_統計與配對_v28_2026-10-16.json",
+      "bytes": 66315
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/反轉中位退出_逐窗口_v28_2026-10-16.json",
+      "bytes": 12683430
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/可變持股均線_統計與覆蓋_v49_2026-10-17.json",
+      "bytes": 107470
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/台美VIX_缺漏窗口_v43_2026-10-16.json",
+      "bytes": 80456
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/台美VIX_部分期間統計_v43_2026-10-16.json",
+      "bytes": 17616
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/台美VIX_部分期間逐窗口_v43_2026-10-16.json",
+      "bytes": 305925
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/台美VIX_驗證_v43_2026-10-16.json",
+      "bytes": 343
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/均線交叉_全組統計_v45_2026-10-17.json",
+      "bytes": 140513
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/均線交叉_驗證_v45_2026-10-17.json",
+      "bytes": 2335
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/外部歷史研究_十年同期與股票池回測_v12_2026-10-15.json",
+      "bytes": 407924
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/外部歷史研究_月報存檔探測_v12_2026-10-15.json",
+      "bytes": 2487000
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/外部歷史研究_獨立供應商探測_v12_2026-10-15.json",
+      "bytes": 23352
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/外部歷史研究_統計摘要_v12_2026-10-15.json",
+      "bytes": 7748
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/外部歷史研究_股票池與分類驗證_v12_2026-10-15.json",
+      "bytes": 46097
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/完整150檔研究_同期回測與100檔配對_v13_2026-10-15.json",
+      "bytes": 694549
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/完整150檔研究_統計摘要_v13_2026-10-15.json",
+      "bytes": 16786
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/市場情境_退出換股再進場統計_v44_2026-10-16.json",
+      "bytes": 113737
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/市場情境_退出換股再進場驗證_v44_2026-10-16.json",
+      "bytes": 470
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/市場環境分層_全部窗口_v29_2026-10-16.json",
+      "bytes": 358161
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/市場環境分層_統計_v29_2026-10-16.json",
+      "bytes": 46306
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/後續研究_五方向統一結果_v11_2026-10-15.json",
+      "bytes": 2523979
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/後續研究_全部新窗口_v11_2026-10-15.json",
+      "bytes": 3511883
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/後續研究_營收加速度與公告事件_v11_2026-10-15.json",
+      "bytes": 659092
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/景氣與VIX_窗口統計_v42_2026-10-16.json",
+      "bytes": 47118
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/景氣與VIX_逐窗口_v42_2026-10-16.json",
+      "bytes": 944319
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/景氣與VIX_驗證_v42_2026-10-16.json",
+      "bytes": 385
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/產業季節性_逐年向前驗證_v9_2026-10-15.json",
+      "bytes": 4498
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/產業競賽期間_含息統計與全部窗口_2026-10-14.json",
+      "bytes": 1690903
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/產業競賽期間_含息缺漏統計_2026-10-14.json",
+      "bytes": 566177
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/產業競賽期間_統計與全部窗口_2026-10-14.json",
+      "bytes": 551506
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/短均線_24日競賽全組統計_v46_2026-10-17.json",
+      "bytes": 287954
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/短均線_24日競賽驗證_v46_2026-10-17.json",
+      "bytes": 2499
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/等權非等權_四格控制逐窗口_v16_2026-10-15.json",
+      "bytes": 10235245
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/等權非等權_配對與機制統計_v16_2026-10-15.json",
+      "bytes": 91240
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/策略大盤比較_逐窗口_v50_2026-10-19.json",
+      "bytes": 2425958
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/策略批次研究_全部新窗口_v10_2026-10-15.json",
+      "bytes": 36453255
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/策略批次研究_統一統計與逐年驗證_v10_2026-10-15.json",
+      "bytes": 1372332
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/策略研究_勝率與期望值_v9_2026-10-15.json",
+      "bytes": 201888
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/策略研究_統一比較結果_v3_2026-10-14.json",
+      "bytes": 50990
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/策略研究_統一資料集與重驗盤點_2026-10-16.json",
+      "bytes": 5866
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/策略研究_逐窗口結果_v3_2026-10-14.json",
+      "bytes": 7815270
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/策略研究_逐窗口結果_v4_2026-10-14.json",
+      "bytes": 7858218
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/策略重新比較_全部窗口_v9_2026-10-15.json",
+      "bytes": 63183571
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/策略重新比較_年度選擇與統計_v9_2026-10-15.json",
+      "bytes": 873830
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/統一策略_同日期虧損統計_v47_2026-10-17.json",
+      "bytes": 260211
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/統一策略_同日期虧損逐窗口_v47_2026-10-17.json",
+      "bytes": 3535358
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/統一長歷史_優先1統計_v34_2026-10-16.json",
+      "bytes": 41259
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/統一長歷史_批次完成驗證_v39_2026-10-16.json",
+      "bytes": 467
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/統一長歷史_曝險匹配統計_v38_2026-10-16.json",
+      "bytes": 3837
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/統一長歷史_權重退出其他家族統計_v37_2026-10-16.json",
+      "bytes": 57565
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/長歷史環境研究_動能法人逐窗口_v30_2026-10-16.json",
+      "bytes": 8575932
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/長歷史環境研究_法人口徑核對_v30_2026-10-16.json",
+      "bytes": 292
+    },
+    {
+      "path": "03_回測結果/逐窗口與統計/長歷史環境研究_統計與分層_v30_2026-10-16.json",
+      "bytes": 97736
+    },
+    {
+      "path": "03_回測結果/逐策略快取/A策略_LLM歷史原文輸入包_v5_2026-10-14.json.gz",
+      "bytes": 39005
+    },
+    {
+      "path": "03_回測結果/逐策略快取/README.md",
+      "bytes": 121
+    },
+    {
+      "path": "03_回測結果/逐策略快取/動能法人_虧損個股歸因_v40_2026-10-16.json.gz",
+      "bytes": 1355700
+    },
+    {
+      "path": "03_回測結果/逐策略快取/可變持股均線_10_20_FALLBACK_v49_2026-10-17.json.gz",
+      "bytes": 1605684
+    },
+    {
+      "path": "03_回測結果/逐策略快取/可變持股均線_10_20_VARIABLE_v49_2026-10-17.json.gz",
+      "bytes": 1486198
+    },
+    {
+      "path": "03_回測結果/逐策略快取/可變持股均線_10_24_FALLBACK_v49_2026-10-17.json.gz",
+      "bytes": 1396839
+    },
+    {
+      "path": "03_回測結果/逐策略快取/可變持股均線_10_24_VARIABLE_v49_2026-10-17.json.gz",
+      "bytes": 1273328
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_FLOW_20_60_ACTIVE_v45_2026-10-17.json.gz",
+      "bytes": 857285
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_FLOW_20_60_INITIAL_v45_2026-10-17.json.gz",
+      "bytes": 791156
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_FLOW_3_5_ACTIVE_v45_2026-10-17.json.gz",
+      "bytes": 1602502
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_FLOW_3_5_INITIAL_v45_2026-10-17.json.gz",
+      "bytes": 818297
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_FLOW_50_200_ACTIVE_v45_2026-10-17.json.gz",
+      "bytes": 796386
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_FLOW_50_200_INITIAL_v45_2026-10-17.json.gz",
+      "bytes": 799737
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_FLOW_5_20_ACTIVE_v45_2026-10-17.json.gz",
+      "bytes": 1543432
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_FLOW_5_20_INITIAL_v45_2026-10-17.json.gz",
+      "bytes": 794652
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_MOM_20_60_ACTIVE_v45_2026-10-17.json.gz",
+      "bytes": 783457
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_MOM_20_60_INITIAL_v45_2026-10-17.json.gz",
+      "bytes": 794106
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_MOM_3_5_ACTIVE_v45_2026-10-17.json.gz",
+      "bytes": 1652645
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_MOM_3_5_INITIAL_v45_2026-10-17.json.gz",
+      "bytes": 827020
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_MOM_50_200_ACTIVE_v45_2026-10-17.json.gz",
+      "bytes": 780077
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_MOM_50_200_INITIAL_v45_2026-10-17.json.gz",
+      "bytes": 807694
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_MOM_5_20_ACTIVE_v45_2026-10-17.json.gz",
+      "bytes": 1312002
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_MOM_5_20_INITIAL_v45_2026-10-17.json.gz",
+      "bytes": 790471
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_PURE_20_60_v45_2026-10-17.json.gz",
+      "bytes": 754165
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_PURE_3_5_v45_2026-10-17.json.gz",
+      "bytes": 1814499
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_PURE_50_200_v45_2026-10-17.json.gz",
+      "bytes": 700053
+    },
+    {
+      "path": "03_回測結果/逐策略快取/均線交叉_PURE_5_20_v45_2026-10-17.json.gz",
+      "bytes": 986058
+    },
+    {
+      "path": "03_回測結果/逐策略快取/市場情境_FLOW_COMBINED_RECOVER_FIXED_v44_2026-10-16.json.gz",
+      "bytes": 816259
+    },
+    {
+      "path": "03_回測結果/逐策略快取/市場情境_FLOW_COMBINED_RECOVER_v44_2026-10-16.json.gz",
+      "bytes": 1775556
+    },
+    {
+      "path": "03_回測結果/逐策略快取/市場情境_FLOW_LOCAL_v44_2026-10-16.json.gz",
+      "bytes": 1672011
+    },
+    {
+      "path": "03_回測結果/逐策略快取/市場情境_FLOW_MARKET_RECOVER_FIXED_v44_2026-10-16.json.gz",
+      "bytes": 816360
+    },
+    {
+      "path": "03_回測結果/逐策略快取/市場情境_FLOW_MARKET_RECOVER_v44_2026-10-16.json.gz",
+      "bytes": 904914
+    },
+    {
+      "path": "03_回測結果/逐策略快取/市場情境_FLOW_MARKET_STAY80_FIXED_v44_2026-10-16.json.gz",
+      "bytes": 816286
+    },
+    {
+      "path": "03_回測結果/逐策略快取/市場情境_FLOW_MARKET_STAY80_v44_2026-10-16.json.gz",
+      "bytes": 869464
+    },
+    {
+      "path": "03_回測結果/逐策略快取/市場情境_MOM_COMBINED_RECOVER_FIXED_v44_2026-10-16.json.gz",
+      "bytes": 841325
+    },
+    {
+      "path": "03_回測結果/逐策略快取/市場情境_MOM_COMBINED_RECOVER_v44_2026-10-16.json.gz",
+      "bytes": 1870757
+    },
+    {
+      "path": "03_回測結果/逐策略快取/市場情境_MOM_LOCAL_v44_2026-10-16.json.gz",
+      "bytes": 1756171
+    },
+    {
+      "path": "03_回測結果/逐策略快取/市場情境_MOM_MARKET_RECOVER_FIXED_v44_2026-10-16.json.gz",
+      "bytes": 841048
+    },
+    {
+      "path": "03_回測結果/逐策略快取/市場情境_MOM_MARKET_RECOVER_v44_2026-10-16.json.gz",
+      "bytes": 936942
+    },
+    {
+      "path": "03_回測結果/逐策略快取/市場情境_MOM_MARKET_STAY80_FIXED_v44_2026-10-16.json.gz",
+      "bytes": 840951
+    },
+    {
+      "path": "03_回測結果/逐策略快取/市場情境_MOM_MARKET_STAY80_v44_2026-10-16.json.gz",
+      "bytes": 896510
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_FLOW_10_20_ACTIVE_v46_2026-10-17.json.gz",
+      "bytes": 1495321
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_FLOW_10_24_ACTIVE_v46_2026-10-17.json.gz",
+      "bytes": 1410372
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_FLOW_3_10_ACTIVE_v46_2026-10-17.json.gz",
+      "bytes": 1638946
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_FLOW_5_10_ACTIVE_v46_2026-10-17.json.gz",
+      "bytes": 1624475
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_FLOW_5_15_ACTIVE_v46_2026-10-17.json.gz",
+      "bytes": 1592575
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_FLOW_5_24_ACTIVE_v46_2026-10-17.json.gz",
+      "bytes": 1470773
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_MOM_10_20_ACTIVE_v46_2026-10-17.json.gz",
+      "bytes": 1263641
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_MOM_10_24_ACTIVE_v46_2026-10-17.json.gz",
+      "bytes": 1099525
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_MOM_3_10_ACTIVE_v46_2026-10-17.json.gz",
+      "bytes": 1643898
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_MOM_5_10_ACTIVE_v46_2026-10-17.json.gz",
+      "bytes": 1641955
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_MOM_5_15_ACTIVE_v46_2026-10-17.json.gz",
+      "bytes": 1513879
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_MOM_5_24_ACTIVE_v46_2026-10-17.json.gz",
+      "bytes": 1187697
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_PURE_10_20_v46_2026-10-17.json.gz",
+      "bytes": 1026181
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_PURE_10_24_v46_2026-10-17.json.gz",
+      "bytes": 930343
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_PURE_3_10_v46_2026-10-17.json.gz",
+      "bytes": 1565237
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_PURE_5_10_v46_2026-10-17.json.gz",
+      "bytes": 1583013
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_PURE_5_15_v46_2026-10-17.json.gz",
+      "bytes": 1152591
+    },
+    {
+      "path": "03_回測結果/逐策略快取/短均線_PURE_5_24_v46_2026-10-17.json.gz",
+      "bytes": 946750
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_FLOW_E5_v35_2026-10-16.json.gz",
+      "bytes": 501380
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_FLOW_HOLD_v34_2026-10-16.json.gz",
+      "bytes": 433629
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_FLOW_M0_v35_2026-10-16.json.gz",
+      "bytes": 499116
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_FLOW_M5_v35_2026-10-16.json.gz",
+      "bytes": 500588
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_FLOW_P80_v34_2026-10-16.json.gz",
+      "bytes": 497780
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_FLOW_P95_v34_2026-10-16.json.gz",
+      "bytes": 500066
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_LIQ_HOLD_v34_2026-10-16.json.gz",
+      "bytes": 413489
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_LOWVOL_v35_2026-10-16.json.gz",
+      "bytes": 479682
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_MOM20_E0_v34_2026-10-16.json.gz",
+      "bytes": 530858
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_MOM60_E0_v34_2026-10-16.json.gz",
+      "bytes": 516171
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_MOM_E5_v35_2026-10-16.json.gz",
+      "bytes": 525374
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_MOM_HOLD_v34_2026-10-16.json.gz",
+      "bytes": 451894
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_MOM_M0_v35_2026-10-16.json.gz",
+      "bytes": 523498
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_MOM_M5_v35_2026-10-16.json.gz",
+      "bytes": 525947
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_MOM_P80_v34_2026-10-16.json.gz",
+      "bytes": 520820
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_MOM_P95_v34_2026-10-16.json.gz",
+      "bytes": 523649
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_REV5_v35_2026-10-16.json.gz",
+      "bytes": 553500
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_VOLADJ_v35_2026-10-16.json.gz",
+      "bytes": 514237
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_曝險匹配逐窗口_v38_2026-10-16.json.gz",
+      "bytes": 810010
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_退出加碼_low5_off_v36_2026-10-16.json.gz",
+      "bytes": 1681039
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_退出加碼_low5_on_v36_2026-10-16.json.gz",
+      "bytes": 1720310
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_退出加碼_ma5_off_v36_2026-10-16.json.gz",
+      "bytes": 1454428
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_退出加碼_ma5_on_v36_2026-10-16.json.gz",
+      "bytes": 1465787
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_退出加碼_ma5two_off_v36_2026-10-16.json.gz",
+      "bytes": 1716207
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_退出加碼_ma5two_on_v36_2026-10-16.json.gz",
+      "bytes": 1743792
+    },
+    {
+      "path": "03_回測結果/逐策略快取/統一長歷史_退出加碼_none_on_v36_2026-10-16.json.gz",
+      "bytes": 951099
+    },
+    {
+      "path": "04_Notebook/README.md",
+      "bytes": 437
+    },
+    {
+      "path": "04_Notebook/動能基準研究_24日回測_2026-10-13.ipynb",
+      "bytes": 1422546
+    },
+    {
+      "path": "04_Notebook/動能基準研究_25檔權重比較_2026-10-14.ipynb",
+      "bytes": 52358
+    },
+    {
+      "path": "04_Notebook/動能持股_開賽前公告配置研究_2026-10-14.ipynb",
+      "bytes": 3281444
+    },
+    {
+      "path": "04_Notebook/動能持股公告個案研究_2026-10-14.ipynb",
+      "bytes": 75075
+    },
+    {
+      "path": "04_Notebook/反轉中位退出_比較研究_v28_2026-10-16.ipynb",
+      "bytes": 67162
+    },
+    {
+      "path": "05_研究管理/A策略_無人值守研究流程.md",
+      "bytes": 68163
+    },
+    {
+      "path": "05_研究管理/README.md",
+      "bytes": 345
+    },
+    {
+      "path": "05_研究管理/定義與狀態/A策略_公告整合重驗證定義_v6_2026-10-15.json",
+      "bytes": 969
+    },
+    {
+      "path": "05_研究管理/定義與狀態/A策略_失效診斷與機制定義_v8_2026-10-15.json",
+      "bytes": 3502
+    },
+    {
+      "path": "05_研究管理/定義與狀態/A策略_無人值守研究狀態.json",
+      "bytes": 132897
+    },
+    {
+      "path": "05_研究管理/定義與狀態/A策略_營收與組合開賽前實驗定義_v5_2026-10-14.json",
+      "bytes": 632
+    },
+    {
+      "path": "05_研究管理/定義與狀態/A策略_資訊增量對照定義_v5_2026-10-14.json",
+      "bytes": 461
+    },
+    {
+      "path": "05_研究管理/定義與狀態/A策略_開賽前資訊調權實驗定義_v5_2026-10-14.json",
+      "bytes": 1531
+    },
+    {
+      "path": "05_研究管理/定義與狀態/A策略_關鍵資料修正重驗證定義_v7_2026-10-15.json",
+      "bytes": 1990
+    },
+    {
+      "path": "05_研究管理/定義與狀態/README.md",
+      "bytes": 121
+    },
+    {
+      "path": "05_研究管理/定義與狀態/五策略家族_統一比較定義_v15_2026-10-15.json",
+      "bytes": 3224
+    },
+    {
+      "path": "05_研究管理/定義與狀態/公司行動與成交修正_預先定義_v14_2026-10-15.json",
+      "bytes": 3970
+    },
+    {
+      "path": "05_研究管理/定義與狀態/動能20日60日_單獨訊號比較定義_v20_2026-10-15.json",
+      "bytes": 840
+    },
+    {
+      "path": "05_研究管理/定義與狀態/動能_2016至2025現金比例長期比較定義_v26_2026-10-15.json",
+      "bytes": 1646
+    },
+    {
+      "path": "05_研究管理/定義與狀態/動能_三種跌破退出與加碼定義_v23_2026-10-15.json",
+      "bytes": 2227
+    },
+    {
+      "path": "05_研究管理/定義與狀態/動能_加碼增益曝險匹配實驗定義_v25_2026-10-15.json",
+      "bytes": 1908
+    },
+    {
+      "path": "05_研究管理/定義與狀態/動能_現金比例與加碼歸因定義_v24_2026-10-15.json",
+      "bytes": 2406
+    },
+    {
+      "path": "05_研究管理/定義與狀態/動能_長歷史掛牌與現金股息修正定義_v27_2026-10-15.json",
+      "bytes": 2559
+    },
+    {
+      "path": "05_研究管理/定義與狀態/動能法人_同期下跌廣度定義_v41_2026-10-16.json",
+      "bytes": 888
+    },
+    {
+      "path": "05_研究管理/定義與狀態/動能法人_失效剔除與降曝險定義_v18_2026-10-15.json",
+      "bytes": 1826
+    },
+    {
+      "path": "05_研究管理/定義與狀態/動能法人_虧損診斷定義_v40_2026-10-16.json",
+      "bytes": 632
+    },
+    {
+      "path": "05_研究管理/定義與狀態/動能法人_重疊與虧損研究定義_v17_2026-10-15.json",
+      "bytes": 576
+    },
+    {
+      "path": "05_研究管理/定義與狀態/動能訊號_多週期與動態調整定義_v19_2026-10-15.json",
+      "bytes": 2274
+    },
+    {
+      "path": "05_研究管理/定義與狀態/反轉中位退出_實驗定義_v28_2026-10-16.json",
+      "bytes": 4909
+    },
+    {
+      "path": "05_研究管理/定義與狀態/可變持股均線_預先定義_v49_2026-10-17.json",
+      "bytes": 2188
+    },
+    {
+      "path": "05_研究管理/定義與狀態/台美VIX_研究定義_v43_2026-10-16.json",
+      "bytes": 1057
+    },
+    {
+      "path": "05_研究管理/定義與狀態/均線交叉_策略定義_v45_2026-10-17.json",
+      "bytes": 3214
+    },
+    {
+      "path": "05_研究管理/定義與狀態/外部歷史研究_獨立供應商補充定義_v12_2026-10-15.json",
+      "bytes": 1428
+    },
+    {
+      "path": "05_研究管理/定義與狀態/外部歷史研究_獨立供應商補充定義_v13_2026-10-15.json",
+      "bytes": 6853
+    },
+    {
+      "path": "05_研究管理/定義與狀態/外部歷史研究_預先定義_v12_2026-10-15.json",
+      "bytes": 2937
+    },
+    {
+      "path": "05_研究管理/定義與狀態/完整150檔研究_預先定義_v13_2026-10-15.json",
+      "bytes": 4165
+    },
+    {
+      "path": "05_研究管理/定義與狀態/市場情境_退出換股再進場定義_v44_2026-10-16.json",
+      "bytes": 3482
+    },
+    {
+      "path": "05_研究管理/定義與狀態/市場狀態策略選擇_事前特徵_v48_2026-10-17.json",
+      "bytes": 487301
+    },
+    {
+      "path": "05_研究管理/定義與狀態/市場狀態策略選擇_定義_v48_2026-10-17.json",
+      "bytes": 1131
+    },
+    {
+      "path": "05_研究管理/定義與狀態/市場狀態策略選擇_統計_v48_2026-10-17.json",
+      "bytes": 141137
+    },
+    {
+      "path": "05_研究管理/定義與狀態/市場狀態策略選擇_逐年訓練_v48_2026-10-17.json",
+      "bytes": 67009
+    },
+    {
+      "path": "05_研究管理/定義與狀態/市場狀態策略選擇_逐窗口決策_v48_2026-10-17.json",
+      "bytes": 897102
+    },
+    {
+      "path": "05_研究管理/定義與狀態/市場環境分層_實驗定義_v29_2026-10-16.json",
+      "bytes": 1870
+    },
+    {
+      "path": "05_研究管理/定義與狀態/後續研究_五方向預先定義_v11_2026-10-15.json",
+      "bytes": 3855
+    },
+    {
+      "path": "05_研究管理/定義與狀態/景氣與VIX_診斷定義_v42_2026-10-16.json",
+      "bytes": 509
+    },
+    {
+      "path": "05_研究管理/定義與狀態/短均線_24日競賽比較定義_v46_2026-10-17.json",
+      "bytes": 2360
+    },
+    {
+      "path": "05_研究管理/定義與狀態/等權非等權_機制比較補充定義_v16_2026-10-15.json",
+      "bytes": 691
+    },
+    {
+      "path": "05_研究管理/定義與狀態/等權非等權_配對統計定義_v16_2026-10-15.json",
+      "bytes": 1842
+    },
+    {
+      "path": "05_研究管理/定義與狀態/策略大盤比較_定義_v50_2026-10-19.json",
+      "bytes": 1515
+    },
+    {
+      "path": "05_研究管理/定義與狀態/策略批次研究_預先定義_v10_2026-10-15.json",
+      "bytes": 3819
+    },
+    {
+      "path": "05_研究管理/定義與狀態/策略研究_統一長歷史續跑計畫_2026-10-16.json",
+      "bytes": 20040
+    },
+    {
+      "path": "05_研究管理/定義與狀態/策略重新比較_預先定義_v9_2026-10-15.json",
+      "bytes": 3272
+    },
+    {
+      "path": "05_研究管理/定義與狀態/統一策略_同日期比較與虧損定義_v47_2026-10-17.json",
+      "bytes": 1657
+    },
+    {
+      "path": "05_研究管理/定義與狀態/統一長歷史_曝險匹配定義_v38_2026-10-16.json",
+      "bytes": 959
+    },
+    {
+      "path": "05_研究管理/定義與狀態/統一長歷史_權重與其他家族定義_v35_2026-10-16.json",
+      "bytes": 1815
+    },
+    {
+      "path": "05_研究管理/定義與狀態/統一長歷史_退出加碼定義_v36_2026-10-16.json",
+      "bytes": 1178
+    },
+    {
+      "path": "05_研究管理/定義與狀態/長歷史環境研究_預先定義_v30_2026-10-16.json",
+      "bytes": 3426
+    },
+    {
+      "path": "05_研究管理/市場狀態_六策略比較與逐年選擇_v48_2026-10-17.md",
+      "bytes": 14088
+    },
+    {
+      "path": "05_研究管理/後續研究_五方向完整計畫_v11_2026-10-15.md",
+      "bytes": 1920
+    },
+    {
+      "path": "05_研究管理/產業季節性_後續研究計畫_v15_2026-10-15.md",
+      "bytes": 4332
+    },
+    {
+      "path": "05_研究管理/競賽規則與每日運作說明_2026-10-13.md",
+      "bytes": 8735
+    },
+    {
+      "path": "05_研究管理/策略批次研究_完整計畫_v10_2026-10-15.md",
+      "bytes": 2212
+    },
+    {
+      "path": "05_研究管理/策略研究_市場狀態與策略選擇計畫_v48_2026-10-17.md",
+      "bytes": 9197
+    },
+    {
+      "path": "05_研究管理/策略研究_統一長歷史續跑計畫_2026-10-16.md",
+      "bytes": 6005
+    },
+    {
+      "path": "05_研究管理/策略重新比較_研究計畫_v9_2026-10-15.md",
+      "bytes": 2194
+    },
+    {
+      "path": "05_研究管理/股票決策方法入門與競賽策略評估_2026-10-13.md",
+      "bytes": 11265
+    },
+    {
+      "path": "90_歷史報告/README.md",
+      "bytes": 202
+    },
+    {
+      "path": "90_歷史報告/圖表/README.md",
+      "bytes": 112
+    },
+    {
+      "path": "90_歷史報告/圖表/動能基準研究_競賽季節_各年份箱形圖與散點_2026-10-13.png",
+      "bytes": 380676
+    },
+    {
+      "path": "90_歷史報告/圖表/動能基準研究_箱形圖_全部窗口_2026-10-13.png",
+      "bytes": 453900
+    },
+    {
+      "path": "90_歷史報告/圖表/產業競賽期間_全部年度箱形圖_2026-10-14.png",
+      "bytes": 82410
+    },
+    {
+      "path": "90_歷史報告/圖表/產業競賽期間_含息缺漏熱圖_2026-10-14.png",
+      "bytes": 318578
+    },
+    {
+      "path": "90_歷史報告/圖表/產業競賽期間_含息缺漏箱形圖_2026-10-14.png",
+      "bytes": 173441
+    },
+    {
+      "path": "90_歷史報告/圖表/產業競賽期間_歷年指數熱圖_2026-10-14.png",
+      "bytes": 202688
+    },
+    {
+      "path": "90_歷史報告/圖表/產業競賽期間_產業含息熱圖_2026-10-14.png",
+      "bytes": 514311
+    },
+    {
+      "path": "90_歷史報告/圖表/產業競賽期間_產業含息箱形圖_2026-10-14.png",
+      "bytes": 198865
+    },
+    {
+      "path": "90_歷史報告/圖表/競賽流程_LINE.png",
+      "bytes": 387557
+    },
+    {
+      "path": "90_歷史報告/報告/A策略_2025開賽25檔資訊新鮮度查核_2026-10-14.md",
+      "bytes": 10782
+    },
+    {
+      "path": "90_歷史報告/報告/A策略_公告期間與自結整合研究_v6_2026-10-15.md",
+      "bytes": 11968
+    },
+    {
+      "path": "90_歷史報告/報告/A策略_失效機制比較_v8_2026-10-15.html",
+      "bytes": 386695
+    },
+    {
+      "path": "90_歷史報告/報告/A策略_失效診斷與機制研究_v8_2026-10-15.md",
+      "bytes": 6681
+    },
+    {
+      "path": "90_歷史報告/報告/A策略_歷史25檔持股與公告查閱_2026-10-14.md",
+      "bytes": 609871
+    },
+    {
+      "path": "90_歷史報告/報告/A策略_開賽前財務調權比較_v5_2026-10-14.html",
+      "bytes": 277391
+    },
+    {
+      "path": "90_歷史報告/報告/A策略_開賽前資訊調權比較_v5_2026-10-14.html",
+      "bytes": 468332
+    },
+    {
+      "path": "90_歷史報告/報告/A策略_開賽前資訊調權比較_v6_2026-10-15.html",
+      "bytes": 468389
+    },
+    {
+      "path": "90_歷史報告/報告/A策略_開賽前資訊調權研究_v5_2026-10-14.md",
+      "bytes": 6460
+    },
+    {
+      "path": "90_歷史報告/報告/A策略_關鍵資料修正比較_v7_2026-10-15.html",
+      "bytes": 585664
+    },
+    {
+      "path": "90_歷史報告/報告/A策略_關鍵資料缺口與策略比較_v7_2026-10-15.md",
+      "bytes": 8368
+    },
+    {
+      "path": "90_歷史報告/報告/HTML成果總覽_2026-10-14.html",
+      "bytes": 11540
+    },
+    {
+      "path": "90_歷史報告/報告/README.md",
+      "bytes": 112
+    },
+    {
+      "path": "90_歷史報告/報告/TEAM_11693_DPlan離線驗證說明_2026-10-15.md",
+      "bytes": 6205
+    },
+    {
+      "path": "90_歷史報告/報告/五策略家族_共同窗口箱形圖_v15_2026-10-15.html",
+      "bytes": 5808980
+    },
+    {
+      "path": "90_歷史報告/報告/五策略家族_統一比較報告_v15_2026-10-15.md",
+      "bytes": 9738
+    },
+    {
+      "path": "90_歷史報告/報告/公司行動與成交修正_比較報告_v14_2026-10-15.md",
+      "bytes": 7605
+    },
+    {
+      "path": "90_歷史報告/報告/公開交易教程_24日競賽策略研究.md",
+      "bytes": 43474
+    },
+    {
+      "path": "90_歷史報告/報告/動能20日60日_五日調整全點比較_v20_2026-10-15.html",
+      "bytes": 4993778
+    },
+    {
+      "path": "90_歷史報告/報告/動能20日60日_五日調整比較_v20_2026-10-15.md",
+      "bytes": 4034
+    },
+    {
+      "path": "90_歷史報告/報告/動能_2016至2025全年現金比例研究_v27_2026-10-15.md",
+      "bytes": 9370
+    },
+    {
+      "path": "90_歷史報告/報告/動能_80與90與100投入及加碼比較_v24_2026-10-15.html",
+      "bytes": 5088005
+    },
+    {
+      "path": "90_歷史報告/報告/動能_三種跌破退出與加碼研究_v23_2026-10-15.md",
+      "bytes": 9725
+    },
+    {
+      "path": "90_歷史報告/報告/動能_加碼增益是否只是曝險研究_v25_2026-10-15.md",
+      "bytes": 6954
+    },
+    {
+      "path": "90_歷史報告/報告/動能_加碼曝險匹配與來源拆解_v25_2026-10-15.html",
+      "bytes": 5061050
+    },
+    {
+      "path": "90_歷史報告/報告/動能_十年全年投入比例與風險比較_v27_2026-10-15.html",
+      "bytes": 5185490
+    },
+    {
+      "path": "90_歷史報告/報告/動能_現金比例與加碼來源研究_v24_2026-10-15.md",
+      "bytes": 8875
+    },
+    {
+      "path": "90_歷史報告/報告/動能_跌破退出加碼八組比較_v23_2026-10-15.html",
+      "bytes": 5004406
+    },
+    {
+      "path": "90_歷史報告/報告/動能前25檔_20與60日動能及3與5日曲線_v21_2026-10-15.html",
+      "bytes": 5653455
+    },
+    {
+      "path": "90_歷史報告/報告/動能前25檔_24日後結果說明_v22_2026-10-15.md",
+      "bytes": 2915
+    },
+    {
+      "path": "90_歷史報告/報告/動能前25檔_成員與短期風險觀察_v21_2026-10-15.md",
+      "bytes": 4666
+    },
+    {
+      "path": "90_歷史報告/報告/動能前25檔_短長期曲線與24日後結果_v22_2026-10-15.html",
+      "bytes": 5653455
+    },
+    {
+      "path": "90_歷史報告/報告/動能基準研究_24日回測初步結果_2026-10-13.md",
+      "bytes": 8934
+    },
+    {
+      "path": "90_歷史報告/報告/動能基準研究_25檔權重比較_2026-10-14.md",
+      "bytes": 6727
+    },
+    {
+      "path": "90_歷史報告/報告/動能基準研究_互動箱形圖_2026-10-13.html",
+      "bytes": 1120009
+    },
+    {
+      "path": "90_歷史報告/報告/動能基準研究_競賽季節_歷年比較說明_2026-10-13.md",
+      "bytes": 1971
+    },
+    {
+      "path": "90_歷史報告/報告/動能持股_開賽前公告配置研究_2026-10-14.md",
+      "bytes": 78793
+    },
+    {
+      "path": "90_歷史報告/報告/動能持股公告個案研究_2026-10-14.md",
+      "bytes": 37284
+    },
+    {
+      "path": "90_歷史報告/報告/動能法人_同期整體下跌分析_v41_2026-10-16.html",
+      "bytes": 5001483
+    },
+    {
+      "path": "90_歷史報告/報告/動能法人_同期整體下跌分析_v41_2026-10-16.md",
+      "bytes": 6566
+    },
+    {
+      "path": "90_歷史報告/報告/動能法人_失效剔除與降曝險研究_v18_2026-10-15.md",
+      "bytes": 6986
+    },
+    {
+      "path": "90_歷史報告/報告/動能法人_持股重疊與虧損歸因_v17_2026-10-15.html",
+      "bytes": 4915690
+    },
+    {
+      "path": "90_歷史報告/報告/動能法人_持股重疊與虧損歸因_v17_2026-10-15.md",
+      "bytes": 7290
+    },
+    {
+      "path": "90_歷史報告/報告/動能法人_景氣燈號與恐慌指數_v42_2026-10-16.html",
+      "bytes": 5171560
+    },
+    {
+      "path": "90_歷史報告/報告/動能法人_景氣燈號與恐慌指數_v42_2026-10-16.md",
+      "bytes": 7833
+    },
+    {
+      "path": "90_歷史報告/報告/動能法人_虧損原因分析_v40_2026-10-16.html",
+      "bytes": 13356
+    },
+    {
+      "path": "90_歷史報告/報告/動能法人_虧損原因分析_v40_2026-10-16.md",
+      "bytes": 6929
+    },
+    {
+      "path": "90_歷史報告/報告/動能法人_風控比較與全窗口_v18_2026-10-15.html",
+      "bytes": 5158631
+    },
+    {
+      "path": "90_歷史報告/報告/動能訊號_多週期動態比較與全點_v19_2026-10-15.html",
+      "bytes": 5204638
+    },
+    {
+      "path": "90_歷史報告/報告/動能訊號_多週期與動態調整研究_v19_2026-10-15.md",
+      "bytes": 8364
+    },
+    {
+      "path": "90_歷史報告/報告/反轉中位退出_比較報告_v28_2026-10-16.md",
+      "bytes": 10991
+    },
+    {
+      "path": "90_歷史報告/報告/台美VIX_部分期間比較與資料缺口_v43_2026-10-16.html",
+      "bytes": 4987428
+    },
+    {
+      "path": "90_歷史報告/報告/台美VIX_部分期間比較與資料缺口_v43_2026-10-16.md",
+      "bytes": 6820
+    },
+    {
+      "path": "90_歷史報告/報告/均線交叉_選股退出與全部窗口比較_v45_2026-10-17.html",
+      "bytes": 7489549
+    },
+    {
+      "path": "90_歷史報告/報告/均線交叉_選股退出與全部窗口比較_v45_2026-10-17.md",
+      "bytes": 16964
+    },
+    {
+      "path": "90_歷史報告/報告/外部歷史研究_分類與股票池進度_v12_2026-10-15.md",
+      "bytes": 13708
+    },
+    {
+      "path": "90_歷史報告/報告/外部歷史研究_十年同期與股票池比較_v12_2026-10-15.html",
+      "bytes": 4845262
+    },
+    {
+      "path": "90_歷史報告/報告/完整150檔研究_修正後同期比較_v14_2026-10-15.html",
+      "bytes": 4847757
+    },
+    {
+      "path": "90_歷史報告/報告/完整150檔研究_同期比較_v13_2026-10-15.md",
+      "bytes": 6961
+    },
+    {
+      "path": "90_歷史報告/報告/完整150檔研究_同期配對箱形圖_v13_2026-10-15.html",
+      "bytes": 4857249
+    },
+    {
+      "path": "90_歷史報告/報告/市場情境_退出換股再進場比較_v44_2026-10-16.html",
+      "bytes": 6203300
+    },
+    {
+      "path": "90_歷史報告/報告/市場情境_退出換股再進場比較_v44_2026-10-16.md",
+      "bytes": 15036
+    },
+    {
+      "path": "90_歷史報告/報告/市場狀態_六策略比較與逐年選擇_v48_2026-10-17.html",
+      "bytes": 5228785
+    },
+    {
+      "path": "90_歷史報告/報告/市場環境分層_動能法人全部點_v29_2026-10-16.html",
+      "bytes": 5066270
+    },
+    {
+      "path": "90_歷史報告/報告/市場環境分層_動能法人研究_v29_2026-10-16.md",
+      "bytes": 6313
+    },
+    {
+      "path": "90_歷史報告/報告/後續研究_五方向比較與箱形圖_v11_2026-10-15.html",
+      "bytes": 287164
+    },
+    {
+      "path": "90_歷史報告/報告/後續研究_五方向總結_v11_2026-10-15.md",
+      "bytes": 9826
+    },
+    {
+      "path": "90_歷史報告/報告/產業競賽期間_含息缺漏比較_2026-10-14.html",
+      "bytes": 40355
+    },
+    {
+      "path": "90_歷史報告/報告/產業競賽期間_歷年比較_2026-10-14.html",
+      "bytes": 21358
+    },
+    {
+      "path": "90_歷史報告/報告/產業競賽期間_產業含息互動表_2026-10-14.html",
+      "bytes": 62682
+    },
+    {
+      "path": "90_歷史報告/報告/短均線_24日競賽比較與全部窗口_v46_2026-10-17.html",
+      "bytes": 8720645
+    },
+    {
+      "path": "90_歷史報告/報告/短均線_24日競賽比較與全部窗口_v46_2026-10-17.md",
+      "bytes": 14259
+    },
+    {
+      "path": "90_歷史報告/報告/短均線_可變持股與動能回退_v49_2026-10-17.html",
+      "bytes": 5345506
+    },
+    {
+      "path": "90_歷史報告/報告/短均線_可變持股與動能回退_v49_2026-10-17.md",
+      "bytes": 10309
+    },
+    {
+      "path": "90_歷史報告/報告/研究與開始指南_2026-10-09.md",
+      "bytes": 37034
+    },
+    {
+      "path": "90_歷史報告/報告/等權非等權_統計與選股退出解讀_v16_2026-10-15.md",
+      "bytes": 9304
+    },
+    {
+      "path": "90_歷史報告/報告/等權非等權_配對差值與選股退出_v16_2026-10-15.html",
+      "bytes": 5482605
+    },
+    {
+      "path": "90_歷史報告/報告/策略批次研究_全部比較與箱形圖_v10_2026-10-15.html",
+      "bytes": 279011
+    },
+    {
+      "path": "90_歷史報告/報告/策略批次研究_總結與選擇邏輯_v10_2026-10-15.md",
+      "bytes": 8042
+    },
+    {
+      "path": "90_歷史報告/報告/策略研究_v3互動箱形圖_2026-10-14.html",
+      "bytes": 1608549
+    },
+    {
+      "path": "90_歷史報告/報告/策略研究_v4互動箱形圖_2026-10-14.html",
+      "bytes": 1890299
+    },
+    {
+      "path": "90_歷史報告/報告/策略研究_統一比較與公告來源_v4_2026-10-14.md",
+      "bytes": 12986
+    },
+    {
+      "path": "90_歷史報告/報告/策略研究_統一比較與產業季節性_2026-10-14.md",
+      "bytes": 15749
+    },
+    {
+      "path": "90_歷史報告/報告/策略研究_統一資料集與重驗盤點_2026-10-16.md",
+      "bytes": 3865
+    },
+    {
+      "path": "90_歷史報告/報告/策略研究方向與短期事件機會_2026-10-13.md",
+      "bytes": 60888
+    },
+    {
+      "path": "90_歷史報告/報告/策略重新比較_結果與選擇邏輯_v9_2026-10-15.md",
+      "bytes": 7253
+    },
+    {
+      "path": "90_歷史報告/報告/策略重新比較_配對箱形圖與全部候選_v9_2026-10-15.html",
+      "bytes": 252362
+    },
+    {
+      "path": "90_歷史報告/報告/統一策略_同日期比較與虧損環境_v47_2026-10-17.html",
+      "bytes": 7486260
+    },
+    {
+      "path": "90_歷史報告/報告/統一策略_同日期比較與虧損環境_v47_2026-10-17.md",
+      "bytes": 15369
+    },
+    {
+      "path": "90_歷史報告/報告/統一長歷史_優先1全部點_v34_2026-10-16.html",
+      "bytes": 5741164
+    },
+    {
+      "path": "90_歷史報告/報告/統一長歷史_優先1研究_v34_2026-10-16.md",
+      "bytes": 4261
+    },
+    {
+      "path": "90_歷史報告/報告/統一長歷史_批次完成總報告_v39_2026-10-16.md",
+      "bytes": 11853
+    },
+    {
+      "path": "90_歷史報告/報告/網站發布紀錄_v3_2026-10-15.md",
+      "bytes": 1553
+    },
+    {
+      "path": "90_歷史報告/報告/長歷史環境研究_全部點與年度比較_v30_2026-10-16.html",
+      "bytes": 5647929
+    },
+    {
+      "path": "90_歷史報告/報告/長歷史環境研究_動能法人比較_v30_2026-10-16.md",
+      "bytes": 8878
+    },
+    {
+      "path": "90_歷史報告/報告/陳韋豪_下次會議策略工作稿_2026-10-09.md",
+      "bytes": 6026
+    },
+    {
+      "path": "90_歷史報告/報告/陳韋豪_策略研究與團隊討論_v1_2026-10-14.html",
+      "bytes": 20849
+    },
+    {
+      "path": "90_歷史報告/報告/陳韋豪_策略研究與團隊討論_v1_2026-10-14.md",
+      "bytes": 11699
+    },
+    {
+      "path": "90_歷史報告/報告/陳韋豪_策略研究說明_互動圖解版_v3_2026-10-14.html",
+      "bytes": 3300215
+    },
+    {
+      "path": "90_歷史報告/報告/陳韋豪_策略研究說明_互動圖解版_v3_2026-10-14.md",
+      "bytes": 13163
+    },
+    {
+      "path": "90_歷史報告/報告/陳韋豪_策略研究說明_組員閱讀版_v2_2026-10-14.html",
+      "bytes": 14727
+    },
+    {
+      "path": "90_歷史報告/報告/陳韋豪_策略研究說明_組員閱讀版_v2_2026-10-14.md",
+      "bytes": 11257
+    },
+    {
+      "path": "99_維護與備份/README.md",
+      "bytes": 437
+    },
+    {
+      "path": "99_維護與備份/工具/README.md",
+      "bytes": 115
+    },
+    {
+      "path": "99_維護與備份/工具/完成整理紀錄.py",
+      "bytes": 4746
+    },
+    {
+      "path": "99_維護與備份/工具/整理資料夾.py",
+      "bytes": 21813
+    },
+    {
+      "path": "99_維護與備份/工具/研究路徑.py",
+      "bytes": 2249
+    },
+    {
+      "path": "99_維護與備份/工具/驗證整理.py",
+      "bytes": 3652
+    },
+    {
+      "path": "99_維護與備份/整理前完整檔案_2026-10-19.zip",
+      "bytes": 288197081
+    },
+    {
+      "path": "99_維護與備份/歷史版面/README.md",
+      "bytes": 121
+    },
+    {
+      "path": "99_維護與備份/歷史版面/策略研究_對大盤勝率與超額報酬_v50_2026-10-19_對齊912前_2026-10-19.html",
+      "bytes": 5869954
+    },
+    {
+      "path": "99_維護與備份/歷史版面/策略研究_對大盤勝率與超額報酬_v50_2026-10-19_對齊912前_2026-10-19.md",
+      "bytes": 3040
+    },
+    {
+      "path": "99_維護與備份/歷史版面/策略研究_對大盤勝率與超額報酬_v50_2026-10-19_整理前_2026-10-19.html",
+      "bytes": 5283695
+    },
+    {
+      "path": "99_維護與備份/歷史版面/策略研究_對大盤勝率與超額報酬_v50_2026-10-19_整理前_2026-10-19.md",
+      "bytes": 14487
+    },
+    {
+      "path": "99_維護與備份/歷史版面/策略研究_總結報告_對齊912前_2026-10-19.html",
+      "bytes": 5869954
+    },
+    {
+      "path": "99_維護與備份/歷史版面/策略研究_總結報告_對齊912前_2026-10-19.md",
+      "bytes": 3040
+    },
+    {
+      "path": "99_維護與備份/歷史版面/策略研究_總結報告_整理前_2026-10-19.html",
+      "bytes": 10061288
+    },
+    {
+      "path": "99_維護與備份/歷史版面/策略研究_總結報告_整理前_2026-10-19.md",
+      "bytes": 19865
+    },
+    {
+      "path": "99_維護與備份/舊壓縮檔/README.md",
+      "bytes": 121
+    },
+    {
+      "path": "99_維護與備份/舊壓縮檔/景氣來源稽核_ndc_history_v29_2026-10-16.zip",
+      "bytes": 71400
+    },
+    {
+      "path": "README.md",
+      "bytes": 3312
+    },
+    {
+      "path": "團隊資料/AI_CUP_2026_比賽說明與準備計畫.md",
+      "bytes": 21306
+    },
+    {
+      "path": "團隊資料/DB結構與資料摘要_2026-10-13.json",
+      "bytes": 35908
+    },
+    {
+      "path": "團隊資料/README.md",
+      "bytes": 148
+    },
+    {
+      "path": "團隊資料/歸檔與DB差異查核_2026-10-13.md",
+      "bytes": 6163
+    },
+    {
+      "path": "官方文件/AI CUP 2026玉山人工智慧公開挑戰賽_比賽辦法_1005更新.pdf",
+      "bytes": 437672
+    },
+    {
+      "path": "官方文件/D-Plan.schema_v4.2.json",
+      "bytes": 17504
+    },
+    {
+      "path": "官方文件/D-Plan.schema_v4.3.json",
+      "bytes": 17134
+    },
+    {
+      "path": "官方文件/D-Plan_TEAM_042_2026-10-27.json",
+      "bytes": 7845
+    },
+    {
+      "path": "官方文件/D-Plan_TEAM_042_2026-10-28.json",
+      "bytes": 7582
+    },
+    {
+      "path": "官方文件/D-Plan_TEAM_043_2026-10-27.json",
+      "bytes": 7957
+    },
+    {
+      "path": "官方文件/D-Plan_TEAM_043_2026-10-28.json",
+      "bytes": 7747
+    },
+    {
+      "path": "官方文件/D-Plan_撰寫指南_v4.2.md",
+      "bytes": 15129
+    },
+    {
+      "path": "官方文件/D-Plan_撰寫指南_v4.3.md",
+      "bytes": 14308
+    },
+    {
+      "path": "官方文件/DataPack_規格書_v4.3.md",
+      "bytes": 12197
+    },
+    {
+      "path": "官方文件/Google_Cloud_Skills_Boost_帳號建立指南_官方連結匯出_2026-10-09.pdf",
+      "bytes": 567128
+    },
+    {
+      "path": "官方文件/Official_page_snapshot_2026-10-09.md",
+      "bytes": 6362
+    },
+    {
+      "path": "官方文件/README.md",
+      "bytes": 175
+    },
+    {
+      "path": "官方文件/SHA256SUMS_2026-10-09.txt",
+      "bytes": 1424
+    },
+    {
+      "path": "官方文件/其他歸檔/公司行動修正_來源_cwtc2017_v14_2026-10-15.pdf",
+      "bytes": 3504700
+    },
+    {
+      "path": "官方文件/其他歸檔/公司行動修正_來源_tpex_mark_rule_v14_2026-10-15.pdf",
+      "bytes": 307738
+    },
+    {
+      "path": "官方文件/其他歸檔/公司行動修正_來源_uisco2018_v14_2026-10-15.pdf",
+      "bytes": 2502075
+    },
+    {
+      "path": "官方文件/官方資料更新索引_2026-10-13.md",
+      "bytes": 2020
+    },
+    {
+      "path": "官方文件/官方資料索引_2026-10-09.md",
+      "bytes": 8331
+    },
+    {
+      "path": "官方文件/官方頁原始資料_2026-10-09.json",
+      "bytes": 223641
+    },
+    {
+      "path": "官方文件/官方頁資料_2026-10-13.json",
+      "bytes": 11799
+    },
+    {
+      "path": "官方文件/玉山挑戰賽_ETF投資策略說明文件_參賽隊伍繳交格式_v1.docx",
+      "bytes": 18043
+    },
+    {
+      "path": "官方文件/玉山挑戰賽_ETF投資策略說明文件_範例文件_v1.pdf",
+      "bytes": 96434
+    },
+    {
+      "path": "官方文件/玉山挑戰賽_Google Token Credit領取方式_v1.pdf",
+      "bytes": 332841
+    },
+    {
+      "path": "官方文件/玉山挑戰賽_主動型ETF列表_v1.pdf",
+      "bytes": 66168
+    },
+    {
+      "path": "官方文件/玉山挑戰賽_投資組合及交易標的_150檔清單_v1.pdf",
+      "bytes": 131318
+    },
+    {
+      "path": "發布網站/README.md",
+      "bytes": 151
+    },
+    {
+      "path": "發布網站/strategy-review-v3/dist/index.html",
+      "bytes": 3300215
+    },
+    {
+      "path": "發布網站/strategy-review-v3/README.md",
+      "bytes": 677
+    },
+    {
+      "path": "研究資料_整理索引.html",
+      "bytes": 168372
+    },
+    {
+      "path": "策略研究_對大盤勝率與超額報酬_v50_2026-10-19.html",
+      "bytes": 5846711
+    },
+    {
+      "path": "策略研究_總結報告.html",
+      "bytes": 5846711
+    },
+    {
+      "path": "類似競賽研究/README.md",
+      "bytes": 333
+    },
+    {
+      "path": "類似競賽研究/下載公開來源.py",
+      "bytes": 1490
+    },
+    {
+      "path": "類似競賽研究/下載結果_2026-10-13.json",
+      "bytes": 11309
+    },
+    {
+      "path": "類似競賽研究/來源下載清單_2026-10-13.json",
+      "bytes": 5150
+    },
+    {
+      "path": "類似競賽研究/來源索引_2026-10-13.md",
+      "bytes": 16435
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/ALGOGENE/atckr23_2026-10-13.html",
+      "bytes": 84207
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/AlphaArena/nof1_home_2026-10-13.html",
+      "bytes": 133526
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Bloomberg/2024_GTC_Introduction_2026-10-13.pdf",
+      "bytes": 97580
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Bloomberg/CUHK_2025_winner_2026-10-13.html",
+      "bytes": 158248
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Bloomberg/official_dates_2026-10-13.html",
+      "bytes": 11168
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Bloomberg/RIT_2024_winner_2026-10-13.html",
+      "bytes": 93108
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Bloomberg/USF_2025_strategy_2026-10-13.html",
+      "bytes": 70407
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/FinRL/2502.01992v1_2026-10-13.html",
+      "bytes": 60544
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/FinRL/2502.01992v1_2026-10-13.pdf",
+      "bytes": 1344385
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/FinRL/entry_README_2026-10-13.md",
+      "bytes": 961
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/FinRL/official_2026-10-13.html",
+      "bytes": 26727
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/FinRL/official_README_2026-10-13.md",
+      "bytes": 7483
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/FinRL/task2_eval_2026-10-13.py",
+      "bytes": 7354
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/QuantConnect/PMH_Q1_2025_2026-10-13.html",
+      "bytes": 430629
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/QuantConnect/Q3_result_2026-10-13.html",
+      "bytes": 157220
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Wharton/2025_results_2026-10-13.html",
+      "bytes": 333091
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Wharton/faq_2026-10-13.html",
+      "bytes": 336975
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Wharton/overview_2026-10-13.html",
+      "bytes": 336714
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/Wharton/rules_2026-10-13.html",
+      "bytes": 335659
+    },
+    {
+      "path": "類似競賽研究/公開原始資料/南臺/2025_競賽簡章與辦法_2026-10-13.pdf",
+      "bytes": 250742
+    },
+    {
+      "path": "類似競賽研究/類似競賽與短期策略研究_2026-10-13_v1.md",
+      "bytes": 29634
+    }
+  ],
+  "physical_layout_date": "2026-10-19",
+  "mapping_file": "00_導覽/檔案搬移對照.json",
+  "file_count_before_migration": 470,
+  "bytes_before_migration": 666355834,
+  "file_count_after_migration_including_readmes_and_backup": 505,
+  "active_files_may_change_after_inventory": [
+    "04_Notebook/*.ipynb",
+    "05_研究管理/定義與狀態/A策略_無人值守研究狀態.json",
+    "00_導覽/*.json"
+  ],
+  "github_export_note": "Original local inventory/provenance; current uploaded file set is EXPORT_MANIFEST.json. Some local paths intentionally unavailable in this export."
+}

@@ -1,0 +1,81 @@
+{
+  "version": "v30_long_environment",
+  "years": [
+    2016,
+    2025
+  ],
+  "strategies": "20/60 half momentum vs pure institutional20 netbuy/volume; same25,equal90%,5day,24days,lots1000 and old fees",
+  "stage": "defined_ready",
+  "reuse": "v27 P90 momentum results; reconstruct adjustedreturn arrays for regime and prospective flow only",
+  "pool": "current150 with conservative current-market listeddate gate,not historical official150",
+  "cutoff": "start-1;20day features",
+  "volatility_threshold": "training feature median using windows ending<=2018-12-31;2019..2025 later retrospective not unseen;also oldv29 threshold sensitivity",
+  "coverage_change_predeclared": "main >=80% of then-listed current150 with floor50;fixed120 v29 rule sensitivity;needed to avoid silently counting prelisting quotes",
+  "unknown_actions": "samev27 badflags and knownpurecash repairs;no fabricated stockdiv/capitalaction",
+  "flow": "must acquire adequate complete150 crosssection;missing not zero;no fabricated earlier teamDB;no purchases/access bypass",
+  "no_macro_claim": "economic lights/PMI not inferred from prices",
+  "not_full_recent_A": "earlyinstitutionalqualitygate unavailable in v27 price-only momentum",
+  "institutional_signal": "20day sum(Foreign_Investor+Investment_Trust netshares)/20day sumvolume; percentile",
+  "both_share_flow_quality_gate": true,
+  "cross_source": {
+    "compared_stockdays": 78459,
+    "netshares_match_within1": 0.999987254489606,
+    "signal": "Foreign_Investor + Investment_Trust only; excludes dealer; foreigndealer split2017/18 changes historical category meaning",
+    "source": "https://finmind.github.io/en/tutor/TaiwanMarket/Chip/"
+  },
+  "price_control_checks": [
+    {
+      "index": 0,
+      "matched": true
+    },
+    {
+      "index": 180,
+      "matched": true
+    },
+    {
+      "index": 400,
+      "matched": true
+    },
+    {
+      "index": 650,
+      "matched": true
+    },
+    {
+      "index": 900,
+      "matched": true
+    },
+    {
+      "index": 1150,
+      "matched": true
+    },
+    {
+      "index": 1400,
+      "matched": true
+    },
+    {
+      "index": 1700,
+      "matched": true
+    },
+    {
+      "index": 2000,
+      "matched": true
+    },
+    {
+      "index": 2235,
+      "matched": true
+    }
+  ],
+  "raw_v27_filename_mismatch": "動能_2016至2025現金比例逐窗口_v26_2027-10-15.json",
+  "volatility_threshold_locked": 0.0071535918577962715,
+  "calibration_feature_windows": 535,
+  "one_hypothesis": "start-only choose FLOW if lowvol<=threshold else MOM;selected family fixed for24day with its original5day reselect;not daily switch",
+  "inference_family": "3 environment interactions plus 2 switch-minus-MOM/FLOW contrasts =5;Bonferroni5;24/48position3000boot;year/cost/downsidecheck;allseenretrospective",
+  "switch_evaluation": "2019..2025 primary;2016..2018 calibration descriptive;no globally best threshold search",
+  "fixed120_sensitivity": "same return pairs,only feature coverage constraint;do not substitute zero",
+  "old_v29_threshold": "0.007943392407260884 sensitivity only;not known2016",
+  "no_new_daily_timing_or_holdings_rule": true,
+  "snapshot_sha256": {
+    "price_current150_cache": "ea800cb5f3c11893db177adcb406bd134f341eb26e0fdf55b0550edf81094e86",
+    "flow_current150_cache": "f4b2e03d369e809ca06b6b11bdac6fcec83ee505e71fad055825391c06c97338"
+  }
+}

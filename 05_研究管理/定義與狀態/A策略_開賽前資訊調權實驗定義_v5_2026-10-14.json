@@ -1,0 +1,29 @@
+{
+  "definition": {
+    "experiment_key": "A_formal_operating_prestart_v5",
+    "stock_selection": "same A previous-session 20/60 momentum,25 stocks,every5 sessions",
+    "signal": "latest verified cumulative financial period at window start08:55, derive single Q2/Q1 or Q3/Q2 operating margins",
+    "threshold_pp": 1.0,
+    "multiplier": "1+0.25*sign; positive if delta>=1,negative if<=-1,otherwise0",
+    "unknown": "multiplier1; not bearish; record coverage separately",
+    "newer_unparsed_or_correction": "multiplier1 pending period/scope verification",
+    "freeze": "all150 numerical evidence fixed at window start; subsequent selected stocks use that prestart evidence, no new announcement update",
+    "investment": 0.9,
+    "horizon": 24,
+    "rebalance": 5,
+    "lot": 1000,
+    "fee": 0.001425,
+    "sell_tax": 0.003,
+    "engine": "v4 exact corporate action overlay,tradable nav orders,AUM return,unpaid receivables not tradeable",
+    "controls": [
+      "A_equal_v4",
+      "A_mild_v4",
+      "A_mild_tolerance_v4"
+    ],
+    "family": "new standalone candidate and prior14 nonA; at least15 comparisons, not isolated unadjusted significance",
+    "same_season": "only2024-10-29 and2025-10-28; insufficient for stable seasonal inference",
+    "scope_limit": "formal operating-only subexperiment; revenue/self/conference numeric and LLM remain pending, not all-announcement model",
+    "no_tuning": true
+  },
+  "sha256": "3b41f3a1fb3dec3d212ae9b2212d8547b2a7806d56bfa9d3a902ef0ec65d6344"
+}

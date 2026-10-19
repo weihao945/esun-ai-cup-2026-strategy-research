@@ -1,0 +1,24 @@
+{
+  "purpose": "testdontleavecashacrosslonghistorynotonlyrecentbullsample",
+  "data": "existingFinMindprice2016-07-01..2025-12-31+dividends/globalactioncaches;noIOrequests",
+  "universe": "current150fixedhistorically,notPIT;188columnsbut150poolonly",
+  "selection": "price-only20/60half;prior60price/actionand20volumegates;noinstitutionaldataavailablehistorically,notfullA",
+  "methods": [
+    0.8,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "fixed": "25target,equal,5dayadjust,24dayfreshcapitalwindows,1e9,lots1000,fee.001425tax.003",
+  "events": "reusev14cashonlyreceivable;unknownnoncash/paidactionsinvalidwhileheld;badpasteligibilityfixed;verified2404stopmarkonly2018-11-29..12-07rawquotemissing",
+  "primary": "allcalendar24dayrolling;80/90/95exactcommondata+constraintvalid;100ownvaliddiagnosticnotdropmainmask;annualOctcasescontrolverify",
+  "diagnostics": "startyeargroups,startmonthgroups,worstwindows,24nonoverlapstartphases;nofuturemarketlabelintrading",
+  "inference": "3primaryexcesspairsBonferroni3,24/48positionblockbootstrap5000;overlapnotiid;yearconsistencynotjustpooledmean",
+  "cash_limits": "nocashnegative,cash<25%,20..30held,caps2330 .25others .1five-sessiongrace;ActiveShareunverified",
+  "no_change_after_results": "noadditionalcashgrid,noLLM,noadaptivestop,no100resizingafterexecution",
+  "snapshot_sources": [
+    "外部歷史研究_獨立歷史快取_v12_2026-10-15.json.gz",
+    "完整150檔研究_新增上櫃快取_v13_2026-10-15.json.gz"
+  ],
+  "limits": "currentpoolbias,corporateactionexclusions,provideraggregateVWAPnotcertifiedDataPack,short24daywindowsnottenyearcontinuouslyreinvestedaccount"
+}

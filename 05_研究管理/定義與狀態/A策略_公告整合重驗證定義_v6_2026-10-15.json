@@ -1,0 +1,14 @@
+{
+  "change": "source typing and explicit single/cumulative quarter integration; not new weights",
+  "selection": "same A25 every5days,24days,90pct,1000share,fees unchanged",
+  "weights": "existing1+.25sign with +/-1pp operating-margin threshold; existing combined .5mild+.25financial+.25revenue",
+  "timing": "all information frozen start08:55; no subsequent announcements used",
+  "unknown": "neutral multiplier1; unresolved corrections and quarterly originals remain neutral",
+  "monthly": "supplement only; never substitute net income or EPS for operating profit",
+  "quarters": "Q2/Q1 orQ3/Q2 in same fiscal year, unchanged",
+  "family": 26,
+  "family_reason": "v5 conservative24 plus2 updated source versions; no tuning to returns",
+  "LLM": "deferred by user",
+  "raw_snapshot_sha256": "1b826aa999a02664f43ff9c48a77259881901d8b8399c6ee85ebc275af7ea0e2",
+  "action_overlay_sha256": "8bb5bfe637f07f34048de1d9881745553c7692c7dded33026bbbe7a8d9999cc6"
+}

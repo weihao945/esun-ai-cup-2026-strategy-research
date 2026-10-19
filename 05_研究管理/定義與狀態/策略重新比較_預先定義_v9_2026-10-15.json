@@ -1,0 +1,56 @@
+{
+  "version": "v9",
+  "date": "2026-10-15",
+  "status": "frozen_before_new_results",
+  "reason": "user replaces fixed25 requirement; compare signal weights and allow exclusion/inclusion",
+  "rule_source": "saved official 1005 PDF and D-Plan v4.3; live website403 on2026-10-15, no assertion latest",
+  "official_constraints": {
+    "universe": 150,
+    "held_min": 20,
+    "held_max": 30,
+    "cap_2330": 0.25,
+    "cap_other": 0.1,
+    "cash": "0<=cash/nav<.25",
+    "lot": 1000,
+    "active_share": "15largest,15pct; historical benchmark unavailable: not certified",
+    "drift": "retained simplified five-day grace; official semantics not fully certified"
+  },
+  "unchanged": {
+    "horizon": 24,
+    "rebalance": 5,
+    "invested": 0.9,
+    "fee": 0.001425,
+    "sell_tax": 0.003,
+    "corporate_actions": "v7 repaired cache;12unmodeled subscription events excluded",
+    "LLM": false
+  },
+  "signal_components": [
+    "A",
+    "PURE_FLOW",
+    "PURE_LOWVOL",
+    "PURE_FINANCIAL",
+    "PURE_REVENUE"
+  ],
+  "signal_weight_grid": "five pure; A/nonA mixtures A fraction .25,.5,.75 for each of4 nonA =>17; percentile component scales inherited; no post-result fine search",
+  "missing_signal": "if any positively weighted component unknown exclude that stock; no missing-as-bad assumption or zero imputation; insufficient20 invalid",
+  "count_grid": [
+    20,
+    25,
+    30,
+    "adaptive20to30"
+  ],
+  "adaptive_rule": "count finite composite scores>=.8, clip20..30; select topcount; .8 frozen research threshold, not claimed optimal",
+  "allocation_grid": [
+    "equal",
+    "conviction"
+  ],
+  "conviction_rule": "raw exp(8*(composite_score-.5)); proportional cap redistribution at25pct2330/10pctothers; no entitlement to overweight2330; selected target can become0shares after lots =>20min compliance checked",
+  "trade_rule": "all new cells retained positions delta<=.005 previous tradableNAV skipped; entries/exits not skipped; zero target for excluded names; final actual heldcount20..30 daily required",
+  "total_candidates": 136,
+  "reference": "saved v7 A_equal and A_mild_tolerance, no rerun unchanged methods",
+  "evaluation": "all650 retained; historical descriptive grid not winner selection; walkforward2025/2026 selects from enddate<Jan1 testyear with>=100 trainpaired and>=80pct baseline available training coverage; risk P10 and medianMDD no worse1pp; maximize paired train mean, then lower turnover then lexical ID; train/test price horizon purged",
+  "selection_safety": "training objective uses same-date candidate-minus-A; test selection cannot use test outcomes; candidate gaps during test not silently switched; coverage and test exclusions separately reported",
+  "inference": "24/48 position blocks,5000reps,family183=46 prior+136 new+1adaptive selection pipeline; retrospective heldout-year protocol, not pristine unseen data",
+  "seasonality": "separate walkforward index diagnostic using prior years only; historical individual classifications unavailable so industry stock-selection component pending, not silently replaced by current labels",
+  "no_other_changes": "no DPlan/submission, no operations rehearsal, no automation activation, no new project/repo; reuse retained caches"
+}

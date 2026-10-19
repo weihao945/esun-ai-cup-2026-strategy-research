@@ -1,0 +1,113 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>陳韋豪｜策略研究與團隊討論 v1</title><style>body{margin:0;background:#eff3f6;color:#233548;font:17px/1.85 system-ui,"Microsoft JhengHei",sans-serif}main{max-width:1120px;margin:32px auto;background:white;padding:44px;border-radius:20px;box-shadow:0 8px 35px #1832490a}h1{font-size:34px;color:#153b51;line-height:1.4}h2{margin-top:46px;padding-top:20px;border-top:2px solid #e9eff3;font-size:25px;color:#166876}p,li{max-width:1000px}li{margin:9px 0}table{border-collapse:collapse;width:100%;font-size:15px}th,td{padding:12px 14px;text-align:left;vertical-align:top;border-bottom:1px solid #dfe7ed}th{background:#eaf2f5;white-space:nowrap}td{overflow-wrap:anywhere}tr:nth-child(even){background:#f8fafb}.tablewrap{overflow:auto;margin:20px 0}figure{background:#f5f9fb;border:1px solid #dce7ed;border-radius:12px;margin:24px 0;padding:14px}svg{width:100%;height:auto;display:block}.chartlabel{font-size:16px;fill:#30495e}.charttitle{font-size:23px;font-weight:700;fill:#173e55}figcaption{font-size:14px;color:#607588;margin:8px}.banner{background:#153b51;color:#fff;padding:22px;border-radius:12px;margin:20px 0}.banner strong{font-size:22px}.badge{display:inline-block;background:#e5f2ee;color:#22685d;padding:4px 12px;border-radius:18px;font-size:14px}button{padding:10px 18px;border:1px solid #c3d6df;background:#fff;color:#215568;border-radius:8px;cursor:pointer}code{background:#eff3f5;padding:2px 5px}@media(max-width:700px){main{margin:0;padding:22px;border-radius:0}h1{font-size:28px}body{font-size:16px}}@media print{body{background:#fff}main{margin:0;box-shadow:none;padding:0;max-width:none}button{display:none}h2{break-after:avoid}tr,figure{break-inside:avoid}.tablewrap{overflow:visible}table{font-size:11px}td:last-child{word-break:break-word}}</style></head><body><main><span class="badge">小組會議討論版 · 不是官方交件</span><div class="banner"><strong>先保留簡單基準，再判斷新增資訊是否有幫助。</strong><br>有研究成果；尚未證實最佳策略。單一HTML內含摘要、方法與比較圖，可直接分享。</div><button onclick="window.print()">列印／另存 PDF</button><h1>陳韋豪｜策略研究與團隊討論 v1</h1>
+<p>整理日期：2026-10-14。資料凍結／讀取時間：2026-10-14 21:20:27 +08:00。</p>
+<p>用途：下次小組會議比較與整合；這是研究摘要與決策設計材料，不是官方ETF策略交件，也不是已能上場的完整Agent。以既有v4、v5及公告查核成果摘錄，沒有新增回測或調參。</p>
+<h2>先看結論</h2>
+<ul>
+<li>已研究15種廣泛窗口方法，另有6種僅兩年同季的公告原型，以及3種v5開賽前資訊調權變體；樣本、版本及比較條件不同，不能當成24種同等成熟的策略。</li>
+<li>目前沒有方法通過完整改良門檻，尚未證實某方法最佳。保留A動能等權作比較基準；A溫和動能＋小額調整略過可作非等權研究候選，尚非團隊定案。</li>
+<li>v5財務、營收及組合調權均未證實優於A。兩個歷年同季起點的好結果不代表普遍有效。</li>
+<li>公告原文判讀已有案例及資料擷取查核；尚未完成完整LLM公告調權績效驗證，也未完成官賽合規與交件驗證。</li>
+</ul>
+<h2>1. 我想解決什麼問題</h2>
+<p>在約24個交易日的競賽中，先用可重現的資料規則選股，再研究買進多少、多久調整一次，以及加入法人、低波動、財報、營收或公告是否真的有幫助。重點是把可解釋的決策規則交給Agent，而不是每天由人指定股票。</p>
+<p>這份報告呈現歷史研究，不是2026當前買股清單或獲利預測。官方賽期與執行規則仍以最新官方文件為準。</p>
+<h2>2. 已做的方法，白話怎麼理解</h2>
+<div class="tablewrap"><table><thead><tr><th>類別</th><th>已做的方法</th><th>要回答的問題</th></tr></thead><tbody>
+<tr><td>參考與基準</td><td>REF流動性等權靜態；A動能等權</td><td>簡單持有能做到什麼？近期較強的股票是否值得追蹤？</td></tr>
+<tr><td>選股條件</td><td>B動能＋法人；C動能＋低波動</td><td>資金動向或較低波動，能否改善動能選股？</td></tr>
+<tr><td>換股頻率</td><td>AH、BH持有24日不換股</td><td>換股帶來的改善，是否足以支付成本？</td></tr>
+<tr><td>A配置變體</td><td>溫和動能、等權／逆波動各半、100%逆波動、溫和動能＋小額略過</td><td>選同樣股票時，怎麼分配金額與減少微調？</td></tr>
+<tr><td>獨立選股對照</td><td>五日反轉、純法人、純低波動、純財務、純營收</td><td>單靠這些資訊，是否比A更有幫助？</td></tr>
+<tr><td>開賽前資訊調權</td><td>6種兩年同季公告原型；3種v5財務／營收／組合變體</td><td>選股維持A，只改權重，是否能利用開賽前已知資訊？</td></tr>
+</tbody></table></div>
+<p>前五列共15種廣泛窗口方法（含A控制），不是每種都有650個有效窗口。A有535個有效窗口；重疊窗口不能當成535次獨立實驗。較早初版、v3、v4不能混用數字。</p>
+<h2>3. A基準與目前候選規則</h2>
+<div class="tablewrap"><table><thead><tr><th>步驟</th><th>研究中採用的規則</th></tr></thead><tbody>
+<tr><td>資料範圍</td><td>沿用目前官方150檔名單回看歷史，並套既有資料完整性與公司行動排除條件；有歷史名單偏誤</td></tr>
+<tr><td>選股</td><td>用前一交易日已知的20日、60日調整後報酬，分別做股票間排名後平均；選前25檔，同分按代碼排序</td></tr>
+<tr><td>A控制配置</td><td>目標投入90%，25檔等權，每檔目標3.6%</td></tr>
+<tr><td>非等權候選</td><td>按動能排名溫和配置，初始目標由4.5%遞減至2.7%；既有小額略過版本門檻為0.5%NAV，正式規則仍須核對引擎細節</td></tr>
+<tr><td>調整與期限</td><td>每5個交易日檢查／調整；各窗口持續24個交易日；AH／BH為不換股對照</td></tr>
+<tr><td>交易模型</td><td>整千股、當日均價成交、買賣費各0.1425%、賣出稅0.3%，期末不假設全部賣出</td></tr>
+</tbody></table></div>
+<p>以上是研究固定條件，不代表最優參數，也不代表實際每日持股比例必然恰等於目標。</p>
+<h2>4. v4比較：目前能說什麼</h2>
+<p>最值得帶到會議的訊息是：增加訊號或複雜配置不一定改善費用後結果。要在相同日期比較候選與A，不能跨不同有效日期按中位數選冠軍。</p>
+<ul>
+<li>B動能＋法人平均相對A約+0.079百分點；家族校正區間含零，未證實改良。</li>
+<li>A溫和動能＋小額略過平均相對A約+0.161百分點；24位置家族區間約−0.095～+0.450百分點，仍含零。2026平均差約−0.082百分點、較晚段約−0.144百分點。</li>
+<li>短期反轉在本輪平均差與成本表現不利；這是此組規則、資料和引擎的觀察，不能推論所有反轉策略都無效。</li>
+<li>原研究以24／48位置區塊及多重比較校正處理不確定性；沒有真正未看過的測試集。</li>
+</ul>
+<div class="tablewrap"><table><thead><tr><th>方法</th><th>同日期A窗口</th><th>平均相對A差（百分點）</th><th>平均成本</th></tr></thead><tbody>
+<tr><td>流動性等權靜態參考</td><td>500</td><td>-0.242</td><td>0.127%</td></tr>
+<tr><td>B：動能＋法人選股</td><td>532</td><td>+0.079</td><td>0.808%</td></tr>
+<tr><td>C：動能＋低波動選股</td><td>513</td><td>-0.593</td><td>0.869%</td></tr>
+<tr><td>AH：A持有24日不換股</td><td>531</td><td>+0.290</td><td>0.127%</td></tr>
+<tr><td>BH：B持有24日不換股</td><td>525</td><td>+0.247</td><td>0.127%</td></tr>
+<tr><td>A：溫和動能排序配置</td><td>535</td><td>+0.100</td><td>0.760%</td></tr>
+<tr><td>A：等權／逆波動各半配置</td><td>535</td><td>-0.178</td><td>0.834%</td></tr>
+<tr><td>A：溫和動能＋0.5%NAV小額調整略過</td><td>535</td><td>+0.161</td><td>0.733%</td></tr>
+<tr><td>五日短期反轉選股</td><td>457</td><td>-2.227</td><td>1.931%</td></tr>
+<tr><td>純法人20日選股</td><td>489</td><td>-1.545</td><td>0.741%</td></tr>
+<tr><td>純20日低波動選股</td><td>523</td><td>-4.246</td><td>0.443%</td></tr>
+<tr><td>A：100%逆波動原始配置（仍受1.8%–5.4%界限）</td><td>535</td><td>-0.327</td><td>0.873%</td></tr>
+<tr><td>純財務：單季本業利益率改善選股原型</td><td>158</td><td>-0.254</td><td>0.312%</td></tr>
+<tr><td>純營收：MoM／YoY百分位各半選股原型</td><td>387</td><td>-0.320</td><td>0.482%</td></tr>
+</tbody></table></div>
+<p>百分點是兩個報酬率的差：5.0%與4.8%相差0.2百分點。上表為各方法與A各自共同日期上的平均差；平均成本亦按原表口徑，不能把這張表當同一完整樣本的總排名。原v4為14個非A方法的比較家族；v5另擴大為23個比較，校正範圍不同。</p>
+<h2>5. v5新增：開賽前財務與營收調權</h2>
+<figure><svg viewBox="0 0 1020 465" role="img" aria-label="v4：精選方法相對A的差異（百分點）"><title>v4：精選方法相對A的差異（百分點）</title><text x="22" y="30" class="charttitle">v4：精選方法相對A的差異（百分點）</text><line x1="616.0" x2="616.0" y1="50" y2="420" stroke="#899baa" stroke-dasharray="5 5"/><text x="22" y="80" class="chartlabel">B｜動能＋法人</text><g><title>B｜動能＋法人：平均差+0.079百分點；區間-0.646～+0.784百分點</title><line x1="482.924" x2="777.504" y1="75" y2="75" stroke="#207780" stroke-width="5"/><circle cx="632.274" cy="75" r="7" fill="#207780"/><text x="945" y="80" class="chartlabel">+0.079</text></g><text x="22" y="144" class="chartlabel">AH｜持有不換股</text><g><title>AH｜持有不換股：平均差+0.290百分點；區間-0.881～+1.428百分點</title><line x1="434.514" x2="910.1679999999999" y1="139" y2="139" stroke="#207780" stroke-width="5"/><circle cx="675.74" cy="139" r="7" fill="#207780"/><text x="945" y="144" class="chartlabel">+0.290</text></g><text x="22" y="208" class="chartlabel">A｜溫和動能配置</text><g><title>A｜溫和動能配置：平均差+0.100百分點；區間-0.192～+0.394百分點</title><line x1="576.4480000000001" x2="697.164" y1="203" y2="203" stroke="#207780" stroke-width="5"/><circle cx="636.6" cy="203" r="7" fill="#207780"/><text x="945" y="208" class="chartlabel">+0.100</text></g><text x="22" y="272" class="chartlabel">A｜等權／逆波動各半</text><g><title>A｜等權／逆波動各半：平均差-0.178百分點；區間-0.443～+0.175百分點</title><line x1="524.742" x2="652.05" y1="267" y2="267" stroke="#b45b48" stroke-width="5"/><circle cx="579.332" cy="267" r="7" fill="#b45b48"/><text x="945" y="272" class="chartlabel">-0.178</text></g><text x="22" y="336" class="chartlabel">A｜溫和動能＋小額略過</text><g><title>A｜溫和動能＋小額略過：平均差+0.161百分點；區間-0.095～+0.450百分點</title><line x1="596.4300000000001" x2="708.7" y1="331" y2="331" stroke="#207780" stroke-width="5"/><circle cx="649.166" cy="331" r="7" fill="#207780"/><text x="945" y="336" class="chartlabel">+0.161</text></g><text x="410.0" y="453" text-anchor="middle" class="chartlabel">-1.00 pp</text><text x="616.0" y="453" text-anchor="middle" class="chartlabel">+0.00 pp</text><text x="925.0" y="453" text-anchor="middle" class="chartlabel">+1.50 pp</text></svg><figcaption>圓點＝費用後平均相對A差；橫線＝24位置區塊家族校正區間。跨過0，表示尚不能確認改良。不同圖的校正家族不同。</figcaption></figure>
+<p>選股、24交易日、每5日調整及交易成本沿用A；差別是把當次窗口開賽前可用的資訊凍結，之後不用新公告更新這組訊號。未知資料保持中性，不當利空。</p>
+<div class="tablewrap"><table><thead><tr><th>變體</th><th>如何改配置</th></tr></thead><tbody>
+<tr><td>正式財務</td><td>以可核對單季本業利益率變化達±1百分點作方向，權重倍率1±0.25後正規化到90%；較新未解析或更正資訊保持中性</td></tr>
+<tr><td>營收</td><td>當時可用、45日內且月份落後1～2月的MoM／YoY同向訊號，以既有倍率調權；缺資料中性</td></tr>
+<tr><td>組合</td><td>50%溫和動能配置＋25%正式財務配置＋25%營收配置，沒有新增倍率搜尋</td></tr>
+</tbody></table></div>
+<div class="tablewrap"><table><thead><tr><th>v5方法</th><th>同日期窗口</th><th>平均相對A差（百分點）</th><th>24位置校正區間（百分點）</th><th>2026平均差（百分點）</th><th>結論</th></tr></thead><tbody>
+<tr><td>開賽前正式財務調權</td><td>535</td><td>+0.018</td><td>-0.077～+0.148</td><td>-0.076</td><td>未證實改良</td></tr>
+<tr><td>開賽前營收調權</td><td>535</td><td>-0.027</td><td>-0.152～+0.078</td><td>+0.004</td><td>未證實改良</td></tr>
+<tr><td>動能／財務／營收組合調權</td><td>535</td><td>+0.071</td><td>-0.084～+0.219</td><td>-0.065</td><td>未證實改良</td></tr>
+</tbody></table></div>
+<p>三種都沒有通過改良認定。正式財務與組合方法在2024、2025兩個同季起點較A好，但全期／2026結果不一致，不能只挑兩個點宣稱有效。財務、營收、自結、更正與法說的覆蓋仍有限；這不是完整公告或LLM模型。</p>
+<h2>6. 讀公告後，我學到的事</h2>
+<figure><svg viewBox="0 0 1020 337" role="img" aria-label="v5：開賽前資訊調權相對A的差異（百分點）"><title>v5：開賽前資訊調權相對A的差異（百分點）</title><text x="22" y="30" class="charttitle">v5：開賽前資訊調權相對A的差異（百分點）</text><line x1="638.8888888888889" x2="638.8888888888889" y1="50" y2="292" stroke="#899baa" stroke-dasharray="5 5"/><text x="22" y="80" class="chartlabel">開賽前正式財務調權</text><g><title>開賽前正式財務調權：平均差+0.018百分點；區間-0.077～+0.148百分點</title><line x1="551.1177376540963" x2="807.7192688731402" y1="75" y2="75" stroke="#207780" stroke-width="5"/><circle cx="659.8927423846549" cy="75" r="7" fill="#207780"/><text x="945" y="80" class="chartlabel">+0.018</text></g><text x="22" y="144" class="chartlabel">開賽前營收調權</text><g><title>開賽前營收調權：平均差-0.027百分點；區間-0.152～+0.078百分點</title><line x1="464.878540128297" x2="727.7649965990399" y1="139" y2="139" stroke="#b45b48" stroke-width="5"/><circle cx="607.4243007685682" cy="139" r="7" fill="#b45b48"/><text x="945" y="144" class="chartlabel">-0.027</text></g><text x="22" y="208" class="chartlabel">動能／財務／營收組合調權</text><g><title>動能／財務／營收組合調權：平均差+0.071百分點；區間-0.084～+0.219百分點</title><line x1="542.2637913218266" x2="889.0534518612917" y1="203" y2="203" stroke="#207780" stroke-width="5"/><circle cx="719.6727204878889" cy="203" r="7" fill="#207780"/><text x="945" y="208" class="chartlabel">+0.071</text></g><text x="410.0" y="325" text-anchor="middle" class="chartlabel">-0.20 pp</text><text x="638.8888888888889" y="325" text-anchor="middle" class="chartlabel">+0.00 pp</text><text x="925.0" y="325" text-anchor="middle" class="chartlabel">+0.25 pp</text></svg><figcaption>圓點＝費用後平均相對A差；橫線＝24位置區塊家族校正區間。跨過0，表示尚不能確認改良。不同圖的校正家族不同。</figcaption></figure>
+<p>以下為2025歷史開賽前案例，不是目前股票推薦：</p>
+<div class="tablewrap"><table><thead><tr><th>案例</th><th>看起來的訊號</th><th>原文查核帶來的提醒</th></tr></thead><tbody>
+<tr><td>南亞科</td><td>舊Q2本業仍虧損</td><td>10/13已公開Q3本業轉盈；DB有法說摘要，原關鍵字漏取。不能把舊季資料當最新現況</td></tr>
+<tr><td>群聯</td><td>本業利益率改善、營收成長</td><td>淨利卻下降，必須拆解獲利來源；未讀到明細前不能自行說是匯損</td></tr>
+<tr><td>景碩</td><td>營收成長</td><td>毛利與本業利益率下降，不能只因營收正成長就加碼</td></tr>
+</tbody></table></div>
+<p>2025 A初始25檔已做資訊新鮮度查核；原文存在但中文年份、單位或標題格式造成漏解析。這些更正不能只替有利個股不對稱補入回測。質性判讀已有成果，既有資料也已有LLM歷史輸入包；仍不等於LLM決策品質、穩定性與調權收益已通過驗證。</p>
+<p>產業另做過歷年同季指數觀察，屬背景研究；指數口徑不是本組150檔可交易策略，未直接轉成產業加碼規則。</p>
+<h2>7. 目前完成到哪裡</h2>
+<div class="tablewrap"><table><thead><tr><th>狀態</th><th>內容</th></tr></thead><tbody>
+<tr><td>已完成研究成果</td><td>既有價量／法人／配置方法比較；公司行動部分核對修正；產業觀察；公告案例及A25來源查核；v5三種數值調權子實驗</td></tr>
+<tr><td>暫定研究方向</td><td>保留A控制；溫和動能＋小額略過作非等權候選，需團隊比較後決定</td></tr>
+<tr><td>尚未證實</td><td>有候選穩定優於A、完整LLM公告調權、實際競賽績效</td></tr>
+<tr><td>上場前仍須處理</td><td>資料公布／更正時點、公司行動與現金認購帳務、歷史Active Share、DataPack與D-Plan、訂單與作廢／提交演練</td></tr>
+</tbody></table></div>
+<p>回測使用目前名單，有選取／存續偏誤；窗口重疊且資料已看過，不是獨立、未見樣本外。部分資料／認購事件被排除；股利應收與實際可交易資金需分清。Notebook尚未完成經授權的Restart and Run All。這些限制會影響能否把研究結果用於正式Agent。</p>
+<h2>8. 帶到會議一起決定</h2>
+<ul>
+<li>隊友是否同意以A動能作共同控制，再比較各自新增的決策依據？</li>
+<li>非等權配置要先保留簡單候選，還是等新資訊調權有更強證據再採用？</li>
+<li>公告／新聞在第一版扮演風險與反證檢查，或允許在固定規則內影響權重？</li>
+<li>DB的更新時點、原文解析、缺漏與更正由誰維護、如何標示可信度？</li>
+<li>誰負責規則檢查、Agent整合、DataPack／D-Plan及交件主備安排？</li>
+</ul>
+<p>我的會議提案：先把策略解釋與資料品質做清楚，保留簡單控制；沒有證據就不宣稱複雜版本更好。這是提案，尚未替團隊決定。</p>
+<h2>9. 如何交給Agent（設計草稿，尚未實作認證）</h2>
+<p>資料品質檢查 → A候選排序 → 原文／財務／營收支持與反證 → 按已確認規則決定續抱或調整 → 程式計算權重與整張委託 → 合規與引用鏈檢查 → D-Plan。</p>
+<p>公司事實、推論與操作決策分開；未知不得填造，缺少有效資訊不自動解讀為利空。Agent須留下來源與時點、理由與反證；數字與硬性限制由程式檢查。人工撰寫設計文件，正式每日決策由Agent自主產生。</p>
+<h2>10. 版本與來源</h2>
+<p>組員討論版v1是摘要版號，不取代研究v4／v5。本版不重跑數據、不修改來源、不提交競賽資料。HTML內含完整摘要與比較圖，單檔可閱讀，沒有外部字型或圖表程式依賴；詳細來源檔名列在下方，收到單檔的組員不必具有這些檔案也能讀摘要。</p>
+<div class="tablewrap"><table><thead><tr><th>來源檔名</th><th>SHA256（本版讀取時）</th></tr></thead><tbody>
+<tr><td>策略研究_統一比較與公告來源_v4_2026-10-14.md</td><td>9f97f4b207c01352a674b9ca8a2e36ec6877d798d9c8748f51e85a123d8a6c07</td></tr>
+<tr><td>A策略_開賽前資訊調權統一統計_v5_2026-10-14.json</td><td>27db7b6073e26be5244820c84e7c7307475e9e1e4bd74c9a5a484788aa5a08ee</td></tr>
+<tr><td>A策略_開賽前資訊調權實驗定義_v5_2026-10-14.json</td><td>6a3eab65a70f7afa87ae3694303d5b75c027aa8ba4784f3f73a920eb4f3193b7</td></tr>
+<tr><td>A策略_營收與組合開賽前實驗定義_v5_2026-10-14.json</td><td>1357dc352e322d9a5fe5a598a19a5ccc1e8fd09200f0dbdc2f86d0927a3470b9</td></tr>
+<tr><td>動能持股公告個案研究_2026-10-14.md</td><td>4213ad84494c3b3a1d51b285d561286784ec2244d6d766e064f23758b7ee73f2</td></tr>
+<tr><td>A策略_2025開賽25檔資訊新鮮度查核_2026-10-14.md</td><td>45ef00de5597999374f494c5582f0afc91df816b8796ca0b91efd7b49a9b9f76</td></tr>
+<tr><td>A策略_無人值守研究流程.md</td><td>48bf5c5d35045cdea6d2b0bc300f479c7e1712ebaff7e9a5b14b2a0caac872df</td></tr>
+</tbody></table></div></main></body></html>

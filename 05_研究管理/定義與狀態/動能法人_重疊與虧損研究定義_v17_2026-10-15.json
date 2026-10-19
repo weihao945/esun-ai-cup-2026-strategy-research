@@ -1,0 +1,22 @@
+{
+  "families": [
+    "MOM_E0",
+    "FLOW_E0"
+  ],
+  "common_dates_only": true,
+  "allocation": "equal,90%,25 names,5day,24sessions,existingfees",
+  "diagnostics": [
+    "unique_initial_decision_set_overlap",
+    "paired_return_and_loss_overlap",
+    "fixed_trade_per_stock_PnLattribution",
+    "market_down_capture",
+    "past5return_and_flow_change_atdecision"
+  ],
+  "not_tests": [
+    "daily_stoploss",
+    "optimizedblend",
+    "causalnews",
+    "seasonality"
+  ],
+  "bias": "current150universe;overlapwindows;previouslyseenresults;descriptiveonly"
+}

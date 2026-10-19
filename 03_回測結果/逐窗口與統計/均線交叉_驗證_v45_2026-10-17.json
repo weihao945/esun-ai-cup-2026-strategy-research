@@ -1,0 +1,110 @@
+{
+  "baseline_controls": 10,
+  "direct_SMA_checks": [
+    {
+      "pair": "3_5",
+      "date": "2017-07-11",
+      "stocks_checked": 148
+    },
+    {
+      "pair": "3_5",
+      "date": "2019-05-13",
+      "stocks_checked": 172
+    },
+    {
+      "pair": "3_5",
+      "date": "2021-10-22",
+      "stocks_checked": 173
+    },
+    {
+      "pair": "3_5",
+      "date": "2025-02-13",
+      "stocks_checked": 177
+    },
+    {
+      "pair": "5_20",
+      "date": "2017-07-11",
+      "stocks_checked": 127
+    },
+    {
+      "pair": "5_20",
+      "date": "2019-05-13",
+      "stocks_checked": 172
+    },
+    {
+      "pair": "5_20",
+      "date": "2021-10-22",
+      "stocks_checked": 170
+    },
+    {
+      "pair": "5_20",
+      "date": "2025-02-13",
+      "stocks_checked": 173
+    },
+    {
+      "pair": "20_60",
+      "date": "2017-07-11",
+      "stocks_checked": 120
+    },
+    {
+      "pair": "20_60",
+      "date": "2019-05-13",
+      "stocks_checked": 169
+    },
+    {
+      "pair": "20_60",
+      "date": "2021-10-22",
+      "stocks_checked": 73
+    },
+    {
+      "pair": "20_60",
+      "date": "2025-02-13",
+      "stocks_checked": 164
+    },
+    {
+      "pair": "50_200",
+      "date": "2017-07-11",
+      "stocks_checked": 106
+    },
+    {
+      "pair": "50_200",
+      "date": "2019-05-13",
+      "stocks_checked": 71
+    },
+    {
+      "pair": "50_200",
+      "date": "2021-10-22",
+      "stocks_checked": 9
+    },
+    {
+      "pair": "50_200",
+      "date": "2025-02-13",
+      "stocks_checked": 13
+    }
+  ],
+  "new_methods": 20,
+  "new_window_runs": 44720,
+  "contrasts": 32,
+  "bootstrap_draws_per_block": 10000,
+  "events_strictly_lagged": true,
+  "plot_points_per_view": {
+    "3_5_all": 2968,
+    "3_5_later": 2296,
+    "5_20_all": 5733,
+    "5_20_later": 4501,
+    "20_60_all": 8050,
+    "20_60_later": 6153,
+    "50_200_all": 7518,
+    "50_200_later": 6594
+  },
+  "full_improvements": [],
+  "mean_improvement_only": [
+    "PURE_5_20_minus_FLOW_E0",
+    "PURE_20_60_minus_FLOW_E0",
+    "FLOW_50_200_ACTIVE_minus_FLOW_E0",
+    "FLOW_50_200_ACTIVE_minus_FLOW_50_200_INITIAL",
+    "PURE_50_200_minus_MOM_E0",
+    "PURE_50_200_minus_FLOW_E0"
+  ],
+  "browser_visual_qa": "not performed;programmatic validation only"
+}

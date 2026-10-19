@@ -1,0 +1,16 @@
+{
+  "signals": [
+    "100%rankR20",
+    "100%rankR60",
+    "50%rankR20+50%rankR60 reference"
+  ],
+  "interpretation": "100%referstosignalweightnot100%stockexposure",
+  "fixed": "rebalance5,25equal,90%stocks,24sessions,1000sharelots,existingexecutionandcosts",
+  "eligibility": "original60dayprice/actionand20dayflow/volumequalitygateheldfixedforall;20dayscorestillrequires60daysqualityhistory",
+  "primary": "all3exactcommondates;no other v19methods restrictdenominator",
+  "statistics": "netwinrate,EV,conditionalpayoffs,fees,P10,MDD,24/48block5000,Bonferroni3paircontrasts",
+  "split": "end<=2024-12-31 training,start>=2025-01-01 later,crossyearpurged;pastdataalreadyseen",
+  "new_candidates": 2,
+  "no_frequency_or_weighting_change": true,
+  "snapshot": "1b826aa999a02664f43ff9c48a77259881901d8b8399c6ee85ebc275af7ea0e2"
+}

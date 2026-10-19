@@ -1,0 +1,14 @@
+{
+  "vix_windows": 1209,
+  "later_windows": 965,
+  "missing_vix": 0,
+  "max_lag_days": 4,
+  "all_pre_entry_dates": true,
+  "box_observations": 2418,
+  "original_ndc_sources": 11,
+  "distinct_case_starts": 12,
+  "monthly_ndc_pit_complete": false,
+  "no_policy_backtest": true,
+  "notebook_saved": true,
+  "visual_browser_qa": "not performed; programmatic validation only"
+}

@@ -1,0 +1,172 @@
+{
+  "unknown_reference_event_n": 7048,
+  "unknown_reference_by_year": {
+    "2016": 384,
+    "2017": 501,
+    "2018": 605,
+    "2019": 320,
+    "2020": 528,
+    "2021": 746,
+    "2022": 785,
+    "2023": 965,
+    "2024": 1272,
+    "2025": 942
+  },
+  "most_flagged_tickers": [
+    [
+      "6584",
+      811
+    ],
+    [
+      "4749",
+      707
+    ],
+    [
+      "4772",
+      468
+    ],
+    [
+      "5876",
+      440
+    ],
+    [
+      "6919",
+      416
+    ],
+    [
+      "6669",
+      338
+    ],
+    [
+      "6789",
+      307
+    ],
+    [
+      "7750",
+      304
+    ]
+  ],
+  "unknown_examples": [
+    {
+      "date": "2016-07-04",
+      "sid": "3260",
+      "previous": 42.7,
+      "reported_reference": 42.65,
+      "known_cash": 0.5
+    },
+    {
+      "date": "2016-07-04",
+      "sid": "5876",
+      "previous": 28.27,
+      "reported_reference": 28.34,
+      "known_cash": 0.0
+    },
+    {
+      "date": "2016-07-04",
+      "sid": "6446",
+      "previous": 202.99,
+      "reported_reference": 206.95999999999998,
+      "known_cash": 0.0
+    },
+    {
+      "date": "2016-07-04",
+      "sid": "6505",
+      "previous": 90.0,
+      "reported_reference": 86.2,
+      "known_cash": 4.0
+    },
+    {
+      "date": "2016-07-04",
+      "sid": "6548",
+      "previous": 97.96,
+      "reported_reference": 98.29,
+      "known_cash": 0.0
+    },
+    {
+      "date": "2016-07-04",
+      "sid": "8415",
+      "previous": 20.6,
+      "reported_reference": 20.240000000000002,
+      "known_cash": 0.0
+    },
+    {
+      "date": "2016-07-05",
+      "sid": "1504",
+      "previous": 27.8,
+      "reported_reference": 26.7,
+      "known_cash": 0.8
+    },
+    {
+      "date": "2016-07-05",
+      "sid": "5876",
+      "previous": 28.28,
+      "reported_reference": 28.32,
+      "known_cash": 0.0
+    }
+  ],
+  "core_coverage": 0.38640429338103754,
+  "monthly_coverage": {
+    "1": {
+      "valid": 110,
+      "planned": 162,
+      "fraction": 0.6790123456790124
+    },
+    "2": {
+      "valid": 94,
+      "planned": 141,
+      "fraction": 0.6666666666666666
+    },
+    "3": {
+      "valid": 106,
+      "planned": 198,
+      "fraction": 0.5353535353535354
+    },
+    "4": {
+      "valid": 121,
+      "planned": 171,
+      "fraction": 0.7076023391812866
+    },
+    "5": {
+      "valid": 34,
+      "planned": 190,
+      "fraction": 0.17894736842105263
+    },
+    "6": {
+      "valid": 0,
+      "planned": 184,
+      "fraction": 0.0
+    },
+    "7": {
+      "valid": 0,
+      "planned": 197,
+      "fraction": 0.0
+    },
+    "8": {
+      "valid": 0,
+      "planned": 198,
+      "fraction": 0.0
+    },
+    "9": {
+      "valid": 38,
+      "planned": 185,
+      "fraction": 0.20540540540540542
+    },
+    "10": {
+      "valid": 154,
+      "planned": 200,
+      "fraction": 0.77
+    },
+    "11": {
+      "valid": 112,
+      "planned": 214,
+      "fraction": 0.5233644859813084
+    },
+    "12": {
+      "valid": 95,
+      "planned": 196,
+      "fraction": 0.4846938775510204
+    }
+  },
+  "bad_event_policy": "unresolvedratherthaninferdividends/referencefromprice",
+  "new_data_queries": 0
+}

@@ -1,0 +1,1067 @@
+{
+  "definition": {
+    "version": "v50_benchmark_fixed1",
+    "date": "2026-10-19",
+    "keys": [
+      "MOM_E0",
+      "FLOW_E0",
+      "FLOW_50_200_ACTIVE",
+      "PURE_50_200",
+      "10_20_FALLBACK",
+      "10_24_FALLBACK"
+    ],
+    "sample": "all8methods same912 primary2019..2025;old935 remains archived",
+    "primary_benchmark": "TAIEX total return index, includes dividends, raw100%index no investmentfees; not investable ETF or officialcompetitionbenchmark certification",
+    "secondary": "TAIEX priceindex ifavailable, clearlywithoutdividends; no use150proxyasofficialindex",
+    "alignment": "index previous tradingdayclose before strategy firstsession to close of24thsession, exact24dailyreturns and all25datedlevels; no forwardfill",
+    "metrics": "absolute win net>0; beatmarket net>indexreturn; tie separately; mean strategy net,marketreturn,arithmetic excess percentagepoints; not guaranteed alpha",
+    "fee_asymmetry": "strategy after actual modelcosts versus costless100%index;90%strategy exposure not rescaled;no claim exposureadjustedalpha",
+    "statistics": "same912dates;6excess+6beatprob+2holdminus5day=14family;24/48blocks20000Bonferroni14",
+    "sources": [
+      "https://finmind.github.io/tutor/TaiwanMarket/Technical/",
+      "https://www.twse.com.tw/downloads/zh/products/indices/IndexS02.pdf"
+    ],
+    "network": "try new documented public FinMind index source; no retry previously blockedTWSE endpoints; at most3meaningfulattempts per newsource"
+  },
+  "sources": {
+    "TAIEX_TR": {
+      "url": "https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockTotalReturnIndex&data_id=TAIEX&start_date=2016-07-01&end_date=2025-12-31",
+      "status": 200,
+      "rows": 2320,
+      "fields": [
+        "price",
+        "stock_id",
+        "date"
+      ],
+      "first": "2016-07-01",
+      "last": "2025-12-31",
+      "error_type": null,
+      "sha256": "8e1db4d3aa21e038f9ae791474310c64066ee34aafe6cd4257261f2f2166044b"
+    },
+    "TAIEX_PRICE": {
+      "url": "https://api.finmindtrade.com/api/v4/data?dataset=TaiwanStockPrice&data_id=TAIEX&start_date=2016-07-01&end_date=2025-12-31",
+      "status": 200,
+      "rows": 2320,
+      "fields": [
+        "date",
+        "stock_id",
+        "Trading_Volume",
+        "Trading_money",
+        "open",
+        "max",
+        "min",
+        "close",
+        "spread",
+        "Trading_turnover"
+      ],
+      "first": "2016-07-01",
+      "last": "2025-12-31",
+      "error_type": null,
+      "sha256": "ec0f2e7e63099aa763b3639bd0802bf8673715684bf1173217eee1404055b500"
+    }
+  },
+  "periods": {
+    "later": {
+      "n": 912,
+      "start_range": [
+        "2019-01-02",
+        "2025-10-09"
+      ],
+      "benchmarks": {
+        "TAIEX_TR": {
+          "n": 912,
+          "win": 0.6973684210526315,
+          "mean": 0.020897424680141115
+        },
+        "TAIEX_PRICE": {
+          "n": 912,
+          "win": 0.6864035087719298,
+          "mean": 0.018990029560554237
+        }
+      },
+      "methods": {
+        "MOM_E0": {
+          "n": 912,
+          "win": 0.6567982456140351,
+          "ev": 0.024115981878456292,
+          "median": 0.029064164482215493,
+          "p10": -0.07015292263589587,
+          "worst_mdd": -0.27646690843636323,
+          "fee": 0.008012006310020891,
+          "turnover": 3.1942196548684567,
+          "beat_market": 0.5032894736842105,
+          "excess_mean": 0.0032185571983151797,
+          "market_mean": 0.020897424680141115,
+          "benchmark": {
+            "TAIEX_TR": {
+              "n": 912,
+              "beat_win": 0.5032894736842105,
+              "excess_mean": 0.0032185571983151797,
+              "market_mean": 0.020897424680141115
+            },
+            "TAIEX_PRICE": {
+              "n": 912,
+              "beat_win": 0.5219298245614035,
+              "excess_mean": 0.005125952317902052,
+              "market_mean": 0.018990029560554237
+            }
+          }
+        },
+        "FLOW_E0": {
+          "n": 912,
+          "win": 0.6546052631578947,
+          "ev": 0.013631647845145367,
+          "median": 0.01968375708020398,
+          "p10": -0.044744489021872016,
+          "worst_mdd": -0.3094230595430453,
+          "fee": 0.007031443096143112,
+          "turnover": 2.8603948648175503,
+          "beat_market": 0.3881578947368421,
+          "excess_mean": -0.007265776834995747,
+          "market_mean": 0.020897424680141115,
+          "benchmark": {
+            "TAIEX_TR": {
+              "n": 912,
+              "beat_win": 0.3881578947368421,
+              "excess_mean": -0.007265776834995747,
+              "market_mean": 0.020897424680141115
+            },
+            "TAIEX_PRICE": {
+              "n": 912,
+              "beat_win": 0.4024122807017544,
+              "excess_mean": -0.005358381715408873,
+              "market_mean": 0.018990029560554237
+            }
+          }
+        },
+        "FLOW_50_200_ACTIVE": {
+          "n": 912,
+          "win": 0.6995614035087719,
+          "ev": 0.02023211924825362,
+          "median": 0.023818429268317454,
+          "p10": -0.04978717900358729,
+          "worst_mdd": -0.315354612883023,
+          "fee": 0.006242649004035375,
+          "turnover": 2.5904608272124903,
+          "beat_market": 0.4758771929824561,
+          "excess_mean": -0.0006653054318874941,
+          "market_mean": 0.020897424680141115,
+          "benchmark": {
+            "TAIEX_TR": {
+              "n": 912,
+              "beat_win": 0.4758771929824561,
+              "excess_mean": -0.0006653054318874941,
+              "market_mean": 0.020897424680141115
+            },
+            "TAIEX_PRICE": {
+              "n": 912,
+              "beat_win": 0.5153508771929824,
+              "excess_mean": 0.0012420896876993782,
+              "market_mean": 0.018990029560554237
+            }
+          }
+        },
+        "PURE_50_200": {
+          "n": 912,
+          "win": 0.7247807017543859,
+          "ev": 0.03572435612790918,
+          "median": 0.03877414415236591,
+          "p10": -0.05907489205238724,
+          "worst_mdd": -0.3258887441711893,
+          "fee": 0.0029208842709955735,
+          "turnover": 1.4546830833274824,
+          "beat_market": 0.6348684210526315,
+          "excess_mean": 0.014826931447768074,
+          "market_mean": 0.020897424680141115,
+          "benchmark": {
+            "TAIEX_TR": {
+              "n": 912,
+              "beat_win": 0.6348684210526315,
+              "excess_mean": 0.014826931447768074,
+              "market_mean": 0.020897424680141115
+            },
+            "TAIEX_PRICE": {
+              "n": 912,
+              "beat_win": 0.6447368421052632,
+              "excess_mean": 0.016734326567354945,
+              "market_mean": 0.018990029560554237
+            }
+          }
+        },
+        "10_20_FALLBACK": {
+          "n": 912,
+          "win": 0.6787280701754386,
+          "ev": 0.03041185318629856,
+          "median": 0.03197146740358914,
+          "p10": -0.05908126531005855,
+          "worst_mdd": -0.27315994127455456,
+          "fee": 0.010311002152716684,
+          "turnover": 3.9788670732052354,
+          "beat_market": 0.581140350877193,
+          "excess_mean": 0.00951442850615744,
+          "market_mean": 0.020897424680141115,
+          "benchmark": {
+            "TAIEX_TR": {
+              "n": 912,
+              "beat_win": 0.581140350877193,
+              "excess_mean": 0.00951442850615744,
+              "market_mean": 0.020897424680141115
+            },
+            "TAIEX_PRICE": {
+              "n": 912,
+              "beat_win": 0.5964912280701754,
+              "excess_mean": 0.011421823625744313,
+              "market_mean": 0.018990029560554237
+            }
+          }
+        },
+        "10_24_FALLBACK": {
+          "n": 912,
+          "win": 0.6611842105263158,
+          "ev": 0.02830351023298637,
+          "median": 0.03184948442665314,
+          "p10": -0.06270942986837909,
+          "worst_mdd": -0.27823000311465107,
+          "fee": 0.00904143711183613,
+          "turnover": 3.545465269904436,
+          "beat_market": 0.5504385964912281,
+          "excess_mean": 0.007406085552845255,
+          "market_mean": 0.020897424680141115,
+          "benchmark": {
+            "TAIEX_TR": {
+              "n": 912,
+              "beat_win": 0.5504385964912281,
+              "excess_mean": 0.007406085552845255,
+              "market_mean": 0.020897424680141115
+            },
+            "TAIEX_PRICE": {
+              "n": 912,
+              "beat_win": 0.5657894736842105,
+              "excess_mean": 0.009313480672432128,
+              "market_mean": 0.018990029560554237
+            }
+          }
+        }
+      }
+    },
+    "all": {
+      "n": 1063,
+      "start_range": [
+        "2017-04-28",
+        "2025-10-09"
+      ],
+      "benchmarks": {
+        "TAIEX_TR": {
+          "n": 1063,
+          "win": 0.6989651928504234,
+          "mean": 0.019504465059986417
+        },
+        "TAIEX_PRICE": {
+          "n": 1063,
+          "win": 0.6895578551269991,
+          "mean": 0.017513059425709885
+        }
+      },
+      "methods": {
+        "MOM_E0": {
+          "n": 1063,
+          "win": 0.6472248353715898,
+          "ev": 0.020789340059841746,
+          "median": 0.02631328526135679,
+          "p10": -0.07329050908730879,
+          "worst_mdd": -0.27646690843636323,
+          "fee": 0.0079696103922727,
+          "turnover": 3.1800473318347744,
+          "benchmark": {
+            "TAIEX_TR": {
+              "n": 1063,
+              "beat_win": 0.48447789275634995,
+              "tie_n": 0,
+              "excess_mean": 0.0012848749998553362,
+              "market_mean": 0.019504465059986417,
+              "positive_but_underperform_n": 264,
+              "negative_but_outperform_n": 91
+            },
+            "TAIEX_PRICE": {
+              "n": 1063,
+              "beat_win": 0.504233301975541,
+              "tie_n": 0,
+              "excess_mean": 0.003276280634131867,
+              "market_mean": 0.017513059425709885,
+              "positive_but_underperform_n": 248,
+              "negative_but_outperform_n": 96
+            }
+          }
+        },
+        "FLOW_E0": {
+          "n": 1063,
+          "win": 0.6688617121354656,
+          "ev": 0.012852907588633208,
+          "median": 0.020281593603610926,
+          "p10": -0.04807558002391552,
+          "worst_mdd": -0.3094230595430453,
+          "fee": 0.00692614332138816,
+          "turnover": 2.8245538552731984,
+          "benchmark": {
+            "TAIEX_TR": {
+              "n": 1063,
+              "beat_win": 0.3913452492944497,
+              "tie_n": 0,
+              "excess_mean": -0.006651557471353207,
+              "market_mean": 0.019504465059986417,
+              "positive_but_underperform_n": 435,
+              "negative_but_outperform_n": 140
+            },
+            "TAIEX_PRICE": {
+              "n": 1063,
+              "beat_win": 0.4139228598306679,
+              "tie_n": 0,
+              "excess_mean": -0.004660151837076676,
+              "market_mean": 0.017513059425709885,
+              "positive_but_underperform_n": 411,
+              "negative_but_outperform_n": 140
+            }
+          }
+        },
+        "FLOW_50_200_ACTIVE": {
+          "n": 1063,
+          "win": 0.702728127939793,
+          "ev": 0.019042850256589,
+          "median": 0.024160278814707725,
+          "p10": -0.052223830323347986,
+          "worst_mdd": -0.315354612883023,
+          "fee": 0.006108575358285964,
+          "turnover": 2.5448785401512173,
+          "mean_death_exit_slots": 1.476011288805268,
+          "windows_with_offcycle": 504,
+          "benchmark": {
+            "TAIEX_TR": {
+              "n": 1063,
+              "beat_win": 0.46942615239887114,
+              "tie_n": 0,
+              "excess_mean": -0.0004616148033974121,
+              "market_mean": 0.019504465059986417,
+              "positive_but_underperform_n": 380,
+              "negative_but_outperform_n": 132
+            },
+            "TAIEX_PRICE": {
+              "n": 1063,
+              "beat_win": 0.51552210724365,
+              "tie_n": 0,
+              "excess_mean": 0.0015297908308791193,
+              "market_mean": 0.017513059425709885,
+              "positive_but_underperform_n": 336,
+              "negative_but_outperform_n": 137
+            }
+          }
+        },
+        "PURE_50_200": {
+          "n": 1063,
+          "win": 0.7224835371589841,
+          "ev": 0.03312176840827268,
+          "median": 0.03860237120851817,
+          "p10": -0.06556589774952068,
+          "worst_mdd": -0.3258887441711893,
+          "fee": 0.0029390253912349095,
+          "turnover": 1.4611661203566664,
+          "mean_death_exit_slots": 0.13358419567262464,
+          "windows_with_offcycle": 66,
+          "benchmark": {
+            "TAIEX_TR": {
+              "n": 1063,
+              "beat_win": 0.6293508936970837,
+              "tie_n": 0,
+              "excess_mean": 0.01361730334828627,
+              "market_mean": 0.019504465059986417,
+              "positive_but_underperform_n": 199,
+              "negative_but_outperform_n": 100
+            },
+            "TAIEX_PRICE": {
+              "n": 1063,
+              "beat_win": 0.6425211665098777,
+              "tie_n": 0,
+              "excess_mean": 0.015608708982562806,
+              "market_mean": 0.017513059425709885,
+              "positive_but_underperform_n": 186,
+              "negative_but_outperform_n": 101
+            }
+          }
+        },
+        "10_20_FALLBACK": {
+          "n": 1063,
+          "win": 0.6754468485418627,
+          "ev": 0.026396080105873906,
+          "median": 0.029173584556851706,
+          "p10": -0.06346653184535626,
+          "worst_mdd": -0.27315994127455456,
+          "fee": 0.010264080179595729,
+          "turnover": 3.9631993586654137,
+          "mean_death_exit_slots": 11.508936970837253,
+          "windows_with_offcycle": 970,
+          "benchmark": {
+            "TAIEX_TR": {
+              "n": 1063,
+              "beat_win": 0.5531514581373471,
+              "tie_n": 0,
+              "excess_mean": 0.0068916150458874885,
+              "market_mean": 0.019504465059986417,
+              "positive_but_underperform_n": 232,
+              "negative_but_outperform_n": 102
+            },
+            "TAIEX_PRICE": {
+              "n": 1063,
+              "beat_win": 0.5719661335841957,
+              "tie_n": 0,
+              "excess_mean": 0.008883020680164019,
+              "market_mean": 0.017513059425709885,
+              "positive_but_underperform_n": 215,
+              "negative_but_outperform_n": 105
+            }
+          }
+        },
+        "10_24_FALLBACK": {
+          "n": 1063,
+          "win": 0.6547507055503292,
+          "ev": 0.024667242548281086,
+          "median": 0.02701439065950395,
+          "p10": -0.06855299833553623,
+          "worst_mdd": -0.27823000311465107,
+          "fee": 0.009025849936023681,
+          "turnover": 3.540461203509251,
+          "mean_death_exit_slots": 8.036688617121355,
+          "windows_with_offcycle": 855,
+          "benchmark": {
+            "TAIEX_TR": {
+              "n": 1063,
+              "beat_win": 0.5249294449670743,
+              "tie_n": 0,
+              "excess_mean": 0.005162777488294673,
+              "market_mean": 0.019504465059986417,
+              "positive_but_underperform_n": 229,
+              "negative_but_outperform_n": 91
+            },
+            "TAIEX_PRICE": {
+              "n": 1063,
+              "beat_win": 0.5437441204139228,
+              "tie_n": 0,
+              "excess_mean": 0.007154183122571205,
+              "market_mean": 0.017513059425709885,
+              "positive_but_underperform_n": 212,
+              "negative_but_outperform_n": 94
+            }
+          }
+        }
+      }
+    }
+  },
+  "per_year": {
+    "2019": {
+      "n": 156,
+      "benchmarks": {
+        "TAIEX_TR": {
+          "mean": 0.02557264562967557
+        }
+      },
+      "methods": {
+        "MOM_E0": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.0028404402416958327
+            }
+          }
+        },
+        "FLOW_E0": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.013328380183584695
+            }
+          }
+        },
+        "FLOW_50_200_ACTIVE": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.01322550737042555
+            }
+          }
+        },
+        "PURE_50_200": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.012352625172260852
+            }
+          }
+        },
+        "10_20_FALLBACK": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.0003984637804366169
+            }
+          }
+        },
+        "10_24_FALLBACK": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.002234658373325029
+            }
+          }
+        }
+      }
+    },
+    "2020": {
+      "n": 145,
+      "benchmarks": {
+        "TAIEX_TR": {
+          "mean": 0.008646528938077864
+        }
+      },
+      "methods": {
+        "MOM_E0": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.005149511695970682
+            }
+          }
+        },
+        "FLOW_E0": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.006266278224178305
+            }
+          }
+        },
+        "FLOW_50_200_ACTIVE": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.0015111756231007598
+            }
+          }
+        },
+        "PURE_50_200": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.018172208265578967
+            }
+          }
+        },
+        "10_20_FALLBACK": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.005880747521300533
+            }
+          }
+        },
+        "10_24_FALLBACK": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.004439304432231717
+            }
+          }
+        }
+      }
+    },
+    "2021": {
+      "n": 161,
+      "benchmarks": {
+        "TAIEX_TR": {
+          "mean": 0.02718775163488412
+        }
+      },
+      "methods": {
+        "MOM_E0": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.008594474978863797
+            }
+          }
+        },
+        "FLOW_E0": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.00974728533226758
+            }
+          }
+        },
+        "FLOW_50_200_ACTIVE": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.003506969216405096
+            }
+          }
+        },
+        "PURE_50_200": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.027097246312435794
+            }
+          }
+        },
+        "10_20_FALLBACK": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.017400296979083886
+            }
+          }
+        },
+        "10_24_FALLBACK": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.018372887307909452
+            }
+          }
+        }
+      }
+    },
+    "2022": {
+      "n": 95,
+      "benchmarks": {
+        "TAIEX_TR": {
+          "mean": -0.011867959434645399
+        }
+      },
+      "methods": {
+        "MOM_E0": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.004058496603375085
+            }
+          }
+        },
+        "FLOW_E0": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.0018707727027396537
+            }
+          }
+        },
+        "FLOW_50_200_ACTIVE": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.006428838220483394
+            }
+          }
+        },
+        "PURE_50_200": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.011708718487993689
+            }
+          }
+        },
+        "10_20_FALLBACK": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.013573582900932763
+            }
+          }
+        },
+        "10_24_FALLBACK": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.01976705945592988
+            }
+          }
+        }
+      }
+    },
+    "2023": {
+      "n": 113,
+      "benchmarks": {
+        "TAIEX_TR": {
+          "mean": 0.02766546857658956
+        }
+      },
+      "methods": {
+        "MOM_E0": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.026001029820367626
+            }
+          }
+        },
+        "FLOW_E0": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.0009815295840195771
+            }
+          }
+        },
+        "FLOW_50_200_ACTIVE": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.010456210768943796
+            }
+          }
+        },
+        "PURE_50_200": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.04484389965067124
+            }
+          }
+        },
+        "10_20_FALLBACK": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.03644430259343139
+            }
+          }
+        },
+        "10_24_FALLBACK": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.03278984176481958
+            }
+          }
+        }
+      }
+    },
+    "2024": {
+      "n": 145,
+      "benchmarks": {
+        "TAIEX_TR": {
+          "mean": 0.039501566698395885
+        }
+      },
+      "methods": {
+        "MOM_E0": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.007970307145070143
+            }
+          }
+        },
+        "FLOW_E0": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.01313532436590106
+            }
+          }
+        },
+        "FLOW_50_200_ACTIVE": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.006286526385966891
+            }
+          }
+        },
+        "PURE_50_200": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.00790233437454649
+            }
+          }
+        },
+        "10_20_FALLBACK": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.0030920963283417153
+            }
+          }
+        },
+        "10_24_FALLBACK": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.00012467945780739615
+            }
+          }
+        }
+      }
+    },
+    "2025": {
+      "n": 97,
+      "benchmarks": {
+        "TAIEX_TR": {
+          "mean": 0.01764613305866971
+        }
+      },
+      "methods": {
+        "MOM_E0": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.013861205263308593
+            }
+          }
+        },
+        "FLOW_E0": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.0023858393256327277
+            }
+          }
+        },
+        "FLOW_50_200_ACTIVE": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.002145020981002178
+            }
+          }
+        },
+        "PURE_50_200": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": -0.004498199318508597
+            }
+          }
+        },
+        "10_20_FALLBACK": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.018640135650143632
+            }
+          }
+        },
+        "10_24_FALLBACK": {
+          "benchmark": {
+            "TAIEX_TR": {
+              "excess_mean": 0.01706971895560011
+            }
+          }
+        }
+      }
+    }
+  },
+  "paired_tests": [
+    {
+      "key": "MOM_E0",
+      "metric": "mean_excess",
+      "estimate": 0.0032185571983151793,
+      "ci24": [
+        -0.009751009769071034,
+        0.016990432856597893
+      ],
+      "ci48": [
+        -0.010142448329716098,
+        0.017890892031604846
+      ],
+      "both_lower_positive": false
+    },
+    {
+      "key": "MOM_E0",
+      "metric": "beat_probability_minus_half",
+      "estimate": 0.003289473684210526,
+      "ci24": [
+        -0.13469555035128805,
+        0.14261240143955883
+      ],
+      "ci48": [
+        -0.1442396214954158,
+        0.1506636208649877
+      ],
+      "both_lower_positive": false
+    },
+    {
+      "key": "FLOW_E0",
+      "metric": "mean_excess",
+      "estimate": -0.007265776834995744,
+      "ci24": [
+        -0.016325286141049573,
+        0.0018670010743914007
+      ],
+      "ci48": [
+        -0.01693445738191742,
+        0.0022722944009748894
+      ],
+      "both_lower_positive": false
+    },
+    {
+      "key": "FLOW_E0",
+      "metric": "beat_probability_minus_half",
+      "estimate": -0.1118421052631579,
+      "ci24": [
+        -0.25140559964481934,
+        0.03425401483878867
+      ],
+      "ci48": [
+        -0.26313315996583486,
+        0.04018591474532002
+      ],
+      "both_lower_positive": false
+    },
+    {
+      "key": "FLOW_50_200_ACTIVE",
+      "metric": "mean_excess",
+      "estimate": -0.0006653054318874947,
+      "ci24": [
+        -0.010105111367756091,
+        0.009486852629931401
+      ],
+      "ci48": [
+        -0.010778625996612215,
+        0.009540089864109393
+      ],
+      "both_lower_positive": false
+    },
+    {
+      "key": "FLOW_50_200_ACTIVE",
+      "metric": "beat_probability_minus_half",
+      "estimate": -0.02412280701754386,
+      "ci24": [
+        -0.16979965789484994,
+        0.1187925170068022
+      ],
+      "ci48": [
+        -0.18244804923936084,
+        0.12800844384583476
+      ],
+      "both_lower_positive": false
+    },
+    {
+      "key": "PURE_50_200",
+      "metric": "mean_excess",
+      "estimate": 0.01482693144776807,
+      "ci24": [
+        0.0018688879957813398,
+        0.028558465398551787
+      ],
+      "ci48": [
+        0.0007572278525384644,
+        0.02912287886398383
+      ],
+      "both_lower_positive": true
+    },
+    {
+      "key": "PURE_50_200",
+      "metric": "beat_probability_minus_half",
+      "estimate": 0.13486842105263158,
+      "ci24": [
+        0.003961788408491134,
+        0.2548428078194897
+      ],
+      "ci48": [
+        -0.012156609744700734,
+        0.25893048966355686
+      ],
+      "both_lower_positive": false
+    },
+    {
+      "key": "10_20_FALLBACK",
+      "metric": "mean_excess",
+      "estimate": 0.009514428506157442,
+      "ci24": [
+        -0.004829966653865586,
+        0.02480855264908901
+      ],
+      "ci48": [
+        -0.004820072025184044,
+        0.026084638552104245
+      ],
+      "both_lower_positive": false
+    },
+    {
+      "key": "10_20_FALLBACK",
+      "metric": "beat_probability_minus_half",
+      "estimate": 0.08114035087719298,
+      "ci24": [
+        -0.048415200391006843,
+        0.20622539069265153
+      ],
+      "ci48": [
+        -0.047794613017001095,
+        0.21595401523972796
+      ],
+      "both_lower_positive": false
+    },
+    {
+      "key": "10_24_FALLBACK",
+      "metric": "mean_excess",
+      "estimate": 0.007406085552845257,
+      "ci24": [
+        -0.0065616130656203555,
+        0.022852744653762355
+      ],
+      "ci48": [
+        -0.00693303844642936,
+        0.02403064070875871
+      ],
+      "both_lower_positive": false
+    },
+    {
+      "key": "10_24_FALLBACK",
+      "metric": "beat_probability_minus_half",
+      "estimate": 0.05043859649122807,
+      "ci24": [
+        -0.08402886313576544,
+        0.18261718847973135
+      ],
+      "ci48": [
+        -0.08731414307328617,
+        0.19090460735649645
+      ],
+      "both_lower_positive": false
+    },
+    {
+      "key": "MOM_HOLD",
+      "metric": "hold_minus_fiveday",
+      "estimate": 0.005945626995411742,
+      "ci24": [
+        -8.526177788126604e-05,
+        0.012275526561202609
+      ],
+      "ci48": [
+        -0.0008530690557232548,
+        0.013207934376178983
+      ],
+      "both_lower_positive": false
+    },
+    {
+      "key": "FLOW_HOLD",
+      "metric": "hold_minus_fiveday",
+      "estimate": 0.008372642893836784,
+      "ci24": [
+        0.0037608524093216502,
+        0.01347263020460862
+      ],
+      "ci48": [
+        0.0036282646453846576,
+        0.01396592833591128
+      ],
+      "both_lower_positive": true
+    }
+  ],
+  "validation": {
+    "all_dates_match_price_calendar": {
+      "TAIEX_TR": true,
+      "TAIEX_PRICE": true
+    },
+    "primary_common_unchanged": 935,
+    "new_trade_runs": 0,
+    "benchmark_window": "previousclose through 24th sessionclose,25consecutivelevels",
+    "provider_samples": {
+      "TAIEX_TR": {
+        "2016-07-01": 13986.37,
+        "2020-04-06": 18356.45,
+        "2020-04-07": 18688.58,
+        "2020-04-08": 18952.66,
+        "2021-07-02": 34353.52,
+        "2025-12-31": 65905.98
+      },
+      "TAIEX_PRICE": {
+        "2016-07-01": 8738.24,
+        "2020-04-06": 9818.74,
+        "2020-04-07": 9996.39,
+        "2020-04-08": 10137.47,
+        "2021-07-02": 17710.15,
+        "2025-12-31": 28963.6
+      }
+    },
+    "official_point_check": {
+      "source": "https://www.twse.com.tw/indicesReport/MFI94U?date=20210702&response=html",
+      "points": {
+        "2021-07-01": 34360.8,
+        "2021-07-02": 34353.52,
+        "2021-07-05": 34762.44
+      },
+      "passed": true,
+      "scope": "three sampled points, not independent full-series audit"
+    },
+    "documentation_sample_checks": {
+      "2020-04-06": true,
+      "2020-04-07": true,
+      "2020-04-08": true
+    },
+    "html_figures": 1,
+    "report_table_rows": 6,
+    "notebook_saved": true,
+    "visual_browser_QA": "not performed"
+  }
+}

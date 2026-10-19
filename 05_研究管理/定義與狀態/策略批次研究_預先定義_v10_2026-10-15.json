@@ -1,0 +1,82 @@
+{
+  "version": "v10",
+  "date": "2026-10-15",
+  "human_request": "plan all remaining experiments once and run feasible branches continuously; no per-node approval waits",
+  "data": "unchanged v7 snapshot and action corrections; existing v8 exante features; v9 result objects reused",
+  "constraints": "20..30actual stocks,90pctinvested,24days,5dayrebalance,1000shares,existingfees,caps25pct2330/10pctothers;ActiveShare uncertified",
+  "nodes": [
+    {
+      "id": "reuse",
+      "status": "reuse_only",
+      "definition": "v9 136 candidates and v8/v7; no duplicate simulation"
+    },
+    {
+      "id": "multi_signal",
+      "count": 32,
+      "definition": "equal thirds A/FLOW/LOWVOL; A/FIN/REV; FLOW/FIN/REV; equal fifths all5;4count rules*2allocations"
+    },
+    {
+      "id": "short_reversal",
+      "count": 16,
+      "definition": "REV5 percentile restandardized to0..1; pure or75pctA+25pctREV5;4count rules*2allocations"
+    },
+    {
+      "id": "risk_overlays",
+      "count": 16,
+      "definition": "A selection; same v8 marketprior20<0 beta penalty or extensionz>2*.75;4count rules*2allocations, with new official caps"
+    },
+    {
+      "id": "special_cap",
+      "count": 8,
+      "definition": "A exp32 allocation to actually test stronger concentration;4count rules*2330cap25pct versus uniform10pct; caps not minimums"
+    },
+    {
+      "id": "entry_exit_buffer",
+      "count": 8,
+      "definition": "A selection; incumbent eligible if score rank<=N+5, retain up toN then fill best new;4count rules*2allocations; same .005retained-trade skip"
+    },
+    {
+      "id": "industry_mapping",
+      "status": "source_gate",
+      "definition": "reuse DB schema audit(no historical validity); two new official MOPS historical monthly-report endpoints inaccessible via web2026-10-15. Need dated stock-level classification; no current-classification backfill; index walkforward v9 reused"
+    },
+    {
+      "id": "stability",
+      "status": "planned",
+      "definition": "paired 24/48blocks, family264=183 prior+80new+1expanded selection pipeline;5000reps; pooled purged annual2025/26 selector; same v9 training gates; fixed nonoverlapping sensitivity offsets0..23"
+    },
+    {
+      "id": "report",
+      "status": "planned",
+      "definition": "all80new and136existing; win/expectancy, avgwin/loss, fees, drawdown, coverage, paired benchmark, all points, conclusions and source gaps"
+    }
+  ],
+  "new_candidates": 80,
+  "total_reused_and_new": 216,
+  "new_window_records": 52000,
+  "count_rules": [
+    20,
+    25,
+    30,
+    "adaptive"
+  ],
+  "adaptive": "count scores>=.8 clipped20..30 as v9",
+  "allocations": [
+    "equal",
+    "conviction exp8"
+  ],
+  "missing": "any positive-weight component unknown excludes stock; insufficient N invalid, never missing=bad",
+  "selection": "same v9 training coverage80pct,min100pairs,P10/medianMDD within1pp; choose trainmeanincrement then turnover then ID; outcomes end before nextyear start; lock testyear",
+  "special_cap_test": "gamma32 registered before outcomes; not search gamma grid; compare identical definition except cap2330",
+  "reporting": "positive-return win rate,mean net24day return,avgwin,avgloss,n; paired same-date controls; return-minus-control and beat-control separate",
+  "source_attempt_limit": "existing attempts retained; no repeated endless crawl; unavailable source node ends unavailable with evidence",
+  "deferred": [
+    "LLM",
+    "formal account/DPlan/DataPack",
+    "operational rehearsal",
+    "new public website",
+    "new numbered project/repository",
+    "live trades"
+  ],
+  "stop": "all feasible nodes saved and evaluated, conditional unavailable branch named; no adding experiments based on best return; automation remainsPAUSED"
+}

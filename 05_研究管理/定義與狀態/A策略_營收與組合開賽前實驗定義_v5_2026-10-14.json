@@ -1,0 +1,12 @@
+{
+  "A_revenue_prestart_v5": {
+    "signal": "MoM and YoY same sign, known original bulletin before start08:55,45day age and1-2month lag",
+    "weights": "1+.25 sign normalized to90%; missingneutral; all150 evidence frozen at start",
+    "formula_origin": "existing revenue_weight, timing now prestart freeze"
+  },
+  "A_combined_prestart_v5": {
+    "weights": "50% mild rank weights +25% formal operating prestart weights +25% revenue prestart weights",
+    "formula_origin": "existing combined blend; no parameter search",
+    "unparsed_self": "neutral, never bearish; full self/conference integration not claimed"
+  }
+}

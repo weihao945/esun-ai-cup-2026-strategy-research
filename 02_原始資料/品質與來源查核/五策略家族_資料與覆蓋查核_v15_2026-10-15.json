@@ -1,0 +1,5892 @@
+{
+  "snapshot_sha256": "1b826aa999a02664f43ff9c48a77259881901d8b8399c6ee85ebc275af7ea0e2",
+  "shape": [
+    734,
+    150
+  ],
+  "action_flags": 12,
+  "window_count": 650,
+  "revenue_accepted": 1280,
+  "revenue_stocks": 126,
+  "revenue_rejected": {
+    "not_single_company_bulletin": 5367,
+    "missing_original_dual_rates": 43,
+    "db_original_mismatch": 6,
+    "stock_not_in_opening": 8
+  },
+  "feature_sha256": {
+    "MOM": "826a52c5c0308b44a3f06f5fff557295b516ebc8095dc9803164e58d7f06f763",
+    "FLOW": "f9cbcad0bcf3cdf17a3b771ca1fa2b2fd1fbe2aa1762f7126af4da2696a37c85",
+    "REV": "8b5a0f26db66f65ba7ad091a1cca2d0c230496dca8487f3e8e8c3be763d3fd17",
+    "LOWVOL": "ba329cf6e161727783829b9695f5df78cfd8c4f917384e58d0afb2454045a2b2",
+    "REVENU": "6f3d3235381ac7bf281254e35e15f14bd021d15e4f1cdfb775a89693070bcacc"
+  },
+  "revenue_coverage": [
+    {
+      "date": "2023-12-28",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2023-12-29",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-02",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-03",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-04",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-05",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-08",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-09",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-10",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-11",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-12",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-15",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-16",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-17",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-18",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-19",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-22",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-23",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-24",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-25",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-26",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-29",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-30",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-01-31",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-02-01",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-02-02",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-02-05",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-02-15",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-02-16",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-02-19",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-02-20",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-02-21",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-02-22",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-02-23",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-02-26",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-02-27",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-02-29",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-01",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-04",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-05",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-06",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-07",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-08",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-11",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-12",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-13",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-14",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-15",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-18",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-19",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-20",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-21",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-22",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-25",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-26",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-27",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-28",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-03-29",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-01",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-02",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-03",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-08",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-09",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-10",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-11",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-12",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-15",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-16",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-17",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-18",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-19",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-22",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-23",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-24",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-25",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-26",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-29",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-04-30",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-05-02",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-05-03",
+      "eligible": 0,
+      "status": {
+        "unknown_source": 150
+      }
+    },
+    {
+      "date": "2024-05-06",
+      "eligible": 3,
+      "status": {
+        "unknown_source": 147,
+        "verified_original_known_available_time": 3
+      }
+    },
+    {
+      "date": "2024-05-07",
+      "eligible": 7,
+      "status": {
+        "unknown_source": 143,
+        "verified_original_known_available_time": 7
+      }
+    },
+    {
+      "date": "2024-05-08",
+      "eligible": 11,
+      "status": {
+        "unknown_source": 139,
+        "verified_original_known_available_time": 11
+      }
+    },
+    {
+      "date": "2024-05-09",
+      "eligible": 18,
+      "status": {
+        "unknown_source": 132,
+        "verified_original_known_available_time": 18
+      }
+    },
+    {
+      "date": "2024-05-10",
+      "eligible": 27,
+      "status": {
+        "unknown_source": 123,
+        "verified_original_known_available_time": 27
+      }
+    },
+    {
+      "date": "2024-05-13",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-05-14",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-05-15",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-05-16",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-05-17",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-05-20",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-05-21",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-05-22",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-05-23",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-05-24",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-05-27",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-05-28",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-05-29",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-05-30",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-05-31",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-06-03",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-06-04",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-06-05",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 111
+      }
+    },
+    {
+      "date": "2024-06-06",
+      "eligible": 42,
+      "status": {
+        "verified_original_known_available_time": 42,
+        "unknown_source": 108
+      }
+    },
+    {
+      "date": "2024-06-07",
+      "eligible": 42,
+      "status": {
+        "verified_original_known_available_time": 42,
+        "unknown_source": 108
+      }
+    },
+    {
+      "date": "2024-06-11",
+      "eligible": 50,
+      "status": {
+        "verified_original_known_available_time": 50,
+        "unknown_source": 100
+      }
+    },
+    {
+      "date": "2024-06-12",
+      "eligible": 51,
+      "status": {
+        "verified_original_known_available_time": 51,
+        "unknown_source": 99
+      }
+    },
+    {
+      "date": "2024-06-13",
+      "eligible": 51,
+      "status": {
+        "verified_original_known_available_time": 51,
+        "unknown_source": 99
+      }
+    },
+    {
+      "date": "2024-06-14",
+      "eligible": 51,
+      "status": {
+        "verified_original_known_available_time": 51,
+        "unknown_source": 99
+      }
+    },
+    {
+      "date": "2024-06-17",
+      "eligible": 51,
+      "status": {
+        "verified_original_known_available_time": 51,
+        "unknown_source": 99
+      }
+    },
+    {
+      "date": "2024-06-18",
+      "eligible": 51,
+      "status": {
+        "verified_original_known_available_time": 51,
+        "unknown_source": 99
+      }
+    },
+    {
+      "date": "2024-06-19",
+      "eligible": 51,
+      "status": {
+        "verified_original_known_available_time": 51,
+        "unknown_source": 99
+      }
+    },
+    {
+      "date": "2024-06-20",
+      "eligible": 51,
+      "status": {
+        "verified_original_known_available_time": 51,
+        "unknown_source": 99
+      }
+    },
+    {
+      "date": "2024-06-21",
+      "eligible": 50,
+      "status": {
+        "verified_original_known_available_time": 50,
+        "unknown_source": 99,
+        "stale_or_future_reporting_month": 1
+      }
+    },
+    {
+      "date": "2024-06-24",
+      "eligible": 43,
+      "status": {
+        "verified_original_known_available_time": 43,
+        "unknown_source": 99,
+        "stale_or_future_reporting_month": 8
+      }
+    },
+    {
+      "date": "2024-06-25",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 99,
+        "stale_or_future_reporting_month": 12
+      }
+    },
+    {
+      "date": "2024-06-26",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 99,
+        "stale_or_future_reporting_month": 12
+      }
+    },
+    {
+      "date": "2024-06-27",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 99,
+        "stale_or_future_reporting_month": 12
+      }
+    },
+    {
+      "date": "2024-06-28",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 99,
+        "stale_or_future_reporting_month": 12
+      }
+    },
+    {
+      "date": "2024-07-01",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 99,
+        "stale_or_future_reporting_month": 12
+      }
+    },
+    {
+      "date": "2024-07-02",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 99,
+        "stale_or_future_reporting_month": 12
+      }
+    },
+    {
+      "date": "2024-07-03",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 99,
+        "stale_or_future_reporting_month": 12
+      }
+    },
+    {
+      "date": "2024-07-04",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 99,
+        "stale_or_future_reporting_month": 12
+      }
+    },
+    {
+      "date": "2024-07-05",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 99,
+        "stale_or_future_reporting_month": 12
+      }
+    },
+    {
+      "date": "2024-07-08",
+      "eligible": 41,
+      "status": {
+        "verified_original_known_available_time": 41,
+        "unknown_source": 97,
+        "stale_or_future_reporting_month": 12
+      }
+    },
+    {
+      "date": "2024-07-09",
+      "eligible": 41,
+      "status": {
+        "verified_original_known_available_time": 41,
+        "unknown_source": 97,
+        "stale_or_future_reporting_month": 12
+      }
+    },
+    {
+      "date": "2024-07-10",
+      "eligible": 45,
+      "status": {
+        "verified_original_known_available_time": 46,
+        "unknown_source": 94,
+        "stale_or_future_reporting_month": 10
+      }
+    },
+    {
+      "date": "2024-07-11",
+      "eligible": 46,
+      "status": {
+        "verified_original_known_available_time": 47,
+        "unknown_source": 94,
+        "stale_or_future_reporting_month": 9
+      }
+    },
+    {
+      "date": "2024-07-12",
+      "eligible": 46,
+      "status": {
+        "verified_original_known_available_time": 47,
+        "unknown_source": 94,
+        "stale_or_future_reporting_month": 9
+      }
+    },
+    {
+      "date": "2024-07-15",
+      "eligible": 46,
+      "status": {
+        "verified_original_known_available_time": 47,
+        "unknown_source": 94,
+        "stale_or_future_reporting_month": 9
+      }
+    },
+    {
+      "date": "2024-07-16",
+      "eligible": 46,
+      "status": {
+        "verified_original_known_available_time": 47,
+        "unknown_source": 94,
+        "stale_or_future_reporting_month": 9
+      }
+    },
+    {
+      "date": "2024-07-17",
+      "eligible": 46,
+      "status": {
+        "verified_original_known_available_time": 47,
+        "unknown_source": 94,
+        "stale_or_future_reporting_month": 9
+      }
+    },
+    {
+      "date": "2024-07-18",
+      "eligible": 46,
+      "status": {
+        "verified_original_known_available_time": 47,
+        "unknown_source": 94,
+        "stale_or_future_reporting_month": 9
+      }
+    },
+    {
+      "date": "2024-07-19",
+      "eligible": 46,
+      "status": {
+        "verified_original_known_available_time": 47,
+        "unknown_source": 94,
+        "stale_or_future_reporting_month": 9
+      }
+    },
+    {
+      "date": "2024-07-22",
+      "eligible": 43,
+      "status": {
+        "verified_original_known_available_time": 44,
+        "unknown_source": 94,
+        "stale_or_future_reporting_month": 12
+      }
+    },
+    {
+      "date": "2024-07-23",
+      "eligible": 30,
+      "status": {
+        "verified_original_known_available_time": 31,
+        "unknown_source": 94,
+        "stale_or_future_reporting_month": 25
+      }
+    },
+    {
+      "date": "2024-07-26",
+      "eligible": 29,
+      "status": {
+        "verified_original_known_available_time": 30,
+        "unknown_source": 94,
+        "stale_or_future_reporting_month": 26
+      }
+    },
+    {
+      "date": "2024-07-29",
+      "eligible": 28,
+      "status": {
+        "verified_original_known_available_time": 29,
+        "unknown_source": 94,
+        "stale_or_future_reporting_month": 27
+      }
+    },
+    {
+      "date": "2024-07-30",
+      "eligible": 28,
+      "status": {
+        "verified_original_known_available_time": 29,
+        "unknown_source": 94,
+        "stale_or_future_reporting_month": 27
+      }
+    },
+    {
+      "date": "2024-07-31",
+      "eligible": 28,
+      "status": {
+        "verified_original_known_available_time": 29,
+        "unknown_source": 94,
+        "stale_or_future_reporting_month": 27
+      }
+    },
+    {
+      "date": "2024-08-01",
+      "eligible": 28,
+      "status": {
+        "verified_original_known_available_time": 29,
+        "unknown_source": 94,
+        "stale_or_future_reporting_month": 27
+      }
+    },
+    {
+      "date": "2024-08-02",
+      "eligible": 28,
+      "status": {
+        "verified_original_known_available_time": 29,
+        "unknown_source": 94,
+        "stale_or_future_reporting_month": 27
+      }
+    },
+    {
+      "date": "2024-08-05",
+      "eligible": 28,
+      "status": {
+        "verified_original_known_available_time": 29,
+        "unknown_source": 94,
+        "stale_or_future_reporting_month": 27
+      }
+    },
+    {
+      "date": "2024-08-06",
+      "eligible": 29,
+      "status": {
+        "verified_original_known_available_time": 30,
+        "unknown_source": 93,
+        "stale_or_future_reporting_month": 27
+      }
+    },
+    {
+      "date": "2024-08-07",
+      "eligible": 31,
+      "status": {
+        "verified_original_known_available_time": 32,
+        "unknown_source": 92,
+        "stale_or_future_reporting_month": 26
+      }
+    },
+    {
+      "date": "2024-08-08",
+      "eligible": 32,
+      "status": {
+        "verified_original_known_available_time": 33,
+        "unknown_source": 92,
+        "stale_or_future_reporting_month": 25
+      }
+    },
+    {
+      "date": "2024-08-09",
+      "eligible": 34,
+      "status": {
+        "verified_original_known_available_time": 35,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 24
+      }
+    },
+    {
+      "date": "2024-08-12",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 40,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 19
+      }
+    },
+    {
+      "date": "2024-08-13",
+      "eligible": 40,
+      "status": {
+        "verified_original_known_available_time": 41,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 18
+      }
+    },
+    {
+      "date": "2024-08-14",
+      "eligible": 40,
+      "status": {
+        "verified_original_known_available_time": 41,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 18
+      }
+    },
+    {
+      "date": "2024-08-15",
+      "eligible": 40,
+      "status": {
+        "verified_original_known_available_time": 41,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 18
+      }
+    },
+    {
+      "date": "2024-08-16",
+      "eligible": 40,
+      "status": {
+        "verified_original_known_available_time": 41,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 18
+      }
+    },
+    {
+      "date": "2024-08-19",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 40,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 19
+      }
+    },
+    {
+      "date": "2024-08-20",
+      "eligible": 38,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 20
+      }
+    },
+    {
+      "date": "2024-08-21",
+      "eligible": 38,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 20
+      }
+    },
+    {
+      "date": "2024-08-22",
+      "eligible": 38,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 20
+      }
+    },
+    {
+      "date": "2024-08-23",
+      "eligible": 37,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 20
+      }
+    },
+    {
+      "date": "2024-08-26",
+      "eligible": 36,
+      "status": {
+        "verified_original_known_available_time": 36,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2024-08-27",
+      "eligible": 36,
+      "status": {
+        "verified_original_known_available_time": 36,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2024-08-28",
+      "eligible": 36,
+      "status": {
+        "verified_original_known_available_time": 36,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2024-08-29",
+      "eligible": 36,
+      "status": {
+        "verified_original_known_available_time": 36,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2024-08-30",
+      "eligible": 36,
+      "status": {
+        "verified_original_known_available_time": 36,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2024-09-02",
+      "eligible": 36,
+      "status": {
+        "verified_original_known_available_time": 36,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2024-09-03",
+      "eligible": 36,
+      "status": {
+        "verified_original_known_available_time": 36,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2024-09-04",
+      "eligible": 36,
+      "status": {
+        "verified_original_known_available_time": 36,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2024-09-05",
+      "eligible": 36,
+      "status": {
+        "verified_original_known_available_time": 36,
+        "unknown_source": 91,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2024-09-06",
+      "eligible": 38,
+      "status": {
+        "verified_original_known_available_time": 38,
+        "unknown_source": 90,
+        "stale_or_future_reporting_month": 22
+      }
+    },
+    {
+      "date": "2024-09-09",
+      "eligible": 41,
+      "status": {
+        "verified_original_known_available_time": 42,
+        "unknown_source": 89,
+        "stale_or_future_reporting_month": 19
+      }
+    },
+    {
+      "date": "2024-09-10",
+      "eligible": 42,
+      "status": {
+        "verified_original_known_available_time": 43,
+        "unknown_source": 89,
+        "stale_or_future_reporting_month": 18
+      }
+    },
+    {
+      "date": "2024-09-11",
+      "eligible": 43,
+      "status": {
+        "verified_original_known_available_time": 44,
+        "unknown_source": 88,
+        "stale_or_future_reporting_month": 18
+      }
+    },
+    {
+      "date": "2024-09-12",
+      "eligible": 43,
+      "status": {
+        "verified_original_known_available_time": 44,
+        "unknown_source": 88,
+        "stale_or_future_reporting_month": 18
+      }
+    },
+    {
+      "date": "2024-09-13",
+      "eligible": 43,
+      "status": {
+        "verified_original_known_available_time": 44,
+        "unknown_source": 88,
+        "stale_or_future_reporting_month": 18
+      }
+    },
+    {
+      "date": "2024-09-16",
+      "eligible": 43,
+      "status": {
+        "verified_original_known_available_time": 44,
+        "unknown_source": 88,
+        "stale_or_future_reporting_month": 18
+      }
+    },
+    {
+      "date": "2024-09-18",
+      "eligible": 43,
+      "status": {
+        "verified_original_known_available_time": 44,
+        "unknown_source": 88,
+        "stale_or_future_reporting_month": 18
+      }
+    },
+    {
+      "date": "2024-09-19",
+      "eligible": 43,
+      "status": {
+        "verified_original_known_available_time": 44,
+        "unknown_source": 88,
+        "stale_or_future_reporting_month": 18
+      }
+    },
+    {
+      "date": "2024-09-20",
+      "eligible": 42,
+      "status": {
+        "verified_original_known_available_time": 43,
+        "unknown_source": 88,
+        "stale_or_future_reporting_month": 19
+      }
+    },
+    {
+      "date": "2024-09-23",
+      "eligible": 38,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 88,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2024-09-24",
+      "eligible": 32,
+      "status": {
+        "verified_original_known_available_time": 33,
+        "unknown_source": 88,
+        "stale_or_future_reporting_month": 29
+      }
+    },
+    {
+      "date": "2024-09-25",
+      "eligible": 32,
+      "status": {
+        "verified_original_known_available_time": 33,
+        "unknown_source": 88,
+        "stale_or_future_reporting_month": 29
+      }
+    },
+    {
+      "date": "2024-09-26",
+      "eligible": 31,
+      "status": {
+        "verified_original_known_available_time": 32,
+        "unknown_source": 88,
+        "stale_or_future_reporting_month": 30
+      }
+    },
+    {
+      "date": "2024-09-27",
+      "eligible": 30,
+      "status": {
+        "verified_original_known_available_time": 31,
+        "unknown_source": 88,
+        "stale_or_future_reporting_month": 31
+      }
+    },
+    {
+      "date": "2024-09-30",
+      "eligible": 30,
+      "status": {
+        "verified_original_known_available_time": 31,
+        "unknown_source": 88,
+        "stale_or_future_reporting_month": 31
+      }
+    },
+    {
+      "date": "2024-10-01",
+      "eligible": 30,
+      "status": {
+        "verified_original_known_available_time": 31,
+        "unknown_source": 88,
+        "stale_or_future_reporting_month": 31
+      }
+    },
+    {
+      "date": "2024-10-04",
+      "eligible": 30,
+      "status": {
+        "verified_original_known_available_time": 31,
+        "unknown_source": 88,
+        "stale_or_future_reporting_month": 31
+      }
+    },
+    {
+      "date": "2024-10-07",
+      "eligible": 30,
+      "status": {
+        "verified_original_known_available_time": 31,
+        "unknown_source": 88,
+        "stale_or_future_reporting_month": 31
+      }
+    },
+    {
+      "date": "2024-10-08",
+      "eligible": 31,
+      "status": {
+        "verified_original_known_available_time": 32,
+        "unknown_source": 88,
+        "stale_or_future_reporting_month": 30
+      }
+    },
+    {
+      "date": "2024-10-09",
+      "eligible": 33,
+      "status": {
+        "verified_original_known_available_time": 35,
+        "unknown_source": 86,
+        "stale_or_future_reporting_month": 29
+      }
+    },
+    {
+      "date": "2024-10-11",
+      "eligible": 35,
+      "status": {
+        "verified_original_known_available_time": 37,
+        "unknown_source": 86,
+        "stale_or_future_reporting_month": 27
+      }
+    },
+    {
+      "date": "2024-10-14",
+      "eligible": 38,
+      "status": {
+        "verified_original_known_available_time": 40,
+        "unknown_source": 85,
+        "stale_or_future_reporting_month": 25
+      }
+    },
+    {
+      "date": "2024-10-15",
+      "eligible": 38,
+      "status": {
+        "verified_original_known_available_time": 40,
+        "unknown_source": 85,
+        "stale_or_future_reporting_month": 25
+      }
+    },
+    {
+      "date": "2024-10-16",
+      "eligible": 38,
+      "status": {
+        "verified_original_known_available_time": 40,
+        "unknown_source": 85,
+        "stale_or_future_reporting_month": 25
+      }
+    },
+    {
+      "date": "2024-10-17",
+      "eligible": 38,
+      "status": {
+        "verified_original_known_available_time": 40,
+        "unknown_source": 85,
+        "stale_or_future_reporting_month": 25
+      }
+    },
+    {
+      "date": "2024-10-18",
+      "eligible": 38,
+      "status": {
+        "verified_original_known_available_time": 40,
+        "unknown_source": 85,
+        "stale_or_future_reporting_month": 25
+      }
+    },
+    {
+      "date": "2024-10-21",
+      "eligible": 35,
+      "status": {
+        "verified_original_known_available_time": 37,
+        "unknown_source": 85,
+        "stale_or_future_reporting_month": 28
+      }
+    },
+    {
+      "date": "2024-10-22",
+      "eligible": 34,
+      "status": {
+        "verified_original_known_available_time": 36,
+        "unknown_source": 85,
+        "stale_or_future_reporting_month": 29
+      }
+    },
+    {
+      "date": "2024-10-23",
+      "eligible": 34,
+      "status": {
+        "verified_original_known_available_time": 36,
+        "unknown_source": 85,
+        "stale_or_future_reporting_month": 29
+      }
+    },
+    {
+      "date": "2024-10-24",
+      "eligible": 34,
+      "status": {
+        "verified_original_known_available_time": 36,
+        "unknown_source": 85,
+        "stale_or_future_reporting_month": 29
+      }
+    },
+    {
+      "date": "2024-10-25",
+      "eligible": 32,
+      "status": {
+        "verified_original_known_available_time": 34,
+        "unknown_source": 85,
+        "stale_or_future_reporting_month": 31
+      }
+    },
+    {
+      "date": "2024-10-28",
+      "eligible": 30,
+      "status": {
+        "verified_original_known_available_time": 32,
+        "unknown_source": 85,
+        "stale_or_future_reporting_month": 33
+      }
+    },
+    {
+      "date": "2024-10-29",
+      "eligible": 30,
+      "status": {
+        "verified_original_known_available_time": 32,
+        "unknown_source": 85,
+        "stale_or_future_reporting_month": 33
+      }
+    },
+    {
+      "date": "2024-10-30",
+      "eligible": 30,
+      "status": {
+        "verified_original_known_available_time": 32,
+        "unknown_source": 85,
+        "stale_or_future_reporting_month": 33
+      }
+    },
+    {
+      "date": "2024-11-01",
+      "eligible": 30,
+      "status": {
+        "verified_original_known_available_time": 32,
+        "unknown_source": 85,
+        "stale_or_future_reporting_month": 33
+      }
+    },
+    {
+      "date": "2024-11-04",
+      "eligible": 30,
+      "status": {
+        "verified_original_known_available_time": 32,
+        "unknown_source": 85,
+        "stale_or_future_reporting_month": 33
+      }
+    },
+    {
+      "date": "2024-11-05",
+      "eligible": 30,
+      "status": {
+        "verified_original_known_available_time": 32,
+        "unknown_source": 85,
+        "stale_or_future_reporting_month": 33
+      }
+    },
+    {
+      "date": "2024-11-06",
+      "eligible": 31,
+      "status": {
+        "verified_original_known_available_time": 33,
+        "unknown_source": 85,
+        "stale_or_future_reporting_month": 32
+      }
+    },
+    {
+      "date": "2024-11-07",
+      "eligible": 32,
+      "status": {
+        "verified_original_known_available_time": 34,
+        "unknown_source": 84,
+        "stale_or_future_reporting_month": 32
+      }
+    },
+    {
+      "date": "2024-11-08",
+      "eligible": 32,
+      "status": {
+        "verified_original_known_available_time": 34,
+        "unknown_source": 84,
+        "stale_or_future_reporting_month": 32
+      }
+    },
+    {
+      "date": "2024-11-11",
+      "eligible": 35,
+      "status": {
+        "verified_original_known_available_time": 37,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 30
+      }
+    },
+    {
+      "date": "2024-11-12",
+      "eligible": 37,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 28
+      }
+    },
+    {
+      "date": "2024-11-13",
+      "eligible": 37,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 28
+      }
+    },
+    {
+      "date": "2024-11-14",
+      "eligible": 37,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 28
+      }
+    },
+    {
+      "date": "2024-11-15",
+      "eligible": 37,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 28
+      }
+    },
+    {
+      "date": "2024-11-18",
+      "eligible": 37,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 28
+      }
+    },
+    {
+      "date": "2024-11-19",
+      "eligible": 36,
+      "status": {
+        "verified_original_known_available_time": 38,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 29
+      }
+    },
+    {
+      "date": "2024-11-20",
+      "eligible": 36,
+      "status": {
+        "verified_original_known_available_time": 38,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 29
+      }
+    },
+    {
+      "date": "2024-11-21",
+      "eligible": 36,
+      "status": {
+        "verified_original_known_available_time": 38,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 29
+      }
+    },
+    {
+      "date": "2024-11-22",
+      "eligible": 33,
+      "status": {
+        "verified_original_known_available_time": 35,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 32
+      }
+    },
+    {
+      "date": "2024-11-25",
+      "eligible": 32,
+      "status": {
+        "verified_original_known_available_time": 33,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 34
+      }
+    },
+    {
+      "date": "2024-11-26",
+      "eligible": 30,
+      "status": {
+        "verified_original_known_available_time": 31,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 36
+      }
+    },
+    {
+      "date": "2024-11-27",
+      "eligible": 30,
+      "status": {
+        "verified_original_known_available_time": 31,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 36
+      }
+    },
+    {
+      "date": "2024-11-28",
+      "eligible": 30,
+      "status": {
+        "verified_original_known_available_time": 31,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 36
+      }
+    },
+    {
+      "date": "2024-11-29",
+      "eligible": 30,
+      "status": {
+        "verified_original_known_available_time": 31,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 36
+      }
+    },
+    {
+      "date": "2024-12-02",
+      "eligible": 29,
+      "status": {
+        "verified_original_known_available_time": 31,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 36
+      }
+    },
+    {
+      "date": "2024-12-03",
+      "eligible": 29,
+      "status": {
+        "verified_original_known_available_time": 31,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 36
+      }
+    },
+    {
+      "date": "2024-12-04",
+      "eligible": 29,
+      "status": {
+        "verified_original_known_available_time": 31,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 36
+      }
+    },
+    {
+      "date": "2024-12-05",
+      "eligible": 29,
+      "status": {
+        "verified_original_known_available_time": 31,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 36
+      }
+    },
+    {
+      "date": "2024-12-06",
+      "eligible": 29,
+      "status": {
+        "verified_original_known_available_time": 31,
+        "unknown_source": 83,
+        "stale_or_future_reporting_month": 36
+      }
+    },
+    {
+      "date": "2024-12-09",
+      "eligible": 31,
+      "status": {
+        "verified_original_known_available_time": 33,
+        "unknown_source": 82,
+        "stale_or_future_reporting_month": 35
+      }
+    },
+    {
+      "date": "2024-12-10",
+      "eligible": 32,
+      "status": {
+        "verified_original_known_available_time": 34,
+        "unknown_source": 82,
+        "stale_or_future_reporting_month": 34
+      }
+    },
+    {
+      "date": "2024-12-11",
+      "eligible": 35,
+      "status": {
+        "verified_original_known_available_time": 37,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 32
+      }
+    },
+    {
+      "date": "2024-12-12",
+      "eligible": 35,
+      "status": {
+        "verified_original_known_available_time": 37,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 32
+      }
+    },
+    {
+      "date": "2024-12-13",
+      "eligible": 35,
+      "status": {
+        "verified_original_known_available_time": 37,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 32
+      }
+    },
+    {
+      "date": "2024-12-16",
+      "eligible": 35,
+      "status": {
+        "verified_original_known_available_time": 37,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 32
+      }
+    },
+    {
+      "date": "2024-12-17",
+      "eligible": 35,
+      "status": {
+        "verified_original_known_available_time": 37,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 32
+      }
+    },
+    {
+      "date": "2024-12-18",
+      "eligible": 35,
+      "status": {
+        "verified_original_known_available_time": 37,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 32
+      }
+    },
+    {
+      "date": "2024-12-19",
+      "eligible": 35,
+      "status": {
+        "verified_original_known_available_time": 37,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 32
+      }
+    },
+    {
+      "date": "2024-12-20",
+      "eligible": 35,
+      "status": {
+        "verified_original_known_available_time": 36,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 33
+      }
+    },
+    {
+      "date": "2024-12-23",
+      "eligible": 33,
+      "status": {
+        "verified_original_known_available_time": 34,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 35
+      }
+    },
+    {
+      "date": "2024-12-24",
+      "eligible": 29,
+      "status": {
+        "verified_original_known_available_time": 29,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 40
+      }
+    },
+    {
+      "date": "2024-12-25",
+      "eligible": 29,
+      "status": {
+        "verified_original_known_available_time": 29,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 40
+      }
+    },
+    {
+      "date": "2024-12-26",
+      "eligible": 29,
+      "status": {
+        "verified_original_known_available_time": 29,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 40
+      }
+    },
+    {
+      "date": "2024-12-27",
+      "eligible": 28,
+      "status": {
+        "verified_original_known_available_time": 28,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 41
+      }
+    },
+    {
+      "date": "2024-12-30",
+      "eligible": 28,
+      "status": {
+        "verified_original_known_available_time": 28,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 41
+      }
+    },
+    {
+      "date": "2024-12-31",
+      "eligible": 28,
+      "status": {
+        "verified_original_known_available_time": 28,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 41
+      }
+    },
+    {
+      "date": "2025-01-02",
+      "eligible": 28,
+      "status": {
+        "verified_original_known_available_time": 28,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 41
+      }
+    },
+    {
+      "date": "2025-01-03",
+      "eligible": 28,
+      "status": {
+        "verified_original_known_available_time": 28,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 41
+      }
+    },
+    {
+      "date": "2025-01-06",
+      "eligible": 29,
+      "status": {
+        "verified_original_known_available_time": 29,
+        "unknown_source": 81,
+        "stale_or_future_reporting_month": 40
+      }
+    },
+    {
+      "date": "2025-01-07",
+      "eligible": 32,
+      "status": {
+        "verified_original_known_available_time": 32,
+        "unknown_source": 80,
+        "stale_or_future_reporting_month": 38
+      }
+    },
+    {
+      "date": "2025-01-08",
+      "eligible": 33,
+      "status": {
+        "verified_original_known_available_time": 33,
+        "unknown_source": 80,
+        "stale_or_future_reporting_month": 37
+      }
+    },
+    {
+      "date": "2025-01-09",
+      "eligible": 37,
+      "status": {
+        "verified_original_known_available_time": 37,
+        "unknown_source": 79,
+        "stale_or_future_reporting_month": 34
+      }
+    },
+    {
+      "date": "2025-01-10",
+      "eligible": 41,
+      "status": {
+        "verified_original_known_available_time": 41,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 31
+      }
+    },
+    {
+      "date": "2025-01-13",
+      "eligible": 43,
+      "status": {
+        "verified_original_known_available_time": 43,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 29
+      }
+    },
+    {
+      "date": "2025-01-14",
+      "eligible": 43,
+      "status": {
+        "verified_original_known_available_time": 43,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 29
+      }
+    },
+    {
+      "date": "2025-01-15",
+      "eligible": 43,
+      "status": {
+        "verified_original_known_available_time": 43,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 29
+      }
+    },
+    {
+      "date": "2025-01-16",
+      "eligible": 43,
+      "status": {
+        "verified_original_known_available_time": 43,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 29
+      }
+    },
+    {
+      "date": "2025-01-17",
+      "eligible": 43,
+      "status": {
+        "verified_original_known_available_time": 43,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 29
+      }
+    },
+    {
+      "date": "2025-01-20",
+      "eligible": 42,
+      "status": {
+        "verified_original_known_available_time": 42,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 30
+      }
+    },
+    {
+      "date": "2025-01-21",
+      "eligible": 42,
+      "status": {
+        "verified_original_known_available_time": 42,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 30
+      }
+    },
+    {
+      "date": "2025-01-22",
+      "eligible": 42,
+      "status": {
+        "verified_original_known_available_time": 42,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 30
+      }
+    },
+    {
+      "date": "2025-02-03",
+      "eligible": 40,
+      "status": {
+        "verified_original_known_available_time": 40,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 32
+      }
+    },
+    {
+      "date": "2025-02-04",
+      "eligible": 40,
+      "status": {
+        "verified_original_known_available_time": 40,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 32
+      }
+    },
+    {
+      "date": "2025-02-05",
+      "eligible": 40,
+      "status": {
+        "verified_original_known_available_time": 40,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 32
+      }
+    },
+    {
+      "date": "2025-02-06",
+      "eligible": 40,
+      "status": {
+        "verified_original_known_available_time": 40,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 32
+      }
+    },
+    {
+      "date": "2025-02-07",
+      "eligible": 41,
+      "status": {
+        "verified_original_known_available_time": 41,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 31
+      }
+    },
+    {
+      "date": "2025-02-10",
+      "eligible": 41,
+      "status": {
+        "verified_original_known_available_time": 41,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 31
+      }
+    },
+    {
+      "date": "2025-02-11",
+      "eligible": 42,
+      "status": {
+        "verified_original_known_available_time": 42,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 30
+      }
+    },
+    {
+      "date": "2025-02-12",
+      "eligible": 42,
+      "status": {
+        "verified_original_known_available_time": 42,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 30
+      }
+    },
+    {
+      "date": "2025-02-13",
+      "eligible": 42,
+      "status": {
+        "verified_original_known_available_time": 42,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 30
+      }
+    },
+    {
+      "date": "2025-02-14",
+      "eligible": 42,
+      "status": {
+        "verified_original_known_available_time": 42,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 30
+      }
+    },
+    {
+      "date": "2025-02-17",
+      "eligible": 42,
+      "status": {
+        "verified_original_known_available_time": 42,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 30
+      }
+    },
+    {
+      "date": "2025-02-18",
+      "eligible": 42,
+      "status": {
+        "verified_original_known_available_time": 42,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 30
+      }
+    },
+    {
+      "date": "2025-02-19",
+      "eligible": 42,
+      "status": {
+        "verified_original_known_available_time": 42,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 30
+      }
+    },
+    {
+      "date": "2025-02-20",
+      "eligible": 41,
+      "status": {
+        "verified_original_known_available_time": 41,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 31
+      }
+    },
+    {
+      "date": "2025-02-21",
+      "eligible": 39,
+      "status": {
+        "verified_original_known_available_time": 39,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 33
+      }
+    },
+    {
+      "date": "2025-02-24",
+      "eligible": 28,
+      "status": {
+        "verified_original_known_available_time": 28,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 44
+      }
+    },
+    {
+      "date": "2025-02-25",
+      "eligible": 21,
+      "status": {
+        "verified_original_known_available_time": 21,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 51
+      }
+    },
+    {
+      "date": "2025-02-26",
+      "eligible": 21,
+      "status": {
+        "verified_original_known_available_time": 21,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 51
+      }
+    },
+    {
+      "date": "2025-02-27",
+      "eligible": 21,
+      "status": {
+        "verified_original_known_available_time": 21,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 51
+      }
+    },
+    {
+      "date": "2025-03-03",
+      "eligible": 21,
+      "status": {
+        "verified_original_known_available_time": 21,
+        "unknown_source": 78,
+        "stale_or_future_reporting_month": 51
+      }
+    },
+    {
+      "date": "2025-03-04",
+      "eligible": 23,
+      "status": {
+        "verified_original_known_available_time": 23,
+        "unknown_source": 76,
+        "stale_or_future_reporting_month": 51
+      }
+    },
+    {
+      "date": "2025-03-05",
+      "eligible": 23,
+      "status": {
+        "verified_original_known_available_time": 23,
+        "unknown_source": 76,
+        "stale_or_future_reporting_month": 51
+      }
+    },
+    {
+      "date": "2025-03-06",
+      "eligible": 28,
+      "status": {
+        "verified_original_known_available_time": 28,
+        "unknown_source": 74,
+        "stale_or_future_reporting_month": 48
+      }
+    },
+    {
+      "date": "2025-03-07",
+      "eligible": 37,
+      "status": {
+        "verified_original_known_available_time": 37,
+        "unknown_source": 72,
+        "stale_or_future_reporting_month": 41
+      }
+    },
+    {
+      "date": "2025-03-10",
+      "eligible": 50,
+      "status": {
+        "verified_original_known_available_time": 50,
+        "unknown_source": 69,
+        "stale_or_future_reporting_month": 31
+      }
+    },
+    {
+      "date": "2025-03-11",
+      "eligible": 66,
+      "status": {
+        "verified_original_known_available_time": 66,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2025-03-12",
+      "eligible": 66,
+      "status": {
+        "verified_original_known_available_time": 66,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2025-03-13",
+      "eligible": 66,
+      "status": {
+        "verified_original_known_available_time": 66,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2025-03-14",
+      "eligible": 66,
+      "status": {
+        "verified_original_known_available_time": 66,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2025-03-17",
+      "eligible": 66,
+      "status": {
+        "verified_original_known_available_time": 66,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2025-03-18",
+      "eligible": 66,
+      "status": {
+        "verified_original_known_available_time": 66,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2025-03-19",
+      "eligible": 66,
+      "status": {
+        "verified_original_known_available_time": 66,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2025-03-20",
+      "eligible": 66,
+      "status": {
+        "verified_original_known_available_time": 66,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2025-03-21",
+      "eligible": 66,
+      "status": {
+        "verified_original_known_available_time": 66,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 23
+      }
+    },
+    {
+      "date": "2025-03-24",
+      "eligible": 65,
+      "status": {
+        "verified_original_known_available_time": 65,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 24
+      }
+    },
+    {
+      "date": "2025-03-25",
+      "eligible": 64,
+      "status": {
+        "verified_original_known_available_time": 64,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 25
+      }
+    },
+    {
+      "date": "2025-03-26",
+      "eligible": 64,
+      "status": {
+        "verified_original_known_available_time": 64,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 25
+      }
+    },
+    {
+      "date": "2025-03-27",
+      "eligible": 62,
+      "status": {
+        "verified_original_known_available_time": 62,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 27
+      }
+    },
+    {
+      "date": "2025-03-28",
+      "eligible": 61,
+      "status": {
+        "verified_original_known_available_time": 61,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 28
+      }
+    },
+    {
+      "date": "2025-03-31",
+      "eligible": 61,
+      "status": {
+        "verified_original_known_available_time": 61,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 28
+      }
+    },
+    {
+      "date": "2025-04-01",
+      "eligible": 61,
+      "status": {
+        "verified_original_known_available_time": 61,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 28
+      }
+    },
+    {
+      "date": "2025-04-02",
+      "eligible": 61,
+      "status": {
+        "verified_original_known_available_time": 61,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 28
+      }
+    },
+    {
+      "date": "2025-04-07",
+      "eligible": 61,
+      "status": {
+        "verified_original_known_available_time": 61,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 28
+      }
+    },
+    {
+      "date": "2025-04-08",
+      "eligible": 62,
+      "status": {
+        "verified_original_known_available_time": 62,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 27
+      }
+    },
+    {
+      "date": "2025-04-09",
+      "eligible": 62,
+      "status": {
+        "verified_original_known_available_time": 62,
+        "unknown_source": 61,
+        "stale_or_future_reporting_month": 27
+      }
+    },
+    {
+      "date": "2025-04-10",
+      "eligible": 63,
+      "status": {
+        "verified_original_known_available_time": 63,
+        "unknown_source": 60,
+        "stale_or_future_reporting_month": 27
+      }
+    },
+    {
+      "date": "2025-04-11",
+      "eligible": 64,
+      "status": {
+        "verified_original_known_available_time": 64,
+        "unknown_source": 60,
+        "stale_or_future_reporting_month": 26
+      }
+    },
+    {
+      "date": "2025-04-14",
+      "eligible": 64,
+      "status": {
+        "verified_original_known_available_time": 64,
+        "unknown_source": 60,
+        "stale_or_future_reporting_month": 26
+      }
+    },
+    {
+      "date": "2025-04-15",
+      "eligible": 64,
+      "status": {
+        "verified_original_known_available_time": 64,
+        "unknown_source": 60,
+        "stale_or_future_reporting_month": 26
+      }
+    },
+    {
+      "date": "2025-04-16",
+      "eligible": 64,
+      "status": {
+        "verified_original_known_available_time": 64,
+        "unknown_source": 60,
+        "stale_or_future_reporting_month": 26
+      }
+    },
+    {
+      "date": "2025-04-17",
+      "eligible": 64,
+      "status": {
+        "verified_original_known_available_time": 64,
+        "unknown_source": 60,
+        "stale_or_future_reporting_month": 26
+      }
+    },
+    {
+      "date": "2025-04-18",
+      "eligible": 62,
+      "status": {
+        "verified_original_known_available_time": 62,
+        "unknown_source": 60,
+        "stale_or_future_reporting_month": 28
+      }
+    },
+    {
+      "date": "2025-04-21",
+      "eligible": 52,
+      "status": {
+        "verified_original_known_available_time": 52,
+        "unknown_source": 60,
+        "stale_or_future_reporting_month": 38
+      }
+    },
+    {
+      "date": "2025-04-22",
+      "eligible": 47,
+      "status": {
+        "verified_original_known_available_time": 47,
+        "unknown_source": 60,
+        "stale_or_future_reporting_month": 43
+      }
+    },
+    {
+      "date": "2025-04-23",
+      "eligible": 47,
+      "status": {
+        "verified_original_known_available_time": 47,
+        "unknown_source": 60,
+        "stale_or_future_reporting_month": 43
+      }
+    },
+    {
+      "date": "2025-04-24",
+      "eligible": 47,
+      "status": {
+        "verified_original_known_available_time": 47,
+        "unknown_source": 60,
+        "stale_or_future_reporting_month": 43
+      }
+    },
+    {
+      "date": "2025-04-25",
+      "eligible": 35,
+      "status": {
+        "stale_or_future_reporting_month": 55,
+        "unknown_source": 60,
+        "verified_original_known_available_time": 35
+      }
+    },
+    {
+      "date": "2025-04-28",
+      "eligible": 35,
+      "status": {
+        "stale_or_future_reporting_month": 55,
+        "unknown_source": 60,
+        "verified_original_known_available_time": 35
+      }
+    },
+    {
+      "date": "2025-04-29",
+      "eligible": 35,
+      "status": {
+        "stale_or_future_reporting_month": 55,
+        "unknown_source": 60,
+        "verified_original_known_available_time": 35
+      }
+    },
+    {
+      "date": "2025-04-30",
+      "eligible": 35,
+      "status": {
+        "stale_or_future_reporting_month": 55,
+        "unknown_source": 60,
+        "verified_original_known_available_time": 35
+      }
+    },
+    {
+      "date": "2025-05-02",
+      "eligible": 35,
+      "status": {
+        "stale_or_future_reporting_month": 55,
+        "unknown_source": 60,
+        "verified_original_known_available_time": 35
+      }
+    },
+    {
+      "date": "2025-05-05",
+      "eligible": 35,
+      "status": {
+        "stale_or_future_reporting_month": 55,
+        "unknown_source": 60,
+        "verified_original_known_available_time": 35
+      }
+    },
+    {
+      "date": "2025-05-06",
+      "eligible": 36,
+      "status": {
+        "stale_or_future_reporting_month": 54,
+        "unknown_source": 60,
+        "verified_original_known_available_time": 36
+      }
+    },
+    {
+      "date": "2025-05-07",
+      "eligible": 37,
+      "status": {
+        "stale_or_future_reporting_month": 53,
+        "unknown_source": 60,
+        "verified_original_known_available_time": 37
+      }
+    },
+    {
+      "date": "2025-05-08",
+      "eligible": 38,
+      "status": {
+        "stale_or_future_reporting_month": 53,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 38
+      }
+    },
+    {
+      "date": "2025-05-09",
+      "eligible": 39,
+      "status": {
+        "stale_or_future_reporting_month": 52,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 39
+      }
+    },
+    {
+      "date": "2025-05-12",
+      "eligible": 41,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 41
+      }
+    },
+    {
+      "date": "2025-05-13",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 49,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 42
+      }
+    },
+    {
+      "date": "2025-05-14",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 49,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 42
+      }
+    },
+    {
+      "date": "2025-05-15",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 49,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 42
+      }
+    },
+    {
+      "date": "2025-05-16",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 49,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 42
+      }
+    },
+    {
+      "date": "2025-05-19",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 49,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 42
+      }
+    },
+    {
+      "date": "2025-05-20",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 49,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 42
+      }
+    },
+    {
+      "date": "2025-05-21",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 49,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 42
+      }
+    },
+    {
+      "date": "2025-05-22",
+      "eligible": 41,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 41
+      }
+    },
+    {
+      "date": "2025-05-23",
+      "eligible": 38,
+      "status": {
+        "stale_or_future_reporting_month": 53,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 38
+      }
+    },
+    {
+      "date": "2025-05-26",
+      "eligible": 29,
+      "status": {
+        "stale_or_future_reporting_month": 62,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 29
+      }
+    },
+    {
+      "date": "2025-05-27",
+      "eligible": 29,
+      "status": {
+        "stale_or_future_reporting_month": 62,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 29
+      }
+    },
+    {
+      "date": "2025-05-28",
+      "eligible": 29,
+      "status": {
+        "stale_or_future_reporting_month": 62,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 29
+      }
+    },
+    {
+      "date": "2025-05-29",
+      "eligible": 29,
+      "status": {
+        "stale_or_future_reporting_month": 62,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 29
+      }
+    },
+    {
+      "date": "2025-06-02",
+      "eligible": 29,
+      "status": {
+        "stale_or_future_reporting_month": 62,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 29
+      }
+    },
+    {
+      "date": "2025-06-03",
+      "eligible": 29,
+      "status": {
+        "stale_or_future_reporting_month": 62,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 29
+      }
+    },
+    {
+      "date": "2025-06-04",
+      "eligible": 29,
+      "status": {
+        "stale_or_future_reporting_month": 62,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 29
+      }
+    },
+    {
+      "date": "2025-06-05",
+      "eligible": 29,
+      "status": {
+        "stale_or_future_reporting_month": 62,
+        "unknown_source": 59,
+        "verified_original_known_available_time": 29
+      }
+    },
+    {
+      "date": "2025-06-06",
+      "eligible": 30,
+      "status": {
+        "stale_or_future_reporting_month": 62,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 30
+      }
+    },
+    {
+      "date": "2025-06-09",
+      "eligible": 30,
+      "status": {
+        "stale_or_future_reporting_month": 62,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 30
+      }
+    },
+    {
+      "date": "2025-06-10",
+      "eligible": 32,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 32
+      }
+    },
+    {
+      "date": "2025-06-11",
+      "eligible": 32,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 32
+      }
+    },
+    {
+      "date": "2025-06-12",
+      "eligible": 32,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 32
+      }
+    },
+    {
+      "date": "2025-06-13",
+      "eligible": 32,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 32
+      }
+    },
+    {
+      "date": "2025-06-16",
+      "eligible": 32,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 32
+      }
+    },
+    {
+      "date": "2025-06-17",
+      "eligible": 32,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 32
+      }
+    },
+    {
+      "date": "2025-06-18",
+      "eligible": 32,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 32
+      }
+    },
+    {
+      "date": "2025-06-19",
+      "eligible": 32,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 32
+      }
+    },
+    {
+      "date": "2025-06-20",
+      "eligible": 30,
+      "status": {
+        "stale_or_future_reporting_month": 62,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 30
+      }
+    },
+    {
+      "date": "2025-06-23",
+      "eligible": 23,
+      "status": {
+        "stale_or_future_reporting_month": 69,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 23
+      }
+    },
+    {
+      "date": "2025-06-24",
+      "eligible": 21,
+      "status": {
+        "stale_or_future_reporting_month": 71,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 21
+      }
+    },
+    {
+      "date": "2025-06-25",
+      "eligible": 21,
+      "status": {
+        "stale_or_future_reporting_month": 71,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 21
+      }
+    },
+    {
+      "date": "2025-06-26",
+      "eligible": 21,
+      "status": {
+        "stale_or_future_reporting_month": 71,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 21
+      }
+    },
+    {
+      "date": "2025-06-27",
+      "eligible": 19,
+      "status": {
+        "stale_or_future_reporting_month": 73,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 19
+      }
+    },
+    {
+      "date": "2025-06-30",
+      "eligible": 19,
+      "status": {
+        "stale_or_future_reporting_month": 73,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 19
+      }
+    },
+    {
+      "date": "2025-07-01",
+      "eligible": 19,
+      "status": {
+        "stale_or_future_reporting_month": 73,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 19
+      }
+    },
+    {
+      "date": "2025-07-02",
+      "eligible": 19,
+      "status": {
+        "stale_or_future_reporting_month": 73,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 19
+      }
+    },
+    {
+      "date": "2025-07-03",
+      "eligible": 19,
+      "status": {
+        "stale_or_future_reporting_month": 73,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 19
+      }
+    },
+    {
+      "date": "2025-07-04",
+      "eligible": 19,
+      "status": {
+        "stale_or_future_reporting_month": 73,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 19
+      }
+    },
+    {
+      "date": "2025-07-07",
+      "eligible": 20,
+      "status": {
+        "stale_or_future_reporting_month": 72,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 20
+      }
+    },
+    {
+      "date": "2025-07-08",
+      "eligible": 22,
+      "status": {
+        "stale_or_future_reporting_month": 70,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 22
+      }
+    },
+    {
+      "date": "2025-07-09",
+      "eligible": 25,
+      "status": {
+        "stale_or_future_reporting_month": 67,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 25
+      }
+    },
+    {
+      "date": "2025-07-10",
+      "eligible": 25,
+      "status": {
+        "stale_or_future_reporting_month": 67,
+        "unknown_source": 58,
+        "verified_original_known_available_time": 25
+      }
+    },
+    {
+      "date": "2025-07-11",
+      "eligible": 28,
+      "status": {
+        "stale_or_future_reporting_month": 65,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 28
+      }
+    },
+    {
+      "date": "2025-07-14",
+      "eligible": 28,
+      "status": {
+        "stale_or_future_reporting_month": 65,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 28
+      }
+    },
+    {
+      "date": "2025-07-15",
+      "eligible": 28,
+      "status": {
+        "stale_or_future_reporting_month": 65,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 28
+      }
+    },
+    {
+      "date": "2025-07-16",
+      "eligible": 28,
+      "status": {
+        "stale_or_future_reporting_month": 65,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 28
+      }
+    },
+    {
+      "date": "2025-07-17",
+      "eligible": 28,
+      "status": {
+        "stale_or_future_reporting_month": 65,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 28
+      }
+    },
+    {
+      "date": "2025-07-18",
+      "eligible": 28,
+      "status": {
+        "stale_or_future_reporting_month": 65,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 28
+      }
+    },
+    {
+      "date": "2025-07-21",
+      "eligible": 27,
+      "status": {
+        "stale_or_future_reporting_month": 66,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 27
+      }
+    },
+    {
+      "date": "2025-07-22",
+      "eligible": 27,
+      "status": {
+        "stale_or_future_reporting_month": 66,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 27
+      }
+    },
+    {
+      "date": "2025-07-23",
+      "eligible": 27,
+      "status": {
+        "stale_or_future_reporting_month": 66,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 27
+      }
+    },
+    {
+      "date": "2025-07-24",
+      "eligible": 27,
+      "status": {
+        "stale_or_future_reporting_month": 66,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 27
+      }
+    },
+    {
+      "date": "2025-07-25",
+      "eligible": 24,
+      "status": {
+        "stale_or_future_reporting_month": 69,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 24
+      }
+    },
+    {
+      "date": "2025-07-28",
+      "eligible": 24,
+      "status": {
+        "stale_or_future_reporting_month": 69,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 24
+      }
+    },
+    {
+      "date": "2025-07-29",
+      "eligible": 24,
+      "status": {
+        "stale_or_future_reporting_month": 69,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 24
+      }
+    },
+    {
+      "date": "2025-07-30",
+      "eligible": 24,
+      "status": {
+        "stale_or_future_reporting_month": 69,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 24
+      }
+    },
+    {
+      "date": "2025-07-31",
+      "eligible": 24,
+      "status": {
+        "stale_or_future_reporting_month": 69,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 24
+      }
+    },
+    {
+      "date": "2025-08-01",
+      "eligible": 24,
+      "status": {
+        "stale_or_future_reporting_month": 69,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 24
+      }
+    },
+    {
+      "date": "2025-08-04",
+      "eligible": 24,
+      "status": {
+        "stale_or_future_reporting_month": 69,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 24
+      }
+    },
+    {
+      "date": "2025-08-05",
+      "eligible": 24,
+      "status": {
+        "stale_or_future_reporting_month": 69,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 24
+      }
+    },
+    {
+      "date": "2025-08-06",
+      "eligible": 24,
+      "status": {
+        "stale_or_future_reporting_month": 69,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 24
+      }
+    },
+    {
+      "date": "2025-08-07",
+      "eligible": 24,
+      "status": {
+        "stale_or_future_reporting_month": 69,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 24
+      }
+    },
+    {
+      "date": "2025-08-08",
+      "eligible": 24,
+      "status": {
+        "stale_or_future_reporting_month": 69,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 24
+      }
+    },
+    {
+      "date": "2025-08-11",
+      "eligible": 28,
+      "status": {
+        "stale_or_future_reporting_month": 65,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 28
+      }
+    },
+    {
+      "date": "2025-08-12",
+      "eligible": 29,
+      "status": {
+        "stale_or_future_reporting_month": 64,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 29
+      }
+    },
+    {
+      "date": "2025-08-13",
+      "eligible": 29,
+      "status": {
+        "stale_or_future_reporting_month": 64,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 29
+      }
+    },
+    {
+      "date": "2025-08-14",
+      "eligible": 29,
+      "status": {
+        "stale_or_future_reporting_month": 64,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 29
+      }
+    },
+    {
+      "date": "2025-08-15",
+      "eligible": 29,
+      "status": {
+        "stale_or_future_reporting_month": 64,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 29
+      }
+    },
+    {
+      "date": "2025-08-18",
+      "eligible": 29,
+      "status": {
+        "stale_or_future_reporting_month": 64,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 29
+      }
+    },
+    {
+      "date": "2025-08-19",
+      "eligible": 28,
+      "status": {
+        "stale_or_future_reporting_month": 65,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 28
+      }
+    },
+    {
+      "date": "2025-08-20",
+      "eligible": 28,
+      "status": {
+        "stale_or_future_reporting_month": 65,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 28
+      }
+    },
+    {
+      "date": "2025-08-21",
+      "eligible": 28,
+      "status": {
+        "stale_or_future_reporting_month": 65,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 28
+      }
+    },
+    {
+      "date": "2025-08-22",
+      "eligible": 26,
+      "status": {
+        "stale_or_future_reporting_month": 67,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 26
+      }
+    },
+    {
+      "date": "2025-08-25",
+      "eligible": 18,
+      "status": {
+        "stale_or_future_reporting_month": 75,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 18
+      }
+    },
+    {
+      "date": "2025-08-26",
+      "eligible": 18,
+      "status": {
+        "stale_or_future_reporting_month": 75,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 18
+      }
+    },
+    {
+      "date": "2025-08-27",
+      "eligible": 18,
+      "status": {
+        "stale_or_future_reporting_month": 75,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 18
+      }
+    },
+    {
+      "date": "2025-08-28",
+      "eligible": 18,
+      "status": {
+        "stale_or_future_reporting_month": 75,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 18
+      }
+    },
+    {
+      "date": "2025-08-29",
+      "eligible": 18,
+      "status": {
+        "stale_or_future_reporting_month": 75,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 18
+      }
+    },
+    {
+      "date": "2025-09-01",
+      "eligible": 18,
+      "status": {
+        "stale_or_future_reporting_month": 75,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 18
+      }
+    },
+    {
+      "date": "2025-09-02",
+      "eligible": 18,
+      "status": {
+        "stale_or_future_reporting_month": 75,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 18
+      }
+    },
+    {
+      "date": "2025-09-03",
+      "eligible": 18,
+      "status": {
+        "stale_or_future_reporting_month": 75,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 18
+      }
+    },
+    {
+      "date": "2025-09-04",
+      "eligible": 18,
+      "status": {
+        "stale_or_future_reporting_month": 75,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 18
+      }
+    },
+    {
+      "date": "2025-09-05",
+      "eligible": 18,
+      "status": {
+        "stale_or_future_reporting_month": 75,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 18
+      }
+    },
+    {
+      "date": "2025-09-08",
+      "eligible": 19,
+      "status": {
+        "stale_or_future_reporting_month": 74,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 19
+      }
+    },
+    {
+      "date": "2025-09-09",
+      "eligible": 24,
+      "status": {
+        "stale_or_future_reporting_month": 69,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 24
+      }
+    },
+    {
+      "date": "2025-09-10",
+      "eligible": 25,
+      "status": {
+        "stale_or_future_reporting_month": 68,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 25
+      }
+    },
+    {
+      "date": "2025-09-11",
+      "eligible": 30,
+      "status": {
+        "stale_or_future_reporting_month": 63,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 30
+      }
+    },
+    {
+      "date": "2025-09-12",
+      "eligible": 30,
+      "status": {
+        "stale_or_future_reporting_month": 63,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 30
+      }
+    },
+    {
+      "date": "2025-09-15",
+      "eligible": 30,
+      "status": {
+        "stale_or_future_reporting_month": 63,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 30
+      }
+    },
+    {
+      "date": "2025-09-16",
+      "eligible": 30,
+      "status": {
+        "stale_or_future_reporting_month": 63,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 30
+      }
+    },
+    {
+      "date": "2025-09-17",
+      "eligible": 30,
+      "status": {
+        "stale_or_future_reporting_month": 63,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 30
+      }
+    },
+    {
+      "date": "2025-09-18",
+      "eligible": 30,
+      "status": {
+        "stale_or_future_reporting_month": 63,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 30
+      }
+    },
+    {
+      "date": "2025-09-19",
+      "eligible": 30,
+      "status": {
+        "stale_or_future_reporting_month": 63,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 30
+      }
+    },
+    {
+      "date": "2025-09-22",
+      "eligible": 30,
+      "status": {
+        "stale_or_future_reporting_month": 63,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 30
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "eligible": 27,
+      "status": {
+        "stale_or_future_reporting_month": 66,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 27
+      }
+    },
+    {
+      "date": "2025-09-24",
+      "eligible": 27,
+      "status": {
+        "stale_or_future_reporting_month": 66,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 27
+      }
+    },
+    {
+      "date": "2025-09-25",
+      "eligible": 27,
+      "status": {
+        "stale_or_future_reporting_month": 66,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 27
+      }
+    },
+    {
+      "date": "2025-09-26",
+      "eligible": 27,
+      "status": {
+        "stale_or_future_reporting_month": 66,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 27
+      }
+    },
+    {
+      "date": "2025-09-30",
+      "eligible": 27,
+      "status": {
+        "stale_or_future_reporting_month": 66,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 27
+      }
+    },
+    {
+      "date": "2025-10-01",
+      "eligible": 27,
+      "status": {
+        "stale_or_future_reporting_month": 66,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 27
+      }
+    },
+    {
+      "date": "2025-10-02",
+      "eligible": 26,
+      "status": {
+        "stale_or_future_reporting_month": 66,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 27
+      }
+    },
+    {
+      "date": "2025-10-03",
+      "eligible": 26,
+      "status": {
+        "stale_or_future_reporting_month": 66,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 27
+      }
+    },
+    {
+      "date": "2025-10-07",
+      "eligible": 27,
+      "status": {
+        "stale_or_future_reporting_month": 65,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 28
+      }
+    },
+    {
+      "date": "2025-10-08",
+      "eligible": 28,
+      "status": {
+        "stale_or_future_reporting_month": 63,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 30
+      }
+    },
+    {
+      "date": "2025-10-09",
+      "eligible": 29,
+      "status": {
+        "stale_or_future_reporting_month": 62,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 31
+      }
+    },
+    {
+      "date": "2025-10-13",
+      "eligible": 32,
+      "status": {
+        "stale_or_future_reporting_month": 59,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 34
+      }
+    },
+    {
+      "date": "2025-10-14",
+      "eligible": 34,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 35
+      }
+    },
+    {
+      "date": "2025-10-15",
+      "eligible": 34,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 35
+      }
+    },
+    {
+      "date": "2025-10-16",
+      "eligible": 34,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 35
+      }
+    },
+    {
+      "date": "2025-10-17",
+      "eligible": 34,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 35
+      }
+    },
+    {
+      "date": "2025-10-20",
+      "eligible": 34,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 35
+      }
+    },
+    {
+      "date": "2025-10-21",
+      "eligible": 33,
+      "status": {
+        "stale_or_future_reporting_month": 59,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 34
+      }
+    },
+    {
+      "date": "2025-10-22",
+      "eligible": 33,
+      "status": {
+        "stale_or_future_reporting_month": 59,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 34
+      }
+    },
+    {
+      "date": "2025-10-23",
+      "eligible": 33,
+      "status": {
+        "stale_or_future_reporting_month": 59,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 34
+      }
+    },
+    {
+      "date": "2025-10-27",
+      "eligible": 31,
+      "status": {
+        "stale_or_future_reporting_month": 61,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 32
+      }
+    },
+    {
+      "date": "2025-10-28",
+      "eligible": 31,
+      "status": {
+        "stale_or_future_reporting_month": 61,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 32
+      }
+    },
+    {
+      "date": "2025-10-29",
+      "eligible": 31,
+      "status": {
+        "stale_or_future_reporting_month": 61,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 32
+      }
+    },
+    {
+      "date": "2025-10-30",
+      "eligible": 31,
+      "status": {
+        "stale_or_future_reporting_month": 61,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 32
+      }
+    },
+    {
+      "date": "2025-10-31",
+      "eligible": 31,
+      "status": {
+        "stale_or_future_reporting_month": 61,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 32
+      }
+    },
+    {
+      "date": "2025-11-03",
+      "eligible": 31,
+      "status": {
+        "stale_or_future_reporting_month": 61,
+        "unknown_source": 57,
+        "verified_original_known_available_time": 32
+      }
+    },
+    {
+      "date": "2025-11-04",
+      "eligible": 33,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 56,
+        "verified_original_known_available_time": 34
+      }
+    },
+    {
+      "date": "2025-11-05",
+      "eligible": 34,
+      "status": {
+        "stale_or_future_reporting_month": 59,
+        "unknown_source": 56,
+        "verified_original_known_available_time": 35
+      }
+    },
+    {
+      "date": "2025-11-06",
+      "eligible": 34,
+      "status": {
+        "stale_or_future_reporting_month": 59,
+        "unknown_source": 56,
+        "verified_original_known_available_time": 35
+      }
+    },
+    {
+      "date": "2025-11-07",
+      "eligible": 36,
+      "status": {
+        "stale_or_future_reporting_month": 56,
+        "unknown_source": 56,
+        "verified_original_known_available_time": 38
+      }
+    },
+    {
+      "date": "2025-11-10",
+      "eligible": 40,
+      "status": {
+        "stale_or_future_reporting_month": 52,
+        "unknown_source": 56,
+        "verified_original_known_available_time": 42
+      }
+    },
+    {
+      "date": "2025-11-11",
+      "eligible": 43,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 45
+      }
+    },
+    {
+      "date": "2025-11-12",
+      "eligible": 43,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 45
+      }
+    },
+    {
+      "date": "2025-11-13",
+      "eligible": 43,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 45
+      }
+    },
+    {
+      "date": "2025-11-14",
+      "eligible": 43,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 45
+      }
+    },
+    {
+      "date": "2025-11-17",
+      "eligible": 43,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 45
+      }
+    },
+    {
+      "date": "2025-11-18",
+      "eligible": 43,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 45
+      }
+    },
+    {
+      "date": "2025-11-19",
+      "eligible": 43,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 45
+      }
+    },
+    {
+      "date": "2025-11-20",
+      "eligible": 43,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 45
+      }
+    },
+    {
+      "date": "2025-11-21",
+      "eligible": 43,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 45
+      }
+    },
+    {
+      "date": "2025-11-24",
+      "eligible": 39,
+      "status": {
+        "stale_or_future_reporting_month": 54,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 41
+      }
+    },
+    {
+      "date": "2025-11-25",
+      "eligible": 39,
+      "status": {
+        "stale_or_future_reporting_month": 54,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 41
+      }
+    },
+    {
+      "date": "2025-11-26",
+      "eligible": 39,
+      "status": {
+        "stale_or_future_reporting_month": 54,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 41
+      }
+    },
+    {
+      "date": "2025-11-27",
+      "eligible": 39,
+      "status": {
+        "stale_or_future_reporting_month": 54,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 41
+      }
+    },
+    {
+      "date": "2025-11-28",
+      "eligible": 39,
+      "status": {
+        "stale_or_future_reporting_month": 54,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 41
+      }
+    },
+    {
+      "date": "2025-12-01",
+      "eligible": 39,
+      "status": {
+        "stale_or_future_reporting_month": 54,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 41
+      }
+    },
+    {
+      "date": "2025-12-02",
+      "eligible": 39,
+      "status": {
+        "stale_or_future_reporting_month": 54,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 41
+      }
+    },
+    {
+      "date": "2025-12-03",
+      "eligible": 39,
+      "status": {
+        "stale_or_future_reporting_month": 54,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 41
+      }
+    },
+    {
+      "date": "2025-12-04",
+      "eligible": 39,
+      "status": {
+        "stale_or_future_reporting_month": 54,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 41
+      }
+    },
+    {
+      "date": "2025-12-05",
+      "eligible": 39,
+      "status": {
+        "stale_or_future_reporting_month": 54,
+        "unknown_source": 55,
+        "verified_original_known_available_time": 41
+      }
+    },
+    {
+      "date": "2025-12-08",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 53,
+        "unknown_source": 53,
+        "verified_original_known_available_time": 44
+      }
+    },
+    {
+      "date": "2025-12-09",
+      "eligible": 43,
+      "status": {
+        "stale_or_future_reporting_month": 52,
+        "unknown_source": 53,
+        "verified_original_known_available_time": 45
+      }
+    },
+    {
+      "date": "2025-12-10",
+      "eligible": 45,
+      "status": {
+        "stale_or_future_reporting_month": 51,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 47
+      }
+    },
+    {
+      "date": "2025-12-11",
+      "eligible": 45,
+      "status": {
+        "stale_or_future_reporting_month": 51,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 47
+      }
+    },
+    {
+      "date": "2025-12-12",
+      "eligible": 45,
+      "status": {
+        "stale_or_future_reporting_month": 51,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 47
+      }
+    },
+    {
+      "date": "2025-12-15",
+      "eligible": 45,
+      "status": {
+        "stale_or_future_reporting_month": 51,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 47
+      }
+    },
+    {
+      "date": "2025-12-16",
+      "eligible": 45,
+      "status": {
+        "stale_or_future_reporting_month": 51,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 47
+      }
+    },
+    {
+      "date": "2025-12-17",
+      "eligible": 45,
+      "status": {
+        "stale_or_future_reporting_month": 51,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 47
+      }
+    },
+    {
+      "date": "2025-12-18",
+      "eligible": 45,
+      "status": {
+        "stale_or_future_reporting_month": 51,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 47
+      }
+    },
+    {
+      "date": "2025-12-19",
+      "eligible": 45,
+      "status": {
+        "stale_or_future_reporting_month": 51,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 47
+      }
+    },
+    {
+      "date": "2025-12-22",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 54,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 44
+      }
+    },
+    {
+      "date": "2025-12-23",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 54,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 44
+      }
+    },
+    {
+      "date": "2025-12-24",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 54,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 44
+      }
+    },
+    {
+      "date": "2025-12-26",
+      "eligible": 38,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 40
+      }
+    },
+    {
+      "date": "2025-12-29",
+      "eligible": 38,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 40
+      }
+    },
+    {
+      "date": "2025-12-30",
+      "eligible": 38,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 40
+      }
+    },
+    {
+      "date": "2025-12-31",
+      "eligible": 38,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 40
+      }
+    },
+    {
+      "date": "2026-01-02",
+      "eligible": 39,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 40
+      }
+    },
+    {
+      "date": "2026-01-05",
+      "eligible": 39,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 40
+      }
+    },
+    {
+      "date": "2026-01-06",
+      "eligible": 40,
+      "status": {
+        "stale_or_future_reporting_month": 57,
+        "unknown_source": 52,
+        "verified_original_known_available_time": 41
+      }
+    },
+    {
+      "date": "2026-01-07",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 56,
+        "unknown_source": 51,
+        "verified_original_known_available_time": 43
+      }
+    },
+    {
+      "date": "2026-01-08",
+      "eligible": 46,
+      "status": {
+        "stale_or_future_reporting_month": 55,
+        "unknown_source": 48,
+        "verified_original_known_available_time": 47
+      }
+    },
+    {
+      "date": "2026-01-09",
+      "eligible": 46,
+      "status": {
+        "stale_or_future_reporting_month": 55,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 48
+      }
+    },
+    {
+      "date": "2026-01-12",
+      "eligible": 48,
+      "status": {
+        "stale_or_future_reporting_month": 53,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 50
+      }
+    },
+    {
+      "date": "2026-01-13",
+      "eligible": 51,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 53
+      }
+    },
+    {
+      "date": "2026-01-14",
+      "eligible": 51,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 53
+      }
+    },
+    {
+      "date": "2026-01-15",
+      "eligible": 51,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 53
+      }
+    },
+    {
+      "date": "2026-01-16",
+      "eligible": 51,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 53
+      }
+    },
+    {
+      "date": "2026-01-19",
+      "eligible": 51,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 53
+      }
+    },
+    {
+      "date": "2026-01-20",
+      "eligible": 50,
+      "status": {
+        "stale_or_future_reporting_month": 51,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 52
+      }
+    },
+    {
+      "date": "2026-01-21",
+      "eligible": 50,
+      "status": {
+        "stale_or_future_reporting_month": 51,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 52
+      }
+    },
+    {
+      "date": "2026-01-22",
+      "eligible": 50,
+      "status": {
+        "stale_or_future_reporting_month": 51,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 52
+      }
+    },
+    {
+      "date": "2026-01-23",
+      "eligible": 47,
+      "status": {
+        "stale_or_future_reporting_month": 55,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 48
+      }
+    },
+    {
+      "date": "2026-01-26",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 43
+      }
+    },
+    {
+      "date": "2026-01-27",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 43
+      }
+    },
+    {
+      "date": "2026-01-28",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 43
+      }
+    },
+    {
+      "date": "2026-01-29",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 43
+      }
+    },
+    {
+      "date": "2026-01-30",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 43
+      }
+    },
+    {
+      "date": "2026-02-02",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 43
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "eligible": 42,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 47,
+        "verified_original_known_available_time": 43
+      }
+    },
+    {
+      "date": "2026-02-04",
+      "eligible": 44,
+      "status": {
+        "stale_or_future_reporting_month": 59,
+        "unknown_source": 46,
+        "verified_original_known_available_time": 45
+      }
+    },
+    {
+      "date": "2026-02-05",
+      "eligible": 44,
+      "status": {
+        "stale_or_future_reporting_month": 59,
+        "unknown_source": 46,
+        "verified_original_known_available_time": 45
+      }
+    },
+    {
+      "date": "2026-02-06",
+      "eligible": 46,
+      "status": {
+        "stale_or_future_reporting_month": 57,
+        "unknown_source": 46,
+        "verified_original_known_available_time": 47
+      }
+    },
+    {
+      "date": "2026-02-09",
+      "eligible": 50,
+      "status": {
+        "stale_or_future_reporting_month": 52,
+        "unknown_source": 46,
+        "verified_original_known_available_time": 52
+      }
+    },
+    {
+      "date": "2026-02-10",
+      "eligible": 55,
+      "status": {
+        "stale_or_future_reporting_month": 48,
+        "unknown_source": 44,
+        "verified_original_known_available_time": 58
+      }
+    },
+    {
+      "date": "2026-02-11",
+      "eligible": 64,
+      "status": {
+        "stale_or_future_reporting_month": 43,
+        "unknown_source": 41,
+        "verified_original_known_available_time": 66
+      }
+    },
+    {
+      "date": "2026-02-23",
+      "eligible": 63,
+      "status": {
+        "stale_or_future_reporting_month": 45,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 65
+      }
+    },
+    {
+      "date": "2026-02-24",
+      "eligible": 62,
+      "status": {
+        "stale_or_future_reporting_month": 46,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 64
+      }
+    },
+    {
+      "date": "2026-02-25",
+      "eligible": 62,
+      "status": {
+        "stale_or_future_reporting_month": 46,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 64
+      }
+    },
+    {
+      "date": "2026-02-26",
+      "eligible": 62,
+      "status": {
+        "stale_or_future_reporting_month": 46,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 64
+      }
+    },
+    {
+      "date": "2026-03-02",
+      "eligible": 62,
+      "status": {
+        "stale_or_future_reporting_month": 46,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 64
+      }
+    },
+    {
+      "date": "2026-03-03",
+      "eligible": 62,
+      "status": {
+        "stale_or_future_reporting_month": 46,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 64
+      }
+    },
+    {
+      "date": "2026-03-04",
+      "eligible": 62,
+      "status": {
+        "stale_or_future_reporting_month": 46,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 64
+      }
+    },
+    {
+      "date": "2026-03-05",
+      "eligible": 62,
+      "status": {
+        "stale_or_future_reporting_month": 46,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 64
+      }
+    },
+    {
+      "date": "2026-03-06",
+      "eligible": 63,
+      "status": {
+        "stale_or_future_reporting_month": 46,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 64
+      }
+    },
+    {
+      "date": "2026-03-09",
+      "eligible": 63,
+      "status": {
+        "stale_or_future_reporting_month": 46,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 64
+      }
+    },
+    {
+      "date": "2026-03-10",
+      "eligible": 64,
+      "status": {
+        "stale_or_future_reporting_month": 45,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 65
+      }
+    },
+    {
+      "date": "2026-03-11",
+      "eligible": 64,
+      "status": {
+        "stale_or_future_reporting_month": 45,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 65
+      }
+    },
+    {
+      "date": "2026-03-12",
+      "eligible": 64,
+      "status": {
+        "stale_or_future_reporting_month": 45,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 65
+      }
+    },
+    {
+      "date": "2026-03-13",
+      "eligible": 64,
+      "status": {
+        "stale_or_future_reporting_month": 45,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 65
+      }
+    },
+    {
+      "date": "2026-03-16",
+      "eligible": 65,
+      "status": {
+        "stale_or_future_reporting_month": 44,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 66
+      }
+    },
+    {
+      "date": "2026-03-17",
+      "eligible": 66,
+      "status": {
+        "stale_or_future_reporting_month": 43,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 67
+      }
+    },
+    {
+      "date": "2026-03-18",
+      "eligible": 66,
+      "status": {
+        "stale_or_future_reporting_month": 43,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 67
+      }
+    },
+    {
+      "date": "2026-03-19",
+      "eligible": 66,
+      "status": {
+        "stale_or_future_reporting_month": 43,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 67
+      }
+    },
+    {
+      "date": "2026-03-20",
+      "eligible": 66,
+      "status": {
+        "stale_or_future_reporting_month": 43,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 67
+      }
+    },
+    {
+      "date": "2026-03-23",
+      "eligible": 56,
+      "status": {
+        "stale_or_future_reporting_month": 53,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 57
+      }
+    },
+    {
+      "date": "2026-03-24",
+      "eligible": 51,
+      "status": {
+        "stale_or_future_reporting_month": 59,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 51
+      }
+    },
+    {
+      "date": "2026-03-25",
+      "eligible": 51,
+      "status": {
+        "stale_or_future_reporting_month": 59,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 51
+      }
+    },
+    {
+      "date": "2026-03-26",
+      "eligible": 50,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 50
+      }
+    },
+    {
+      "date": "2026-03-27",
+      "eligible": 44,
+      "status": {
+        "stale_or_future_reporting_month": 66,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 44
+      }
+    },
+    {
+      "date": "2026-03-30",
+      "eligible": 37,
+      "status": {
+        "stale_or_future_reporting_month": 73,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 37
+      }
+    },
+    {
+      "date": "2026-03-31",
+      "eligible": 34,
+      "status": {
+        "stale_or_future_reporting_month": 76,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 34
+      }
+    },
+    {
+      "date": "2026-04-01",
+      "eligible": 34,
+      "status": {
+        "stale_or_future_reporting_month": 76,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 34
+      }
+    },
+    {
+      "date": "2026-04-02",
+      "eligible": 34,
+      "status": {
+        "stale_or_future_reporting_month": 76,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 34
+      }
+    },
+    {
+      "date": "2026-04-07",
+      "eligible": 37,
+      "status": {
+        "stale_or_future_reporting_month": 72,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 38
+      }
+    },
+    {
+      "date": "2026-04-08",
+      "eligible": 39,
+      "status": {
+        "stale_or_future_reporting_month": 70,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 40
+      }
+    },
+    {
+      "date": "2026-04-09",
+      "eligible": 41,
+      "status": {
+        "stale_or_future_reporting_month": 68,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 42
+      }
+    },
+    {
+      "date": "2026-04-10",
+      "eligible": 43,
+      "status": {
+        "stale_or_future_reporting_month": 66,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 44
+      }
+    },
+    {
+      "date": "2026-04-13",
+      "eligible": 49,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 50
+      }
+    },
+    {
+      "date": "2026-04-14",
+      "eligible": 49,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 50
+      }
+    },
+    {
+      "date": "2026-04-15",
+      "eligible": 49,
+      "status": {
+        "stale_or_future_reporting_month": 60,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 50
+      }
+    },
+    {
+      "date": "2026-04-16",
+      "eligible": 52,
+      "status": {
+        "stale_or_future_reporting_month": 57,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 53
+      }
+    },
+    {
+      "date": "2026-04-17",
+      "eligible": 52,
+      "status": {
+        "stale_or_future_reporting_month": 57,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 53
+      }
+    },
+    {
+      "date": "2026-04-20",
+      "eligible": 52,
+      "status": {
+        "stale_or_future_reporting_month": 57,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 53
+      }
+    },
+    {
+      "date": "2026-04-21",
+      "eligible": 51,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 52
+      }
+    },
+    {
+      "date": "2026-04-22",
+      "eligible": 51,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 52
+      }
+    },
+    {
+      "date": "2026-04-23",
+      "eligible": 51,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 52
+      }
+    },
+    {
+      "date": "2026-04-24",
+      "eligible": 51,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 52
+      }
+    },
+    {
+      "date": "2026-04-27",
+      "eligible": 51,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 52
+      }
+    },
+    {
+      "date": "2026-04-28",
+      "eligible": 51,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 52
+      }
+    },
+    {
+      "date": "2026-04-29",
+      "eligible": 51,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 52
+      }
+    },
+    {
+      "date": "2026-04-30",
+      "eligible": 51,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 52
+      }
+    },
+    {
+      "date": "2026-05-04",
+      "eligible": 51,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 52
+      }
+    },
+    {
+      "date": "2026-05-05",
+      "eligible": 51,
+      "status": {
+        "stale_or_future_reporting_month": 58,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 52
+      }
+    },
+    {
+      "date": "2026-05-06",
+      "eligible": 53,
+      "status": {
+        "stale_or_future_reporting_month": 57,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 53
+      }
+    },
+    {
+      "date": "2026-05-07",
+      "eligible": 54,
+      "status": {
+        "stale_or_future_reporting_month": 56,
+        "unknown_source": 40,
+        "verified_original_known_available_time": 54
+      }
+    },
+    {
+      "date": "2026-05-08",
+      "eligible": 57,
+      "status": {
+        "stale_or_future_reporting_month": 55,
+        "unknown_source": 38,
+        "verified_original_known_available_time": 57
+      }
+    },
+    {
+      "date": "2026-05-11",
+      "eligible": 60,
+      "status": {
+        "stale_or_future_reporting_month": 52,
+        "unknown_source": 37,
+        "verified_original_known_available_time": 61
+      }
+    },
+    {
+      "date": "2026-05-12",
+      "eligible": 61,
+      "status": {
+        "stale_or_future_reporting_month": 52,
+        "unknown_source": 36,
+        "verified_original_known_available_time": 62
+      }
+    },
+    {
+      "date": "2026-05-13",
+      "eligible": 61,
+      "status": {
+        "stale_or_future_reporting_month": 52,
+        "unknown_source": 36,
+        "verified_original_known_available_time": 62
+      }
+    },
+    {
+      "date": "2026-05-14",
+      "eligible": 61,
+      "status": {
+        "stale_or_future_reporting_month": 52,
+        "unknown_source": 36,
+        "verified_original_known_available_time": 62
+      }
+    },
+    {
+      "date": "2026-05-15",
+      "eligible": 63,
+      "status": {
+        "stale_or_future_reporting_month": 51,
+        "unknown_source": 35,
+        "verified_original_known_available_time": 64
+      }
+    },
+    {
+      "date": "2026-05-18",
+      "eligible": 63,
+      "status": {
+        "stale_or_future_reporting_month": 51,
+        "unknown_source": 35,
+        "verified_original_known_available_time": 64
+      }
+    },
+    {
+      "date": "2026-05-19",
+      "eligible": 64,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 35,
+        "verified_original_known_available_time": 65
+      }
+    },
+    {
+      "date": "2026-05-20",
+      "eligible": 64,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 35,
+        "verified_original_known_available_time": 65
+      }
+    },
+    {
+      "date": "2026-05-21",
+      "eligible": 63,
+      "status": {
+        "stale_or_future_reporting_month": 51,
+        "unknown_source": 35,
+        "verified_original_known_available_time": 64
+      }
+    },
+    {
+      "date": "2026-05-22",
+      "eligible": 63,
+      "status": {
+        "stale_or_future_reporting_month": 51,
+        "unknown_source": 35,
+        "verified_original_known_available_time": 64
+      }
+    },
+    {
+      "date": "2026-05-25",
+      "eligible": 61,
+      "status": {
+        "stale_or_future_reporting_month": 53,
+        "unknown_source": 35,
+        "verified_original_known_available_time": 62
+      }
+    },
+    {
+      "date": "2026-05-26",
+      "eligible": 59,
+      "status": {
+        "stale_or_future_reporting_month": 55,
+        "unknown_source": 35,
+        "verified_original_known_available_time": 60
+      }
+    },
+    {
+      "date": "2026-05-27",
+      "eligible": 59,
+      "status": {
+        "stale_or_future_reporting_month": 55,
+        "unknown_source": 35,
+        "verified_original_known_available_time": 60
+      }
+    },
+    {
+      "date": "2026-05-28",
+      "eligible": 59,
+      "status": {
+        "stale_or_future_reporting_month": 55,
+        "unknown_source": 35,
+        "verified_original_known_available_time": 60
+      }
+    },
+    {
+      "date": "2026-05-29",
+      "eligible": 59,
+      "status": {
+        "stale_or_future_reporting_month": 55,
+        "unknown_source": 35,
+        "verified_original_known_available_time": 60
+      }
+    },
+    {
+      "date": "2026-06-01",
+      "eligible": 58,
+      "status": {
+        "stale_or_future_reporting_month": 56,
+        "unknown_source": 35,
+        "verified_original_known_available_time": 59
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "eligible": 58,
+      "status": {
+        "stale_or_future_reporting_month": 56,
+        "unknown_source": 35,
+        "verified_original_known_available_time": 59
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "eligible": 59,
+      "status": {
+        "stale_or_future_reporting_month": 55,
+        "unknown_source": 35,
+        "verified_original_known_available_time": 60
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "eligible": 59,
+      "status": {
+        "stale_or_future_reporting_month": 55,
+        "unknown_source": 35,
+        "verified_original_known_available_time": 60
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "eligible": 60,
+      "status": {
+        "stale_or_future_reporting_month": 55,
+        "unknown_source": 34,
+        "verified_original_known_available_time": 61
+      }
+    },
+    {
+      "date": "2026-06-08",
+      "eligible": 65,
+      "status": {
+        "stale_or_future_reporting_month": 50,
+        "unknown_source": 34,
+        "verified_original_known_available_time": 66
+      }
+    },
+    {
+      "date": "2026-06-09",
+      "eligible": 71,
+      "status": {
+        "stale_or_future_reporting_month": 44,
+        "unknown_source": 34,
+        "verified_original_known_available_time": 72
+      }
+    },
+    {
+      "date": "2026-06-10",
+      "eligible": 73,
+      "status": {
+        "stale_or_future_reporting_month": 43,
+        "unknown_source": 33,
+        "verified_original_known_available_time": 74
+      }
+    },
+    {
+      "date": "2026-06-11",
+      "eligible": 76,
+      "status": {
+        "stale_or_future_reporting_month": 40,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 78
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "eligible": 77,
+      "status": {
+        "stale_or_future_reporting_month": 39,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 79
+      }
+    },
+    {
+      "date": "2026-06-15",
+      "eligible": 77,
+      "status": {
+        "stale_or_future_reporting_month": 39,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 79
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "eligible": 77,
+      "status": {
+        "stale_or_future_reporting_month": 39,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 79
+      }
+    },
+    {
+      "date": "2026-06-17",
+      "eligible": 77,
+      "status": {
+        "stale_or_future_reporting_month": 39,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 79
+      }
+    },
+    {
+      "date": "2026-06-18",
+      "eligible": 77,
+      "status": {
+        "stale_or_future_reporting_month": 39,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 79
+      }
+    },
+    {
+      "date": "2026-06-22",
+      "eligible": 74,
+      "status": {
+        "stale_or_future_reporting_month": 42,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 76
+      }
+    },
+    {
+      "date": "2026-06-23",
+      "eligible": 72,
+      "status": {
+        "stale_or_future_reporting_month": 44,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 74
+      }
+    },
+    {
+      "date": "2026-06-24",
+      "eligible": 72,
+      "status": {
+        "stale_or_future_reporting_month": 44,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 74
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "eligible": 72,
+      "status": {
+        "stale_or_future_reporting_month": 44,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 74
+      }
+    },
+    {
+      "date": "2026-06-26",
+      "eligible": 71,
+      "status": {
+        "stale_or_future_reporting_month": 45,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 73
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "eligible": 71,
+      "status": {
+        "stale_or_future_reporting_month": 45,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 73
+      }
+    },
+    {
+      "date": "2026-06-30",
+      "eligible": 71,
+      "status": {
+        "stale_or_future_reporting_month": 45,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 73
+      }
+    },
+    {
+      "date": "2026-07-01",
+      "eligible": 71,
+      "status": {
+        "stale_or_future_reporting_month": 45,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 73
+      }
+    },
+    {
+      "date": "2026-07-02",
+      "eligible": 71,
+      "status": {
+        "stale_or_future_reporting_month": 45,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 73
+      }
+    },
+    {
+      "date": "2026-07-03",
+      "eligible": 71,
+      "status": {
+        "stale_or_future_reporting_month": 45,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 73
+      }
+    },
+    {
+      "date": "2026-07-06",
+      "eligible": 71,
+      "status": {
+        "stale_or_future_reporting_month": 45,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 73
+      }
+    },
+    {
+      "date": "2026-07-07",
+      "eligible": 71,
+      "status": {
+        "stale_or_future_reporting_month": 45,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 73
+      }
+    },
+    {
+      "date": "2026-07-08",
+      "eligible": 73,
+      "status": {
+        "stale_or_future_reporting_month": 43,
+        "unknown_source": 32,
+        "verified_original_known_available_time": 75
+      }
+    },
+    {
+      "date": "2026-07-09",
+      "eligible": 77,
+      "status": {
+        "stale_or_future_reporting_month": 40,
+        "unknown_source": 31,
+        "verified_original_known_available_time": 79
+      }
+    },
+    {
+      "date": "2026-07-13",
+      "eligible": 84,
+      "status": {
+        "verified_original_known_available_time": 86,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 35
+      }
+    },
+    {
+      "date": "2026-07-14",
+      "eligible": 85,
+      "status": {
+        "verified_original_known_available_time": 87,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 34
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "eligible": 85,
+      "status": {
+        "verified_original_known_available_time": 87,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 34
+      }
+    },
+    {
+      "date": "2026-07-16",
+      "eligible": 85,
+      "status": {
+        "verified_original_known_available_time": 87,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 34
+      }
+    },
+    {
+      "date": "2026-07-17",
+      "eligible": 85,
+      "status": {
+        "verified_original_known_available_time": 87,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 34
+      }
+    },
+    {
+      "date": "2026-07-20",
+      "eligible": 85,
+      "status": {
+        "verified_original_known_available_time": 87,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 34
+      }
+    },
+    {
+      "date": "2026-07-21",
+      "eligible": 83,
+      "status": {
+        "verified_original_known_available_time": 84,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 37
+      }
+    },
+    {
+      "date": "2026-07-22",
+      "eligible": 83,
+      "status": {
+        "verified_original_known_available_time": 84,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 37
+      }
+    },
+    {
+      "date": "2026-07-23",
+      "eligible": 83,
+      "status": {
+        "verified_original_known_available_time": 84,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 37
+      }
+    },
+    {
+      "date": "2026-07-24",
+      "eligible": 81,
+      "status": {
+        "verified_original_known_available_time": 82,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 39
+      }
+    },
+    {
+      "date": "2026-07-27",
+      "eligible": 79,
+      "status": {
+        "verified_original_known_available_time": 80,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 41
+      }
+    },
+    {
+      "date": "2026-07-28",
+      "eligible": 74,
+      "status": {
+        "verified_original_known_available_time": 75,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 46
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "eligible": 74,
+      "status": {
+        "verified_original_known_available_time": 75,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 46
+      }
+    },
+    {
+      "date": "2026-07-30",
+      "eligible": 74,
+      "status": {
+        "verified_original_known_available_time": 75,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 46
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "eligible": 73,
+      "status": {
+        "verified_original_known_available_time": 74,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 47
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "eligible": 73,
+      "status": {
+        "verified_original_known_available_time": 74,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 47
+      }
+    },
+    {
+      "date": "2026-08-04",
+      "eligible": 73,
+      "status": {
+        "verified_original_known_available_time": 74,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 47
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "eligible": 73,
+      "status": {
+        "verified_original_known_available_time": 74,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 47
+      }
+    },
+    {
+      "date": "2026-08-06",
+      "eligible": 74,
+      "status": {
+        "verified_original_known_available_time": 75,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 46
+      }
+    },
+    {
+      "date": "2026-08-07",
+      "eligible": 76,
+      "status": {
+        "verified_original_known_available_time": 77,
+        "unknown_source": 29,
+        "stale_or_future_reporting_month": 44
+      }
+    },
+    {
+      "date": "2026-08-10",
+      "eligible": 83,
+      "status": {
+        "verified_original_known_available_time": 84,
+        "unknown_source": 28,
+        "stale_or_future_reporting_month": 38
+      }
+    },
+    {
+      "date": "2026-08-11",
+      "eligible": 84,
+      "status": {
+        "verified_original_known_available_time": 85,
+        "unknown_source": 28,
+        "stale_or_future_reporting_month": 37
+      }
+    },
+    {
+      "date": "2026-08-12",
+      "eligible": 84,
+      "status": {
+        "verified_original_known_available_time": 85,
+        "unknown_source": 28,
+        "stale_or_future_reporting_month": 37
+      }
+    },
+    {
+      "date": "2026-08-13",
+      "eligible": 84,
+      "status": {
+        "verified_original_known_available_time": 85,
+        "unknown_source": 28,
+        "stale_or_future_reporting_month": 37
+      }
+    },
+    {
+      "date": "2026-08-14",
+      "eligible": 84,
+      "status": {
+        "verified_original_known_available_time": 85,
+        "unknown_source": 28,
+        "stale_or_future_reporting_month": 37
+      }
+    },
+    {
+      "date": "2026-08-17",
+      "eligible": 83,
+      "status": {
+        "verified_original_known_available_time": 84,
+        "unknown_source": 28,
+        "stale_or_future_reporting_month": 38
+      }
+    },
+    {
+      "date": "2026-08-18",
+      "eligible": 82,
+      "status": {
+        "verified_original_known_available_time": 83,
+        "unknown_source": 28,
+        "stale_or_future_reporting_month": 39
+      }
+    },
+    {
+      "date": "2026-08-19",
+      "eligible": 82,
+      "status": {
+        "verified_original_known_available_time": 83,
+        "unknown_source": 28,
+        "stale_or_future_reporting_month": 39
+      }
+    },
+    {
+      "date": "2026-08-20",
+      "eligible": 84,
+      "status": {
+        "verified_original_known_available_time": 85,
+        "unknown_source": 28,
+        "stale_or_future_reporting_month": 37
+      }
+    },
+    {
+      "date": "2026-08-21",
+      "eligible": 84,
+      "status": {
+        "verified_original_known_available_time": 85,
+        "unknown_source": 28,
+        "stale_or_future_reporting_month": 37
+      }
+    },
+    {
+      "date": "2026-08-24",
+      "eligible": 80,
+      "status": {
+        "verified_original_known_available_time": 81,
+        "unknown_source": 28,
+        "stale_or_future_reporting_month": 41
+      }
+    },
+    {
+      "date": "2026-08-25",
+      "eligible": 79,
+      "status": {
+        "stale_or_future_reporting_month": 42,
+        "unknown_source": 28,
+        "verified_original_known_available_time": 80
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "eligible": 79,
+      "status": {
+        "stale_or_future_reporting_month": 42,
+        "unknown_source": 28,
+        "verified_original_known_available_time": 80
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "eligible": 79,
+      "status": {
+        "stale_or_future_reporting_month": 42,
+        "unknown_source": 28,
+        "verified_original_known_available_time": 80
+      }
+    },
+    {
+      "date": "2026-08-28",
+      "eligible": 78,
+      "status": {
+        "stale_or_future_reporting_month": 43,
+        "unknown_source": 28,
+        "verified_original_known_available_time": 79
+      }
+    },
+    {
+      "date": "2026-08-31",
+      "eligible": 76,
+      "status": {
+        "stale_or_future_reporting_month": 45,
+        "unknown_source": 28,
+        "verified_original_known_available_time": 77
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "eligible": 76,
+      "status": {
+        "stale_or_future_reporting_month": 45,
+        "unknown_source": 28,
+        "verified_original_known_available_time": 77
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "eligible": 76,
+      "status": {
+        "stale_or_future_reporting_month": 45,
+        "unknown_source": 28,
+        "verified_original_known_available_time": 77
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "eligible": 77,
+      "status": {
+        "stale_or_future_reporting_month": 44,
+        "unknown_source": 28,
+        "verified_original_known_available_time": 78
+      }
+    },
+    {
+      "date": "2026-09-04",
+      "eligible": 77,
+      "status": {
+        "stale_or_future_reporting_month": 44,
+        "unknown_source": 28,
+        "verified_original_known_available_time": 78
+      }
+    },
+    {
+      "date": "2026-09-07",
+      "eligible": 79,
+      "status": {
+        "stale_or_future_reporting_month": 43,
+        "unknown_source": 27,
+        "verified_original_known_available_time": 80
+      }
+    },
+    {
+      "date": "2026-09-08",
+      "eligible": 80,
+      "status": {
+        "stale_or_future_reporting_month": 43,
+        "unknown_source": 27,
+        "verified_original_known_available_time": 80
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "eligible": 82,
+      "status": {
+        "stale_or_future_reporting_month": 41,
+        "unknown_source": 27,
+        "verified_original_known_available_time": 82
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "eligible": 83,
+      "status": {
+        "stale_or_future_reporting_month": 40,
+        "unknown_source": 27,
+        "verified_original_known_available_time": 83
+      }
+    },
+    {
+      "date": "2026-09-11",
+      "eligible": 86,
+      "status": {
+        "stale_or_future_reporting_month": 39,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 86
+      }
+    },
+    {
+      "date": "2026-09-14",
+      "eligible": 86,
+      "status": {
+        "stale_or_future_reporting_month": 39,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 86
+      }
+    },
+    {
+      "date": "2026-09-15",
+      "eligible": 86,
+      "status": {
+        "stale_or_future_reporting_month": 39,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 86
+      }
+    },
+    {
+      "date": "2026-09-16",
+      "eligible": 86,
+      "status": {
+        "stale_or_future_reporting_month": 39,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 86
+      }
+    },
+    {
+      "date": "2026-09-17",
+      "eligible": 86,
+      "status": {
+        "stale_or_future_reporting_month": 39,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 86
+      }
+    },
+    {
+      "date": "2026-09-18",
+      "eligible": 86,
+      "status": {
+        "stale_or_future_reporting_month": 39,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 86
+      }
+    },
+    {
+      "date": "2026-09-21",
+      "eligible": 85,
+      "status": {
+        "stale_or_future_reporting_month": 40,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 85
+      }
+    },
+    {
+      "date": "2026-09-22",
+      "eligible": 81,
+      "status": {
+        "stale_or_future_reporting_month": 44,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 81
+      }
+    },
+    {
+      "date": "2026-09-23",
+      "eligible": 81,
+      "status": {
+        "stale_or_future_reporting_month": 44,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 81
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "eligible": 81,
+      "status": {
+        "stale_or_future_reporting_month": 44,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 81
+      }
+    },
+    {
+      "date": "2026-09-29",
+      "eligible": 81,
+      "status": {
+        "stale_or_future_reporting_month": 44,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 81
+      }
+    },
+    {
+      "date": "2026-09-30",
+      "eligible": 81,
+      "status": {
+        "stale_or_future_reporting_month": 44,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 81
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "eligible": 81,
+      "status": {
+        "stale_or_future_reporting_month": 44,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 81
+      }
+    },
+    {
+      "date": "2026-10-02",
+      "eligible": 81,
+      "status": {
+        "stale_or_future_reporting_month": 44,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 81
+      }
+    },
+    {
+      "date": "2026-10-05",
+      "eligible": 81,
+      "status": {
+        "stale_or_future_reporting_month": 44,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 81
+      }
+    },
+    {
+      "date": "2026-10-06",
+      "eligible": 81,
+      "status": {
+        "stale_or_future_reporting_month": 44,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 81
+      }
+    },
+    {
+      "date": "2026-10-07",
+      "eligible": 81,
+      "status": {
+        "stale_or_future_reporting_month": 44,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 81
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "eligible": 82,
+      "status": {
+        "stale_or_future_reporting_month": 42,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 83
+      }
+    },
+    {
+      "date": "2026-10-12",
+      "eligible": 84,
+      "status": {
+        "stale_or_future_reporting_month": 40,
+        "unknown_source": 25,
+        "verified_original_known_available_time": 85
+      }
+    }
+  ],
+  "revenue_provenance": "original bulletin+DBnumericcrosscheck;knownavailable notcertifiedfirstrelease",
+  "data_gate_missing": "missingnotzero;sameprice/flowqualitygate,no momentumranking inotherfamilies"
+}

@@ -1,0 +1,53 @@
+{
+  "version": "v15_five_pure_families_same_engine",
+  "request": "fivefamiliesfaircomparisonplusfutureindustryseasonalityplan",
+  "universe": "samecurrentTWSE100plusTPEX50",
+  "raw_snapshot_sha256": "1b826aa999a02664f43ff9c48a77259881901d8b8399c6ee85ebc275af7ea0e2",
+  "period": "2023-10-02to2026-10-12;650startsafter61sessionwarmup;24sessionholding",
+  "families": {
+    "MOM": "equalrankprevious20and60daymomentum",
+    "FLOW": "previous20dayforeignplusinvestmenttrustnetbuyshares/volume;nomomentumranking",
+    "REV": "negativeprevious5dayadjustedreturn;nomomentumranking",
+    "LOWVOL": "negativeprevious20dayadjustedreturndailySD;nomomentumranking",
+    "REVENU": "latestknownpublishedmonthlyrevenueMoM/YoYpercentiles50/50;notLLM;knownavailabletime notcertifiedearliestrelease"
+  },
+  "shared_eligibility": "samev7past60completepricedataandpast20flowvolumequality;notdifferentmomentumfilters;pastunknownactionflagsexclude;missingfactorvaluesexcludeonlyaffectedstock",
+  "revenue_eligibility": "publicationbeforedecision08:55,latestreportmonthlag1or2,earliestverifiedsourceofthatmonth,45daymaxage,originaldualratecrosscheckedDBwithin0.05pp",
+  "portfolio_count": 25,
+  "count_scope": "controlforsignalisolation;notmandatoryfuture25;previous20to30experimentsremainreference",
+  "allocations": {
+    "equal": "90pct/25;full adjustment tolerance0",
+    "mild_skip": "90pct*linear1.25to.75inrankorder/25;retainedpositiondelta<=0.005previousNAVskip;entriesexitsexecute"
+  },
+  "allocation_comparison_limit": "mild_skipalsochangestolerance;itisaallocationplustradingbundle,notisolatedweightingeffect",
+  "holding": 24,
+  "rebalance": 5,
+  "lots": 1000,
+  "invested": 0.9,
+  "fee": 0.001425,
+  "tax": 0.003,
+  "caps": "2330.25others.10;existing5daygrace;daily20to30actualholdings;cashnonnegativeand<.25",
+  "actions": "samev7verifiedfreecashandstockreceivablesnotspendable;12paidcapitalunknown;noautomaticwaiverinprimary",
+  "v14_applicability": "oldshortenginealreadyusesaggregateVWAPwithoutregularhighlowgate;suspension2018outsideperiod;no needchangeprimaryscope",
+  "max_candidates": 10,
+  "expected_reuse": [
+    "MOM_equal",
+    "MOM_mild_skip",
+    "FLOW_equal",
+    "LOWVOL_equal",
+    "REVENU_equal"
+  ],
+  "new_only": [
+    "REV_equal",
+    "FLOW_mild_skip",
+    "REV_mild_skip",
+    "LOWVOL_mild_skip",
+    "REVENU_mild_skip"
+  ],
+  "dedup": "experimentdefinition+snapshot+enginehash;20samplecontrolsorallfailedmethodrecalculation;preserve reason",
+  "comparisons": "allvaliddescriptive;all10commonvaliddatesprimary;familywithinallocationvsMOM;allocationbundleswithinfamily;pairedintersectioncoverage",
+  "statistics": "netwinrate,mean24dEV,meanwin/meanloss,flatcount,n,fees,mdd,P10;24/48positionmovingblocks5000repseed20261015;279priorfamily+10conservativefamily289",
+  "support_gate": "bothblocklowerbounds>0,positiveyearandearlylatepairedmeans,training/testcoverage>=.8,p10andmedianmddnotworse1pp;no untouchedholdout;do notforcewinner",
+  "no_data_fishing": "no newlookbacksweightsstockcountsafteroutcome;no newstrategiesuntilbatchreported",
+  "deferred": "LLM,DataPack,DPlan,trades,automations,newrepo/project;seasonalityexecutionawaitsPITclassificationgate"
+}

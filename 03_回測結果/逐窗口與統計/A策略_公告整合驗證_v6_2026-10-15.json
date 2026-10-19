@@ -1,0 +1,11 @@
+{
+  "nanya_release_boundary": "passed before08:55 Oct13 excludes Q3, Oct14 includes source quantities",
+  "unresolved6223_and2337": "retained_neutral",
+  "financing_misclassification": "repaired",
+  "unchanged_execution_controls_checked": 4,
+  "source_known_at_before_cutoff": "verified for every accepted decision record",
+  "weight25_sum90_cap10": "both anchors passed",
+  "LLM_evaluated": false,
+  "submitted_trades": false,
+  "restart_and_run_all": false
+}

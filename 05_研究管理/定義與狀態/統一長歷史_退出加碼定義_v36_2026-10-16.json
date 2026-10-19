@@ -1,0 +1,18 @@
+{
+  "scope": "v33 stop_add_replication",
+  "data": {
+    "price_current150_cache": "ea800cb5f3c11893db177adcb406bd134f341eb26e0fdf55b0550edf81094e86",
+    "flow_current150_cache": "f4b2e03d369e809ca06b6b11bdac6fcec83ee505e71fad055825391c06c97338",
+    "price_twse_and_actions": "3459a6316bcd2a1790a987cd5f64736c11f9aec58cbaea70282a7090b12a4f38",
+    "action_repairs": "07ce315501c0dfd7d2a09371f48d3a72d8c7a9af9eb6852f9d4df62fd91fdb60",
+    "listing_stockmaster_snapshot": "81ba1f8c26953ab7e86f2a3cc03bf187ab1f11cdb1310083a730c76a78b4ae70"
+  },
+  "rules": "originalv23 fourstates none/ma5/ma5two/low5 x addoff/on,7new",
+  "timing": "allfirstday sameMOM25/equal90;priorclose signals,nextdayVWAP;nointraday",
+  "add": "fixed120knownnames/day,proxy20positive,breadth>=60%;heldR3R5>0 &aboveMA5;90->95;statechangeorregular5day",
+  "target": "25;oneforonehealthyreplacement;no forced fill",
+  "actions": "v30 knowncash receivable;unknownnoncash invalidate;no fabricated stockdiv",
+  "primary_contrasts": "7 new vsbase +3 addonmarginal +3 exitvsnone_add =13;24/48blocks5000Bonf13",
+  "period": "2016..2018calibration,2019..2025later",
+  "no_improvement_assumed": true
+}

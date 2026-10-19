@@ -1,0 +1,54 @@
+{
+  "definition": {
+    "date": "2026-10-15",
+    "base": "v7 fixed snapshot and verified action overlay",
+    "scope": "A same25,24sessions,every5sessions,90pct,1000share,buy/sellfee .001425,selltax .003",
+    "common_reference": "A_mild_tolerance existing .005previous tradableNAV retained-stock skip; exact same selection and skip for new candidates",
+    "R_market_reversal": {
+      "state": "previous20days cumulative return of daily equalweighted available150 proxy,negative triggers; proxy excludes flagged corporate-action returns",
+      "beta": "previous60 adjusted returns beta to same daily proxy; require>=40paired finite days; unknown multiplier1",
+      "allocation": "base mild weight divided by (1+max(beta,0)) in negative state; otherwise base mild; normalize total90pct with existing1.8-5.4pct bounds",
+      "cap_beta": 3.0,
+      "cash_change": false,
+      "meaning": "lower estimated sensitivity inside same25, not remove overall market exposure"
+    },
+    "E_overextension": {
+      "definition": "previous20days cumulative adjusted return minus mean of those20 path levels, divided by populationstd of20pathlevels; equivalent latest price relative20day mean in action-adjusted units",
+      "trigger": "last adjusted level >mean+2std, multiplier .75; else1; unknown1",
+      "allocation": "mild raw weight times multiplier, normalize90pct using same1.8-5.4pct bounds",
+      "meaning": "a simple fixed extension rule, not claim all big winners reverse"
+    },
+    "S_common_risk": {
+      "industry_data": "no verified point-in-time individual classifications in retained sources; industry cap backtest not feasible",
+      "diagnostic": "prior60day mean pairwise correlation of selected25 adjusted returns; pair requires>=40finite days; groups <.25,.25-.5,>=.5 fixed",
+      "not_industry": "correlation is statistical common risk, not a reconstructed industry classification"
+    },
+    "T_turnover": {
+      "candidate": "reuse existing A_mild_tolerance; no new allocation parameter or cycle search",
+      "attribution": "record exact replay settlement costs by initial entry,new later entry,full exit,retained adjust; reconcile return/fees to saved v7",
+      "causality": "fee difference alone not counterfactual PnL; replay only to obtain trade attribution, not a duplicate candidate"
+    },
+    "diagnostics": {
+      "initial_asof": "all stock features based on t-1,not future24day returns",
+      "proxy_scope": "150 current contest universe historical data; not official TAIEX nor survivor-free market index",
+      "realized_reversal": "prior20proxy>=0 and subsequent24proxy<0 descriptive only, never used in candidate weights",
+      "overlap": "all windows overlap; stratified summaries descriptive, not independent observations",
+      "year_tests": "retain all years and early/late; no untouched holdout"
+    },
+    "new_candidates": [
+      "A_R_state_beta_tolerance",
+      "A_E_extension_tolerance"
+    ],
+    "no_auto_combination": true,
+    "family": 46,
+    "family_reason": "prior conservative44 plus2 fixed single mechanisms",
+    "risk_criteria": "pairedP10 and medianMDD deterioration<=1pp;44old+2new family5pct block24/48 each5000,years/halves must all positive",
+    "deferred": [
+      "official account/DPlan",
+      "competition operating rules",
+      "operational rehearsal",
+      "LLM weighting"
+    ]
+  },
+  "sha256": "3ae03c1a41658a0af29d4eb6a8e649e9e6843f53eb2cd66a577523f63c6ff464"
+}

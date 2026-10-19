@@ -1,0 +1,3522 @@
+{
+  "all_monthly": [
+    {
+      "stock_id": "1303",
+      "year_month": "2025-06",
+      "known_at": "2025-07-29 16:37:39",
+      "ann_id": "48d360e80bf45de4f9fa8fde99e54b7d7169005c",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 20590.0,
+        "pretax": -3151.0,
+        "eps": -0.38
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "1303",
+      "year_month": "2025-06",
+      "known_at": "2025-07-29 18:14:54",
+      "ann_id": "147ef434d949adb6f1c343afc3d04e8a589abb65",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解(補充公告)",
+      "values_as_printed": {
+        "revenue": 20590.0,
+        "pretax": -3151.0,
+        "eps": -0.38
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "1303",
+      "year_month": "2026-05",
+      "known_at": "2026-06-22 14:48:32",
+      "ann_id": "59a175e95e17f8e4ab7bd74c12b520840a96935e",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 28831.0,
+        "pretax": 3753.0,
+        "eps": 0.33
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "1303",
+      "year_month": "2026-06",
+      "known_at": "2026-07-30 16:37:56",
+      "ann_id": "00f4de933b606739794ef3c726692efebb7ff2ec",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 27135.0,
+        "pretax": 24417.0,
+        "eps": 2.88
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "1303",
+      "year_month": "2026-07",
+      "known_at": "2026-09-01 15:42:35",
+      "ann_id": "2298a3af2ab64bca8ed75bdad245090c885f993f",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 30573.0,
+        "pretax": 4791.0,
+        "eps": 0.4
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "1326",
+      "year_month": "2025-09",
+      "known_at": "2025-11-14 16:12:07",
+      "ann_id": "ef03a38d4deabc564372476f4035501e77507476",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 23069.0,
+        "pretax": 1955.0,
+        "eps": 0.24
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "1504",
+      "year_month": "2025-07",
+      "known_at": "2025-08-26 16:55:37",
+      "ann_id": "1dce00c08fe6a9e22f2354133caa589bf72a11c6",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 4858.0,
+        "pretax": 904.0,
+        "parent_net": 672.0,
+        "eps": 0.32
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "1802",
+      "year_month": "2025-06",
+      "known_at": "2025-07-29 16:29:29",
+      "ann_id": "462ba2166fa05b14eec8f571545e4078220cd1ba",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 3316.0,
+        "pretax": -412.0,
+        "eps": -0.1
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "1802",
+      "year_month": "2025-11",
+      "known_at": "2026-01-21 16:03:34",
+      "ann_id": "c0ad059042b4162ec764dca932a7d2fb25c6b748",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 3604.0,
+        "pretax": 274.0,
+        "eps": 0.08
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "1802",
+      "year_month": "2026-01",
+      "known_at": "2026-02-26 15:58:54",
+      "ann_id": "a19cc1a4dd5956095825cc02609b8b415fe6c230",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 3668.0,
+        "pretax": -125.0,
+        "eps": -0.04
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "1802",
+      "year_month": "2026-02",
+      "known_at": "2026-04-15 16:01:50",
+      "ann_id": "1df0c9585ac76f697982de91392c465de00c5e1c",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 2438.0,
+        "pretax": 128.0,
+        "eps": 0.05
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2059",
+      "year_month": "2024-01",
+      "known_at": "2024-02-23 16:06:09",
+      "ann_id": "a28a6201b024f0b8677c3e1f021a3d6514c3710b",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 656.0,
+        "pretax": 599.0,
+        "eps": 5.04
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2059",
+      "year_month": "2024-01",
+      "known_at": "2024-02-23 19:03:05",
+      "ann_id": "0b35975fe8734a944b77cc2a820dfbb608055b40",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解-更正",
+      "values_as_printed": {
+        "revenue": 656.0,
+        "pretax": 599.0,
+        "eps": 5.04
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": true,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2059",
+      "year_month": "2026-07",
+      "known_at": "2026-08-14 15:38:22",
+      "ann_id": "71903adefdea66cc6a2f42126db1c9b73c65c8f1",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 6407.0,
+        "pretax": 5985.0,
+        "eps": 50.24
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2059",
+      "year_month": "2026-08",
+      "known_at": "2026-10-06 15:03:35",
+      "ann_id": "d29cb46b47dc0f7f42db029d9d9b9b6421b40306",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 6466.0,
+        "pretax": 4826.0,
+        "eps": 40.07
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2301",
+      "year_month": "2025-08",
+      "known_at": "2025-09-12 15:38:44",
+      "ann_id": "d0b5652d4d7e2d15182675aac2eeffc55172f609",
+      "subject": "本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布有關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 15649.0,
+        "pretax": 2072.0,
+        "eps": 0.76
+      },
+      "source_unit": "unit_unverified",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2301",
+      "year_month": "2026-06",
+      "known_at": "2026-08-07 15:26:49",
+      "ann_id": "b83b0faa77e4eab18e34456a85c7602293761bb8",
+      "subject": "本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布有關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 18656.0,
+        "pretax": 3909.0,
+        "eps": 1.31
+      },
+      "source_unit": "unit_unverified",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2303",
+      "year_month": "2026-05",
+      "known_at": "2026-06-23 17:08:40",
+      "ann_id": "d30d443532d9d761f4085a05d8a53ff14fcb4b7d",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 22944.0,
+        "pretax": 8379.0,
+        "eps": 0.68
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2308",
+      "year_month": "2025-08",
+      "known_at": "2025-10-08 16:20:10",
+      "ann_id": "da1c6b2a6b7666eca440fd86ea0f119fbce451c9",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 47860.0,
+        "pretax": 8446.0,
+        "parent_net": 5854.0,
+        "eps": 2.25
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2313",
+      "year_month": "2025-12",
+      "known_at": "2026-01-14 17:33:20",
+      "ann_id": "a8ef697edf6ac3a7abb6ac15a3ac48d491f47e4d",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 7228.0,
+        "eps": 0.57
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2313",
+      "year_month": "2026-01",
+      "known_at": "2026-02-25 15:31:23",
+      "ann_id": "4069e2da4999c3c4676eb1289e33cd9eaa22b225",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 7404.0,
+        "eps": 0.51
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2313",
+      "year_month": "2026-02",
+      "known_at": "2026-04-02 15:44:04",
+      "ann_id": "cd79645091c2e2dce3369fa1f5e45323ed3be212",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 5201.0,
+        "eps": 0.19
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2327",
+      "year_month": "2025-09",
+      "known_at": "2025-10-28 16:45:28",
+      "ann_id": "1b7490f89134e33ca1fb25725da395df3a69d2c5",
+      "subject": "係因本公司有價證券於集中市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 11681.0,
+        "pretax": 2934.0,
+        "parent_net": 2271.0,
+        "eps": 1.11
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2327",
+      "year_month": "2026-05",
+      "known_at": "2026-06-17 15:56:46",
+      "ann_id": "d78a520353e1a76360c6a2e7775faef25a9df5cb",
+      "subject": "係因本公司有價證券於集中市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 15058.0,
+        "pretax": 4005.0,
+        "parent_net": 3275.0,
+        "eps": 1.6
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2337",
+      "year_month": "2025-08",
+      "known_at": "2025-09-19 16:12:37",
+      "ann_id": "70a621d09d2162edaef4ea34e7a606b7b1b6ef43",
+      "subject": "證券交易所通知本公司股價變動達應公布注意交易資訊標準，而應公布相關資訊事",
+      "values_as_printed": {
+        "revenue": 2557.0,
+        "pretax": -383.0,
+        "parent_net": -345.0,
+        "eps": -0.19
+      },
+      "source_unit": "unit_unverified",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2337",
+      "year_month": "2025-09",
+      "known_at": "2025-10-29 15:27:20",
+      "ann_id": "2701244cd892f33340e33616ba02d9e16933c052",
+      "subject": "奉證券交易所通知本公司股價變動達應公布注意交易資訊標準，而公布相關資訊事",
+      "values_as_printed": {
+        "revenue": 2903.0,
+        "pretax": -301.0,
+        "parent_net": -275.0,
+        "eps": -0.15
+      },
+      "source_unit": "unit_unverified",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2337",
+      "year_month": "2025-11",
+      "known_at": "2026-01-07 15:13:05",
+      "ann_id": "6b7fcaaf9afd24b54a3d39696ee3ccd7a90a0f31",
+      "subject": "奉證券交易所通知本公司股價變動達應公布注意交易資訊標準，而公布相關資訊事",
+      "values_as_printed": {
+        "revenue": 2444.0,
+        "pretax": 80.0,
+        "parent_net": 71.0,
+        "eps": 0.04
+      },
+      "source_unit": "unit_unverified",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2337",
+      "year_month": "2026-01",
+      "known_at": "2026-02-25 15:57:11",
+      "ann_id": "3f2c6c62d15ddc07565ed57f8a369a04ec022229",
+      "subject": "奉證券交易所通知本公司股價變動達應公布注意交易資訊標準，而公布相關資訊事",
+      "values_as_printed": {
+        "revenue": 3017.0,
+        "pretax": 304.0,
+        "parent_net": 271.0,
+        "eps": 0.15
+      },
+      "source_unit": "unit_unverified",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2337",
+      "year_month": "2026-03",
+      "known_at": "2026-04-29 15:43:32",
+      "ann_id": "1e162ffb59f7a292e705ceda744135951b440905",
+      "subject": "奉證券交易所通知本公司股價變動達應公布注意交易資訊標準，而公布相關資訊事",
+      "values_as_printed": {
+        "revenue": 4422.0,
+        "pretax": 1420.0,
+        "parent_net": 1203.0,
+        "eps": 0.61
+      },
+      "source_unit": "unit_unverified",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2337",
+      "year_month": "2026-04",
+      "known_at": "2026-06-01 16:14:52",
+      "ann_id": "01770644bc38821b76631d240d516ecc9bc0ad6b",
+      "subject": "奉證券交易所通知本公司股價變動達應公布注意交易資訊標準，而公布相關資訊事",
+      "values_as_printed": {
+        "revenue": 5913.0,
+        "pretax": 2498.0,
+        "parent_net": 2102.0,
+        "eps": 1.07
+      },
+      "source_unit": "unit_unverified",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2344",
+      "year_month": "2024-12",
+      "known_at": "2025-02-18 16:46:58",
+      "ann_id": "1c947f2a552dd09facd6b58ae60f6eb847fab75e",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 6372.0,
+        "pretax": 137.0,
+        "parent_net": -33.0,
+        "eps": -0.01
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2344",
+      "year_month": "2025-08",
+      "known_at": "2025-09-22 15:55:29",
+      "ann_id": "b4a00405df0816ccfe5881c093e6b5e5d8c5ac30",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 7013.0,
+        "pretax": 919.0,
+        "parent_net": 722.0,
+        "eps": 0.16
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2344",
+      "year_month": "2025-09",
+      "known_at": "2025-10-21 15:50:20",
+      "ann_id": "70b59a74d4ceb0b78140330b0ad21e87f31092fa",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 7920.0,
+        "pretax": 1384.0,
+        "parent_net": 1169.0,
+        "eps": 0.26
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2344",
+      "year_month": "2025-10",
+      "known_at": "2025-12-09 15:59:50",
+      "ann_id": "d4ffd879125385978672e029a988e715b1163dd1",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 8225.0,
+        "pretax": 1395.0,
+        "parent_net": 1186.0,
+        "eps": 0.26
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2344",
+      "year_month": "2025-11",
+      "known_at": "2026-01-09 14:57:36",
+      "ann_id": "2180e05c4274953a74e83ee5b9d05d1cc3cf8c44",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 8630.0,
+        "pretax": 1126.0,
+        "parent_net": 938.0,
+        "eps": 0.21
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2344",
+      "year_month": "2026-01",
+      "known_at": "2026-03-03 15:22:28",
+      "ann_id": "ce820f6bcd63ef5642ef77ade4580496f27af569",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 11778.0,
+        "pretax": 3455.0,
+        "parent_net": 2783.0,
+        "eps": 0.62
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2344",
+      "year_month": "2026-04",
+      "known_at": "2026-06-01 16:13:44",
+      "ann_id": "8cc5e85f9a1856a01815e6ec9634764629a6736e",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 19245.0,
+        "pretax": 9346.0,
+        "parent_net": 7488.0,
+        "eps": 1.66
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2347",
+      "year_month": "2025-05",
+      "known_at": "2025-06-23 16:14:14",
+      "ann_id": "90ff04fd225fa7601943fc584590393f529b9ab7",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 29580.0,
+        "pretax": 656.0,
+        "parent_net": 383.0,
+        "eps": 0.23
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2357",
+      "year_month": "2026-04",
+      "known_at": "2026-06-04 16:27:44",
+      "ann_id": "97c2a5bfcd903c0c78bd9098d29aec42a8820e5c",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 84881.0,
+        "pretax": 5050.0,
+        "eps": 7.15
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2360",
+      "year_month": "2026-01",
+      "known_at": "2026-02-26 16:08:01",
+      "ann_id": "377022257fb7b6ec7b76d46d886afc949fb99783",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 3826.0,
+        "pretax": 1838.0,
+        "parent_net": 1423.0,
+        "eps": 3.35
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2360",
+      "year_month": "2026-03",
+      "known_at": "2026-04-16 15:58:06",
+      "ann_id": "ed39b2db5f27545dd009d2559963f4665149005e",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 4366.0,
+        "pretax": 1853.0,
+        "parent_net": 1436.0,
+        "eps": 3.39
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2360",
+      "year_month": "2026-04",
+      "known_at": "2026-05-28 15:58:58",
+      "ann_id": "3d7aa1fc2930867c71e4ac240db545735a3249a0",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 4866.0,
+        "pretax": 2194.0,
+        "parent_net": 1712.0,
+        "eps": 4.05
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2368",
+      "year_month": "2025-07",
+      "known_at": "2025-08-13 15:47:49",
+      "ann_id": "54e7abde5158fa351f53af36d6b667f1056a2969",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 5646.0,
+        "pretax": 1308.0,
+        "eps": 1.78
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2368",
+      "year_month": "2026-02",
+      "known_at": "2026-03-13 15:02:33",
+      "ann_id": "cbcb6958d02bddfc16f9994c0a30e33076fe03b8",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 5942.0,
+        "pretax": 1604.0,
+        "eps": 2.14
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2379",
+      "year_month": "2026-05",
+      "known_at": "2026-06-24 16:01:24",
+      "ann_id": "6538f5b21547c788ce92a87a3757a2958fef0be1",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 12524.0,
+        "pretax": 1515.0,
+        "eps": 2.57
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2383",
+      "year_month": "2025-07",
+      "known_at": "2025-08-15 15:54:39",
+      "ann_id": "11a379020e848cd0b3784ced36e89fe1e2f81bee",
+      "subject": "本公司有價證券交易達公布注意交易資訊標準，故公告相關訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 8373.0,
+        "pretax": 1839.0,
+        "parent_net": 1425.0,
+        "eps": 4.05
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2383",
+      "year_month": "2026-03",
+      "known_at": "2026-04-13 15:55:25",
+      "ann_id": "60e7a9b7ae7723bd6d27a3307817a034f20bbb0e",
+      "subject": "本公司有價證券交易達公布注意交易資訊標準，故公告相關訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 12011.0,
+        "pretax": 2657.0,
+        "parent_net": 1824.0,
+        "eps": 5.08
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2383",
+      "year_month": "2026-05",
+      "known_at": "2026-06-17 15:59:33",
+      "ann_id": "4277d7de34f0d52d053751217ea9149a36b13f74",
+      "subject": "本公司有價證券交易達公布注意交易資訊標準，故公告相關訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 15619.0,
+        "pretax": 4211.0,
+        "eps": 9.07
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2404",
+      "year_month": "2024-01",
+      "known_at": "2024-03-11 16:00:54",
+      "ann_id": "141bac2ec11cd5d52ed692d639b6fdd0566cdb97",
+      "subject": "係因本公司有價證券於集中市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 4462.0,
+        "parent_net": 327.0,
+        "eps": 1.74
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2408",
+      "year_month": "2025-01",
+      "known_at": "2025-02-20 16:14:32",
+      "ann_id": "c0df160da95f13afd202ac3cd69f9678a06f3e41",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 2162.0,
+        "pretax": -828.0,
+        "parent_net": -616.0,
+        "eps": -0.2
+      },
+      "source_unit": "單位:新台幣佰萬元",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2408",
+      "year_month": "2025-08",
+      "known_at": "2025-09-17 16:33:01",
+      "ann_id": "eda3847f77061af36852bff6b6a5d395e25d6a52",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 6763.0,
+        "pretax": 985.0,
+        "parent_net": 811.0,
+        "eps": 0.26
+      },
+      "source_unit": "單位:新台幣佰萬元",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2408",
+      "year_month": "2025-09",
+      "known_at": "2025-10-31 15:56:56",
+      "ann_id": "8314699c6a33bf2ce5e6846b5d3668f0cf073053",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 6664.0,
+        "pretax": 997.0,
+        "parent_net": 688.0,
+        "eps": 0.22
+      },
+      "source_unit": "單位:新台幣佰萬元",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2408",
+      "year_month": "2025-10",
+      "known_at": "2025-12-02 15:57:18",
+      "ann_id": "d34b2895bb70aa19bfbb87d62c4811e97575d799",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 7908.0,
+        "pretax": 2502.0,
+        "parent_net": 2039.0,
+        "eps": 0.66
+      },
+      "source_unit": "單位:新台幣佰萬元",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2408",
+      "year_month": "2025-11",
+      "known_at": "2026-01-05 17:40:54",
+      "ann_id": "0f0f8b9206db3e1f66c04b409deaad7acb8a9ee8",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 10169.0,
+        "pretax": 5087.0,
+        "parent_net": 4235.0,
+        "eps": 1.37
+      },
+      "source_unit": "單位:新台幣佰萬元",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2408",
+      "year_month": "2026-02",
+      "known_at": "2026-03-10 16:17:14",
+      "ann_id": "9758c841b30ff02ffec05dff11493be54bc9b0ee",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 15607.0,
+        "pretax": 9404.0,
+        "parent_net": 7584.0,
+        "eps": 2.45
+      },
+      "source_unit": "單位:新台幣佰萬元",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2409",
+      "year_month": "2025-11",
+      "known_at": "2026-01-08 16:10:08",
+      "ann_id": "a4c577be54521f38b799400726f82e3f563808b5",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 24036.0,
+        "pretax": -325.0,
+        "parent_net": -727.0,
+        "eps": -0.1
+      },
+      "source_unit": "單位:新台幣百萬元",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2451",
+      "year_month": "2024-04",
+      "known_at": "2024-06-14 16:02:19",
+      "ann_id": "e37b9d9ea5942b382bfc1277cb1008bd805eda9e",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 808.0,
+        "pretax": 310.0,
+        "parent_net": 248.0,
+        "eps": 0.58
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2451",
+      "year_month": "2025-10",
+      "known_at": "2025-11-12 15:28:42",
+      "ann_id": "27c372a27a1e04f9d1fd38d3fa49f91357a28bfc",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 1723.0,
+        "pretax": 809.0,
+        "eps": 1.51
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2451",
+      "year_month": "2025-11",
+      "known_at": "2026-01-09 15:32:06",
+      "ann_id": "e64bd03e913264d66eb506acefb41645054ec64d",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 2023.0,
+        "pretax": 1110.0,
+        "eps": 2.07
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2451",
+      "year_month": "2026-01",
+      "known_at": "2026-03-19 15:32:26",
+      "ann_id": "c2f6eb2d40c13dcb949d96ccb26dc940bd197c20",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 4760.0,
+        "pretax": 3476.0,
+        "eps": 6.49
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2609",
+      "year_month": "2023-11",
+      "known_at": "2023-12-22 16:32:23",
+      "ann_id": "e7865956365ad5e4879548eaa942cc0256f8a465",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公布相關財務、業務等重大訊息，以利投資人區別了解。",
+      "values_as_printed": {
+        "revenue": 10919.0,
+        "eps": -0.44
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2609",
+      "year_month": "2024-04",
+      "known_at": "2024-05-14 15:51:57",
+      "ann_id": "8d7678f8a877db81f8c550be6b4055ff2a2b4e35",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公布相關財務、業務等重大訊息，以利投資人區別了解。",
+      "values_as_printed": {
+        "revenue": 14944.0,
+        "eps": 0.84
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2609",
+      "year_month": "2025-04",
+      "known_at": "2025-06-10 15:27:56",
+      "ann_id": "595b5cefbabfcc8a5df836bd208df0b929516aff",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公布相關財務、業務等重大訊息，以利投資人區別了解。",
+      "values_as_printed": {
+        "revenue": 12500.0,
+        "eps": 0.11
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2615",
+      "year_month": "2024-04",
+      "known_at": "2024-05-13 15:52:50",
+      "ann_id": "f144f3a7ae942fc56b3608c7b6bb239b447f208e",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 10108.0,
+        "eps": 0.84
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2615",
+      "year_month": "2025-04",
+      "known_at": "2025-05-19 15:55:11",
+      "ann_id": "14e169f4ece65baefdd9906a64f3ba142dada18e",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 11438.0,
+        "eps": -0.11
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2615",
+      "year_month": "2026-07",
+      "known_at": "2026-08-21 15:56:51",
+      "ann_id": "ad049115d122868fccf8e236ac542e1c956f1e9e",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 18640.0,
+        "parent_net": 6084.0,
+        "eps": 2.17
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2618",
+      "year_month": "2026-01",
+      "known_at": "2026-03-13 16:00:39",
+      "ann_id": "0456057b3ff0c9ffec9111af2f9c384dfe662cf7",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 19926.0,
+        "pretax": 4119.0,
+        "eps": 0.57
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "2881",
+      "year_month": "2025-05",
+      "known_at": "2025-06-18 18:06:00",
+      "ann_id": "c42fc12be07209405cb55665f81acfb7edfd29fc",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": -15181.0,
+        "pretax": -8951.0,
+        "parent_net": -5791.0
+      },
+      "source_unit": "單位:百萬元",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3008",
+      "year_month": "2026-04",
+      "known_at": "2026-05-18 16:54:49",
+      "ann_id": "3f2202dfa56d0d25e6323039513a4c1d66c7166f",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 5362.0,
+        "pretax": 2262.0,
+        "eps": 13.95
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3008",
+      "year_month": "2026-04",
+      "known_at": "2026-06-17 15:42:38",
+      "ann_id": "7f5e00279d70c652241bdf4fea71d0d93a2d6588",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 5362.0,
+        "pretax": 2262.0,
+        "eps": 13.95
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3008",
+      "year_month": "2026-07",
+      "known_at": "2026-08-20 15:37:47",
+      "ann_id": "74f8c51ee006d07c1dcacb6a94e02ed65887b34e",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 4877.0,
+        "pretax": 2272.0,
+        "eps": 13.94
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3017",
+      "year_month": "2023-12",
+      "known_at": "2024-02-16 15:04:10",
+      "ann_id": "6c4cfa3026875559b733bd372b78a2de42b31d73",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 5618.0,
+        "pretax": 900.0,
+        "parent_net": 628.0,
+        "eps": 1.64
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3017",
+      "year_month": "2025-06",
+      "known_at": "2025-08-14 15:06:50",
+      "ann_id": "bf714092224622a70ce3ae23aa76042ac9690550",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 10606.0,
+        "pretax": 1987.0,
+        "parent_net": 1332.0,
+        "eps": 3.43
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3017",
+      "year_month": "2025-09",
+      "known_at": "2025-11-04 15:17:48",
+      "ann_id": "60f9c6ba4ea05bec8e00e57dd4edb266dd1c19e3",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 14503.0,
+        "pretax": 2965.0,
+        "parent_net": 1958.0,
+        "eps": 5.01
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3017",
+      "year_month": "2026-03",
+      "known_at": "2026-04-27 16:01:56",
+      "ann_id": "2a02c6fc2d74aefd51040a3eed915ae46015b588",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 18017.0,
+        "pretax": 4764.0,
+        "parent_net": 3168.0,
+        "eps": 8.07
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3017",
+      "year_month": "2026-05",
+      "known_at": "2026-07-15 14:53:11",
+      "ann_id": "322aa32b5dc55128109b1e0092f251d121fd83ca",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 15871.0,
+        "pretax": 4486.0,
+        "parent_net": 3152.0,
+        "eps": 8.03
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3189",
+      "year_month": "2024-05",
+      "known_at": "2024-07-15 16:02:54",
+      "ann_id": "dcfd4d6ceb09385c1e314bd0c39023a6656ff2cd",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 2511.0,
+        "eps": 0.02
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3189",
+      "year_month": "2025-08",
+      "known_at": "2025-10-17 15:53:11",
+      "ann_id": "f5da50ae46dd6e71e2a9fea76f9b0e220632adce",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 3421.0,
+        "pretax": 312.0,
+        "eps": 0.4
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3189",
+      "year_month": "2025-12",
+      "known_at": "2026-02-02 15:08:53",
+      "ann_id": "315646d87442c5c5655505838b63ff88d57059c3",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 3689.0,
+        "pretax": 382.0,
+        "eps": 0.55
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3189",
+      "year_month": "2026-02",
+      "known_at": "2026-03-18 15:51:11",
+      "ann_id": "d6a77dbe48a501f33f39016719b414d6231a3737",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 3204.0,
+        "pretax": 421.0,
+        "eps": 0.68
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3189",
+      "year_month": "2026-03",
+      "known_at": "2026-04-22 15:52:31",
+      "ann_id": "c9263cda75a186d5a27ce2456319efc7fe99004d",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 3939.0,
+        "pretax": 444.0,
+        "eps": 0.58
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3189",
+      "year_month": "2026-05",
+      "known_at": "2026-06-23 15:52:02",
+      "ann_id": "090cdf3e8d35ba5730478444ffc99507963f7322",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 4200.0,
+        "pretax": 610.0,
+        "eps": 0.91
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3189",
+      "year_month": "2026-06",
+      "known_at": "2026-08-07 15:32:04",
+      "ann_id": "00e947352bb9faf01ba9b161da71e5e88222fd3a",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 4224.0,
+        "pretax": 686.0,
+        "eps": 1.04
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3189",
+      "year_month": "2026-08",
+      "known_at": "2026-09-23 15:50:36",
+      "ann_id": "320646ca0c46e2f18275caad40a683b6c336483b",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 4810.0,
+        "pretax": 1110.0,
+        "eps": 1.59
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3211",
+      "year_month": "2024-03",
+      "known_at": "2024-04-17 14:55:11",
+      "ann_id": "5ab152c13eab9cadc60b22a9f690c42a71e75ae2",
+      "subject": "公告本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 1217.0,
+        "pretax": 127.0,
+        "eps": 0.65
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3211",
+      "year_month": "2024-10",
+      "known_at": "2024-11-15 15:26:05",
+      "ann_id": "01ce7275ecb7f37e4ba59eb83d899d38568f02fc",
+      "subject": "公告本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 771.0,
+        "pretax": 85.0,
+        "eps": 0.4
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3211",
+      "year_month": "2024-11",
+      "known_at": "2024-12-17 15:20:37",
+      "ann_id": "b90492e74113a50980e74878cbf6f057519edf50",
+      "subject": "公告本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 1063.0,
+        "pretax": 43.0,
+        "eps": 0.2
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3211",
+      "year_month": "2025-02",
+      "known_at": "2025-03-14 15:11:24",
+      "ann_id": "1fa8ef9fece8f38453b210dd39dc446a7a56c820",
+      "subject": "公告本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 870.0,
+        "pretax": 72.0,
+        "eps": 0.38
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3211",
+      "year_month": "2025-07",
+      "known_at": "2025-08-29 15:25:30",
+      "ann_id": "8be1ba5e12f23312e2c4ed60b0e2fab9d10782ac",
+      "subject": "公告本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 1016.0,
+        "pretax": 17.0,
+        "eps": 0.25
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3260",
+      "year_month": "2025-11",
+      "known_at": "2026-01-02 14:02:12",
+      "ann_id": "e6dace2024f7e8119c4ddd94feaec48346c9ce2e",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解。",
+      "values_as_printed": {
+        "revenue": 5598.0,
+        "pretax": 1831.0,
+        "eps": 4.05
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3260",
+      "year_month": "2026-01",
+      "known_at": "2026-03-17 14:41:48",
+      "ann_id": "abdb7bcfde78c9fe0ef935bb098877aa6f4f9158",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解。",
+      "values_as_printed": {
+        "revenue": 8412.0,
+        "pretax": 4583.0,
+        "eps": 11.09
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3260",
+      "year_month": "2026-01",
+      "known_at": "2026-03-17 16:39:40",
+      "ann_id": "6351d8316d72c81dfd54d56d0e0e3f7b1029c4cb",
+      "subject": "(更正)本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解。(說明係稅後每股盈餘)",
+      "values_as_printed": {
+        "revenue": 8412.0,
+        "pretax": 4583.0
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": true,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3264",
+      "year_month": "2025-11",
+      "known_at": "2026-01-06 15:00:35",
+      "ann_id": "ef725f1a451b8510f062fe5cf45a9f793cf830a5",
+      "subject": "因本公司有價證券於集中交易市場達公布注意資訊標準，故公告相關訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 1236.0,
+        "pretax": 373.0,
+        "parent_net": 297.0,
+        "eps": 0.63
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3443",
+      "year_month": "2023-11",
+      "known_at": "2023-12-11 16:10:05",
+      "ann_id": "0dde36df82c976fee176022b5c25cf4add87b9d8",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 1979.0,
+        "pretax": 191.0,
+        "eps": 1.21
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3443",
+      "year_month": "2023-11",
+      "known_at": "2024-01-12 16:01:37",
+      "ann_id": "46fa1e1662ff6f089f7954385823a06f1cf0c0b8",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 1979.0,
+        "pretax": 191.0,
+        "eps": 1.21
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3443",
+      "year_month": "2024-06",
+      "known_at": "2024-07-31 16:05:59",
+      "ann_id": "f4b17b89339093fda7785fa92e187e39b5087b91",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 2673.0,
+        "pretax": 522.0,
+        "eps": 3.07
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3443",
+      "year_month": "2025-08",
+      "known_at": "2025-10-22 15:49:43",
+      "ann_id": "36a8148789e5c4659c122bd06ad472ce0e1f31d4",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 2768.0,
+        "pretax": 266.0,
+        "eps": 1.68
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3443",
+      "year_month": "2025-10",
+      "known_at": "2025-11-26 14:53:41",
+      "ann_id": "088ee9d6f3a3cbb1da7973470ca2f5e38e8f2fe3",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 3716.0,
+        "pretax": 231.0,
+        "eps": 1.45
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3443",
+      "year_month": "2026-02",
+      "known_at": "2026-04-15 15:46:23",
+      "ann_id": "68a3a11ba9222b166df785b9e9ca18832e0d356b",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 3351.0,
+        "pretax": 307.0,
+        "eps": 1.93
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3443",
+      "year_month": "2026-06",
+      "known_at": "2026-08-07 16:12:59",
+      "ann_id": "7ee2c27b7963d144e977def8d3633309f9f80b2a",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 4928.0,
+        "pretax": 967.0,
+        "eps": 6.17
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3653",
+      "year_month": "2024-07",
+      "known_at": "2024-08-19 16:06:04",
+      "ann_id": "bda1be8a430de4199572f6318bb29c3defe9fa7b",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 1185.73,
+        "pretax": 388.28,
+        "parent_net": 306.26,
+        "eps": 2.14
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3653",
+      "year_month": "2025-07",
+      "known_at": "2025-09-01 15:52:05",
+      "ann_id": "585b043cc6cc0230dd8dbc92e9b92f9e3dfb23aa",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 1682.64,
+        "pretax": 521.32,
+        "parent_net": 412.63,
+        "eps": 2.89
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3653",
+      "year_month": "2026-03",
+      "known_at": "2026-04-22 16:24:49",
+      "ann_id": "9a62d8b73dff2d4ed7567887b310b77342f19a90",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 2163.68,
+        "pretax": 823.81,
+        "parent_net": 659.37,
+        "eps": 4.49
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3653",
+      "year_month": "2026-06",
+      "known_at": "2026-08-06 15:57:21",
+      "ann_id": "d610730b97620cdcb305633d9a5187ec1a917bee",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 2649.92,
+        "pretax": 1199.96,
+        "parent_net": 946.16,
+        "eps": 6.45
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3653",
+      "year_month": "2026-08",
+      "known_at": "2026-09-29 15:57:43",
+      "ann_id": "e8ea4dcf9c4f99b3b538a8339cd9223f81e9cdb7",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 3225.89,
+        "pretax": 1355.84,
+        "parent_net": 1078.99,
+        "eps": 7.35
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3661",
+      "year_month": "2023-09",
+      "known_at": "2023-11-06 16:21:38",
+      "ann_id": "3426c3881c07d74bc785c51887c8fda2d35bf874",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 2903.0,
+        "pretax": 457.0,
+        "parent_net": 346.0,
+        "eps": 4.66
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3661",
+      "year_month": "2024-02",
+      "known_at": "2024-03-18 16:00:27",
+      "ann_id": "3c316fabb98e47aeec9b14e91fa87b7eb41b0606",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 3243.0,
+        "pretax": 442.0,
+        "parent_net": 354.0,
+        "eps": 4.52
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3661",
+      "year_month": "2024-03",
+      "known_at": "2024-04-30 16:02:50",
+      "ann_id": "fcb5972768ce34b49ae7cff3d6f8e320e519beac",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 3876.0,
+        "pretax": 631.0,
+        "parent_net": 507.0,
+        "eps": 6.43
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3665",
+      "year_month": "2024-05",
+      "known_at": "2024-06-18 16:01:29",
+      "ann_id": "4ca96b52bd28acd1be5831dfb6c2c206516e3620",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 4320.0,
+        "pretax": 558.0,
+        "parent_net": 298.0,
+        "eps": 1.82
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3665",
+      "year_month": "2026-01",
+      "known_at": "2026-03-06 15:57:48",
+      "ann_id": "bf41e7352c704e38ed97a0d7b38ce20dd71288dc",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準， 故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 7456.0,
+        "pretax": 1267.0,
+        "parent_net": 978.0,
+        "eps": 5.01
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3665",
+      "year_month": "2026-06",
+      "known_at": "2026-07-27 15:29:08",
+      "ann_id": "36cc03540941bcef7da03e6aca33277b9f0a361e",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準， 故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 8518.0,
+        "pretax": 1510.0,
+        "parent_net": 1180.0,
+        "eps": 6.05
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3711",
+      "year_month": "2025-09",
+      "known_at": "2025-11-03 15:57:39",
+      "ann_id": "14ba50ed4bb92703203fda47f756af7ea5b42046",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關自結財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 60561.0,
+        "pretax": 5679.0
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "3711",
+      "year_month": "2026-01",
+      "known_at": "2026-02-25 15:55:40",
+      "ann_id": "bf473195facfa0cc25fd668a39f73943994d9b8f",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關自結財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 59989.0,
+        "pretax": 6427.0
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "4958",
+      "year_month": "2025-07",
+      "known_at": "2025-08-14 15:59:35",
+      "ann_id": "ef508d0525e6a19c7ffe6b1e5395bd68bfbaa994",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 13352.0,
+        "pretax": 759.0,
+        "eps": 0.4
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "4958",
+      "year_month": "2026-03",
+      "known_at": "2026-04-24 16:19:49",
+      "ann_id": "76a6015867c67407dac062928c06fabf37ffbc0d",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 15443.0,
+        "pretax": 2164.0,
+        "eps": 1.27
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "4958",
+      "year_month": "2026-05",
+      "known_at": "2026-06-22 15:53:48",
+      "ann_id": "3b40c0bc83939eda48b73b08aaf9540264ddea65",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 16201.0,
+        "pretax": 1317.0,
+        "eps": 0.75
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "5536",
+      "year_month": "2024-04",
+      "known_at": "2024-06-12 15:31:00",
+      "ann_id": "0cd54ac3625725a340630fe5d138aa58f7a76511",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 2449.0,
+        "pretax": 411.0,
+        "parent_net": 257.0,
+        "eps": 2.07
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6139",
+      "year_month": "2024-02",
+      "known_at": "2024-03-29 15:38:09",
+      "ann_id": "bf1049a1ad9cc861dfca0b258fadc2dc077d70e9",
+      "subject": "因有價證券於集中交易市場達公布注意交易資訊標準，故公布基本資料及相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 5195.0,
+        "pretax": 725.0,
+        "parent_net": 579.0,
+        "eps": 2.8
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6139",
+      "year_month": "2025-05",
+      "known_at": "2025-06-25 16:11:30",
+      "ann_id": "9302a8053654de63b096ac845ea94607b7d7d2ac",
+      "subject": "係因本公司有價證券於集中市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 4224927.0,
+        "pretax": 206637.0,
+        "parent_net": 149315.0,
+        "eps": 0.41
+      },
+      "source_unit": "單位:仟元",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6182",
+      "year_month": "2026-04",
+      "known_at": "2026-05-28 17:02:48",
+      "ann_id": "82f3a1d97acd9fee727dc27ffc6adc758320089c",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準， 故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 865.0,
+        "pretax": 0.0,
+        "eps": -0.01
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6182",
+      "year_month": "2026-05",
+      "known_at": "2026-06-22 15:05:03",
+      "ann_id": "d0ee789bf482f6ad3c372e98638626dfabcca0a0",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準， 故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 889.0,
+        "pretax": 39.0,
+        "eps": 0.05
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6182",
+      "year_month": "2026-06",
+      "known_at": "2026-07-31 17:22:38",
+      "ann_id": "b09b89c2dfd127b932cd22dace2ac728ac153666",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準， 故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 966.0,
+        "pretax": 37.0,
+        "eps": 0.01
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6223",
+      "year_month": "2026-02",
+      "known_at": "2026-03-16 13:35:31",
+      "ann_id": "6cf4beb2413f15dd19da6fea4ae5449f5b9f0df8",
+      "subject": "本公司有價證券近期多次達公佈注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 1316.0,
+        "pretax": 519.0,
+        "parent_net": 423.0,
+        "eps": 4.31
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6239",
+      "year_month": "2023-11",
+      "known_at": "2023-12-18 16:49:24",
+      "ann_id": "1e67b90cc6116a343392ceed00db1a169c1304b9",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 6468.0,
+        "pretax": 403.0,
+        "parent_net": 217.0,
+        "eps": 0.29
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6239",
+      "year_month": "2025-11",
+      "known_at": "2026-01-19 15:38:26",
+      "ann_id": "d9ac389ca2459254dbebe2452cfa702930d3a46a",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 7140.0,
+        "pretax": 976.0,
+        "parent_net": 786.0,
+        "eps": 0.83
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6239",
+      "year_month": "2026-04",
+      "known_at": "2026-05-27 15:43:56",
+      "ann_id": "2335cd3fe19f18d92c9cbb5933d63187d935ff23",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 7575.0,
+        "pretax": 1117.0,
+        "parent_net": 883.0,
+        "eps": 0.95
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6274",
+      "year_month": "2026-03",
+      "known_at": "2026-04-13 14:50:35",
+      "ann_id": "3104d5fea52dbcf0e16b2fb10f75d55e2f854a23",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 3782.0,
+        "pretax": 733.0,
+        "parent_net": 465.0,
+        "eps": 1.61
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6274",
+      "year_month": "2026-04",
+      "known_at": "2026-05-19 15:28:57",
+      "ann_id": "a99b61dbea926b31d1ae2e12ac1b2c7607c2ee30",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 4610.0,
+        "pretax": 968.0,
+        "parent_net": 684.0,
+        "eps": 2.35
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6274",
+      "year_month": "2026-06",
+      "known_at": "2026-07-20 14:57:02",
+      "ann_id": "6c148a9bb843f66a210b9c218e4bc1b63ce70d20",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 4895.0,
+        "pretax": 1320.0,
+        "parent_net": 900.0,
+        "eps": 3.06
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6274",
+      "year_month": "2026-07",
+      "known_at": "2026-08-10 15:06:05",
+      "ann_id": "615127bc21dcaf3420196356e3419af1b77b73e4",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 5909.0,
+        "pretax": 1865.0,
+        "parent_net": 1306.0,
+        "eps": 4.36
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6415",
+      "year_month": "2023-10",
+      "known_at": "2023-11-20 16:28:06",
+      "ann_id": "3794e8df6a770eda530c4ecc50d004d4d6a76eaa",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務資訊。",
+      "values_as_printed": {
+        "revenue": 1393.0,
+        "pretax": 54.0,
+        "parent_net": 61.0,
+        "eps": 0.16
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6415",
+      "year_month": "2024-03",
+      "known_at": "2024-05-02 17:01:59",
+      "ann_id": "f62ddfba29d8c199640ace3870cb9d8db5112e9b",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務資訊。",
+      "values_as_printed": {
+        "revenue": 1520.0,
+        "pretax": 230.0,
+        "parent_net": 181.0,
+        "eps": 0.46
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6415",
+      "year_month": "2025-01",
+      "known_at": "2025-02-21 16:24:22",
+      "ann_id": "1d62cc2e340e90dccbdb422d792b25acd7fbc647",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 1174.0,
+        "pretax": 76.0,
+        "parent_net": 74.0
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6415",
+      "year_month": "2025-02",
+      "known_at": "2025-04-18 15:20:52",
+      "ann_id": "b7b271217c78a0ccb3356b0c741c468b8858ae84",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 1337.0,
+        "pretax": 141.0,
+        "parent_net": 135.0
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6415",
+      "year_month": "2026-03",
+      "known_at": "2026-04-22 16:15:15",
+      "ann_id": "0fc65f5224fc0d47fcebc6a77327ebbe808a0750",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 1777.0,
+        "pretax": 256.0,
+        "parent_net": 243.0
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6415",
+      "year_month": "2026-05",
+      "known_at": "2026-06-22 17:24:16",
+      "ann_id": "00ef75eda5049901a9e0e1fd4b630fb5355950b5",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 1911.0,
+        "pretax": 296.0,
+        "parent_net": 278.0
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6446",
+      "year_month": "2024-04",
+      "known_at": "2024-05-20 16:15:14",
+      "ann_id": "0485e96919840f32dde9c39796dce74b1c80b8f2",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 667.0,
+        "pretax": 499.0,
+        "eps": 1.5
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6446",
+      "year_month": "2025-12",
+      "known_at": "2026-01-30 18:10:59",
+      "ann_id": "eb9fbfb795ba77afbf779daa039a1b9f87c3fb6d",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 1924.0,
+        "pretax": 737.0,
+        "eps": 1.72
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6446",
+      "year_month": "2026-05",
+      "known_at": "2026-07-08 16:10:17",
+      "ann_id": "a19b6c52f70e5d3ed69d259d57dc992a590b503b",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 2458.0,
+        "pretax": 1291.0,
+        "eps": 2.66
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6505",
+      "year_month": "2026-06",
+      "known_at": "2026-07-17 16:38:49",
+      "ann_id": "68e7e11769514e1353230320ad8102e38a14d393",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 63683.0,
+        "pretax": -492.0,
+        "eps": -0.6
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6510",
+      "year_month": "2024-10",
+      "known_at": "2024-12-09 15:12:51",
+      "ann_id": "23dbeb45305224aeadc07be885cb11a7e01daa60",
+      "subject": "本公司有價證券近期達公布注意交易資訊標準，故公告相關訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 386.0,
+        "pretax": 97.0,
+        "parent_net": 80.0,
+        "eps": 2.43
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6510",
+      "year_month": "2025-08",
+      "known_at": "2025-09-26 15:20:15",
+      "ann_id": "d2bb7648063d046096cf3a65ad2d9d0a6fd51172",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 414.0,
+        "pretax": 110.0,
+        "parent_net": 89.0,
+        "eps": 2.73
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6510",
+      "year_month": "2025-11",
+      "known_at": "2025-12-17 15:00:42",
+      "ann_id": "24d5106d5b8f8b1eeb119f795b4655094b074d35",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 399.0,
+        "pretax": 122.0,
+        "parent_net": 98.0,
+        "eps": 2.97
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6510",
+      "year_month": "2025-12",
+      "known_at": "2026-01-27 14:51:50",
+      "ann_id": "da9a6f4113019de56e8f567fcf2309f5837b93d1",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 391.0,
+        "pretax": 103.0,
+        "parent_net": 82.0,
+        "eps": 2.49
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6510",
+      "year_month": "2026-08",
+      "known_at": "2026-09-08 14:42:42",
+      "ann_id": "efd66f0cba9e750968bbbadc1ecf620bdba41a6b",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 638.0,
+        "pretax": 215.0,
+        "parent_net": 174.0,
+        "eps": 5.29
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6515",
+      "year_month": "2025-07",
+      "known_at": "2025-09-02 15:49:23",
+      "ann_id": "624d4442a22f8a243cd4b3a9a08df26ec329eec1",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 626.0,
+        "pretax": 151.0,
+        "eps": 3.38
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6515",
+      "year_month": "2025-09",
+      "known_at": "2025-10-30 17:37:39",
+      "ann_id": "38b838dcfa68f9151f8f2b3ce98bb697c0281356",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 666.0,
+        "pretax": 167.0,
+        "eps": 3.89
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6515",
+      "year_month": "2026-01",
+      "known_at": "2026-02-23 15:28:41",
+      "ann_id": "754c6360ef59fb641027891922e834c1eb16a7c4",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 886.0,
+        "pretax": 270.0,
+        "eps": 6.0
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6515",
+      "year_month": "2026-02",
+      "known_at": "2026-03-13 15:53:04",
+      "ann_id": "02f03147ccd4d0fcb83b92e0bc2e97c09fd1b361",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 873.0,
+        "pretax": 247.0,
+        "eps": 5.52
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6515",
+      "year_month": "2026-03",
+      "known_at": "2026-04-15 15:52:12",
+      "ann_id": "9bf1bccd2769fcd74f1e58d37e0de3d0d243ede1",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 1222.0,
+        "pretax": 357.0,
+        "eps": 8.01
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6515",
+      "year_month": "2026-06",
+      "known_at": "2026-07-15 16:21:03",
+      "ann_id": "866310f4c3460755c50d40c6df341a5df195cd70",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 1460.0,
+        "pretax": 400.0,
+        "eps": 8.61
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6548",
+      "year_month": "2026-04",
+      "known_at": "2026-06-03 15:21:00",
+      "ann_id": "1cc5c04983c67683ee1f5241099a0bed52817a39",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 1384.0,
+        "pretax": 230.0,
+        "parent_net": 179.0,
+        "eps": 0.19
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6669",
+      "year_month": "2024-11",
+      "known_at": "2024-12-10 15:57:43",
+      "ann_id": "da6313c95431bd75844af5db5f98770bed554546",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 37465.0,
+        "pretax": 2736.0,
+        "parent_net": 2230.0,
+        "eps": 12.0
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6669",
+      "year_month": "2026-03",
+      "known_at": "2026-04-28 15:56:36",
+      "ann_id": "24b80fac976e82717a99d88bc6668bd72fc5be44",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 98649.0,
+        "pretax": 6448.0,
+        "parent_net": 5036.0,
+        "eps": 27.1
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6770",
+      "year_month": "2024-12",
+      "known_at": "2025-01-23 16:47:58",
+      "ann_id": "088e153e46d7a9d2e27e21d6ac976bbc9ac43438",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 3502.0,
+        "pretax": -77.0,
+        "parent_net": -20.0,
+        "eps": -0.01
+      },
+      "source_unit": "單位:新台幣仟元",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6770",
+      "year_month": "2025-08",
+      "known_at": "2025-09-19 15:57:58",
+      "ann_id": "8ba34ec3c03bd19ba408b6c9d3db401cdc627145",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 3978.0,
+        "pretax": -473.0,
+        "parent_net": -473.0,
+        "eps": -0.11
+      },
+      "source_unit": "單位:新台幣仟元",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6770",
+      "year_month": "2025-08",
+      "known_at": "2025-09-19 18:37:42",
+      "ann_id": "ea4e1a26474bc0932fd7d7720ab8112859026616",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解(更正誤植單位)",
+      "values_as_printed": {
+        "revenue": 3978.0,
+        "pretax": -473.0,
+        "parent_net": -473.0,
+        "eps": -0.11
+      },
+      "source_unit": "單位:新台幣百萬元",
+      "is_correction": true,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6770",
+      "year_month": "2025-10",
+      "known_at": "2025-11-13 15:44:47",
+      "ann_id": "34097df6a99c9d63698022360dd61c028b872b4e",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 4134.0,
+        "pretax": -236.0,
+        "parent_net": -259.0,
+        "eps": -0.06
+      },
+      "source_unit": "單位:新台幣百萬元",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6770",
+      "year_month": "2025-11",
+      "known_at": "2025-12-23 15:47:48",
+      "ann_id": "891a07b5d843d39b1e0bb66f652ae3dcfae56a9a",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 4092.0,
+        "pretax": -227.0,
+        "parent_net": -227.0,
+        "eps": -0.06
+      },
+      "source_unit": "單位:新台幣百萬元",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6770",
+      "year_month": "2026-04",
+      "known_at": "2026-05-29 15:33:17",
+      "ann_id": "04f4923b67779e5116a392e1c303036eab8056bb",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 5046.0,
+        "pretax": 692.0,
+        "parent_net": 552.0,
+        "eps": 0.13
+      },
+      "source_unit": "單位:新台幣百萬元",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6789",
+      "year_month": "2023-10",
+      "known_at": "2023-11-27 16:30:39",
+      "ann_id": "9d337e43dc2b1f65c1a4e5df875e945933b785dc",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 551.0,
+        "pretax": -33.0,
+        "eps": -0.06
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6789",
+      "year_month": "2026-03",
+      "known_at": "2026-04-15 15:46:36",
+      "ann_id": "949671c00a01d89ab28e7dbbf36f014274c78a3f",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 822.0,
+        "pretax": 185.0,
+        "eps": 0.49
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6919",
+      "year_month": "2025-01",
+      "known_at": "2025-02-11 16:21:19",
+      "ann_id": "e2c9871b16a0c60a211956ddf80865886dbbb5af",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 0.0,
+        "pretax": -98.0,
+        "parent_net": -98.0,
+        "eps": -0.64
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6919",
+      "year_month": "2025-06",
+      "known_at": "2025-07-28 15:47:34",
+      "ann_id": "465954ec800194562ac76dfc0428b909957974f6",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 0.0,
+        "pretax": -93.0,
+        "parent_net": -93.0,
+        "eps": -0.06
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "6919",
+      "year_month": "2025-07",
+      "known_at": "2025-08-26 15:19:26",
+      "ann_id": "75d50ff38a59ffac6d6a781ed1a976ccef0cc123",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 8.0,
+        "pretax": -63.0,
+        "parent_net": -63.0,
+        "eps": -0.04
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "7769",
+      "year_month": "2026-01",
+      "known_at": "2026-02-26 15:51:34",
+      "ann_id": "96d4e49874d12ffda7c3f41558eb0f85a75f0991",
+      "subject": "本公司有價證券於集中交易市場達公布注意交易資訊標準故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 3341.0,
+        "pretax": 1579.0,
+        "parent_net": 1260.0,
+        "eps": 7.0
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "7828",
+      "year_month": "2026-04",
+      "known_at": "2026-06-01 14:10:14",
+      "ann_id": "f8e00f91a0274c8a2c35091458f657ed14f64f9c",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 130.0,
+        "pretax": 62.0,
+        "parent_net": 50.0,
+        "eps": 1.35
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "7828",
+      "year_month": "2026-05",
+      "known_at": "2026-06-17 15:15:11",
+      "ann_id": "3a217f2aa3de179fcd00ef33ebeb7b1cd3ad0c0c",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 112.0,
+        "pretax": 44.0,
+        "parent_net": 32.0,
+        "eps": 0.79
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "7828",
+      "year_month": "2026-06",
+      "known_at": "2026-07-31 14:46:51",
+      "ann_id": "64271f239ec34860bc0a55cb71b31b7c47098aad",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 117.0,
+        "pretax": 65.0,
+        "parent_net": 53.0,
+        "eps": 1.32
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "7828",
+      "year_month": "2026-07",
+      "known_at": "2026-08-10 15:03:26",
+      "ann_id": "a62fd61b6a24d33a6cbf75f784b966f9671b7fc2",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 130.0,
+        "pretax": 68.0,
+        "parent_net": 55.0,
+        "eps": 1.35
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8046",
+      "year_month": "2025-06",
+      "known_at": "2025-07-17 17:02:16",
+      "ann_id": "f0e183e8a7eaaf4dee681e5d44b9de7e02596f23",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 3122.0,
+        "pretax": -253.0,
+        "eps": -0.33
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8046",
+      "year_month": "2025-07",
+      "known_at": "2025-08-29 15:57:44",
+      "ann_id": "15fbbd7462ae6a90102d0f24d11df261226b6dea",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 3621.0,
+        "pretax": 116.0,
+        "eps": 0.14
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8046",
+      "year_month": "2025-12",
+      "known_at": "2026-01-20 15:57:44",
+      "ann_id": "a6a2013c14865a760ce131fe274357ed3d65b3d6",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 3924.0,
+        "pretax": 592.0,
+        "eps": 0.84
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8046",
+      "year_month": "2026-01",
+      "known_at": "2026-02-25 15:50:26",
+      "ann_id": "8cb46f2ab84f4879518a552187fea5b935d1a83e",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 3720.0,
+        "pretax": 450.0,
+        "eps": 0.56
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8046",
+      "year_month": "2026-02",
+      "known_at": "2026-04-07 16:21:06",
+      "ann_id": "1624b285df2d0cfa27642f74a106684305142285",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 3166.0,
+        "pretax": 369.0,
+        "eps": 0.46
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8046",
+      "year_month": "2026-04",
+      "known_at": "2026-05-27 16:34:46",
+      "ann_id": "5ee936f8a710e6dc4804f3ab549891fe8257caf9",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 4451.0,
+        "pretax": 746.0,
+        "eps": 0.92
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8046",
+      "year_month": "2026-05",
+      "known_at": "2026-06-29 15:58:48",
+      "ann_id": "c7dec19d89eea836e9662a727490a00c48cafa3f",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 4440.0,
+        "pretax": 977.0,
+        "eps": 1.21
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8046",
+      "year_month": "2026-06",
+      "known_at": "2026-07-30 16:35:34",
+      "ann_id": "36a7d3ecd87aa14394479b7e8a10c3157c54a129",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 4684.0,
+        "pretax": 1253.0,
+        "eps": 1.37
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8046",
+      "year_month": "2026-08",
+      "known_at": "2026-10-02 15:41:15",
+      "ann_id": "903b0e3f9d4eb1e9e7e2f3fd5bcd507f79b65abf",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 5353.0,
+        "pretax": 1486.0,
+        "eps": 1.69
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8210",
+      "year_month": "2025-06",
+      "known_at": "2025-07-09 16:18:11",
+      "ann_id": "09719b41d7509bb42d3478bdff7b123d7687c12f",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 1635.0,
+        "pretax": 319.0,
+        "parent_net": 245.0,
+        "eps": 2.02
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8210",
+      "year_month": "2025-06",
+      "known_at": "2025-08-13 15:20:08",
+      "ann_id": "21e67dbbd9c65389cffa464b5c7eba4df5417738",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 1635.0,
+        "pretax": 319.0,
+        "parent_net": 245.0,
+        "eps": 2.02
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8210",
+      "year_month": "2025-09",
+      "known_at": "2025-10-23 15:49:43",
+      "ann_id": "848e54053efc8ace26a932a19f93b5722b52db74",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 2176.0,
+        "pretax": 452.0,
+        "parent_net": 336.0,
+        "eps": 2.71
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8299",
+      "year_month": "2025-08",
+      "known_at": "2025-09-16 14:45:19",
+      "ann_id": "348601aa4e090c873646bed7556910575b8c0707",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解。",
+      "values_as_printed": {
+        "revenue": 5934.0,
+        "pretax": 780.0,
+        "parent_net": 650.0,
+        "eps": 3.15
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8299",
+      "year_month": "2025-09",
+      "known_at": "2025-10-09 15:23:32",
+      "ann_id": "b462da7c1d09c61f181d0e7aa899d3b9fd50c237",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解。",
+      "values_as_printed": {
+        "revenue": 6515.0,
+        "pretax": 1010.0,
+        "parent_net": 843.0,
+        "eps": 4.06
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8299",
+      "year_month": "2025-11",
+      "known_at": "2025-12-30 14:30:41",
+      "ann_id": "2ea36502db73c10fe3e3654b8ed28fc645f3295d",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解。",
+      "values_as_printed": {
+        "revenue": 7022.0,
+        "pretax": 1981.0,
+        "parent_net": 1688.0,
+        "eps": 7.9
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8299",
+      "year_month": "2026-04",
+      "known_at": "2026-05-13 14:30:43",
+      "ann_id": "60f853720bd0c97457a95ca678223440abdaa41d",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解。",
+      "values_as_printed": {
+        "revenue": 20207.0,
+        "pretax": 9023.0,
+        "parent_net": 7640.0,
+        "eps": 34.56
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8358",
+      "year_month": "2025-05",
+      "known_at": "2025-07-17 15:31:42",
+      "ann_id": "74bdb23444848c6906ae956805f9cf3ce69b2d19",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 666.0,
+        "pretax": 56.0,
+        "parent_net": 44.0,
+        "eps": 0.18
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8358",
+      "year_month": "2025-06",
+      "known_at": "2025-07-31 15:08:51",
+      "ann_id": "d37ecfa39607027c108ef83e0a812aa8bc04907b",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 671.0,
+        "pretax": 53.0,
+        "parent_net": 44.0,
+        "eps": 0.17
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8358",
+      "year_month": "2025-08",
+      "known_at": "2025-09-10 15:19:18",
+      "ann_id": "36f1fe6e8f22b240facc8678bfba4a5c774dc596",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 661.0,
+        "pretax": 114.0,
+        "parent_net": 91.0,
+        "eps": 0.36
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8358",
+      "year_month": "2025-09",
+      "known_at": "2025-10-09 15:14:22",
+      "ann_id": "67abf9f3efd76c5d62a5fcf83edbc0de3341637b",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 671.0,
+        "pretax": 132.0,
+        "parent_net": 107.0,
+        "eps": 0.42
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8358",
+      "year_month": "2025-10",
+      "known_at": "2025-11-24 15:25:57",
+      "ann_id": "5f38478df229518dc2858350d1a176d3c48dea23",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 701.0,
+        "pretax": 137.0,
+        "parent_net": 109.0,
+        "eps": 0.43
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8358",
+      "year_month": "2025-11",
+      "known_at": "2025-12-15 14:38:25",
+      "ann_id": "c105869d15a9c3490d4bb7680687faf97489c9b8",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 716.0,
+        "pretax": 164.0,
+        "parent_net": 131.0,
+        "eps": 0.52
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8358",
+      "year_month": "2025-12",
+      "known_at": "2026-01-28 14:52:13",
+      "ann_id": "784c0fa1c7ab726afe0bd82eb0bb964446b24261",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 751.0,
+        "pretax": 187.0,
+        "parent_net": 137.0,
+        "eps": 0.54
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8358",
+      "year_month": "2026-01",
+      "known_at": "2026-03-03 13:44:22",
+      "ann_id": "fc5a75c7d5e6bba10d5c62cdfeda185cb5490f67",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 820.0,
+        "pretax": 209.0,
+        "parent_net": 167.0,
+        "eps": 0.66
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8358",
+      "year_month": "2026-03",
+      "known_at": "2026-04-20 14:13:24",
+      "ann_id": "8cdcd20c9c65df7deb8c01580035d43d18799d33",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 861.0,
+        "pretax": 216.0,
+        "parent_net": 173.0,
+        "eps": 0.69
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8358",
+      "year_month": "2026-04",
+      "known_at": "2026-06-01 14:26:20",
+      "ann_id": "796e62f00e84949c2e70e615e16451ddf22f1dad",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 901.0,
+        "pretax": 232.0,
+        "parent_net": 186.0,
+        "eps": 0.74
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8358",
+      "year_month": "2026-05",
+      "known_at": "2026-06-24 15:41:13",
+      "ann_id": "7f7786971e424a0f3484253f92bb37f370cddfb1",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 942.0,
+        "pretax": 226.0,
+        "parent_net": 181.0,
+        "eps": 0.72
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8358",
+      "year_month": "2026-07",
+      "known_at": "2026-08-28 16:02:43",
+      "ann_id": "451308b310b0d8ba0f4bf02caf535abba4844c4b",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 1009.0,
+        "pretax": 252.0,
+        "parent_net": 202.0,
+        "eps": 0.8
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    },
+    {
+      "stock_id": "8358",
+      "year_month": "2026-08",
+      "known_at": "2026-09-16 14:44:05",
+      "ann_id": "3b663cfdeea0a445c70e5bf398aca653d289b810",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 1056.0,
+        "pretax": 254.0,
+        "parent_net": 203.0,
+        "eps": 0.8
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score"
+    }
+  ],
+  "initial_A25_latest_known_month": [
+    {
+      "stock_id": "5536",
+      "year_month": "2024-04",
+      "known_at": "2024-06-12 15:31:00",
+      "ann_id": "0cd54ac3625725a340630fe5d138aa58f7a76511",
+      "subject": "本公司有價證券近期多次達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解",
+      "values_as_printed": {
+        "revenue": 2449.0,
+        "pretax": 411.0,
+        "parent_net": 257.0,
+        "eps": 2.07
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2024-10-29",
+      "superseded_source_ids": [],
+      "available_age_days": 138.725,
+      "stale_reporting_year": false
+    },
+    {
+      "stock_id": "6415",
+      "year_month": "2024-03",
+      "known_at": "2024-05-02 17:01:59",
+      "ann_id": "f62ddfba29d8c199640ace3870cb9d8db5112e9b",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務資訊。",
+      "values_as_printed": {
+        "revenue": 1520.0,
+        "pretax": 230.0,
+        "parent_net": 181.0,
+        "eps": 0.46
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2024-10-29",
+      "superseded_source_ids": [],
+      "available_age_days": 179.66181712962964,
+      "stale_reporting_year": false
+    },
+    {
+      "stock_id": "3653",
+      "year_month": "2024-07",
+      "known_at": "2024-08-19 16:06:04",
+      "ann_id": "bda1be8a430de4199572f6318bb29c3defe9fa7b",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 1185.73,
+        "pretax": 388.28,
+        "parent_net": 306.26,
+        "eps": 2.14
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2024-10-29",
+      "superseded_source_ids": [],
+      "available_age_days": 70.70064814814815,
+      "stale_reporting_year": false
+    },
+    {
+      "stock_id": "3443",
+      "year_month": "2024-06",
+      "known_at": "2024-07-31 16:05:59",
+      "ann_id": "f4b17b89339093fda7785fa92e187e39b5087b91",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 2673.0,
+        "pretax": 522.0,
+        "eps": 3.07
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2024-10-29",
+      "superseded_source_ids": [],
+      "available_age_days": 89.70070601851852,
+      "stale_reporting_year": false
+    },
+    {
+      "stock_id": "3665",
+      "year_month": "2024-05",
+      "known_at": "2024-06-18 16:01:29",
+      "ann_id": "4ca96b52bd28acd1be5831dfb6c2c206516e3620",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 4320.0,
+        "pretax": 558.0,
+        "parent_net": 298.0,
+        "eps": 1.82
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2024-10-29",
+      "superseded_source_ids": [],
+      "available_age_days": 132.7038310185185,
+      "stale_reporting_year": false
+    },
+    {
+      "stock_id": "2344",
+      "year_month": "2025-09",
+      "known_at": "2025-10-21 15:50:20",
+      "ann_id": "70b59a74d4ceb0b78140330b0ad21e87f31092fa",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 7920.0,
+        "pretax": 1384.0,
+        "parent_net": 1169.0,
+        "eps": 0.26
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2025-10-28",
+      "superseded_source_ids": [],
+      "available_age_days": 6.711574074074074,
+      "stale_reporting_year": false
+    },
+    {
+      "stock_id": "2408",
+      "year_month": "2025-08",
+      "known_at": "2025-09-17 16:33:01",
+      "ann_id": "eda3847f77061af36852bff6b6a5d395e25d6a52",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 6763.0,
+        "pretax": 985.0,
+        "parent_net": 811.0,
+        "eps": 0.26
+      },
+      "source_unit": "單位:新台幣佰萬元",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2025-10-28",
+      "superseded_source_ids": [],
+      "available_age_days": 40.68193287037037,
+      "stale_reporting_year": false
+    },
+    {
+      "stock_id": "6770",
+      "year_month": "2025-08",
+      "known_at": "2025-09-19 18:37:42",
+      "ann_id": "ea4e1a26474bc0932fd7d7720ab8112859026616",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解(更正誤植單位)",
+      "values_as_printed": {
+        "revenue": 3978.0,
+        "pretax": -473.0,
+        "parent_net": -473.0,
+        "eps": -0.11
+      },
+      "source_unit": "單位:新台幣百萬元",
+      "is_correction": true,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2025-10-28",
+      "superseded_source_ids": [
+        "8ba34ec3c03bd19ba408b6c9d3db401cdc627145"
+      ],
+      "available_age_days": 38.59534722222222,
+      "stale_reporting_year": false
+    },
+    {
+      "stock_id": "8299",
+      "year_month": "2025-09",
+      "known_at": "2025-10-09 15:23:32",
+      "ann_id": "b462da7c1d09c61f181d0e7aa899d3b9fd50c237",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公告相關訊息，以利投資人區別暸解。",
+      "values_as_printed": {
+        "revenue": 6515.0,
+        "pretax": 1010.0,
+        "parent_net": 843.0,
+        "eps": 4.06
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2025-10-28",
+      "superseded_source_ids": [],
+      "available_age_days": 18.730185185185185,
+      "stale_reporting_year": false
+    },
+    {
+      "stock_id": "6515",
+      "year_month": "2025-07",
+      "known_at": "2025-09-02 15:49:23",
+      "ann_id": "624d4442a22f8a243cd4b3a9a08df26ec329eec1",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 626.0,
+        "pretax": 151.0,
+        "eps": 3.38
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2025-10-28",
+      "superseded_source_ids": [],
+      "available_age_days": 55.712233796296296,
+      "stale_reporting_year": false
+    },
+    {
+      "stock_id": "8210",
+      "year_month": "2025-09",
+      "known_at": "2025-10-23 15:49:43",
+      "ann_id": "848e54053efc8ace26a932a19f93b5722b52db74",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 2176.0,
+        "pretax": 452.0,
+        "parent_net": 336.0,
+        "eps": 2.71
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2025-10-28",
+      "superseded_source_ids": [],
+      "available_age_days": 4.712002314814815,
+      "stale_reporting_year": false
+    },
+    {
+      "stock_id": "2308",
+      "year_month": "2025-08",
+      "known_at": "2025-10-08 16:20:10",
+      "ann_id": "da1c6b2a6b7666eca440fd86ea0f119fbce451c9",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 47860.0,
+        "pretax": 8446.0,
+        "parent_net": 5854.0,
+        "eps": 2.25
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2025-10-28",
+      "superseded_source_ids": [],
+      "available_age_days": 19.690856481481482,
+      "stale_reporting_year": false
+    },
+    {
+      "stock_id": "2337",
+      "year_month": "2025-08",
+      "known_at": "2025-09-19 16:12:37",
+      "ann_id": "70a621d09d2162edaef4ea34e7a606b7b1b6ef43",
+      "subject": "證券交易所通知本公司股價變動達應公布注意交易資訊標準，而應公布相關資訊事",
+      "values_as_printed": {
+        "revenue": 2557.0,
+        "pretax": -383.0,
+        "parent_net": -345.0,
+        "eps": -0.19
+      },
+      "source_unit": "unit_unverified",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2025-10-28",
+      "superseded_source_ids": [],
+      "available_age_days": 38.696099537037036,
+      "stale_reporting_year": false
+    },
+    {
+      "stock_id": "6669",
+      "year_month": "2024-11",
+      "known_at": "2024-12-10 15:57:43",
+      "ann_id": "da6313c95431bd75844af5db5f98770bed554546",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 37465.0,
+        "pretax": 2736.0,
+        "parent_net": 2230.0,
+        "eps": 12.0
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2025-10-28",
+      "superseded_source_ids": [],
+      "available_age_days": 321.7064467592593,
+      "stale_reporting_year": true
+    },
+    {
+      "stock_id": "3665",
+      "year_month": "2024-05",
+      "known_at": "2024-06-18 16:01:29",
+      "ann_id": "4ca96b52bd28acd1be5831dfb6c2c206516e3620",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 4320.0,
+        "pretax": 558.0,
+        "parent_net": 298.0,
+        "eps": 1.82
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2025-10-28",
+      "superseded_source_ids": [],
+      "available_age_days": 496.70383101851854,
+      "stale_reporting_year": true
+    },
+    {
+      "stock_id": "8046",
+      "year_month": "2025-07",
+      "known_at": "2025-08-29 15:57:44",
+      "ann_id": "15fbbd7462ae6a90102d0f24d11df261226b6dea",
+      "subject": "因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 3621.0,
+        "pretax": 116.0,
+        "eps": 0.14
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2025-10-28",
+      "superseded_source_ids": [],
+      "available_age_days": 59.706435185185185,
+      "stale_reporting_year": false
+    },
+    {
+      "stock_id": "3189",
+      "year_month": "2025-08",
+      "known_at": "2025-10-17 15:53:11",
+      "ann_id": "f5da50ae46dd6e71e2a9fea76f9b0e220632adce",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解",
+      "values_as_printed": {
+        "revenue": 3421.0,
+        "pretax": 312.0,
+        "eps": 0.4
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2025-10-28",
+      "superseded_source_ids": [],
+      "available_age_days": 10.709594907407407,
+      "stale_reporting_year": false
+    },
+    {
+      "stock_id": "2451",
+      "year_month": "2024-04",
+      "known_at": "2024-06-14 16:02:19",
+      "ann_id": "e37b9d9ea5942b382bfc1277cb1008bd805eda9e",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 808.0,
+        "pretax": 310.0,
+        "parent_net": 248.0,
+        "eps": 0.58
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2025-10-28",
+      "superseded_source_ids": [],
+      "available_age_days": 500.7032523148148,
+      "stale_reporting_year": true
+    },
+    {
+      "stock_id": "2059",
+      "year_month": "2024-01",
+      "known_at": "2024-02-23 19:03:05",
+      "ann_id": "0b35975fe8734a944b77cc2a820dfbb608055b40",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解-更正",
+      "values_as_printed": {
+        "revenue": 656.0,
+        "pretax": 599.0,
+        "eps": 5.04
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": true,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2025-10-28",
+      "superseded_source_ids": [
+        "a28a6201b024f0b8677c3e1f021a3d6514c3710b"
+      ],
+      "available_age_days": 612.5777199074074,
+      "stale_reporting_year": true
+    },
+    {
+      "stock_id": "3443",
+      "year_month": "2025-08",
+      "known_at": "2025-10-22 15:49:43",
+      "ann_id": "36a8148789e5c4659c122bd06ad472ce0e1f31d4",
+      "subject": "因本公司有價證券於集中交易市場達公佈注意交易資訊標準，故公佈相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 2768.0,
+        "pretax": 266.0,
+        "eps": 1.68
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2025-10-28",
+      "superseded_source_ids": [],
+      "available_age_days": 5.712002314814815,
+      "stale_reporting_year": false
+    },
+    {
+      "stock_id": "3017",
+      "year_month": "2025-06",
+      "known_at": "2025-08-14 15:06:50",
+      "ann_id": "bf714092224622a70ce3ae23aa76042ac9690550",
+      "subject": "係因本公司有價證券於集中交易市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 10606.0,
+        "pretax": 1987.0,
+        "parent_net": 1332.0,
+        "eps": 3.43
+      },
+      "source_unit": "million; currency not explicit",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2025-10-28",
+      "superseded_source_ids": [],
+      "available_age_days": 74.74178240740741,
+      "stale_reporting_year": false
+    },
+    {
+      "stock_id": "6139",
+      "year_month": "2025-05",
+      "known_at": "2025-06-25 16:11:30",
+      "ann_id": "9302a8053654de63b096ac845ea94607b7d7d2ac",
+      "subject": "係因本公司有價證券於集中市場達公布注意交易資訊標準，故公布相關財務業務等重大訊息，以利投資人區別瞭解。",
+      "values_as_printed": {
+        "revenue": 4224927.0,
+        "pretax": 206637.0,
+        "parent_net": 149315.0,
+        "eps": 0.41
+      },
+      "source_unit": "單位:仟元",
+      "is_correction": false,
+      "role": "monthly supplementary record only; not quarterly operating-margin score",
+      "trade_date": "2025-10-28",
+      "superseded_source_ids": [],
+      "available_age_days": 124.696875,
+      "stale_reporting_year": false
+    }
+  ],
+  "not_used_to_replace_quarter_operating_income": true,
+  "freshness": "latest known retained source may be stale; period and age explicitly retained"
+}
