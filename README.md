@@ -39,5 +39,5 @@
 
 ## 上傳內容
 
-此為私人研究儲存庫。未上傳團隊內部文件、網站repo、ZIP備份、local state、憑證與>=50MiB歷史單檔。Notebook輸出已清除；本機完整Notebook及原始研究資料未修改。
+此為公開研究儲存庫，任何人都可閱讀與下載已上傳內容。未上傳團隊內部文件、網站repo、ZIP備份、local state、憑證與>=50MiB歷史單檔。Notebook輸出已清除；本機完整Notebook及原始研究資料未修改。
 檔名與說明保留中文，repository名稱採英文。詳見 [EXPORT_MANIFEST.json](EXPORT_MANIFEST.json)。未授權其他用途或再散布來源資料。
